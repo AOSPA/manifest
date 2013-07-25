@@ -2,21 +2,39 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com" />
+
+ <remote  name="github"
+           fetch="https://github.com"
+           review="http://gerrit.androidninjas.com:8181/" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <remote  name="paranoid"
+           fetch="ssh://git@bitbucket.org/paranoidandroid/" 
+           revision="jb43" />
+
+  <remote  name="cm"
+           fetch="git://github.com/CyanogenMod/" />
+
   <default revision="refs/tags/android-4.3_r2.1"
            remote="aosp"
+           sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk" >
+   <project path="build" name="ParanoidAndroid/android_build" remote="github" revision="jb43" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
+  <project path="bionic" name="ParanoidAndroid/android_bionic" remote="github" revision="jb43" />
+
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="platform/dalvik" />
+  <project path="dalvik" name="ParanoidAndroid/android_dalvik" remote="github" revision="jb43" />
+
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -31,7 +49,6 @@
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
-  <project path="device/generic/mips" name="device/generic/mips" groups="pdk" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
   <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" />
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" />
@@ -64,17 +81,18 @@
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
+  <project path="external/busybox" name="ParanoidAndroid/android_external_busybox" remote="github" revision="jb43"/>
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
-  <project path="external/chromium" name="platform/external/chromium" />
+  <project path="external/chromium" name="ParanoidAndroid/android_external_chromium" remote="github" revision="jb43" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
-  <project path="external/doclava" name="platform/external/doclava" />
+  <project path="external/doclava" name="ParanoidAndroid/android_external_doclava" remote="github" revision="jb43" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" />
@@ -114,11 +132,12 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <project path="external/jmdns" name="platform/external/jmdns" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" />
-  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" />
+  <project path="external/jpeg" name="ParanoidAndroid/android_external_jpeg" remote="github" revision="jb43" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
+  <project path="external/koush/Superuser" name="koush/Superuser" remote="github" revision="master" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
@@ -182,7 +201,7 @@
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
-  <project path="external/skia" name="platform/external/skia" />
+  <project path="external/skia" name="ParanoidAndroid/android_external_skia" remote="github" revision="jb43" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -203,7 +222,7 @@
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
-  <project path="external/webkit" name="platform/external/webkit" />
+  <project path="external/webkit" name="ParanoidAndroid/android_external_webkit" remote="github" revision="jb43" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
@@ -213,14 +232,14 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" />
+  <project path="frameworks/base" name="ParanoidAndroid/android_frameworks_base" remote="github" revision="jb43"  />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
+  <project path="frameworks/native" name="ParanoidAndroid/android_frameworks_native" remote="github" revision="jb43" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -232,9 +251,9 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="ParanoidAndroid/android_frameworks_opt_telephony" remote="github" revision="jb43"  />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
+  <project path="frameworks/rs" name="ParanoidAndroid/android_frameworks_rs" remote="github" revision="jb43" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
@@ -262,18 +281,18 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <project path="libcore" name="platform/libcore" />
+  <project path="libcore" name="ParanoidAndroid/android_libcore" remote="github" revision="jb43" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
+  <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
+  <project path="packages/apps/Contacts" name="ParanoidAndroid/android_packages_apps_Contacts" remote="github" revision="jb43" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
@@ -283,20 +302,21 @@
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
+  <project path="packages/apps/Launcher2" name="ParanoidAndroid/android_packages_apps_Launcher2" remote="github" revision="jb43" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
+  <project path="packages/apps/Mms" name="ParanoidAndroid/android_packages_apps_Mms" remote="github" revision="jb43" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
+<project path="packages/apps/Phone" name="ParanoidAndroid/android_packages_apps_Phone" remote="github" revision="jb43" />
+  <project path="packages/apps/ParanoidOTA" name="ParanoidAndroid/android_packages_apps_ParanoidOTA" remote="github" revision="jb43" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="ParanoidAndroid/android_packages_apps_Settings" remote="github" revision="jb43"  />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -306,7 +326,7 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/LatinIME" name="ParanoidAndroid/android_packages_inputmethods_LatinIME" remote="github" revision="jb43"/>
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
@@ -366,7 +386,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" groups="pdk" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
+  <project path="system/core" name="ParanoidAndroid/android_system_core" remote="github" revision="jb43"  />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
@@ -382,5 +402,12 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+
+ <project path="paranoid" name="ParanoidAndroid/paranoid" remote="github" revision="jb43" >
+    <copyfile src="build.sh" dest="rom-build.sh" />
+  </project>
+
+  <!-- Theme engine support, all the credits go to T-Mobile and CyanogenMod -->
+  <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" remote="github" revision="jb43" />
 
 </manifest>
