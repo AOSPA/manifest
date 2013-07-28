@@ -41,9 +41,7 @@
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
   <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
-  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
-  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
-  <project path="device/common" name="device/common" />
+    <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
@@ -54,12 +52,6 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device,tuna" />
-  <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
-  <project path="device/samsung/toro" name="device/samsung/toro" groups="device,tuna" />
-  <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device,tuna" />
-  <project path="device/samsung/tuna" name="device/samsung/tuna" groups="device,tuna" />
-  <project path="device/samsung_slsi/arndale" name="device/samsung_slsi/arndale" groups="device" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
