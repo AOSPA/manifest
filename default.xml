@@ -390,7 +390,4 @@
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
-  <!-- Theme engine support, all the credits go to T-Mobile and CyanogenMod -->
-  <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" remote="github" revision="jb43" />
-
 </manifest>
