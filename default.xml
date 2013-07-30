@@ -12,8 +12,7 @@
            fetch="ssh://git@github.com" />
 
   <remote  name="paranoid"
-           fetch="ssh://git@bitbucket.org/paranoidandroid/" 
-           revision="jb43" />
+           fetch="ssh://git@bitbucket.org/paranoidandroid/" />
 
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
