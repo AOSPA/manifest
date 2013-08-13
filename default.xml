@@ -20,11 +20,13 @@
   <default revision="refs/tags/android-4.3_r1"
            remote="aosp"
            sync-c="true"
+           sync-f="true"
            sync-j="4" />
 
   <project path="build" name="ParanoidAndroid/android_build" remote="github" revision="jb43" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="platform/bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -385,6 +387,7 @@
 
   <project path="paranoid" name="ParanoidAndroid/paranoid" remote="github" revision="jb43" >
     <copyfile src="build.sh" dest="rom-build.sh" />
+    
   </project>
 
 </manifest>
