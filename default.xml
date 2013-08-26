@@ -384,9 +384,6 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/pa" name="ParanoidAndroid/android_vendor_pa" remote="github" revision="jb43" />
-  <project path="vendor/tmobile/apps/ThemeChooser" name="ParanoidAndroid/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="cm-10.2" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="ParanoidAndroid/android_vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="cm-10.2" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="ParanoidAndroid/android_vendor_tmobile_providers_ThemeManager" remote="github" revision="cm-10.2" />
 
   <project path="paranoid" name="ParanoidAndroid/paranoid" remote="github" revision="jb43" >
     <copyfile src="build.sh" dest="rom-build.sh" />
