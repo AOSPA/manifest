@@ -32,7 +32,7 @@
   <project path="bionic" name="platform/bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
+  <project path="bootable/recovery" name="ParanoidAndroid/android_bootable_recovery" remote="github" revision="jb43" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="ParanoidAndroid/android_dalvik" remote="github" revision="jb43" />
   <project path="developers/build" name="platform/developers/build" />
