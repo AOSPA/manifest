@@ -6,7 +6,7 @@
 
   <remote  name="github"
            fetch="https://github.com"
-           review="http://gerrit.colormeparanoid.com/" />
+           review="http://gerrit.paranoidandroid.co/" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />

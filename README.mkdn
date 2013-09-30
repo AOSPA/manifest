@@ -19,7 +19,7 @@ Commit your patches in a single commit. Squash multiple commit using this comman
 If you are going to make extra additions, just repeat steps (Don't repo start again), but instead of git commit -a
 use git commit --amend. Gerrit will recognize it as a new patchset.
 
-To view the status of your and others patches, visit [ParanoidAndroid Code Review](http://review.paranoid-rom.com/)
+To view the status of your and others patches, visit [ParanoidAndroid Code Review](http://gerrit.paranoidandroid.co)
 
 
 Getting Started
