@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com" />
 
   <remote  name="github"
-           fetch=".."
+           fetch="https://github.com"
            review="gerrit.paranoidandroid.co" />
 
   <remote  name="private"
@@ -27,6 +27,8 @@
   <project path="build" name="ParanoidAndroid/android_build" remote="github" revision="jb43" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
+  <project path="manifest" name="ParanoidAndroid/manifest" remote="github" revision="jb43" />
   
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="platform/bionic" />
@@ -384,8 +386,7 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="ParanoidAndroid/android_vendor_tmobile_providers_ThemeManager" remote="github" revision="jb43" />
 
   <project path="paranoid" name="ParanoidAndroid/paranoid" remote="github" revision="jb43" >
-    <copyfile src="build.sh" dest="rom-build.sh" />
-    
+    <copyfile src="build.sh" dest="rom-build.sh" />    
   </project>
 
 </manifest>
