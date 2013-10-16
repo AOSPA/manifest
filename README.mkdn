@@ -1,5 +1,5 @@
-ParanoidAndroid
-===============
+AOSPA - ParanoidAndroid
+=======================
 
 Submitting Patches
 ------------------
