@@ -64,7 +64,7 @@
   <project path="device/lge/mako" name="AOSPA/android_device_lge_mako" remote="github" revision="kitkat"/>
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/manta" name="AOSPA/android_device_samsung_manta" remote="github" revisn="kitkat"/>
+  <project path="device/samsung/manta" name="AOSPA/android_device_samsung_manta" remote="github" revision="kitkat"/>
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
