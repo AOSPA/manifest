@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
@@ -62,7 +61,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/hammerhead" name="AOSPA/android_device_lge_hammerhead" remote="github" revision="kitkat"/>
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
-  <project path="device/lge/mako" name="AOSPA/android_device_lge_mako" remote="github" revisoin="kitkat"/>
+  <project path="device/lge/mako" name="AOSPA/android_device_lge_mako" remote="github" revision="kitkat"/>
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="AOSPA/android_device_samsung_manta" remote="github" revisn="kitkat"/>
@@ -450,9 +449,8 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
- <project path="paranoid" name="AOSPA/paranoid" remote="github" revision="jb43" >
-    <copyfile src="build.sh" dest="rom-build.sh" />    
+  <project path="paranoid" name="AOSPA/paranoid" remote="github" revision="kitkat" >
+    <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
-
 
 </manifest>
