@@ -15,7 +15,7 @@
            fetch="ssh://git@bitbucket.org/paranoidandroid/" />
 
   <remote  name="cm"
-           fetch="git://github.com"
+           fetch="git://github.com/CyanogenMod/"
            review="review.cyanogenmod.org" />
 
   <default revision="refs/tags/android-4.4_r1"
