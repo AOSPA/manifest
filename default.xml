@@ -24,15 +24,15 @@
            sync-f="true"
            sync-j="4" />
 
-  <project path="manifest" name="AOSPA/manifest" remote="github" revision="kitkat" />
-
-  <project path="build" name="AOSPA/android_build" remote="github" revision="kk-wip" >
+  <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="github" revision="kk-wip" >
+    <copyfile src="build.sh" dest="rom-build.sh" />
+  </project>
+  <project path="build" name="AOSPA/android_build" remote="github" revision="kk-wip" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
-  <project path="bionic" name="AOSPA/android_bionic" remote="github" revision="kitkat" />
+  <project path="bionic" name="AOSPA/android_bionic" remote="github" revision="kitkat" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
@@ -411,13 +411,12 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="AOSPA/android_system_core" remote="github" revision="kitkat"  />
-  <project path="system/extras" name="AOSPA/android_system_extras" remote="github" revision="kitkat"/>
+  <project path="system/core" name="AOSPA/android_system_core" remote="github" revision="kitkat" groups="pdk" />
+  <project path="system/extras" name="AOSPA/android_system_extras" remote="github" revision="kitkat" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" />
-  <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="github" revision="kk-wip"> <copyfile src="build.sh" dest="rom-build.sh" /> </project>
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
