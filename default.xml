@@ -424,7 +424,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
- <project path="paranoid" name="AOSPA/paranoid" remote="github" revision="jb43" >
+ <project path="paranoid" name="AOSPA/paranoid" remote="github" revision="kitkat" >
     <copyfile src="build.sh" dest="rom-build.sh" />    
   </project>
 
