@@ -307,9 +307,9 @@
   <!-- Check this repo after 4.4 stabilizes a bit -->  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
+  <project path="packages/apps/Launcher3" name="AOSPA/android_packages_apps_Launcher3" remote="github" revision="kitkat" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <!-- Check this repo after 4.4 stabilizes a bit -->  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
+  <!-- Check this repo after 4.4 stabilizes a bit -->  <project path="packages/apps/Mms" name="AOSPA/android_packages_apps_Mms" remote="github" revision="kitkat" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
