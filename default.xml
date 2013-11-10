@@ -243,7 +243,7 @@
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
@@ -278,8 +278,8 @@
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
-  <project path="hardware/broadcom/libbt" name="AOSPA-legacy/android_hardware_broadcom_libbt" remote="github" revision="kitkat" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
+  <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="cm" revision="cm-11.0" groups="broadcom_wlan" />
   <project path="hardware/libhardware" name="AOSPA-legacy/android_hardware_libhardware" remote="github" revision="kitkat" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="AOSPA-legacy/android_hardware_libhardware_legacy" remote="github" revision="kitkat" groups="pdk" />
   <project path="hardware/ril" name="AOSPA-legacy/android_hardware_ril" remote="github" revision="kitkat" groups="pdk" />
@@ -406,7 +406,7 @@
   <project path="system/core" name="AOSPA-legacy/android_system_core" remote="github" revision="kitkat" />
   <project path="system/extras" name="AOSPA/android_system_extras" remote="github" revision="kitkat"/>
   <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" />
+  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="AOSPA-legacy/android_system_vold" remote="github" revision="kitkat" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
