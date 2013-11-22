@@ -404,7 +404,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="AOSPA-legacy/android_system_core" remote="github" revision="kitkat" />
-  <project path="system/extras" name="AOSPA/android_system_extras" remote="github" revision="kitkat"/>
+  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="cm" revision="cm-11.0"/>
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
