@@ -132,6 +132,7 @@
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/grub" name="platform/external/grub" />
+  <project path="external/gson" name="CyanogenMod/android_external_gson" remote="cm" revision="cm-11.0" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
   <project path="external/guava" name="platform/external/guava" />
   <project path="external/hamcrest" name="platform/external/hamcrest" />
@@ -155,6 +156,9 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
+  <project path="external/koush/ion" name="CyanogenMod/ion" remote="cm" revision="cm-11.0" />
+  <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" remote="cm" revision="cm-11.0" />
+  <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="cm" revision="cm-11.0" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
@@ -333,6 +337,7 @@
   <project path="packages/apps/Lightbulb" name="AOSPA/android_packages_apps_Lightbulb" remote="github" revision="kitkat" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
+  <project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
