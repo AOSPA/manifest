@@ -9,8 +9,11 @@
            fetch="https://github.com"
            review="gerrit.paranoidandroid.co" />
 
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
+  <remote  name="aospa"
+           fetch="https://github.com/AOSPA" />
+
+  <remote  name="blobs"
+           fetch="https://github.com/ThankYouMario" />
 
   <remote  name="paranoid"
            fetch="ssh://git@bitbucket.org/paranoidandroid/" />
