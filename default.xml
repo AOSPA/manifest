@@ -173,11 +173,11 @@
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
+  <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" remote="cm" revision="cm-11.0" groups="pdk" />
-  <project path="external/libusb" name="platform/external/libusb" />
+  <project path="external/libusb" name="CyanogenMod/android_external_libusb" remote="cm" revision="cm-11.0" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
@@ -299,8 +299,8 @@
   <project path="packages/apps/Bluetooth" name="AOSPA-legacy/android_packages_apps_Bluetooth" remote="github" revision="kitkat" />
   <project path="packages/apps/BluetoothExt" name="AOSPA-legacy/android_packages_apps_BluetoothExt" remote="github" revision="kitkat" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="cm" revision="cm-11.0" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
+  <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="cm" revision="cm-11.0" />
+  <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
@@ -309,7 +309,7 @@
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Dialer" name="AOSPA-legacy/android_packages_apps_Dialer" remote="github" revision="kitkat" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="cm" revision="cm-11.0" />
-  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
+  <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
@@ -400,7 +400,7 @@
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="pdk,linux,x86" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
+  <project path="prebuilts/misc" name="CyanogenMod/android_prebuilts_misc" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" />
