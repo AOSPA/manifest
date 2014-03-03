@@ -278,6 +278,7 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="AOSPA-legacy/android_frameworks_opt_telephony" remote="github" revision="kitkat" groups="pdk" />
+  <project path="frameworks/opt/telephony-msim" name="AOSPA-legacy/android_frameworks_opt_telephony-msim" remote="github" revision="kitkat" groups="pdk" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="cm" revision="cm-11.0" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" remote="cm" revision="cm-11.0" />
