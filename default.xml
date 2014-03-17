@@ -9,6 +9,9 @@
            fetch="https://github.com"
            review="gerrit.paranoidandroid.co" />
 
+  <remote  name="legacy-blobs"
+           fetch="https://github.com/ThankYouLuigi" />
+
   <remote  name="blobs"
            fetch="https://github.com/TheMuppets" />
 
