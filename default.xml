@@ -285,6 +285,8 @@
   <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="github" revision="kitkat" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
+  <project name="koush/Superuser" path="external/koush/Superuser" remote="github" revision="master" />
+  <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
   <project path="libcore" name="AOSPA/android_libcore" remote="github" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
