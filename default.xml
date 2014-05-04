@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-
+<!-- Android AOSP Remote -->
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
+<!-- Generic Github remote -->
   <remote  name="github"
            fetch="https://github.com"
            review="gerrit.paranoidandroid.co" />
@@ -25,9 +26,7 @@
            sync-f="true"
            sync-j="4" />
 
-  <project path="manifest" name="AOSPA/manifest" remote="github" revision="kitkat" />
-
-  <project path="build" name="AOSPA/android_build" remote="github" revision="kitkat" >
+  <project path="build" name="AOSPA-legacy/android_build" remote="github" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -250,7 +249,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="github" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -319,7 +317,6 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="github" revision="kitkat"  />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -418,10 +415,18 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-
- <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="github" revision="kitkat" >
-    <copyfile src="build.sh" dest="rom-build.sh" />    
-  </project>
-
+ 
+<!-- DracoROM -->
+<project path="android" name="DracoROM/manifest" remote="github" revision="kitkat" />
+<project name="AOSPA-legacy/android_device_samsung_n5110" path="device/samsung/n5110" remote="github" revision="kitkat" />
+<project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-11.0"/>
+<project name="AOSPA-legacy/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="kitkat"/>
+<project name="AOSPA-legacy/android_device_samsung_kona-common" path="device/samsung/kona-common" remote="github" revision="kitkat"/>
+<project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-11.0"/>
+<project path="frameworks/base" name="DracoROM/android_frameworks_base" remote="github" revision="kitkat-mr1.1-release" />
+<project path="packages/apps/Settings" name="DracoROM/android_packages_apps_Settings" remote="github" revision="kitkat-mr1.1-release"  />
+<project path="vendor/pa" name="DracoRom/android_vendor_pa" remote="github" revision="kitkat" >
+    <copyfile src="build.sh" dest="rom-build.sh" />
+</project>
 
 </manifest>
