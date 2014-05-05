@@ -421,11 +421,6 @@
 <project name="DracoROM/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="kitkat" />
 <project name="DracoROM/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="kitkat" />
 <project name="AOSPA-legacy/android_device_samsung_n5110" path="device/samsung/n5110" remote="github" revision="kitkat" />
-<project name="AOSPA-legacy/android_kernel_samsung_smdk4412" path="kernel/samsung/n5110" remote="github" revision="kitkat" />
-<project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-11.0"/>
-<project name="AOSPA-legacy/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="kitkat"/>
-<project name="AOSPA-legacy/android_device_samsung_kona-common" path="device/samsung/kona-common" remote="github" revision="kitkat"/>
-<project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-11.0"/>
 <project path="frameworks/base" name="DracoROM/android_frameworks_base" remote="github" revision="kitkat-mr1.1-release" />
 <project path="packages/apps/Settings" name="DracoROM/android_packages_apps_Settings" remote="github" revision="kitkat-mr1.1-release"  />
 <project path="vendor/pa" name="DracoRom/android_vendor_pa" remote="github" revision="kitkat" >
