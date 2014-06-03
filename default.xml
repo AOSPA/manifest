@@ -338,7 +338,7 @@
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="AOSPA/android_packages_providers_DownloadProvider" remote="github" revision="kitkat" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
+  <project path="packages/providers/MediaProvider" name="AOSPA/packages_providers_MediaProvider" remote="github" revision="kitkat" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="AOSPA/android_packages_providers_TelephonyProvider" remote="github" revision="kitkat" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
