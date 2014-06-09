@@ -453,6 +453,7 @@
 
   <project path="vendor/pa" name="AOSPA-legacy/android_vendor_pa" remote="github" revision="kitkat" >
     <copyfile src="build.sh" dest="rom-build.sh" />
+    <copyfile src="kernel_build.sh" dest="kernel-build.sh" />
   </project>
 
 </manifest>
