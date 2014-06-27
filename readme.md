@@ -48,6 +48,22 @@ and their change histories.
 $ repo sync
 ```
 
+#### Syncing specific projects ####
+
+In case you are not interested in syncing all the projects, you can specify what projects you do
+want to sync. This can help if, for example, you want to make a quick change and quickly push it
+back for review. You should note that this can sometimes cause issues when building if there is
+a large change that spans across multiple projects.
+
+```bash
+# Specify one or more projects by either name or path
+
+# For example, enter AOSPA/android_frameworks_base or
+# frameworks/base to sync the frameworks/base repository
+
+$ repo sync PROJECT
+```
+
 ## Building ##
 
 The bundled builder tool `./rom-build.sh` handles all the building steps for the specified device
