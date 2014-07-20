@@ -7,7 +7,7 @@
 
   <remote  name="github"
            fetch="https://github.com"
-           review="gerrit.paranoidandroid.co" />
+           review="gerrit.hostingsharedbox.com" />
 
   <remote  name="legacy-blobs"
            fetch="https://github.com/ThankYouLuigi" />
