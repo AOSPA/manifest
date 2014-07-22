@@ -309,7 +309,7 @@
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="cm" revision="cm-11.0" groups="broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="cm" revision="cm-11.0" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="cm" revision="cm-11.0" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="AOSPA-legacy/android_hardware_libhardware_legacy" remote="github" revision="kitkat" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="cm" revision="cm-11.0" />
