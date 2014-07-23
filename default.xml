@@ -16,7 +16,7 @@
            fetch="ssh://git@bitbucket.org/paranoidandroid/" />
 
   <remote  name="cm"
-           fetch="git://github.com"
+           fetch="git://github.com/CyanogenMod"
            review="review.cyanogenmod.org" />
 
   <default revision="refs/tags/android-4.4.4_r1"
@@ -288,8 +288,8 @@
   <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="github" revision="kitkat" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
-  <project path="external/koush/Superuser" name="Cyanogenmod/Superuser" remote="github" revision="cm-11.0" />
-  <project path="external/koush/Widgets" name="Cyanogenmod/Widgets" remote="github" revision="cm-11.0" />
+  <project path="external/koush/Superuser" name="Superuser" remote="cm" revision="cm-11.0" />
+  <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
   <project path="libcore" name="AOSPA/android_libcore" remote="github" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
@@ -324,16 +324,11 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="github" revision="kitkat"  />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
-  <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
-  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="github" revision="cm-11.0"/>
-  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" remote="github" revision="cm-11.0"/>
+  <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="cm" revision="cm-11.0"/>
+  <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" remote="cm" revision="cm-11.0"/>
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
-  <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
-  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
@@ -349,13 +344,8 @@
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Telephony" name="AOSPA/android_packages_services_telephony" remote="github" revision="kitkat" />
-  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
-  <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
-  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
-  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
-  <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
