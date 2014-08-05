@@ -74,7 +74,7 @@
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluedroid" name="AOSPA-legacy/android_external_bluetooth_bluedroid" remote="github" revision="kitkat" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="cm-11.0" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="stable/cm-11.0" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" remote="cm" revision="cm-11.0" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
