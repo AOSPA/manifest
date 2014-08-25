@@ -27,7 +27,7 @@
 
   <project path="manifest" name="AOSPA/manifest" remote="github" revision="kitkat" />
 
-  <project path="build" name="AOSPA/android_build" remote="github" revision="kitkat" >
+  <project path="build" name="AOSPA/android_build" remote="github" revision="bacon" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -254,7 +254,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="github" revision="kitkat" />
+  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="github" revision="bacon" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -427,7 +427,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="github" revision="kitkat" >
+  <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="github" revision="bacon" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
