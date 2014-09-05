@@ -359,7 +359,7 @@
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/ParanoidOTA" name="AOSPA-legacy/android_packages_apps_ParanoidOTA" remote="github" revision="kitkat" />
-  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
+  <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/ScreenRecorder" name="AOSPA-legacy/android_packages_apps_ScreenRecorder" remote="github" revision="kitkat" />
