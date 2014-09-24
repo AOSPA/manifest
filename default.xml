@@ -7,7 +7,7 @@
 
   <remote  name="github"
            fetch="https://github.com"
-           review="gerrit.hostingsharedbox.com" />
+           review="gerrit.aospal.com" />
 
   <remote  name="legacy-blobs"
            fetch="https://github.com/ThankYouLuigi" />
