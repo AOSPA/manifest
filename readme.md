@@ -132,3 +132,26 @@ imperative as it matches the style used by the `git merge` and `git revert` comm
 first line of the commit message as a summary of the commit. It should always be capitalized and
 followed by an empty line. You might optionally include the project name at the start and try to
 keep it to 50 characters when possible as it is used in various logs, including "one line" logs.
+
+## Using our assets ##
+
+### Code ###
+
+Our codebase is licensed under Apache License, Version 2.0 unless otherwise specified. Apache
+License 2.0 allows a variety of actions on the content as long as licensing and copyright
+notices are retained and included with the code and your changes to the codebase are stated.
+
+You can read the full license text at http://www.apache.org/licenses/LICENSE-2.0
+
+### Images & other assets ###
+
+Unless otherwise specified, all out assets, including but not limited to images, are licensed
+under Creative Commons Attribution-NonCommercial 4.0 International, or CC BY-NC 4.0 for short.
+This means that you are allowed to modify the aforementioned assets in any way you want and
+you are free to share the originals and/or the modified work. However, you are not allowed
+to use the assets for commercial purposes and you must provide attribution at all times which
+means you have to include a short note about the license used (CC BY-NC 4.0), the original
+author/authors (Paranoid Android Project or AOSPA) and inform about any changes that have been
+made. A link to the [website](http://aospa.co/) should usually be included as well.
+
+You can reach the full legal text at http://creativecommons.org/licenses/by-nc/4.0/
