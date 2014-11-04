@@ -2,12 +2,29 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com" />
+
+  <remote  name="github"
+           fetch="https://github.com"
+           review="gerrit.paranoidandroid.co" />
+
+  <remote  name="blobs"
+           fetch="https://github.com/ThankYouMario" />
+
+  <remote  name="paranoid"
+           fetch="ssh://git@bitbucket.org/paranoidandroid/" />
+
+  <remote  name="cm"
+           fetch="git://github.com"
+           review="review.cyanogenmod.org" />
+
   <default revision="refs/tags/android-5.0.0_r2"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
+  <project path="manifest" name="AOSPA/manifest" remote="github" revision="lollipop" />
+
+  <project path="build" name="AOSPA/android_build" remote="github" revision="lollipop" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -279,7 +296,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" />
+  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="github" revision="lollipop" groups="pdk-cw-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -305,7 +322,7 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="github" revision="lollipop" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
@@ -395,7 +412,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="github" revision="lollipop"  />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -506,5 +523,9 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+
+  <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="github" revision="lollipop" >
+    <copyfile src="build.sh" dest="rom-build.sh" />
+  </project>
 
 </manifest>
