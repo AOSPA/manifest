@@ -107,6 +107,25 @@ $ git commit -a
 $ cd WORKSPACE
 $ repo upload AOSPA/PROJECT
 ```
+### Additional way for uploading gerrit patches ###
+
+```bash
+# Start by going to the root of the source tree
+$ cd WORKSPACE
+
+# Go inside the project you are working on
+$ cd PROJECT
+
+# Make your changes
+...
+
+# Commit all your changes
+$ git add -A
+$ git commit -a
+
+# Upload your patches
+$ git push ssh://<username>@gerrit.paranoidandroid.co:29418/AOSPA/<project> HEAD:refs/for/lollipop
+```
 
 ### Making additional changes ###
 
