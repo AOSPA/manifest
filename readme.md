@@ -107,6 +107,22 @@ $ git commit -a
 $ cd WORKSPACE
 $ repo upload AOSPA/PROJECT
 ```
+### Using plain git to upload ###
+
+```bash
+# Go inside the project you are working on
+$ cd PROJECT
+
+# Make your changes
+...
+
+# Commit all your changes
+$ git add -A
+$ git commit -a
+
+# Upload your changes
+$ git push ssh://USERNAME@gerrit.paranoidandroid.co:29418/AOSPA/PROJECT HEAD:refs/for/lollipop
+```
 
 ### Making additional changes ###
 
