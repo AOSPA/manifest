@@ -175,7 +175,7 @@
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs" />
-  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
+  <project path="external/libnfc-nci" name="AOSPA/android_external_libnfc-nci" groups="pdk" remote="github" revision="lollipop" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
@@ -314,7 +314,7 @@
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
+  <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" groups="pdk" remote="github" revision="lollipop" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
