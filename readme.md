@@ -34,7 +34,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/AOSPA/manifest -b lollipop
+$ repo init -u https://github.com/AOSPA/manifest -b lollipop-mr1
 ```
 
 ### Downloading the source tree ###
@@ -121,7 +121,7 @@ $ git add -A
 $ git commit -a
 
 # Upload your changes
-$ git push ssh://USERNAME@gerrit.paranoidandroid.co:29418/AOSPA/PROJECT HEAD:refs/for/lollipop
+$ git push ssh://USERNAME@gerrit.paranoidandroid.co:29418/AOSPA/PROJECT HEAD:refs/for/lollipop-mr1
 ```
 
 ### Making additional changes ###
