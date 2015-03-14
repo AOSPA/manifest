@@ -19,14 +19,14 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="manifest" name="AOSPA/manifest" remote="github" revision="lollipop" />
+  <project path="manifest" name="AOSPA/manifest" remote="github" revision="lollipop-mr1" />
 
-  <project path="build" name="AOSPA/android_build" remote="github" revision="lollipop" >
+  <project path="build" name="AOSPA/android_build" remote="github" revision="lollipop-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
-  <project path="bionic" name="AOSPA/android_bionic" remote="github" revision="lollipop" groups="pdk" />
+  <project path="bionic" name="AOSPA/android_bionic" remote="github" revision="lollipop-mr1" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
@@ -158,7 +158,7 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs" />
-  <project path="external/jpeg" name="AOSPA/android_external_jpeg" remote="github" revision="lollipop" groups="pdk" />
+  <project path="external/jpeg" name="AOSPA/android_external_jpeg" remote="github" revision="lollipop-mr1" groups="pdk" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,tradefed" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs" />
@@ -175,7 +175,7 @@
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs" />
-  <project path="external/libnfc-nci" name="AOSPA/android_external_libnfc-nci" groups="pdk" remote="github" revision="lollipop" />
+  <project path="external/libnfc-nci" name="AOSPA/android_external_libnfc-nci" groups="pdk" remote="github" revision="lollipop-mr1" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
@@ -246,7 +246,7 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="external/skia" name="AOSPA/android_external_skia" remote="github" revision="lollipop" groups="pdk-cw-fs,qcom_msm8x26" />
+  <project path="external/skia" name="AOSPA/android_external_skia" remote="github" revision="lollipop-mr1" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -278,7 +278,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="github" revision="lollipop" groups="pdk-cw-fs" />
+  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="github" revision="lollipop-mr1" groups="pdk-cw-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -287,7 +287,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="github" revision="lollipop" groups="pdk" />
+  <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="github" revision="lollipop-mr1" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -317,7 +317,7 @@
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" groups="pdk" remote="github" revision="lollipop" />
+  <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" groups="pdk" remote="github" revision="lollipop-mr1" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
@@ -335,13 +335,13 @@
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
-  <project path="packages/apps/Dialer" name="AOSPA/android_packages_apps_Dialer" remote="github" revision="lollipop" />
+  <project path="packages/apps/Dialer" name="AOSPA/android_packages_apps_Dialer" remote="github" revision="lollipop-mr1" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="AOSPA/android_packages_apps_InCallUI" remote="github" revision="lollipop" />
+  <project path="packages/apps/InCallUI" name="AOSPA/android_packages_apps_InCallUI" remote="github" revision="lollipop-mr1" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
@@ -352,12 +352,12 @@
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/ParanoidOTA" name="AOSPA/android_packages_apps_ParanoidOTA" remote="github" revision="lollipop" />
+  <project path="packages/apps/ParanoidOTA" name="AOSPA/android_packages_apps_ParanoidOTA" remote="github" revision="lollipop-mr1" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="github" revision="lollipop"  />
+  <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="github" revision="lollipop-mr1"  />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -366,7 +366,7 @@
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
-  <project path="packages/apps/ThemeChooser" name="AOSPA/android_packages_apps_ThemeChooser" remote="github" revision="lollipop"  />
+  <project path="packages/apps/ThemeChooser" name="AOSPA/android_packages_apps_ThemeChooser" remote="github" revision="lollipop-mr1"  />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
@@ -379,7 +379,7 @@
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
-  <project path="packages/providers/ThemesProvider" name="AOSPA/android_packages_providers_ThemesProvider" remote="github" revision="lollipop"  />
+  <project path="packages/providers/ThemesProvider" name="AOSPA/android_packages_providers_ThemesProvider" remote="github" revision="lollipop-mr1"  />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
@@ -450,7 +450,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="AOSPA/android_system_core" remote="github" revision="lollipop" />
+  <project path="system/core" name="AOSPA/android_system_core" remote="github" revision="lollipop-mr1" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
@@ -472,7 +472,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="github" revision="lollipop" >
+  <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="github" revision="lollipop-mr1" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
