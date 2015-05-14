@@ -21,7 +21,7 @@
 
   <project path="manifest" name="AOSPA/manifest" remote="github" revision="lollipop-mr1" />
 
-  <project path="build" name="AOSPA/android_build" remote="github" revision="lollipop-mr1" >
+  <project path="build" name="AOSPA/android_build" remote="github" revision="lollipop-mr1-rebase" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -278,7 +278,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="github" revision="lollipop-mr1" groups="pdk-cw-fs" />
+  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="github" revision="lollipop-mr1-rebase" groups="pdk-cw-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -287,7 +287,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="github" revision="lollipop-mr1" groups="pdk" />
+  <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="github" revision="lollipop-mr1-rebase" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -357,7 +357,7 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="github" revision="lollipop-mr1"  />
+  <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="github" revision="lollipop-mr1-rebase"  />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -470,7 +470,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="github" revision="lollipop-mr1" >
+  <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="github" revision="lollipop-mr1-rebase" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
