@@ -15,7 +15,7 @@
            fetch="git://github.com"
            review="review.cyanogenmod.org" />
 
-  <default revision="refs/tags/android-5.1.1_r2"
+  <default revision="refs/tags/android-5.1.1_r5"
            remote="aosp"
            sync-j="4" />
 
