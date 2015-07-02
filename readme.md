@@ -5,6 +5,14 @@
 We're using [Crowdin](https://crowdin.net/project/aospa-framework) to accept translations so you
 should join it if you are interested in working on translating a part of the project.
 
+## Setting up your machine ##
+In order to build AOSPA, you must be running a 64bit Linux distribution. Google recommends using
+Ubuntu for this, and all of their instructions apply to Ubuntu.  You can follow the instructions
+for preparing the machine for building [here](https://source.android.com/source/initializing.html#setting-up-a-linux-build-environment).
+
+Once your machine has all of the dependencies needed, return here and follow the rest of the instructions
+to download the AOSPA project.
+
 ## Grabbing the source ##
 
 [Repo](http://source.android.com/source/developing.html) is a tool provided by Google that
@@ -14,20 +22,22 @@ simplifies using [Git](http://git-scm.com/book) in the context of the Android so
 
 ```bash
 # Make a directory where Repo will be stored and add it to the path
-$ mkdir ~/bin
-$ PATH=~/bin:$PATH
+$ mkdir ~/.bin
+$ PATH=~/.bin:$PATH
 
 # Download Repo itself
-$ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+$ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/.bin/repo
 
 # Make Repo executable
-$ chmod a+x ~/bin/repo
+$ chmod a+x ~/.bin/repo
 ```
 
 ### Initializing Repo ###
 
 ```bash
 # Create a directory for the source files
+# You can name this directory however you want, just remember to replace
+# WORKSPACE with your directory for the rest of this guide.
 # This can be located anywhere (as long as the fs is case-sensitive)
 $ mkdir WORKSPACE
 $ cd WORKSPACE
@@ -45,7 +55,11 @@ and their change histories.
 
 ```bash
 # Let Repo take care of all the hard work
-$ repo sync
+#
+# The -j# option specifies the number of concurrent download threads to run.
+# 4 threads is a good number for most internet connections.
+# You may need to adjust this value if you have a particularly slow connection.
+$ repo sync -j4
 ```
 
 #### Syncing specific projects ####
@@ -92,33 +106,41 @@ $ cd WORKSPACE
 # Create a new branch on the specific project you are going to work on
 # For example, `repo start fix-clock AOSPA/android_frameworks_base`
 $ repo start BRANCH AOSPA/PROJECT
+# You can also use the project path in place of the project name.
+# The PROJECT_DIR is the portion after the android_ prefix on
+# the AOSPA Github.  For example, android_frameworks_base translates
+# into the directory frameworks/base.
+# This applies to all repo commands that reference projects.
+$ repo start BRANCH PROJECT_DIR
 
 # Go inside the project you are working on
-$ cd PROJECT
+$ cd PROJECT_DIR
 
 # Make your changes
 ...
 
 # Commit all your changes
 $ git add -A
-$ git commit -a
+$ git commit -a -s
 
 # Upload your changes
 $ cd WORKSPACE
 $ repo upload AOSPA/PROJECT
+# or
+$ repo upload PROJECT_DIR
 ```
 ### Using plain git to upload ###
 
 ```bash
 # Go inside the project you are working on
-$ cd PROJECT
+$ cd PROJECT_DIR
 
 # Make your changes
 ...
 
 # Commit all your changes
 $ git add -A
-$ git commit -a
+$ git commit -a -s
 
 # Upload your changes
 $ git push ssh://USERNAME@gerrit.paranoidandroid.co:29418/AOSPA/PROJECT HEAD:refs/for/lollipop-mr1
@@ -127,7 +149,7 @@ $ git push ssh://USERNAME@gerrit.paranoidandroid.co:29418/AOSPA/PROJECT HEAD:ref
 ### Making additional changes ###
 
 If you are going to make more changes, you just have to repeat the steps (except for `repo start`
-which you should not repeat) while using `git commit --amend` instead of `git commit -a` so that
+which you should not repeat) while using `git commit --amend` instead of `git commit -a -s` so that
 you avoid having multiple commits for this single change. Gerrit will then recognize these changes
 as a new patch set and figure out everything for you when you upload.
 
