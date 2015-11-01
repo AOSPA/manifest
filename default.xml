@@ -141,7 +141,7 @@
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="aospa" groups="pdk" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
@@ -318,7 +318,7 @@
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="aospa" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/ParanoidOTA" name="android_packages_apps_ParanoidOTA" remote="aospa" revision="marshmallow" />
