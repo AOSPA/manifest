@@ -1,12 +1,14 @@
-# ParanoidAndroid #
+# Paranoid Android #
 
 ## Setting up your machine ##
-In order to build AOSPA, you must be running a 64bit Linux distribution. Google recommends using
-Ubuntu for this, and all of their instructions apply to Ubuntu.  You can follow the instructions
-for preparing the machine for building [here](https://source.android.com/source/initializing.html#setting-up-a-linux-build-environment).
 
-Once your machine has all of the dependencies needed, return here and follow the rest of the instructions
-to download the AOSPA project.
+You must be running a 64-bit Linux distribution and must have installed some packages to build
+Paranoid Android. Google recommends using [Ubuntu](http://www.ubuntu.com/download/desktop) for
+this and provides instructions for setting up the system (with Ubuntu-specific commands) on
+[the Android Open Source Project website](https://source.android.com/source/initializing.html#setting-up-a-linux-build-environment).
+
+Once you have set up your machine according to the instructions by Google, return here and carry
+on with the rest of the instructions.
 
 ## Grabbing the source ##
 
@@ -39,7 +41,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/AOSPA/manifest -b marshmallow
+$ repo init -u git@git.aospa.co:AOSPA/manifest.git -b marshmallow
 ```
 
 ### Downloading the source tree ###
