@@ -430,7 +430,7 @@
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" remote="caf" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="aospa" />
   <project path="hardware/qcom/display" name="platform/hardware/qcom/display" remote="caf" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" remote="caf" />
+  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" remote="caf" revision="LA.BF.1.1.3_rb1.4" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" remote="caf" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" remote="caf" />
   <project path="system/qcom" name="platform/system/qcom" remote="caf" />
