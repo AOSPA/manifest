@@ -185,7 +185,7 @@ You can read the full license text at http://www.apache.org/licenses/LICENSE-2.0
 
 ### Images & other assets ###
 
-Unless otherwise specified, all out assets, including but not limited to images, are licensed
+Unless otherwise specified, all our assets, including but not limited to images, are licensed
 under Creative Commons Attribution-NonCommercial 4.0 International, or CC BY-NC 4.0 for short.
 This means that you are allowed to modify the aforementioned assets in any way you want and
 you are free to share the originals and/or the modified work. However, you are not allowed
