@@ -39,7 +39,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/AOSPA/manifest -b marshmallow
+$ repo init -u https://github.com/AOSPA/manifest -b marshmallow-caf
 ```
 
 ### Downloading the source tree ###
@@ -138,7 +138,7 @@ $ git add -A
 $ git commit -a -s
 
 # Upload your changes
-$ git push ssh://USERNAME@gerrit.paranoidandroid.co:29418/AOSPA/PROJECT HEAD:refs/for/marshmallow
+$ git push ssh://USERNAME@gerrit.paranoidandroid.co:29418/AOSPA/PROJECT HEAD:refs/for/marshmallow-caf
 ```
 
 ### Making additional changes ###
