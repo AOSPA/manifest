@@ -37,21 +37,6 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
-  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
-  <project path="device/generic/common" name="device/generic/common" groups="pdk" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
-  <project path="device/generic/mips" name="device/generic/mips" groups="pdk" />
-  <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" />
-  <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
-  <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" />
-  <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" />
-  <project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="pdk" />
-  <project path="device/generic/qemu" name="device/generic/qemu" />
-  <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
-  <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
-  <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" />
@@ -310,7 +295,6 @@
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" remote="caf" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" groups="pdk-fs"/>
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
@@ -334,7 +318,6 @@
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
@@ -344,7 +327,6 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" remote="caf" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
-  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="aospa"  />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
@@ -372,16 +354,9 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" groups="pdk-fs" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" groups="pdk-fs" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" />
-  <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" remote="caf" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telephony" name="platform/packages/services/Telephony" remote="caf" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" groups="pdk-fs" />
-  <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" groups="pdk-fs" />
-  <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" groups="pdk-fs" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" />
-  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" groups="pdk-fs" />
-  <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" groups="pdk-fs" />
-  <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" groups="pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="platform_testing" name="platform/platform_testing" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" groups="pdk-fs" clone-depth="1" />
@@ -462,8 +437,6 @@
   <project path="vendor/qcom/opensource/display-frameworks" name="platform/vendor/qcom-opensource/display-frameworks" remote="caf" />
   <project path="vendor/qcom/opensource/dpm" name="platform/vendor/qcom-opensource/dpm" remote="caf" />
   <project path="vendor/qcom/opensource/fm" name="platform/vendor/qcom-opensource/fm" remote="caf" />
-  <project path="vendor/qcom/opensource/stm-log" name="platform/vendor/qcom-opensource/stm-log" remote="caf" />
-  <project path="vendor/qcom/opensource/testframework" name="platform/vendor/qcom-opensource/testframework" remote="caf" />
   <project path="vendor/qcom/opensource/time-services" name="platform/vendor/qcom-opensource/time-services" remote="caf" />
 
 </manifest>
