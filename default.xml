@@ -317,7 +317,7 @@
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="aospa" groups="pdk-fs" revision="marshmallow" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="aospa" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
@@ -333,7 +333,7 @@
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
+  <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="aospa" revision="marshmallow" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" groups="pdk-fs" />
   <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" groups="pdk-cw-fs,pdk-fs" remote="aospa" revision="marshmallow" />
