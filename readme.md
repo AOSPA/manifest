@@ -1,12 +1,14 @@
-# ParanoidAndroid #
+# Paranoid Android #
 
 ## Setting up your machine ##
-In order to build AOSPA, you must be running a 64bit Linux distribution. Google recommends using
-Ubuntu for this, and all of their instructions apply to Ubuntu.  You can follow the instructions
-for preparing the machine for building [here](https://source.android.com/source/initializing.html#setting-up-a-linux-build-environment).
 
-Once your machine has all of the dependencies needed, return here and follow the rest of the instructions
-to download the AOSPA project.
+You must be running a 64-bit Linux distribution and must have installed some packages to build
+Paranoid Android. Google recommends using [Ubuntu](http://www.ubuntu.com/download/desktop) for
+this and provides instructions for setting up the system (with Ubuntu-specific commands) on
+[the Android Open Source Project website](https://source.android.com/source/initializing.html#setting-up-a-linux-build-environment).
+
+Once you have set up your machine according to the instructions by Google, return here and carry
+on with the rest of the instructions.
 
 ## Grabbing the source ##
 
@@ -39,7 +41,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/AOSPA/manifest -b marshmallow-caf
+$ repo init -u git@git.aospa.co:AOSPA/manifest.git -b marshmallow-caf
 ```
 
 ### Downloading the source tree ###
@@ -183,7 +185,7 @@ You can read the full license text at http://www.apache.org/licenses/LICENSE-2.0
 
 ### Images & other assets ###
 
-Unless otherwise specified, all out assets, including but not limited to images, are licensed
+Unless otherwise specified, all our assets, including but not limited to images, are licensed
 under Creative Commons Attribution-NonCommercial 4.0 International, or CC BY-NC 4.0 for short.
 This means that you are allowed to modify the aforementioned assets in any way you want and
 you are free to share the originals and/or the modified work. However, you are not allowed
