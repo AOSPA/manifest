@@ -419,7 +419,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="vendor/pa" name="android_vendor_pa" remote="aospa" revision="marshmallow-caf" >
+  <project path="vendor/pa" name="android_vendor_pa" remote="aospa" revision="develop-themes" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
