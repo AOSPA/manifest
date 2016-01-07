@@ -7,7 +7,7 @@
   <remote  name="aospa"
            fetch="ssh://git@git.aospa.co/AOSPA"
            review="http://gerrit.aospa.co"
-           revision="marshmallow" />
+           revision="develop" />
 
   <remote  name="github"
            fetch="https://github.com" />
