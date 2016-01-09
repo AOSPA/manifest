@@ -12,7 +12,7 @@
   <remote  name="caf"
            fetch="git://codeaurora.org/"
            review="codeaurora.org"
-           revision="LA.HB.1.3.1_rb1.4" />
+           revision="LA.BF.1.1.3_rb1.7" />
 
   <remote  name="github"
            fetch="https://github.com" />
@@ -425,13 +425,13 @@
 
   <!-- CAF Additions -->
   <project path="device/qcom/common" name="android_device_qcom_common" remote="aospa" />
-  <project path="device/qcom/sepolicy" name="device/qcom/sepolicy" remote="caf" revision="LA.BF.1.1.3_rb1.6" />
+  <project path="device/qcom/sepolicy" name="device/qcom/sepolicy" remote="caf" />
   <project path="external/ant-wireless/ant_native" name="platform/external/ant-wireless/ant_native" remote="caf" />
   <project path="external/ant-wireless/ant_service" name="platform/external/ant-wireless/ant_service" remote="caf" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" remote="caf" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="aospa" />
   <project path="hardware/qcom/display" name="platform/hardware/qcom/display" remote="caf" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" remote="caf" revision="LA.BF.1.1.3_rb1.4" />
+  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" remote="caf" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" remote="caf" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" remote="caf" />
   <project path="system/qcom" name="platform/system/qcom" remote="caf" />
