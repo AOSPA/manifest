@@ -12,7 +12,7 @@
   <remote  name="caf"
            fetch="git://codeaurora.org/"
            review="codeaurora.org"
-           revision="LA.BF.1.1.3_rb1.7" />
+           revision="LA.BF.1.1.3_rb1.9" />
 
   <remote  name="github"
            fetch="https://github.com" />
