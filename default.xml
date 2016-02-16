@@ -434,6 +434,7 @@
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" remote="caf" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" remote="caf" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" remote="caf" />
+  <project path="kernel/include" name="android_kernel_include" remote="aospa" />
   <project path="system/qcom" name="platform/system/qcom" remote="caf" />
   <project path="vendor/qcom/opensource/bluetooth" name="platform/vendor/qcom-opensource/bluetooth" remote="caf" />
   <project path="vendor/qcom/opensource/dataservices" name="platform/vendor/qcom-opensource/dataservices" remote="caf" />
