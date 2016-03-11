@@ -429,12 +429,7 @@
   <project path="device/qcom/sepolicy" name="device/qcom/sepolicy" remote="caf" />
   <project path="external/ant-wireless/ant_native" name="platform/external/ant-wireless/ant_native" remote="caf" />
   <project path="external/ant-wireless/ant_service" name="platform/external/ant-wireless/ant_service" remote="caf" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" remote="caf" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="aospa" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" remote="caf" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" remote="caf" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" remote="caf" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" remote="caf" />
   <project path="kernel/include" name="android_kernel_include" remote="aospa" />
   <project path="system/qcom" name="platform/system/qcom" remote="caf" />
   <project path="vendor/qcom/opensource/bluetooth" name="platform/vendor/qcom-opensource/bluetooth" remote="caf" />
