@@ -400,7 +400,7 @@
   <project path="system/core" name="android_system_core" remote="aospa" />
   <project path="system/extras" name="platform/system/extras" remote="caf" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
-  <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
+  <project path="system/keymaster" name="platform/system/keymaster" remote="caf" groups="pdk" />
   <project path="system/media" name="platform/system/media" remote="caf" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
