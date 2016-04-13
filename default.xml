@@ -12,12 +12,12 @@
   <remote  name="caf"
            fetch="git://codeaurora.org/"
            review="codeaurora.org"
-           revision="LA.BF.1.1.3_rb1.11" />
+           revision="LA.HB.1.3.1" />
 
   <remote  name="github"
            fetch="https://github.com" />
 
-  <default revision="refs/tags/android-6.0.1_r3"
+  <default revision="refs/tags/android-6.0.1_r16"
            remote="aosp"
            sync-j="4" />
 
