@@ -358,7 +358,7 @@
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" groups="pdk-fs" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" remote="caf" revision="LA.BF.1.1.3_rb1.12" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="aospa" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="aospa" revision="marshmallow-caf" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
