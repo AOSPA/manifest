@@ -7,7 +7,7 @@
   <remote  name="aospa"
            fetch="ssh://git@git.aospa.co/AOSPA"
            review="http://gerrit.aospa.co"
-           revision="refs/tags/pa-6.0_r1" />
+           revision="refs/tags/pa-6.0_r2" />
 
   <remote  name="github"
            fetch="https://github.com" />
