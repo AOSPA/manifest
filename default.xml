@@ -12,7 +12,7 @@
   <remote  name="github"
            fetch="https://github.com" />
 
-  <default revision="refs/tags/android-6.0.1_r25"
+  <default revision="refs/tags/android-6.0.1_r45"
            remote="aosp"
            sync-j="4" />
 
@@ -252,7 +252,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="aospa" groups="pdk,aospa" />
   <project path="frameworks/base" name="android_frameworks_base" remote="aospa" groups="pdk-cw-fs,aospa" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -300,7 +300,7 @@
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" groups="pdk-fs"/>
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
-  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="aospa" groups="pdk-fs" />
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="aospa" groups="pdk-fs,aospa" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
@@ -427,6 +427,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
+  <project path="vendor/theme" name="android_vendor_theme" remote="aospa" groups="aospa" />
   <project path="vendor/pa" name="android_vendor_pa" remote="aospa" groups="aospa" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
