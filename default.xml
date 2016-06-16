@@ -88,7 +88,7 @@
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
+  <project path="external/f2fs-tools" name="android__external_f2fs-tools" remote="aospa" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
@@ -401,7 +401,7 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="platform/system/bt" remote="caf" revision="LA.HB.1.1.1" groups="pdk" />
   <project path="system/core" name="android_system_core" remote="aospa" />
-  <project path="system/extras" name="platform/system/extras" remote="caf" groups="pdk" />
+  <project path="system/extras" name="android_system_extras" remote="aospa" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" remote="caf" groups="pdk" />
   <project path="system/media" name="platform/system/media" remote="caf" groups="pdk" />
