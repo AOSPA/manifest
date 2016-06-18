@@ -27,7 +27,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="platform/art" remote="caf" groups="pdk" />
+  <project path="art" name="android_art" remote="aospa" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="aospa" revision="marshmallow" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" remote="caf" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
