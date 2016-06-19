@@ -429,6 +429,7 @@
   <project path="device/qcom/common" name="android_device_qcom_common" remote="aospa" />
   <project path="device/qcom/sepolicy" name="device/qcom/sepolicy" remote="caf" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="aospa" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="aospa" />
   <project path="kernel/include" name="android_kernel_include" remote="aospa" />
   <project path="system/qcom" name="platform/system/qcom" remote="caf" />
   <project path="vendor/qcom/opensource/bluetooth" name="platform/vendor/qcom-opensource/bluetooth" remote="caf" revision="LA.HB.1.1.1" />
