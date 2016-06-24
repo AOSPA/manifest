@@ -170,8 +170,7 @@ keep it to 50 characters when possible as it is used in various logs, including 
 
 ## Working on translations ##
 
-We use [Crowdin](https://crowdin.net/project/aospa-framework) to accept translations so 
-if you are interested in working on translations you should join the crowdin family.
+Comming soon!
 
 ## Using our assets ##
 
