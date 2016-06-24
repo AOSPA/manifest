@@ -9,6 +9,10 @@
            review="http://gerrit.aospa.co"
            revision="marshmallow" />
 
+  <remote  name="blobs"
+           fetch="https://github.com/ThankYouMario"
+           revision="marshmallow" />
+
   <remote  name="github"
            fetch="https://github.com" />
 
