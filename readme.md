@@ -41,7 +41,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u git@git.aospa.co:AOSPA/manifest.git -b marshmallow
+$ repo init -u https://github.com/AOSPA/manifest -b marshmallow
 ```
 
 ### Downloading the source tree ###
