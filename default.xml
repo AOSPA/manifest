@@ -119,13 +119,13 @@
   <project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jdiff" name="platform/external/jdiff" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" />
+  <project path="external/jemalloc" name="android_external_jemalloc" remote="aospa" groups="pdk" />
   <project path="external/jetty" name="platform/external/jetty" groups="pdk-fs" />
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" />
+  <project path="external/jpeg" name="android_external_jpeg" remote="aospa" groups="pdk" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs,pdk-fs" />
@@ -217,13 +217,13 @@
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
-  <project path="external/skia" name="platform/external/skia" remote="caf" groups="pdk-cw-fs,qcom_msm8x26" />
+  <project path="external/skia" name="android_external_skia" remote="aospa" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="aospa" groups="pdk" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" />
