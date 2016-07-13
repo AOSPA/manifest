@@ -50,7 +50,7 @@
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/apache-http" name="platform/external/apache-http" groups="pdk" />
+  <project path="external/apache-http" name="android_external_apache-http" remote="aospa" groups="pdk" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" />
@@ -197,7 +197,7 @@
   <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" />
   <project path="external/oauth" name="platform/external/oauth" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/okhttp" name="android_external_okhttp" remote="aospa" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/openssh" name="platform/external/openssh" groups="pdk-cw-fs,pdk-fs" />
@@ -435,6 +435,8 @@
   <project path="system/qcom" name="platform/system/qcom" remote="caf" />
   <project path="vendor/qcom/opensource/bluetooth" name="platform/vendor/qcom-opensource/bluetooth" remote="caf" revision="LA.HB.1.1.1" />
   <project path="vendor/qcom/opensource/dataservices" name="platform/vendor/qcom-opensource/dataservices" remote="caf" revision="LA.BF.1.1.3_rb1.12" />
+  <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom-opensource_dpm" remote="aospa" />
+  <project path="vendor/qcom/opensource/fm" name="platform/vendor/qcom-opensource/fm" remote="caf" revision="LA.HB.1.1.1" />
   <project path="vendor/qcom/opensource/time-services" name="platform/vendor/qcom-opensource/time-services" remote="caf" />
 
 </manifest>
