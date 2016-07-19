@@ -21,7 +21,7 @@
   <remote  name="github"
            fetch="https://github.com" />
 
-  <default revision="refs/tags/android-6.0.1_r16"
+  <default revision="refs/tags/android-6.0.1_r55"
            remote="aosp"
            sync-j="4" />
 
