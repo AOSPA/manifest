@@ -403,7 +403,7 @@
   <project path="system/extras" name="android_system_extras" remote="aospa" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" remote="caf" groups="pdk" />
-  <project path="system/media" name="platform/system/media" remote="caf" groups="pdk" />
+  <project path="system/media" name="android_system_media" remote="aospa" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="android_system_vold" remote="aospa" groups="pdk" />
