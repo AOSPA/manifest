@@ -66,6 +66,7 @@
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
+  <project path="external/connectivity" name="android_external_connectivity" remote="aospa" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" />
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" />
@@ -226,6 +227,7 @@
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/stlport" name="android_external_stlport" remote="aospa" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,pdk-fs" />
