@@ -399,7 +399,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/bt" name="platform/system/bt" remote="caf" revision="LA.HB.1.1.1" groups="pdk" />
+  <project path="system/bt" name="android_system_bt" remote="aospa" />
   <project path="system/core" name="android_system_core" remote="aospa" />
   <project path="system/extras" name="android_system_extras" remote="aospa" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
