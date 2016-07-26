@@ -432,7 +432,7 @@
 
   <!-- CAF Additions -->
   <project path="device/qcom/common" name="android_device_qcom_common" remote="aospa" />
-  <project path="device/qcom/sepolicy" name="device/qcom/sepolicy" remote="caf" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="aospa" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="aospa" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="aospa" />
   <project path="system/qcom" name="platform/system/qcom" remote="caf" />
