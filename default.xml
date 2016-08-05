@@ -6,7 +6,7 @@
 
   <remote  name="aospa"
            fetch="https://github.com/AOSPA"
-           review="http://gerrit.aospa.co"
+           review="gerrit.aospa.co"
            revision="marshmallow" />
 
   <remote  name="blobs"
