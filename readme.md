@@ -92,7 +92,7 @@ $ ./rom-build.sh DEVICE
 
 We're open source and patches are always welcome!
 
-You can see the status of all patches at [Gerrit Code Review](https://gerrit.paranoidandroid.co/).
+You can see the status of all patches at [Gerrit Code Review](https://gerrit.aospa.co/).
 
 ### Following the standard workflow ###
 
@@ -140,7 +140,7 @@ $ git add -A
 $ git commit -a -s
 
 # Upload your changes
-$ git push ssh://USERNAME@gerrit.paranoidandroid.co:29418/AOSPA/PROJECT HEAD:refs/for/marshmallow-caf
+$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/marshmallow-caf
 ```
 
 ### Making additional changes ###
