@@ -8,7 +8,7 @@
   <remote  name="aospa"
            fetch=".."
            review="gerrit.aospa.co"
-           revision="marshmallow" />
+           revision="refs/tags/pa-6.0.3_r3" />
 
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario"
