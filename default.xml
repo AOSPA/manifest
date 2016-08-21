@@ -42,8 +42,8 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/aac" name="platform/external/aac" groups="pdk" />
-  <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/aac" name="platform/external/aac" remote="caf" groups="pdk" />
+  <project path="external/android-clat" name="platform/external/android-clat" remote="caf" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/android-mock" name="platform/external/android-mock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/androidplot" name="platform/external/androidplot" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs,pdk-fs" />
@@ -112,7 +112,7 @@
   <project path="external/icu" name="platform/external/icu" groups="pdk" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/iptables" name="platform/external/iptables" remote="caf" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jack" name="platform/external/jack" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jarjar" name="platform/external/jarjar" groups="pdk" />
@@ -133,7 +133,7 @@
   <project path="external/junit" name="platform/external/junit" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libavc" name="platform/external/libavc" groups="pdk" />
+  <project path="external/libavc" name="platform/external/libavc" remote="caf" groups="pdk" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
@@ -141,9 +141,9 @@
   <project path="external/libedit" name="platform/external/libedit" groups="pdk-fs" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
-  <project path="external/libhevc" name="platform/external/libhevc" groups="pdk-fs" />
+  <project path="external/libhevc" name="platform/external/libhevc" remote="caf" groups="pdk-fs" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
-  <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
+  <project path="external/libmpeg2" name="platform/external/libmpeg2" remote="caf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libnetfilter_conntrack" name="platform/external/libnetfilter_conntrack" remote="caf" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="aospa" groups="pdk" />
@@ -264,7 +264,7 @@
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="android_frameworks_native" remote="aospa" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
-  <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" remote="caf" revision="LA.HB.1.1.1" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" remote="caf" revision="LA.HB.1.3.2" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs,pdk-fs" />
@@ -300,7 +300,7 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" remote="caf" revision="LA.HB.1.1.1" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" remote="caf" revision="LA.HB.1.3.2" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="aospa" revision="marshmallow" groups="pdk-fs" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
@@ -436,10 +436,10 @@
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="aospa" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="aospa" />
   <project path="system/qcom" name="platform/system/qcom" remote="caf" />
-  <project path="vendor/qcom/opensource/bluetooth" name="platform/vendor/qcom-opensource/bluetooth" remote="caf" revision="LA.HB.1.1.1" />
+  <project path="vendor/qcom/opensource/bluetooth" name="platform/vendor/qcom-opensource/bluetooth" remote="caf" revision="LA.HB.1.3.2" />
   <project path="vendor/qcom/opensource/dataservices" name="platform/vendor/qcom-opensource/dataservices" remote="caf" revision="LA.BF.1.1.3_rb1.12" />
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom-opensource_dpm" remote="aospa" />
-  <project path="vendor/qcom/opensource/fm" name="platform/vendor/qcom-opensource/fm" remote="caf" revision="LA.HB.1.1.1" />
+  <project path="vendor/qcom/opensource/fm" name="platform/vendor/qcom-opensource/fm" remote="caf" revision="LA.HB.1.3.2" />
   <project path="vendor/qcom/opensource/time-services" name="platform/vendor/qcom-opensource/time-services" remote="caf" />
 
 </manifest>
