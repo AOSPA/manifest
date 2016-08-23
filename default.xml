@@ -2,7 +2,21 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+
+  <remote  name="aospa"
+           fetch=".."
+           review="gerrit.aospa.co"
+           revision="marshmallow" />
+
+  <remote  name="blobs"
+           fetch="https://github.com/ThankYouMario"
+           revision="marshmallow" />
+
+  <remote  name="github"
+           fetch="https://github.com" />
+
   <default revision="refs/tags/android-7.0.0_r1"
            remote="aosp"
            sync-j="4" />
@@ -531,5 +545,8 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+
+  <!-- Paranoid Android additions -->
+  <include name="manifests/aospa.xml" />
 
 </manifest>

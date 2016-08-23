@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Manifest -->
+  <project path="manifest" name="AOSPA/manifest" remote="aospa" groups="aospa" />
+
+  <!-- Build repositories -->
+  <remove-project name="platform/build" />
+  <project path="build" name="AOSPA/android_build" remote="aospa" groups="aospa" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <!-- Frameworks -->
+  <remove-project name="platform/frameworks/base" />
+  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" groups="pdk-cw-fs,aospa" />
+
+  <!-- Packages -->>
+  <!-- TODO: Add ParanoidHub -->
+  <remove-project name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" groups="aospa" />
+
+  <!-- Vendor -->
+  <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="aospa" groups="aospa" >
+    <copyfile src="build.sh" dest="rom-build.sh" />
+  </project>
+
+  <!-- Device removals -->
+  <remove-project name="device/asus/fugu" />
+  <remove-project name="device/asus/fugu-kernel" />
+  <remove-project name="device/google/dragon" />
+  <remove-project name="device/google/dragon-kernel" />
+  <remove-project name="device/htc/flounder" />
+  <remove-project name="device/htc/flounder-kernel" />
+  <remove-project name="device/huawei/angler" />
+  <remove-project name="device/huawei/angler-kernel" />
+  <remove-project name="device/lge/bullhead" />
+  <remove-project name="device/lge/bullhead-kernel" />
+  <remove-project name="device/linaro/hikey" />
+  <remove-project name="device/linaro/hikey-kernel" />
+  <remove-project name="device/moto/shamu" />
+  <remove-project name="device/moto/shamu-kernel" />
+
+</manifest>
