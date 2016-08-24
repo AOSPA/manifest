@@ -111,7 +111,7 @@
   <project path="external/icu" name="platform/external/icu" groups="pdk" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/iptables" name="platform/external/iptables" remote="caf" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/iptables" name="platform/external/iptables" remote="caf" revision="LA.HB.1.3.1.c1" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jack" name="platform/external/jack" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jarjar" name="platform/external/jarjar" groups="pdk" />
