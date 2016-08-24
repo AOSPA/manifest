@@ -4,6 +4,9 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
+  <remote  name="private"
+           fetch="ssh://git@git.aospa.co/AOSPA" />
+
   <remote  name="aospa"
            fetch="https://github.com/AOSPA"
            review="http://gerrit.aospa.co"
