@@ -15,7 +15,7 @@
   <remote  name="caf"
            fetch="git://codeaurora.org/"
            review="codeaurora.org"
-           revision="refs/tags/LA.HB.1.3.2-22100-8x96.0" />
+           revision="refs/tags/LA.HB.1.3.2-23200-8x96.0" />
 
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario"
@@ -302,7 +302,7 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" remote="caf" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" remote="caf" revision="refs/tags/LA.HB.1.3.2-07200-8x96.0" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="aospa" revision="marshmallow" groups="pdk-fs" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
@@ -438,7 +438,7 @@
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="aospa" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="aospa" />
   <project path="system/qcom" name="platform/system/qcom" remote="caf" />
-  <project path="vendor/qcom/opensource/bluetooth" name="platform/vendor/qcom-opensource/bluetooth" remote="caf" />
+  <project path="vendor/qcom/opensource/bluetooth" name="platform/vendor/qcom-opensource/bluetooth" revision="refs/tags/LA.HB.1.3.2-07200-8x96.0" remote="caf" />
   <project path="vendor/qcom/opensource/dataservices" name="platform/vendor/qcom-opensource/dataservices" remote="caf" revision="LA.BF.1.1.3_rb1.12" />
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom-opensource_dpm" remote="aospa" />
   <project path="vendor/qcom/opensource/fm" name="platform/vendor/qcom-opensource/fm" remote="caf" />
