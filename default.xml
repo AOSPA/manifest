@@ -15,7 +15,7 @@
   <remote  name="caf"
            fetch="git://codeaurora.org/"
            review="codeaurora.org"
-           revision="LA.HB.1.3.1" />
+           revision="refs/tags/LA.HB.1.3.2-22100-8x96.0" />
 
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario"
@@ -114,7 +114,7 @@
   <project path="external/icu" name="platform/external/icu" groups="pdk" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/iptables" name="platform/external/iptables" remote="caf" revision="LA.HB.1.3.1.c1" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/iptables" name="platform/external/iptables" remote="caf" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jack" name="platform/external/jack" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jarjar" name="platform/external/jarjar" groups="pdk" />
@@ -266,7 +266,7 @@
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="android_frameworks_native" remote="aospa" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
-  <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" remote="caf" revision="LA.HB.1.3.2" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" remote="caf" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs,pdk-fs" />
@@ -302,7 +302,7 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" remote="caf" revision="LA.HB.1.3.2" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" remote="caf" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="aospa" revision="marshmallow" groups="pdk-fs" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
@@ -438,10 +438,10 @@
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="aospa" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="aospa" />
   <project path="system/qcom" name="platform/system/qcom" remote="caf" />
-  <project path="vendor/qcom/opensource/bluetooth" name="platform/vendor/qcom-opensource/bluetooth" remote="caf" revision="LA.HB.1.3.2" />
+  <project path="vendor/qcom/opensource/bluetooth" name="platform/vendor/qcom-opensource/bluetooth" remote="caf" />
   <project path="vendor/qcom/opensource/dataservices" name="platform/vendor/qcom-opensource/dataservices" remote="caf" revision="LA.BF.1.1.3_rb1.12" />
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom-opensource_dpm" remote="aospa" />
-  <project path="vendor/qcom/opensource/fm" name="platform/vendor/qcom-opensource/fm" remote="caf" revision="LA.HB.1.3.2" />
+  <project path="vendor/qcom/opensource/fm" name="platform/vendor/qcom-opensource/fm" remote="caf" />
   <project path="vendor/qcom/opensource/time-services" name="platform/vendor/qcom-opensource/time-services" remote="caf" />
 
 </manifest>
