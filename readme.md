@@ -140,7 +140,7 @@ $ git add -A
 $ git commit -a -s
 
 # Upload your changes
-$ git push ssh://USERNAME@gerrit.paranoidandroid.co:29418/AOSPA/PROJECT HEAD:refs/for/nougat
+$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/nougat
 ```
 
 ### Making additional changes ###
