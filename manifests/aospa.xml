@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Manifest -->
+  <project path="manifest" name="AOSPA/manifest" remote="aospa" groups="aospa" />
+
+  <!-- Build repositories -->
+  <remove-project name="platform/build" />
+  <project path="build" name="AOSPA/android_build" remote="aospa" groups="aospa" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <!-- Hardware -->
+  <remove-project name="device/qcom/common" />
+  <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="aospa" groups="pdk-cw-fs,aospa" />
+
+  <!-- Frameworks -->
+  <remove-project name="platform/frameworks/base" />
+  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" groups="pdk-cw-fs,aospa" />
+
+  <!-- Packages -->>
+  <!-- TODO: Add ParanoidHub -->
+  <remove-project name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" groups="aospa" />
+
+  <!-- Vendor -->
+  <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="aospa" groups="aospa" >
+    <copyfile src="build.sh" dest="rom-build.sh" />
+  </project>
+
+  <!-- Obsolete Packages -->
+  <remove-project name="platform/cts"/>
+  <remove-project name="device/generic/arm64"/>
+  <remove-project name="device/generic/armv7-a-neon"/>
+  <remove-project name="device/generic/common"/>
+  <remove-project name="device/generic/goldfish"/>
+  <remove-project name="device/generic/mini-emulator-arm64"/>
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon"/>
+  <remove-project name="device/generic/mini-emulator-x86"/>
+  <remove-project name="device/generic/mini-emulator-x86_64"/>
+  <remove-project name="device/generic/qemu"/>
+  <remove-project name="device/generic/x86"/>
+  <remove-project name="platform/vendor/qcom-opensource/wlan/prima"/>
+  <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0"/>
+  <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut"/>
+  <remove-project name="platform/vendor/qcom/cobalt" path="device/qcom/msmcobalt"/>
+  <remove-project name="platform/vendor/qcom/thorium_32"/>
+  <remove-project name="platform/vendor/qcom/thorium_64"/>
+  <remove-project name="platform/vendor/qcom/thulium"/>
+  <remove-project name="platform/vendor/qcom/titanium_32"/>
+  <remove-project name="platform/vendor/qcom/titanium_64"/>
+  <remove-project name="platform/hardware/qcom/audio"/>
+  <remove-project name="platform/hardware/qcom/bt"/>
+  <remove-project name="platform/hardware/qcom/camera"/>
+  <remove-project name="platform/hardware/qcom/display"/>
+  <remove-project name="platform/hardware/qcom/gps"/>
+  <remove-project name="platform/hardware/qcom/media"/>
+  <remove-project name="platform/hardware/qcom/wlan"/>
+  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr"/>
+  <remove-project name="platform/vendor/qcom-opensource/kernel/kernel-tests"/>
+  <remove-project name="device/sample"/>
+  <remove-project name="kernel/msm-3.18"/>
+
+</manifest>
+
