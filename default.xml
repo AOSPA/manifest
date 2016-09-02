@@ -23,7 +23,7 @@
   <remote  name="github"
            fetch="https://github.com" />
 
-  <default revision="LA.UM.5.5_rb1.10"
+  <default revision="refs/tags/LA.UM.5.5.r1-00100-8x96.0"
            remote="caf"
            sync-j="4"
            sync-c="true" />
