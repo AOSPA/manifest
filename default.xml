@@ -46,7 +46,6 @@
   <project groups="device,marlin" name="device/google/contexthub"/>
   <project name="device/qcom/common">
     <copyfile dest="build.sh" src="build.sh"/>
-    <copyfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
   <project name="device/qcom/sepolicy"/>
   <project groups="pdk" name="device/sample"/>
