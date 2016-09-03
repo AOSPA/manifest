@@ -66,6 +66,7 @@
   <remove-project name="kernel/msm-3.18"/>
   <remove-project name="kernel/lk"/>
   <remove-project name="device/generic/x86_64"/>
+  <remove-project name="platform/vendor/qcom-opensource/location"/>
 
 </manifest>
 
