@@ -511,6 +511,7 @@
   <project name="platform/vendor/codeaurora/telephony" path="vendor/codeaurora/telephony"/>
   <project name="platform/vendor/nxp/opensource/external/libnfc-nci" path="vendor/nxp/opensource/external/libnfc-nci"/>
   <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/frameworks"/>
+  <project name="platform/vendor/nxp/opensource/packages/apps/Nfc" path="vendor/nxp/opensource/packages/apps/Nfc" revision="nfc.lnx.2.0.r5-rel"/>
   <project groups="qcom" name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth"/>
   <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr"/>
   <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices"/>
