@@ -7,6 +7,9 @@
   <remote  name="private"
            fetch="ssh://git@git.aospa.co/AOSPA" />
 
+  <remote  name="private2"
+           fetch="ssh://git@git.aospa.co/TheCrazyLex" />
+
   <remote  name="aospa"
            fetch="https://github.com/AOSPA"
            review="http://gerrit.aospa.co"
@@ -33,6 +36,7 @@
   <project path="build" name="android_build" remote="aospa" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="vendor/head" name="android_vendor_head" revision="marshmallow-caf" remote="private2" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="aospa" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="aospa" revision="marshmallow" groups="pdk" />
