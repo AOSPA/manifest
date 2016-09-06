@@ -9,6 +9,10 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+  <!-- Native -->
+  <remove-project name="platform/bionic" />
+  <project path="bionic" name="AOSPA/android_bionic" remote="aospa" groups="aospa" />
+
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" groups="pdk-cw-fs,aospa" />
