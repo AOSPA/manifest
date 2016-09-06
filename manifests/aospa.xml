@@ -25,6 +25,10 @@
   <remove-project name="platform/hardware/broadcom/libbt" />
   <project path="hardware/broadcom/libbt" name="AOSPA/android_hardware_broadcom_libbt" remote="aospa" groups="aospa" />
 
+  <!-- Native -->
+  <remove-project name="platform/bionic" />
+  <project path="bionic" name="AOSPA/android_bionic" remote="aospa" groups="aospa" />
+
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
   <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" groups="aospa" />
