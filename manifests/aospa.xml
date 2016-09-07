@@ -11,13 +11,19 @@
 
   <!-- Hardware -->
   <remove-project name="device/qcom/common" />
-  <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="aospa" groups="pdk-cw-fs,aospa" />
+  <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/qcom/bt"/>
-  <project path="hardware/qcom/bt" name="AOSPA/android_hardware_qcom_bt" remote="aospa" groups="pdk-cw-fs,aospa" />
+  <project path="hardware/qcom/bt" name="AOSPA/android_hardware_qcom_bt" remote="aospa" groups="aospa" />
 
   <!-- Frameworks -->
+  <remove-project name="platform/frameworks/av" />
+  <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" groups="aospa" />
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" groups="pdk-cw-fs,aospa" />
+  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" groups="aospa" />
+  <remove-project name="platform/frameworks/native" />
+  <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" groups="aospa" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="aospa" groups="aospa" />
 
   <!-- Packages -->>
   <!-- TODO: Add ParanoidHub -->
