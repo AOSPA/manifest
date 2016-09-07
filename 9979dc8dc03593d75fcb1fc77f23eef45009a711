@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa0f191f_5dccaf35",
+        "filename": "manifests/aospa.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000011
+      },
+      "writtenOn": "2016-09-07T20:22:22Z",
+      "side": 1,
+      "message": "That\u0027s fine. Would be cool if you could add android_packages_services_Telephony too.",
+      "range": {
+        "startLine": 26,
+        "startChar": 55,
+        "endLine": 26,
+        "endChar": 87
+      },
+      "revId": "9979dc8dc03593d75fcb1fc77f23eef45009a711",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
