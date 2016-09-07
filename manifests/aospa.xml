@@ -12,6 +12,8 @@
   <!-- Hardware -->
   <remove-project name="device/qcom/common" />
   <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="aospa" groups="pdk-cw-fs,aospa" />
+  <remove-project name="platform/hardware/qcom/bt"/>
+  <project path="hardware/qcom/bt" name="AOSPA/android_hardware_qcom_bt" remote="aospa" groups="pdk-cw-fs,aospa" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
@@ -54,12 +56,10 @@
   <remove-project name="platform/vendor/qcom/titanium_32"/>
   <remove-project name="platform/vendor/qcom/titanium_64"/>
   <remove-project name="platform/hardware/qcom/audio"/>
-  <remove-project name="platform/hardware/qcom/bt"/>
   <remove-project name="platform/hardware/qcom/camera"/>
   <remove-project name="platform/hardware/qcom/display"/>
   <remove-project name="platform/hardware/qcom/gps"/>
   <remove-project name="platform/hardware/qcom/media"/>
-  <remove-project name="platform/hardware/qcom/wlan"/>
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr"/>
   <remove-project name="platform/vendor/qcom-opensource/kernel/kernel-tests"/>
   <remove-project name="device/sample"/>
