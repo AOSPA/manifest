@@ -14,8 +14,14 @@
   <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="aospa" groups="pdk-cw-fs,aospa" />
 
   <!-- Frameworks -->
+  <remove-project name="platform/frameworks/av" />
+  <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" groups="pdk-cw-fs,aospa" />
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" groups="pdk-cw-fs,aospa" />
+  <remove-project name="platform/frameworks/native" />
+  <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" groups="pdk-cw-fs,aospa" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="aospa" groups="aospa" />
 
   <!-- Packages -->>
   <!-- TODO: Add ParanoidHub -->
