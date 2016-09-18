@@ -13,8 +13,8 @@
            revision="nougat-caf" />
 
   <remote  name="caf"
-           fetch="git://codeaurora.org/quic/la"
-           review="codeaurora.org" />
+           fetch="https://source.codeaurora.org/quic/la"
+           review="source.codeaurora.org" />
 
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario"
