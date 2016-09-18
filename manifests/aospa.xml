@@ -49,6 +49,11 @@
   <project path="prebuilts/ninja/darwin-x86" name="platform/prebuilts/ninja/darwin-x86" groups="darwin,pdk,tradefed" remote="aosp" revision="refs/tags/android-7.0.0_r1" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" remote="aosp" revision="refs/tags/android-7.0.0_r1" />
 
+  <!-- Telephony -->
+  <remove-project name="packages/services/Telephony" />
+  <project path="packages/services/Telephony" name="AOSPA/android_packages_services_Telephony" remote="aospa" groups="pdk-cw-fs,aospa" />
+
+
   <!-- Obsolete Packages -->
   <remove-project name="platform/cts"/>
   <remove-project name="device/generic/arm64"/>
