@@ -15,8 +15,7 @@
            revision="quartz" />
 
   <remote  name="caf"
-           fetch="git://codeaurora.org/quic/la"
-           review="codeaurora.org" />
+           fetch="https://source.codeaurora.org/quic/la" />
 
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario"
