@@ -14,6 +14,8 @@
   <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="aospa" groups="pdk-cw-fs,aospa" />
   <remove-project name="platform/hardware/qcom/bt"/>
   <project path="hardware/qcom/bt" name="AOSPA/android_hardware_qcom_bt" remote="aospa" groups="pdk-cw-fs,aospa" />
+  <remove-project name="platform/hardware/ril" />
+  <project name="platform/hardware/ril" path="hardware/ril" remote="aospa" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
