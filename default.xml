@@ -13,7 +13,7 @@
            revision="nougat-caf" />
 
   <remote  name="caf"
-           fetch="https://source.codeaurora.org/quic/la"
+           fetch="https://hongkong.source.codeaurora.org/quic/la"
            review="source.codeaurora.org" />
 
   <remote  name="blobs"
