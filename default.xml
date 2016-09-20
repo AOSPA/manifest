@@ -8,7 +8,7 @@
            fetch="ssh://git@git.aospa.co/AOSPA" />
 
   <remote  name="aospa"
-           fetch=".."
+           fetch="https://github.com/AOSPA"
            review="gerrit.aospa.co"
            revision="nougat-caf" />
 
