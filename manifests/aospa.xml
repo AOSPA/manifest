@@ -14,12 +14,16 @@
   <!-- Hardware -->
   <remove-project name="device/qcom/common" />
   <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="aospa" groups="aospa" />
+  <remove-project name="device/qcom/sepolicy" />
+  <project path="device/qcom/sepolicy" name="AOSPA/android_device_qcom_sepolicy" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/qcom/bt"/>
   <project path="hardware/qcom/bt" name="AOSPA/android_hardware_qcom_bt" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/ril" />
   <project path="hardware/ril" name="AOSPA/android_hardware_ril" remote="aospa" />
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="aospa" />
+  <remove-project name="platform/hardware/broadcom/libbt" />
+  <project path="hardware/broadcom/libbt" name="AOSPA/android_hardware_broadcom_libbt" remote="aospa" groups="aospa" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
@@ -28,8 +32,10 @@
   <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" groups="aospa" />
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" groups="aospa" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="aospa" groups="aospa" />
 
-  <!-- Packages -->>
+  <!-- Packages -->
   <!-- TODO: Add ParanoidHub -->
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" groups="aospa" />
@@ -37,6 +43,8 @@
   <!-- System -->
   <remove-project name="platform/system/core" />
   <project path="system/core" name="AOSPA/android_system_core" remote="aospa" groups="aospa" />
+  <remove-project name="platform/system/sepolicy" />
+  <project path="system/sepolicy" name="AOSPA/android_system_sepolicy" remote="aospa" groups="aospa" />
 
   <!-- Vendor -->
   <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="aospa" groups="aospa" >
