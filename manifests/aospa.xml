@@ -27,7 +27,7 @@
 
   <!-- Native -->
   <remove-project name="platform/bionic" />
-  <project path="bionic" name="AOSPA/android_bionic" remote="aospa" groups="aospa" />
+  <project path="bionic" name="AOSPA/android_bionic" remote="aospa" revision="nougat" groups="aospa" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
