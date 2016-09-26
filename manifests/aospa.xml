@@ -45,6 +45,12 @@
   <!-- TODO: Add ParanoidHub -->
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" groups="aospa" />
+  <remove-project name="platform/packages/apps/DeskClock" />
+  <project path="packages/apps/DeskClock" name="AOSPA/android_packages_apps_DeskClock" remote="aospa" groups="aospa" />
+
+  <!-- External -->
+  <remove-project name="platform/external/libnfc-nci" />
+  <project path="external/libnfc-nci" name="AOSPA/android_external_libnfc-nci" remote="aospa" groups="aospa"/>
 
   <!-- System -->
   <remove-project name="platform/system/core" />
