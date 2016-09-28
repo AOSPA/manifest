@@ -160,7 +160,7 @@
   <project groups="pdk" name="platform/external/hyphenation-patterns" path="external/hyphenation-patterns"/>
   <project groups="pdk" name="platform/external/icu" path="external/icu"/>
   <project groups="pdk" name="platform/external/iproute2" path="external/iproute2"/>
-  <project groups="pdk" name="platform/external/ipsec-tools" path="external/ipsec-tools"/>
+  <project groups="pdk" name="platform/external/ipsec-tools" path="external/ipsec-tools" remote="aosp" revision="refs/tags/android-7.0.0_r6" />
   <project groups="pdk" name="platform/external/iptables" path="external/iptables"/>
   <project groups="pdk" name="platform/external/iputils" path="external/iputils"/>
   <project groups="pdk" name="platform/external/iw" path="external/iw"/>
