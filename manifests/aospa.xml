@@ -55,6 +55,8 @@
   <project path="external/libnfc-nci" name="AOSPA/android_external_libnfc-nci" remote="aospa" groups="aospa"/>
 
   <!-- System -->
+  <remove-project name="platform/system/bt" />
+  <project path="system/core" name="AOSPA/android_system_bt" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/core" />
   <project path="system/core" name="AOSPA/android_system_core" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/sepolicy" />
