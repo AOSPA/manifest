@@ -58,6 +58,12 @@
   <!-- External -->
   <remove-project name="platform/external/libnfc-nci" />
   <project path="external/libnfc-nci" name="AOSPA/android_external_libnfc-nci" remote="aospa" groups="aospa"/>
+  <remove-project name="platform/external/libpng" />
+  <project path="external/libpng" name="AOSPA/android_external_libpng" remote="aospa" groups="aospa" />
+  <remove-project name="platform/external/skia" />
+  <project path="external/skia" name="AOSPA/android_external_skia" remote="aospa" groups="aospa" />
+  <remove-project name="platform/external/jemalloc" />
+  <project path="external/jemalloc" name="AOSPA/android_external_jemalloc" remote="aospa" groups="aospa" />
 
   <!-- System -->
   <remove-project name="platform/system/bt" />
