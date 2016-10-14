@@ -66,6 +66,8 @@
   <project path="external/skia" name="AOSPA/android_external_skia" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/jemalloc" />
   <project path="external/jemalloc" name="AOSPA/android_external_jemalloc" remote="aospa" groups="aospa" />
+  <remove-project name="platform/external/sqlite" />
+  <project path="external/sqlite" name="AOSPA/android_external_sqlite" remote="aospa" groups="aospa" />
 
   <!-- System -->
   <remove-project name="platform/system/bt" />
