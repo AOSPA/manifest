@@ -59,7 +59,9 @@
 
   <!-- External -->
   <remove-project name="platform/external/libnfc-nci" />
-  <project path="external/libnfc-nci" name="AOSPA/android_external_libnfc-nci" remote="aospa" groups="aospa"/>
+  <project path="external/libnfc-nci" name="AOSPA/android_external_libnfc-nci" remote="aospa" groups="aospa" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/libpng" />
   <project path="external/libpng" name="AOSPA/android_external_libpng" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/skia" />
