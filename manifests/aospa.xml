@@ -58,6 +58,8 @@
   <project path="packages/apps/SnapdragonCamera" name="AOSPA/android_packages_apps_SnapdragonCamera" remote="aospa" groups="aospa" />
 
   <!-- External -->
+  <remove-project name="platform/external/e2fsprogs" />
+  <project path="external/e2fsprogs" name="AOSPA/android_external_e2fsprogs" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/libnfc-nci" />
   <project path="external/libnfc-nci" name="AOSPA/android_external_libnfc-nci" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/libjpeg-turbo" />
