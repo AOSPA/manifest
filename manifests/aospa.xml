@@ -85,6 +85,8 @@
   <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="aospa" groups="aospa" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
+  <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
+  <project path="vendor/qcom/opensource/bluetooth" name="AOSPA/android_vendor_qcom_opensource_bluetooth" remote="aospa" groups="aospa" />
 
   <!-- Darwin -->
   <project path="prebuilts/clang/darwin-x86/host/3.6" name="platform/prebuilts/clang/darwin-x86/host/3.6" groups="darwin" remote="aosp" revision="refs/tags/android-7.0.0_r1" />
