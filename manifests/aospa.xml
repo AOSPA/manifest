@@ -125,6 +125,10 @@
   <remove-project name="platform/packages/services/Telecomm" />
   <project path="packages/services/Telecomm" name="AOSPA/android_packages_services_Telecomm" remote="aospa" groups="aospa" />
 
+  <!-- Providers -->
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <project path="packages/providers/MediaProvider" name="AOSPA/android_packages_providers_MediaProvider" remote="aospa" groups="aospa" />
+
   <!-- Obsolete Packages -->
   <remove-project name="device/generic/arm64"/>
   <remove-project name="device/generic/armv7-a-neon"/>
