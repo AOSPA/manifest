@@ -106,6 +106,8 @@
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" remote="aosp" revision="refs/tags/android-7.0.0_r1" />
 
   <!-- Telephony -->
+  <remove-project name="platform/packages/apps/Dialer" />
+  <project path="packages/apps/Dialer" name="AOSPA/android_packages_apps_Dialer" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/services/Telephony" />
   <project path="packages/services/Telephony" name="AOSPA/android_packages_services_Telephony" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/services/Telecomm" />
