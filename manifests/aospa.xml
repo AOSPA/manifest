@@ -74,6 +74,8 @@
   <project path="external/jemalloc" name="AOSPA/android_external_jemalloc" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/sqlite" />
   <project path="external/sqlite" name="AOSPA/android_external_sqlite" remote="aospa" groups="aospa" />
+  <remove-project name="platform/external/zlib" />
+  <project path="external/zlib" name="AOSPA/android_external_zlib" remote="aospa" groups="aospa" />
 
   <!-- System -->
   <remove-project name="platform/system/bt" />
