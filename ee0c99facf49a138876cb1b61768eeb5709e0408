@@ -1,0 +1,8 @@
+Code-Review-1: Ícaro Hoff <icarohoff@gmail.com>
+Code-Review+2: Alex Naidis <alex.naidis@linux.com>
+Code-Review+2: Jake Weinstein <xboxlover360@gmail.com>
+Submitted-by: Alex Naidis <alex.naidis@linux.com>
+Submitted-at: Tue, 29 Nov 2016 00:52:38 +0100
+Reviewed-on: https://gerrit.aospa.co/1347
+Project: AOSPA/manifest
+Branch: refs/heads/nougat-caf
