@@ -2,40 +2,42 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com" />
+           revision="refs/tags/android-7.1.1_r1"
+           fetch="https://android.googlesource.com"/>
 
   <remote  name="private"
-           fetch="ssh://git@git.aospa.co/AOSPA" />
+           fetch="ssh://git@git.aospa.co/AOSPA"/>
 
   <remote  name="aospa"
            fetch=".."
            review="gerrit.aospa.co"
-           revision="nougat-caf" />
+           revision="nougat-mr1"/>
 
   <remote  name="caf"
            fetch="git://codeaurora.org/quic/la"
-           review="codeaurora.org" />
+           review="codeaurora.org"/>
 
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario"
-           revision="nougat-caf" />
+           revision="nougat-mr1"/>
 
   <remote  name="github"
-           fetch="https://github.com" />
+           fetch="https://github.com"/>
 
   <remote  name="github-ssh"
-           fetch="ssh://git@github.com" />
+           fetch="ssh://git@github.com"/>
 
-  <default revision="refs/tags/LA.UM.5.6.r1-01600-89xx.0"
+  <default revision="refs/tags/LA.UM.5.5.r1-02200-8x96.0"
            remote="caf"
            sync-j="4"
-           sync-c="true" />
+           sync-c="true"/>
 
   <project groups="pdk-cw-fs,pdk-fs" name="device/common"/>
   <project groups="pdk" name="device/generic/arm64"/>
   <project groups="pdk" name="device/generic/armv7-a-neon"/>
   <project groups="pdk" name="device/generic/common"/>
   <project groups="pdk" name="device/generic/goldfish"/>
+  <project groups="pdk" name="device/generic/goldfish-opengl"/>
   <project groups="pdk" name="device/generic/mini-emulator-arm64"/>
   <project groups="pdk" name="device/generic/mini-emulator-armv7-a-neon"/>
   <project groups="pdk" name="device/generic/mini-emulator-x86"/>
@@ -74,6 +76,7 @@
   <project name="platform/developers/samples/android" path="developers/samples/android"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/development" path="development"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/docs/source.android.com" path="docs/source.android.com"/>
+  <project groups="pdk" name="platform/external/ImageMagick" path="external/ImageMagick"/>
   <project groups="pdk" name="platform/external/aac" path="external/aac"/>
   <project groups="pdk" name="platform/external/android-clat" path="external/android-clat"/>
   <project groups="pdk" name="platform/external/androidplot" path="external/androidplot"/>
@@ -162,6 +165,7 @@
   <project groups="pdk,qcom_msm8x26" name="platform/external/harfbuzz_ng" path="external/harfbuzz_ng"/>
   <project groups="pdk" name="platform/external/hyphenation-patterns" path="external/hyphenation-patterns"/>
   <project groups="pdk" name="platform/external/icu" path="external/icu"/>
+  <project groups="pdk" name="platform/external/ims" path="external/ims"/>
   <project groups="pdk" name="platform/external/iproute2" path="external/iproute2"/>
   <project groups="pdk" name="platform/external/ipsec-tools" path="external/ipsec-tools"/>
   <project groups="pdk" name="platform/external/iptables" path="external/iptables"/>
@@ -199,6 +203,7 @@
   <project groups="pdk" name="platform/external/libedit" path="external/libedit"/>
   <project groups="pdk" name="platform/external/libevent" path="external/libevent"/>
   <project groups="pdk" name="platform/external/libexif" path="external/libexif"/>
+  <project groups="pdk" name="platform/external/libgdx" path="external/libgdx"/>
   <project groups="pdk" name="platform/external/libgsm" path="external/libgsm"/>
   <project groups="pdk" name="platform/external/libhevc" path="external/libhevc"/>
   <project groups="pdk" name="platform/external/libjpeg-turbo" path="external/libjpeg-turbo"/>
@@ -310,6 +315,7 @@
   <project groups="pdk" name="platform/external/tpm2" path="external/tpm2"/>
   <project groups="pdk" name="platform/external/tremolo" path="external/tremolo"/>
   <project groups="pdk" name="platform/external/unicode" path="external/unicode"/>
+  <project name="platform/external/universal-tween-engine" path="external/universal-tween-engine"/>
   <project groups="pdk" name="platform/external/v8" path="external/v8"/>
   <project groups="pdk" name="platform/external/valgrind" path="external/valgrind"/>
   <project groups="vboot,pdk-fs" name="platform/external/vboot_reference" path="external/vboot_reference"/>
@@ -367,6 +373,7 @@
   <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware"/>
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
   <project groups="qcom,default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
+  <project name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl"/>
   <project groups="qcom" name="platform/hardware/qcom/bt" path="hardware/qcom/bt"/>
   <project groups="qcom,default" name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
   <project groups="qcom,default" name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
@@ -380,6 +387,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth"/>
   <project groups="pdk-fs" name="platform/packages/apps/Browser2" path="packages/apps/Browser2"/>
+  <project name="platform/packages/apps/CMFileManager" path="packages/apps/CMFileManager"/>
   <project groups="pdk-fs" name="platform/packages/apps/Calculator" path="packages/apps/Calculator"/>
   <project groups="pdk-fs" name="platform/packages/apps/Calendar" path="packages/apps/Calendar"/>
   <project groups="pdk-fs" name="platform/packages/apps/Camera" path="packages/apps/Camera"/>
@@ -417,6 +425,7 @@
   <project groups="pdk-fs" name="platform/packages/apps/Protips" path="packages/apps/Protips"/>
   <project groups="pdk-fs" name="platform/packages/apps/Provision" path="packages/apps/Provision"/>
   <project groups="pdk-fs" name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox"/>
+  <project name="platform/packages/apps/SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo"/>
   <project groups="pdk-fs" name="platform/packages/apps/Settings" path="packages/apps/Settings"/>
   <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService"/>
   <project name="platform/packages/apps/SnapdragonCamera" path="packages/apps/SnapdragonCamera"/>
@@ -427,12 +436,14 @@
   <project groups="pdk-fs" name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts"/>
   <project groups="pdk-fs" name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder"/>
   <project groups="apps_stk,pdk-fs" name="platform/packages/apps/Stk" path="packages/apps/Stk"/>
+  <project name="platform/packages/apps/StorageManager" path="packages/apps/StorageManager"/>
   <project name="platform/packages/apps/TV" path="packages/apps/TV"/>
   <project groups="pdk-fs" name="platform/packages/apps/Tag" path="packages/apps/Tag"/>
   <project groups="pdk-fs" name="platform/packages/apps/Terminal" path="packages/apps/Terminal"/>
   <project groups="pdk" name="platform/packages/apps/Test/connectivity" path="packages/apps/Test/connectivity"/>
   <project groups="pdk-fs" name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings"/>
   <project groups="pdk-fs" name="platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail"/>
+  <project name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker"/>
   <project name="platform/packages/experimental" path="packages/experimental"/>
   <project groups="pdk-fs" name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME"/>
   <project groups="pdk-fs" name="platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn"/>
@@ -464,6 +475,7 @@
   <project groups="pdk-fs" name="platform/prebuilts/deqp" path="prebuilts/deqp"/>
   <project groups="pdk-fs" name="platform/prebuilts/devtools" path="prebuilts/devtools"/>
   <project groups="pdk" name="platform/prebuilts/eclipse" path="prebuilts/eclipse"/>
+  <project groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8"/>
   <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"/>
   <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"/>
   <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"/>
@@ -513,7 +525,7 @@
   <project name="platform/vendor/codeaurora/telephony" path="vendor/codeaurora/telephony"/>
   <project name="platform/vendor/nxp/opensource/external/libnfc-nci" path="vendor/nxp/opensource/external/libnfc-nci"/>
   <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/frameworks"/>
-  <project name="platform/vendor/nxp/opensource/packages/apps/Nfc" path="vendor/nxp/opensource/packages/apps/Nfc" revision="nfc.lnx.2.0.r5-rel"/>
+  <project name="platform/vendor/nxp/opensource/packages/apps/Nfc" path="vendor/nxp/opensource/packages/apps/Nfc"/>
   <project groups="qcom" name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth"/>
   <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr"/>
   <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices"/>
@@ -539,6 +551,6 @@
   <project name="toolchain/binutils"/>
 
   <!-- Paranoid Android additions -->
-  <include name="manifests/aospa.xml" />
+  <include name="manifests/aospa.xml"/>
 
 </manifest>
