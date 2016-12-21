@@ -34,7 +34,7 @@
 
   <!-- Native -->
   <remove-project name="platform/bionic" />
-  <project path="bionic" name="AOSPA/android_bionic" remote="aospa" revision="nougat" groups="aospa" />
+  <project path="bionic" name="AOSPA/android_bionic" remote="aospa" groups="aospa" />
   <remove-project name="platform/art" />
   <project path="art" name="AOSPA/android_art" remote="aospa" groups="aospa" />
 
