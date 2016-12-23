@@ -66,6 +66,8 @@
   <!-- External -->
   <remove-project name="platform/external/e2fsprogs" />
   <project path="external/e2fsprogs" name="AOSPA/android_external_e2fsprogs" remote="aospa" groups="aospa" />
+  <remove-project name="platform/external/f2fs-tools" />
+  <project path="external/f2fs-tools" name="AOSPA/android_external_f2fs-tools" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/libnfc-nci" />
   <project path="external/libnfc-nci" name="AOSPA/android_external_libnfc-nci" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/libjpeg-turbo" />
@@ -86,6 +88,8 @@
   <project path="system/bt" name="AOSPA/android_system_bt" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/core" />
   <project path="system/core" name="AOSPA/android_system_core" remote="aospa" groups="aospa" />
+  <remove-project name="platform/system/extras" />
+  <project path="system/extras" name="AOSPA/android_system_extras" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/media" />
   <project path="system/media" name="AOSPA/android_system_media" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/sepolicy" />
