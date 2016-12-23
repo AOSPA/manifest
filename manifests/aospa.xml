@@ -60,6 +60,8 @@
   <project path="packages/apps/SnapdragonCamera" name="AOSPA/android_packages_apps_SnapdragonCamera" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/LatinIME" name="AOSPA/android_packages_inputmethods_LatinIME" remote="aospa" groups="aospa" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
+  <project path="packages/apps/PackageInstaller" name="AOSPA/android_packages_apps_PackageInstaller" remote="aospa" groups="aospa" />
 
   <!-- External -->
   <remove-project name="platform/external/e2fsprogs" />
