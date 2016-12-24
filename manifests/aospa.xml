@@ -66,6 +66,7 @@
   <!-- External -->
   <remove-project name="platform/external/e2fsprogs" />
   <project path="external/e2fsprogs" name="AOSPA/android_external_e2fsprogs" remote="aospa" groups="aospa" />
+  <project path="external/exfat" name="AOSPA/android_external_exfat" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/f2fs-tools" />
   <project path="external/f2fs-tools" name="AOSPA/android_external_f2fs-tools" remote="aospa" groups="aospa" />
   <project path="external/fuse" name="AOSPA/android_external_fuse" remote="aospa" groups="aospa" />
