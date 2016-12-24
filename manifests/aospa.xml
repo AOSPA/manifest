@@ -50,6 +50,8 @@
 
   <!-- Packages -->
   <!-- TODO: Add ParanoidHub -->
+  <remove-project name="platform/packages/apps/Calendar" />
+  <project path="packages/apps/Calendar" name="AOSPA/android_packages_apps_Calendar" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Camera2" />
   <project path="packages/apps/Camera2" name="AOSPA/android_packages_apps_Camera2" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Settings" />
