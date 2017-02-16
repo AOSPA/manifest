@@ -49,7 +49,6 @@
   <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="aospa" groups="aospa" />
 
   <!-- Packages -->
-  <!-- TODO: Add ParanoidHub -->
   <remove-project name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Calendar" name="AOSPA/android_packages_apps_Calendar" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Camera2" />
