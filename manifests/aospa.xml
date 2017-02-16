@@ -49,7 +49,6 @@
   <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="aospa" groups="aospa" />
 
   <!-- Packages -->
-  <!-- TODO: Add ParanoidHub -->
   <remove-project name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Calendar" name="AOSPA/android_packages_apps_Calendar" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Camera2" />
@@ -60,6 +59,7 @@
   <project path="packages/apps/Launcher3" name="AOSPA/android_packages_apps_Launcher3" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/PackageInstaller" name="AOSPA/android_packages_apps_PackageInstaller" remote="aospa" groups="aospa" />
+  <project path="packages/apps/ParanoidHub" name="AOSPA/android_packages_apps_ParanoidHub" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
