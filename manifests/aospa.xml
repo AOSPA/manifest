@@ -54,16 +54,18 @@
   <project path="packages/apps/Calendar" name="AOSPA/android_packages_apps_Calendar" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Camera2" />
   <project path="packages/apps/Camera2" name="AOSPA/android_packages_apps_Camera2" remote="aospa" groups="aospa" />
-  <remove-project name="platform/packages/apps/Settings" />
-  <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/DeskClock" name="AOSPA/android_packages_apps_DeskClock" remote="aospa" groups="aospa" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <project path="packages/apps/Launcher3" name="AOSPA/android_packages_apps_Launcher3" remote="aospa" groups="aospa" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
+  <project path="packages/apps/PackageInstaller" name="AOSPA/android_packages_apps_PackageInstaller" remote="aospa" groups="aospa" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <project path="packages/apps/SnapdragonCamera" name="AOSPA/android_packages_apps_SnapdragonCamera" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/LatinIME" name="AOSPA/android_packages_inputmethods_LatinIME" remote="aospa" groups="aospa" />
-  <remove-project name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/PackageInstaller" name="AOSPA/android_packages_apps_PackageInstaller" remote="aospa" groups="aospa" />
 
   <!-- External -->
   <remove-project name="platform/external/e2fsprogs" />
