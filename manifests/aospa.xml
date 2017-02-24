@@ -55,13 +55,21 @@
   <project path="packages/apps/Calendar" name="AOSPA/android_packages_apps_Calendar" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Camera2" />
   <project path="packages/apps/Camera2" name="AOSPA/android_packages_apps_Camera2" remote="aospa" groups="aospa" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <project path="packages/apps/Contacts" name="AOSPA/android_packages_apps_Contacts" remote="aospa" groups="aospa" />
+  <remove-project name="platform/packages/apps/ContactsCommon" />
+  <project path="packages/apps/ContactsCommon" name="AOSPA/android_packages_apps_ContactsCommon" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/DeskClock" name="AOSPA/android_packages_apps_DeskClock" remote="aospa" groups="aospa" />
+  <remove-project name="platform/packages/apps/ExactCalculator" />
+  <project path="packages/apps/ExactCalculator" name="AOSPA/android_packages_apps_ExactCalculator" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/Launcher3" name="AOSPA/android_packages_apps_Launcher3" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/PackageInstaller" name="AOSPA/android_packages_apps_PackageInstaller" remote="aospa" groups="aospa" />
   <project path="packages/apps/ParanoidHub" name="AOSPA/android_packages_apps_ParanoidHub" remote="aospa" groups="aospa" />
+  <remove-project name="platform/packages/apps/PhoneCommon" />
+  <project path="packages/apps/PhoneCommon" name="AOSPA/android_packages_apps_PhoneCommon" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
