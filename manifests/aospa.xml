@@ -47,6 +47,8 @@
   <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" groups="aospa" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="aospa" groups="aospa" />
+  <remove-project name="platform/frameworks/rs" />
+  <project path="frameworks/rs" name="AOSPA/android_frameworks_rs" remote="aospa" groups="aospa" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Calendar" />
