@@ -141,6 +141,9 @@
   <remove-project name="platform/packages/services/Telecomm" />
   <project path="packages/services/Telecomm" name="AOSPA/android_packages_services_Telecomm" remote="aospa" groups="aospa" />
 
+  <!-- Substratum -->
+  <project path="packages/apps/ThemeInterfacer" name="AOSPA/android_packages_apps_ThemeInterfacer" remote="aospa" groups="aospa" />
+
   <!-- Obsolete Packages -->
   <remove-project name="device/generic/arm64"/>
   <remove-project name="device/generic/armv7-a-neon"/>
