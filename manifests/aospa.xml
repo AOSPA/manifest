@@ -14,9 +14,9 @@
   <project path="vendor/qcom/sdclang-3.8/linux-x86" name="proprietary_vendor_qcom_sdclang-3.8_linux-x86" remote="blobs"/>
 
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="AOSPA/android_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="aospa"/>
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="AOSPA/android_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="aospa" clone-depth="1"/>
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="AOSPA/android_gcc_linux-x86_arm-linux-android-4.9" remote="aospa"/>
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="AOSPA/android_gcc_linux-x86_arm-linux-android-4.9" remote="aospa" clone-depth="1"/>
 
   <!-- Hardware -->
   <remove-project name="device/qcom/common" />
@@ -125,17 +125,17 @@
   <project path="vendor/qcom/opensource/bluetooth" name="AOSPA/android_vendor_qcom_opensource_bluetooth" remote="aospa" groups="aospa" />
 
   <!-- Darwin -->
-  <project path="prebuilts/clang/darwin-x86/host/3.6" name="platform/prebuilts/clang/darwin-x86/host/3.6" groups="darwin" remote="aosp" />
-  <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" groups="darwin" remote="aosp"  />
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="AOSPA/android_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="darwin,arm" remote="aospa" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="AOSPA/android_gcc_darwin-x86_arm-linux-android-4.9" groups="darwin,arm" remote="aospa" />
-  <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="darwin" remote="aosp" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="darwin,mips" remote="aosp" />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="darwin,x86" remote="aosp" />
-  <project path="prebuilts/gdb/darwin-x86" name="platform/prebuilts/gdb/darwin-x86" groups="darwin" remote="aosp" />
-  <project path="prebuilts/go/darwin-x86" name="platform/prebuilts/go/darwin-x86" groups="darwin,tradefed" remote="aosp" />
-  <project path="prebuilts/ninja/darwin-x86" name="platform/prebuilts/ninja/darwin-x86" groups="darwin,tradefed" remote="aosp" />
-  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" remote="aosp" />
+  <project path="prebuilts/clang/darwin-x86/host/3.6" name="platform/prebuilts/clang/darwin-x86/host/3.6" groups="darwin" remote="aosp" clone-depth="1"/>
+  <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" groups="darwin" remote="aosp" clone-depth="1"/>
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="AOSPA/android_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="darwin,arm" remote="aospa" clone-depth="1"/>
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="AOSPA/android_gcc_darwin-x86_arm-linux-android-4.9" groups="darwin,arm" remote="aospa" clone-depth="1"/>
+  <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="darwin" remote="aosp" clone-depth="1"/>
+  <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="darwin,mips" remote="aosp" clone-depth="1"/>
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="darwin,x86" remote="aosp" clone-depth="1"/>
+  <project path="prebuilts/gdb/darwin-x86" name="platform/prebuilts/gdb/darwin-x86" groups="darwin" remote="aosp" clone-depth="1"/>
+  <project path="prebuilts/go/darwin-x86" name="platform/prebuilts/go/darwin-x86" groups="darwin,tradefed" remote="aosp" clone-depth="1"/>
+  <project path="prebuilts/ninja/darwin-x86" name="platform/prebuilts/ninja/darwin-x86" groups="darwin,tradefed" remote="aosp" clone-depth="1"/>
+  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" remote="aosp" clone-depth="1"/>
 
   <!-- Telephony -->
   <remove-project name="platform/packages/apps/Dialer" />
