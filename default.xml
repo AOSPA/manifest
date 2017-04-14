@@ -11,7 +11,7 @@
   <remote  name="aospa"
            fetch=".."
            review="gerrit.aospa.co"
-           revision="nougat-mr1"/>
+           revision="nougat-mr1-grarak"/>
 
   <remote  name="caf"
            fetch="git://codeaurora.org/quic/la"

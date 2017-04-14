@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Manifest -->
-  <project path="manifest" name="AOSPA/manifest" remote="aospa" groups="aospa" />
+  <project path="manifest" name="AOSPA/manifest" revision="nougat-mr1-grarak" remote="aospa" groups="aospa" />
 
   <!-- Build repositories -->
   <remove-project name="platform/build" />
@@ -24,11 +24,11 @@
   <remove-project name="device/qcom/sepolicy" />
   <project path="device/qcom/sepolicy" name="AOSPA/android_device_qcom_sepolicy" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/qcom/bt"/>
-  <project path="hardware/qcom/bt" name="AOSPA/android_hardware_qcom_bt" remote="aospa" groups="aospa" />
+  <project path="hardware/qcom/bt" name="AOSPA/android_hardware_qcom_bt" revision="nougat-mr1-grarak" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/ril" />
-  <project path="hardware/ril" name="AOSPA/android_hardware_ril" remote="aospa" />
+  <project path="hardware/ril" name="AOSPA/android_hardware_ril" revision="nougat-mr1-grarak" remote="aospa" />
   <remove-project name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="aospa" />
+  <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" revision="nougat-mr1-grarak" remote="aospa" />
   <remove-project name="platform/hardware/broadcom/libbt" />
   <project path="hardware/broadcom/libbt" name="AOSPA/android_hardware_broadcom_libbt" remote="aospa" groups="aospa" />
 
