@@ -80,6 +80,8 @@
   <project path="packages/apps/SnapdragonCamera" name="AOSPA/android_packages_apps_SnapdragonCamera" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/SnapdragonGallery" />
   <project path="packages/apps/SnapdragonGallery" name="AOSPA/android_packages_apps_SnapdragonGallery" remote="aospa" groups="aospa" />
+  <remove-project name="platform/packages/apps/SnapdragonMusic" />
+  <project path="packages/apps/SnapdragonMusic" name="AOSPA/android_packages_apps_SnapdragonMusic" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/LatinIME" name="AOSPA/android_packages_inputmethods_LatinIME" remote="aospa" groups="aospa" />
 
