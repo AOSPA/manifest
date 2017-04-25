@@ -18,6 +18,9 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="AOSPA/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="aospa" clone-depth="1"/>
 
+  <!-- Compatibility layer -->
+  <project name="platform/external/mm-dash" path="external/mm-dash" revision="refs/tags/LA.UM.5.6.r1-04300-89xx.0" groups="aospa"/>
+
   <!-- Hardware -->
   <remove-project name="device/qcom/common" />
   <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="aospa" groups="aospa" />
@@ -151,6 +154,7 @@
   <project path="packages/apps/ThemeInterfacer" name="AOSPA/android_packages_apps_ThemeInterfacer" remote="aospa" groups="aospa" />
 
   <!-- Obsolete Packages -->
+  <remove-project name="abl/tianocore/edk2"/>
   <remove-project name="device/generic/arm64"/>
   <remove-project name="device/generic/armv7-a-neon"/>
   <remove-project name="device/generic/common"/>
@@ -161,10 +165,15 @@
   <remove-project name="device/generic/mini-emulator-x86_64"/>
   <remove-project name="device/generic/qemu"/>
   <remove-project name="device/generic/x86"/>
-  <remove-project name="platform/vendor/qcom-opensource/wlan/prima"/>
-  <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0"/>
+  <remove-project name="platform/hardware/stm"/>
+  <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api"/>
+  <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn"/>
+  <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut"/>
-  <remove-project name="platform/vendor/qcom/cobalt" path="device/qcom/msmcobalt"/>
+  <remove-project name="platform/vendor/qcom/cobalt"/>
+  <remove-project name="platform/vendor/qcom/cobalt_32"/>
+  <remove-project name="platform/vendor/qcom/falcon"/>
+  <remove-project name="platform/vendor/qcom/falcon_32"/>
   <remove-project name="platform/vendor/qcom/thorium_32"/>
   <remove-project name="platform/vendor/qcom/thorium_64"/>
   <remove-project name="platform/vendor/qcom/thulium"/>
@@ -176,10 +185,8 @@
   <remove-project name="platform/hardware/qcom/gps"/>
   <remove-project name="platform/hardware/qcom/media"/>
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr"/>
-  <remove-project name="platform/vendor/qcom-opensource/kernel/kernel-tests"/>
   <remove-project name="device/sample"/>
-  <remove-project name="kernel/msm-3.18"/>
-  <remove-project name="kernel/lk"/>
+  <remove-project name="kernel/msm-4.4"/>
   <remove-project name="device/generic/x86_64"/>
   <remove-project name="platform/vendor/qcom-opensource/location"/>
   <remove-project name="platform/packages/apps/CMFileManager"/>

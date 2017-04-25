@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           revision="refs/tags/android-7.1.1_r1"
+           revision="refs/tags/android-7.1.2_r6"
            fetch="https://android.googlesource.com"/>
 
   <remote  name="private"
@@ -11,7 +11,7 @@
   <remote  name="aospa"
            fetch=".."
            review="gerrit.aospa.co"
-           revision="nougat-mr1"/>
+           revision="nougat-mr2"/>
 
   <remote  name="caf"
            fetch="git://codeaurora.org/quic/la"
@@ -19,7 +19,7 @@
 
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario"
-           revision="nougat-mr1"/>
+           revision="nougat-mr2"/>
 
   <remote  name="github"
            fetch="https://github.com"/>
@@ -27,11 +27,12 @@
   <remote  name="github-ssh"
            fetch="ssh://git@github.com"/>
 
-  <default revision="refs/tags/LA.UM.5.6.r1-04300-89xx.0"
+  <default revision="refs/tags/LA.UM.5.8.r1-01300-8x98.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>
 
+  <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2"/>
   <project groups="pdk-cw-fs,pdk-fs" name="device/common"/>
   <project groups="pdk" name="device/generic/arm64"/>
   <project groups="pdk" name="device/generic/armv7-a-neon"/>
@@ -49,13 +50,10 @@
   <project groups="device,pdk" name="device/google/accessory/demokit"/>
   <project groups="device,fugu,broadcom_pdk,generic_fs,pdk" name="device/google/atv"/>
   <project groups="device,marlin" name="device/google/contexthub"/>
-  <project name="device/qcom/common">
-    <copyfile dest="build.sh" src="build.sh"/>
-  </project>
+  <project name="device/qcom/common"/>
   <project name="device/qcom/sepolicy"/>
   <project groups="pdk" name="device/sample"/>
-  <project name="kernel/lk" path="bootable/bootloader/lk"/>
-  <project name="kernel/msm-3.18"/>
+  <project name="kernel/msm-4.4"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp"/>
   <project groups="pdk" name="platform/art" path="art"/>
   <project groups="pdk" name="platform/bionic" path="bionic"/>
@@ -246,7 +244,6 @@
   <project groups="pdk" name="platform/external/messageformat" path="external/messageformat"/>
   <project groups="pdk" name="platform/external/minijail" path="external/minijail"/>
   <project groups="pdk" name="platform/external/mksh" path="external/mksh"/>
-  <project name="platform/external/mm-dash" path="external/mm-dash"/>
   <project groups="pdk" name="platform/external/mmc-utils" path="external/mmc-utils"/>
   <project groups="pdk" name="platform/external/mockftpserver" path="external/mockftpserver"/>
   <project groups="pdk" name="platform/external/mockito" path="external/mockito"/>
@@ -381,6 +378,7 @@
   <project groups="qcom,default" name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project groups="qcom_wlan" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project groups="pdk" name="platform/hardware/ril" path="hardware/ril"/>
+  <project name="platform/hardware/stm" path="hardware/stm"/>
   <project groups="pdk" name="platform/libcore" path="libcore"/>
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper"/>
   <project groups="generic_fs" name="platform/ndk" path="ndk"/>
@@ -443,7 +441,6 @@
   <project groups="pdk" name="platform/packages/apps/Test/connectivity" path="packages/apps/Test/connectivity"/>
   <project groups="pdk-fs" name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings"/>
   <project groups="pdk-fs" name="platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail"/>
-  <project name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker"/>
   <project name="platform/packages/experimental" path="packages/experimental"/>
   <project groups="pdk-fs" name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME"/>
   <project groups="pdk-fs" name="platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn"/>
@@ -532,17 +529,20 @@
   <project name="platform/vendor/qcom-opensource/dpm" path="vendor/qcom/opensource/dpm"/>
   <project name="platform/vendor/qcom-opensource/fm" path="vendor/qcom/opensource/fm"/>
   <project name="platform/vendor/qcom-opensource/fst-manager" path="vendor/qcom/opensource/fst-manager"/>
-  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="vendor/qcom/opensource/kernel-tests"/>
   <project name="platform/vendor/qcom-opensource/location" path="vendor/qcom/opensource/location"/>
   <project name="platform/vendor/qcom-opensource/mmc-utils" path="vendor/qcom/opensource/mmc-utils"/>
   <project name="platform/vendor/qcom-opensource/rcs-service" path="vendor/qcom/opensource/rcs-service"/>
   <project name="platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe"/>
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services"/>
   <project name="platform/vendor/qcom-opensource/tools" path="vendor/qcom/opensource/tools"/>
-  <project name="platform/vendor/qcom-opensource/wlan/prima" path="vendor/qcom/opensource/wlan/prima"/>
-  <project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" path="vendor/qcom/opensource/wlan/qcacld-2.0"/>
+  <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="vendor/qcom/opensource/wlan/fw-api"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="vendor/qcom/opensource/wlan/qcacld-3.0"/>
   <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="vendor/qcom/opensource/wlan/utils/sigma-dut"/>
-  <project name="platform/vendor/qcom/cobalt" path="device/qcom/msmcobalt"/>
+  <project name="platform/vendor/qcom/cobalt" path="device/qcom/msm8998"/>
+  <project name="platform/vendor/qcom/cobalt_32" path="device/qcom/msm8998_32"/>
+  <project name="platform/vendor/qcom/falcon_32" path="device/qcom/sdm660_32"/>
+  <project name="platform/vendor/qcom/falcon_64" path="device/qcom/sdm660_64"/>
   <project name="platform/vendor/qcom/thorium_32" path="device/qcom/msm8937_32"/>
   <project name="platform/vendor/qcom/thorium_64" path="device/qcom/msm8937_64"/>
   <project name="platform/vendor/qcom/thulium" path="device/qcom/msm8996"/>
