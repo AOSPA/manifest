@@ -328,7 +328,7 @@
   <project groups="pdk" name="platform/external/zlib" path="external/zlib"/>
   <project groups="pdk" name="platform/external/zopfli" path="external/zopfli"/>
   <project groups="pdk" name="platform/external/zxing" path="external/zxing"/>
-  <project groups="pdk" name="platform/frameworks/av" path="frameworks/av"/>
+  <!-- <project groups="pdk" name="platform/frameworks/av" path="frameworks/av"/> -->
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base"/>
   <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc"/>
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker"/>
