@@ -83,6 +83,7 @@
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/PackageInstaller" name="AOSPA/android_packages_apps_PackageInstaller" remote="aospa" groups="aospa" />
   <project path="packages/apps/ParanoidHub" name="AOSPA/android_packages_apps_ParanoidHub" remote="aospa" groups="aospa" />
+  <project path="packages/apps/ParanoidPapers" name="AOSPA/android_packages_apps_ParanoidPapers" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/PhoneCommon" name="AOSPA/android_packages_apps_PhoneCommon" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Settings" />
