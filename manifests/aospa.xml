@@ -19,7 +19,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="AOSPA/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="aospa" clone-depth="1"/>
 
   <!-- Compatibility layer -->
-  <project name="platform/external/mm-dash" path="external/mm-dash" revision="refs/tags/LA.UM.5.6.r1-04300-89xx.0" groups="aospa" />
+  <project name="platform/external/mm-dash" path="external/mm-dash" revision="refs/tags/LA.UM.5.6.r1-04600-89xx.0" groups="aospa" />
 
   <!-- Hardware -->
   <remove-project name="device/qcom/common" />
