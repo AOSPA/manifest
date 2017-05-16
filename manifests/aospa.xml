@@ -112,6 +112,10 @@
   <project path="external/jemalloc" name="AOSPA/android_external_jemalloc" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/sqlite" />
   <project path="external/sqlite" name="AOSPA/android_external_sqlite" remote="aospa" groups="aospa" />
+  <remove-project name="platform/external/webp" />
+  <project path="external/webp" name="AOSPA/android_external_webp" remote="aospa" groups="aospa" />
+  <remove-project name="platform/external/webrtc" />
+  <project path="external/webrtc" name="AOSPA/android_external_webrtc" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/zlib" />
   <project path="external/zlib" name="AOSPA/android_external_zlib" remote="aospa" groups="aospa" />
 
