@@ -34,6 +34,8 @@
   <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="aospa" />
   <remove-project name="platform/hardware/broadcom/libbt" />
   <project path="hardware/broadcom/libbt" name="AOSPA/android_hardware_broadcom_libbt" remote="aospa" groups="aospa" />
+  <remove-project name="platform/hardware/broadcom/wlan" />
+  <project path="hardware/broadcom/wlan" name="AOSPA/android_hardware_broadcom_wlan" remote="aospa" groups="aospa" />
 
   <!-- Native -->
   <remove-project name="platform/bionic" />
