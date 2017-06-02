@@ -62,6 +62,8 @@
   <project path="frameworks/rs" name="AOSPA/android_frameworks_rs" remote="aospa" groups="aospa" />
 
   <!-- Packages -->
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <project path="packages/apps/Bluetooth" name="AOSPA/android_packages_apps_Bluetooth" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Calendar" name="AOSPA/android_packages_apps_Calendar" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Camera2" />
