@@ -137,7 +137,7 @@
   <project path="system/extras" name="AOSPA/android_system_extras" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/media" />
   <project path="system/media" name="AOSPA/android_system_media" remote="aospa" groups="aospa" />
-  <remote-project name="platform/system/netd" />
+  <remove-project name="platform/system/netd" />
   <project path="system/netd" name="AOSPA/android_system_netd" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="AOSPA/android_system_sepolicy" remote="aospa" groups="aospa" />
