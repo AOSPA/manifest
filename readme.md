@@ -170,7 +170,7 @@ keep it to 50 characters when possible as it is used in various logs, including 
 
 ## Working on translations ##
 
-Comming soon!
+Coming soon!
 
 ## Using our assets ##
 
