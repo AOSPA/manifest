@@ -78,6 +78,8 @@
   <project path="packages/apps/ExactCalculator" name="AOSPA/android_packages_apps_ExactCalculator" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/Launcher3" name="AOSPA/android_packages_apps_Launcher3" remote="aospa" groups="aospa" />
+  <remove-project name="platform/packages/apps/Mms" />
+  <project path="packages/apps/Mms" name="AOSPA/android_packages_apps_Mms" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SoundRecorder" name="AOSPA/android_packages_apps_SoundRecorder" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
@@ -103,6 +105,8 @@
   <project path="external/e2fsprogs" name="AOSPA/android_external_e2fsprogs" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/f2fs-tools" />
   <project path="external/f2fs-tools" name="AOSPA/android_external_f2fs-tools" remote="aospa" groups="aospa" />
+  <remove-project name="platform/external/iproute2" />
+  <project path="external/iproute2" name="AOSPA/android_external_iproute2" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/vulkan-validation-layers" />
   <project path="external/vulkan-validation-layers" name="AOSPA/android_external_vulkan-validation-layers" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/libnfc-nci" />
@@ -135,6 +139,8 @@
   <project path="system/extras" name="AOSPA/android_system_extras" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/media" />
   <project path="system/media" name="AOSPA/android_system_media" remote="aospa" groups="aospa" />
+  <remove-project name="platform/system/netd" />
+  <project path="system/netd" name="AOSPA/android_system_netd" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="AOSPA/android_system_sepolicy" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/vold" />
