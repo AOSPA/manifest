@@ -152,6 +152,7 @@
   </project>
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
   <project path="vendor/qcom/opensource/bluetooth" name="AOSPA/android_vendor_qcom_opensource_bluetooth" remote="aospa" groups="aospa" />
+  <project path="vendor/blobscript" name="AOSPA/android_vendor_blobscript" remote="aospa" groups="aospa" />
 
   <!-- Darwin -->
   <project path="prebuilts/clang/darwin-x86/host/3.6" name="platform/prebuilts/clang/darwin-x86/host/3.6" groups="darwin" remote="aosp" clone-depth="1"/>
