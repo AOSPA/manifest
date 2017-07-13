@@ -99,6 +99,8 @@
   <project path="packages/apps/WallpaperPicker" name="platform/packages/apps/WallpaperPicker" remote="aosp" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/LatinIME" name="AOSPA/android_packages_inputmethods_LatinIME" remote="aospa" groups="aospa" />
+  <remove-project name="platform/packages/apps/CarrierConfig" />
+  <project name="android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" remote="aospa" groups="aospa" />
 
   <!-- External -->
   <remove-project name="platform/external/e2fsprogs" />
