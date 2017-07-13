@@ -68,6 +68,8 @@
   <project path="packages/apps/Calendar" name="AOSPA/android_packages_apps_Calendar" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Camera2" />
   <project path="packages/apps/Camera2" name="AOSPA/android_packages_apps_Camera2" remote="aospa" groups="aospa" />
+  <remove-project name="platform/packages/apps/CarrierConfig" />
+  <project path="packages/apps/CarrierConfig" name="AOSPA/android_packages_apps_CarrierConfig" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Contacts" />
   <project path="packages/apps/Contacts" name="AOSPA/android_packages_apps_Contacts" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/ContactsCommon" />
