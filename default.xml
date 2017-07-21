@@ -6,12 +6,17 @@
            fetch="https://android.googlesource.com"/>
 
   <remote  name="private"
-           fetch="ssh://git@git.aospa.co/AOSPA"/>
+           fetch="ssh://git@git.paranoidandroid.co/ParanoidAndroid"/>
 
   <remote  name="aospa"
            fetch=".."
            review="gerrit.aospa.co"
            revision="nougat-mr2"/>
+    
+  <remote  name="pa"
+           fetch=".."
+           review="gerrit.paranoidandroid.co"
+           revision="oreo-mr1"/>
 
   <remote  name="caf"
            fetch="git://codeaurora.org/quic/la"
@@ -551,6 +556,6 @@
   <project name="toolchain/binutils"/>
 
   <!-- Paranoid Android additions -->
-  <include name="manifests/aospa.xml"/>
+  <include name="manifests/paranoidandroid.xml"/>
 
 </manifest>

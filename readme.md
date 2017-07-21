@@ -41,7 +41,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/AOSPA/manifest -b nougat-mr2
+$ repo init -u https://github.com/ParanoidAndroid/manifest -b oreo-mr2
 ```
 
 ### Downloading the source tree ###
@@ -69,7 +69,7 @@ a large change that spans across multiple projects.
 ```bash
 # Specify one or more projects by either name or path
 
-# For example, enter AOSPA/android_frameworks_base or
+# For example, enter ParanoidAndroid/android_frameworks_base or
 # frameworks/base to sync the frameworks/base repository
 
 $ repo sync PROJECT
@@ -92,7 +92,7 @@ $ ./rom-build.sh DEVICE
 
 We're open source and patches are always welcome!
 
-You can see the status of all patches at [Gerrit Code Review](https://gerrit.aospa.co/).
+You can see the status of all patches at [Gerrit Code Review](https://gerrit.paranoidandroid.co/).
 
 ### Following the standard workflow ###
 
@@ -101,11 +101,11 @@ You can see the status of all patches at [Gerrit Code Review](https://gerrit.aos
 $ cd WORKSPACE
 
 # Create a new branch on the specific project you are going to work on
-# For example, `repo start fix-clock AOSPA/android_frameworks_base`
-$ repo start BRANCH AOSPA/PROJECT
+# For example, `repo start fix-clock ParanoidAndroid/android_frameworks_base`
+$ repo start BRANCH ParanoidAndroid/PROJECT
 # You can also use the project path in place of the project name.
 # The PROJECT_DIR is the portion after the android_ prefix on
-# the AOSPA Github.  For example, android_frameworks_base translates
+# the ParanoidAndroid Github.  For example, android_frameworks_base translates
 # into the directory frameworks/base.
 # This applies to all repo commands that reference projects.
 $ repo start BRANCH PROJECT_DIR
@@ -122,7 +122,7 @@ $ git commit -a -s
 
 # Upload your changes
 $ cd WORKSPACE
-$ repo upload AOSPA/PROJECT
+$ repo upload ParanoidAndroid/PROJECT
 # or
 $ repo upload PROJECT_DIR
 ```
@@ -140,7 +140,7 @@ $ git add -A
 $ git commit -a -s
 
 # Upload your changes
-$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/nougat-mr2
+$ git push ssh://USERNAME@gerrit.paranoidandroid.co:29418/ParanoidAndroid/PROJECT HEAD:refs/for/oreo-mr1
 ```
 
 ### Making additional changes ###
@@ -191,6 +191,6 @@ you are free to share the originals and/or the modified work. However, you are n
 to use the assets for commercial purposes and you must provide attribution at all times which
 means you have to include a short note about the license used (CC BY-NC 4.0), the original
 author/authors (Paranoid Android Project or AOSPA) and inform about any changes that have been
-made. A link to the [website](http://aospa.co/) should usually be included as well.
+made. A link to the [website](http://paranoidandroid.co/) should usually be included as well.
 
 You can reach the full legal text at http://creativecommons.org/licenses/by-nc/4.0/
