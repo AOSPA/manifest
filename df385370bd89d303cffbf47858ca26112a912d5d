@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1238aeb2_284fcc8b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2017-07-22T02:39:26Z",
+      "side": 1,
+      "message": "that\u0027s what she said",
+      "revId": "df385370bd89d303cffbf47858ca26112a912d5d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
