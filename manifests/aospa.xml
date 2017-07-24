@@ -82,6 +82,8 @@
   <project path="packages/apps/Launcher3" name="AOSPA/android_packages_apps_Launcher3" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Mms" />
   <project path="packages/apps/Mms" name="AOSPA/android_packages_apps_Mms" remote="aospa" groups="aospa" />
+  <remove-project name="platform/packages/apps/MusicFX" />
+  <project path="packages/apps/MusicFX" name="AOSPA/android_packages_apps_MusicFX" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SoundRecorder" name="AOSPA/android_packages_apps_SoundRecorder" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
