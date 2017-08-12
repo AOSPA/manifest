@@ -109,6 +109,8 @@
   <project path="external/e2fsprogs" name="AOSPA/android_external_e2fsprogs" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/f2fs-tools" />
   <project path="external/f2fs-tools" name="AOSPA/android_external_f2fs-tools" remote="aospa" groups="aospa" />
+  <remove-project name="platform/external/gemmlowp" />
+  <project path="external/gemmlowp" name="AOSPA/android_external_gemmlowp" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/iproute2" />
   <project path="external/iproute2" name="AOSPA/android_external_iproute2" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/vulkan-validation-layers" />
