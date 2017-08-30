@@ -41,7 +41,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/AOSPA/manifest -b nougat-mr2
+$ repo init -u https://github.com/AOSPA/manifest -b oreo
 ```
 
 ### Downloading the source tree ###
@@ -140,7 +140,7 @@ $ git add -A
 $ git commit -a -s
 
 # Upload your changes
-$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/nougat-mr2
+$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/oreo
 ```
 
 ### Making additional changes ###
@@ -170,7 +170,10 @@ keep it to 50 characters when possible as it is used in various logs, including 
 
 ## Working on translations ##
 
-Comming soon!
+If you want to help on translating PA to your desired language(s), you can use Crowdin
+which provides an easy interface to submit translations.
+
+For accessing PA´s Crowdin, visit http://crowdin.aospa.co.
 
 ## Using our assets ##
 
