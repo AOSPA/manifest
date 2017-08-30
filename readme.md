@@ -41,7 +41,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/AOSPA/manifest -b nougat-mr2
+$ repo init -u https://github.com/AOSPA/manifest -b oreo
 ```
 
 ### Downloading the source tree ###
@@ -140,7 +140,7 @@ $ git add -A
 $ git commit -a -s
 
 # Upload your changes
-$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/nougat-mr2
+$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/oreo
 ```
 
 ### Making additional changes ###
@@ -170,7 +170,11 @@ keep it to 50 characters when possible as it is used in various logs, including 
 
 ## Working on translations ##
 
-Comming soon!
+If you want to help on translating PA specific features and stuff for your desired language(s) we
+have switched to Crowdin tool, which allows in an easy way and with a proper graphic design to 
+translate the strings and get Paranoid Android ready and usable in all the possible languages.
+
+For accessing PA´s Crowdin, you can do it at http://crowdin.aospa.co
 
 ## Using our assets ##
 
