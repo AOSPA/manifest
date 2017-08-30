@@ -72,8 +72,6 @@
   <project path="packages/apps/CarrierConfig" name="AOSPA/android_packages_apps_CarrierConfig" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Contacts" />
   <project path="packages/apps/Contacts" name="AOSPA/android_packages_apps_Contacts" remote="aospa" groups="aospa" />
-  <remove-project name="platform/packages/apps/ContactsCommon" />
-  <project path="packages/apps/ContactsCommon" name="AOSPA/android_packages_apps_ContactsCommon" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/DeskClock" name="AOSPA/android_packages_apps_DeskClock" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/ExactCalculator" />
@@ -115,8 +113,6 @@
   <project path="external/iproute2" name="AOSPA/android_external_iproute2" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/vulkan-validation-layers" />
   <project path="external/vulkan-validation-layers" name="AOSPA/android_external_vulkan-validation-layers" remote="aospa" groups="aospa" />
-  <remove-project name="platform/external/libnfc-nci" />
-  <project path="external/libnfc-nci" name="AOSPA/android_external_libnfc-nci" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/libunwind_llvm" />
   <project path="external/libunwind_llvm" name="AOSPA/android_external_libunwind_llvm" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/libjpeg-turbo" />
@@ -202,14 +198,9 @@
   <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut"/>
   <remove-project name="platform/vendor/qcom/cobalt"/>
-  <remove-project name="platform/vendor/qcom/cobalt_32"/>
   <remove-project name="platform/vendor/qcom/falcon_32"/>
   <remove-project name="platform/vendor/qcom/falcon_64"/>
-  <remove-project name="platform/vendor/qcom/thorium_32"/>
-  <remove-project name="platform/vendor/qcom/thorium_64"/>
   <remove-project name="platform/vendor/qcom/thulium"/>
-  <remove-project name="platform/vendor/qcom/titanium_32"/>
-  <remove-project name="platform/vendor/qcom/titanium_64"/>
   <remove-project name="platform/hardware/qcom/audio"/>
   <remove-project name="platform/hardware/qcom/camera"/>
   <remove-project name="platform/hardware/qcom/display"/>
