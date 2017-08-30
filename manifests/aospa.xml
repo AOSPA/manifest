@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Manifest -->
-  <project path="manifest" name="AOSPA/manifest" remote="aospa" groups="aospa" />
+  <project path="manifest" name="AOSPA/manifest" remote="aospa" />
 
   <!-- Build repositories -->
   <remove-project name="platform/build" />
-  <project path="build" name="AOSPA/android_build" remote="aospa" groups="aospa" >
+  <project path="build/make" name="AOSPA/android_build" remote="aospa" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <remove-project name="platform/build/kati" />
-  <project path="build/kati" name="AOSPA/android_build_kati" remote="aospa" groups="aospa" />
+  <project path="build/kati" name="AOSPA/android_build_kati" remote="aospa" />
+  <remove-project name="platform/build/soong" />
+  <project path="build/soong" name="AOSPA/android_build_soong" remote="aospa" />
 
   <project path="vendor/qcom/sdclang-3.8/linux-x86" name="proprietary_vendor_qcom_sdclang-3.8_linux-x86" remote="blobs"/>
 
@@ -18,171 +20,164 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="AOSPA/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="aospa" clone-depth="1"/>
 
-  <!-- Compatibility layer -->
-  <project name="platform/external/mm-dash" path="external/mm-dash" revision="refs/tags/LA.UM.5.6.r1-04700-89xx.0" groups="aospa" />
-
   <!-- Hardware -->
   <remove-project name="device/qcom/common" />
-  <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="aospa" groups="aospa" />
+  <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="aospa" />
   <remove-project name="device/qcom/sepolicy" />
-  <project path="device/qcom/sepolicy" name="AOSPA/android_device_qcom_sepolicy" remote="aospa" groups="aospa" />
+  <project path="device/qcom/sepolicy" name="AOSPA/android_device_qcom_sepolicy" remote="aospa" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
-  <project path="hardware/qcom/bootctrl" name="AOSPA/android_hardware_qcom_bootctrl" remote="aospa" groups="aospa" />
+  <project path="hardware/qcom/bootctrl" name="AOSPA/android_hardware_qcom_bootctrl" remote="aospa" />
   <remove-project name="platform/hardware/qcom/bt"/>
-  <project path="hardware/qcom/bt" name="AOSPA/android_hardware_qcom_bt" remote="aospa" groups="aospa" />
+  <project path="hardware/qcom/bt" name="AOSPA/android_hardware_qcom_bt" remote="aospa" />
   <remove-project name="platform/hardware/ril" />
-  <project path="hardware/ril" name="AOSPA/android_hardware_ril" remote="aospa" groups="aospa" />
+  <project path="hardware/ril" name="AOSPA/android_hardware_ril" remote="aospa" />
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="aospa" />
   <remove-project name="platform/hardware/broadcom/libbt" />
-  <project path="hardware/broadcom/libbt" name="AOSPA/android_hardware_broadcom_libbt" remote="aospa" groups="aospa" />
+  <project path="hardware/broadcom/libbt" name="AOSPA/android_hardware_broadcom_libbt" remote="aospa" />
   <remove-project name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/broadcom/wlan" name="AOSPA/android_hardware_broadcom_wlan" remote="aospa" groups="aospa" />
+  <project path="hardware/broadcom/wlan" name="AOSPA/android_hardware_broadcom_wlan" remote="aospa" />
 
   <!-- Native -->
   <remove-project name="platform/bionic" />
-  <project path="bionic" name="AOSPA/android_bionic" remote="aospa" groups="aospa" />
+  <project path="bionic" name="AOSPA/android_bionic" remote="aospa" />
   <remove-project name="platform/art" />
-  <project path="art" name="AOSPA/android_art" remote="aospa" groups="aospa" />
+  <project path="art" name="AOSPA/android_art" remote="aospa" />
   <remove-project name="platform/libcore" />
   <project path="libcore" name="AOSPA/android_libcore" remote="aospa" groups="aospa"/>
 
   <!-- Frameworks -->
   <!-- <remove-project name="platform/frameworks/av" /> -->
-  <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" groups="aospa" />
+  <remove-project name="platform/frameworks/av" />
+  <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" />
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" groups="aospa" />
+  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" />
   <remove-project name="platform/frameworks/native" />
-  <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" groups="aospa" />
+  <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
-  <project path="frameworks/opt/net/wifi" name="AOSPA/android_frameworks_opt_net_wifi" remote="aospa" groups="aospa" />
+  <project path="frameworks/opt/net/wifi" name="AOSPA/android_frameworks_opt_net_wifi" remote="aospa" />
   <remove-project name="platform/frameworks/opt/telephony" />
-  <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="aospa" groups="aospa" />
+  <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="aospa" />
   <remove-project name="platform/frameworks/rs" />
-  <project path="frameworks/rs" name="AOSPA/android_frameworks_rs" remote="aospa" groups="aospa" />
+  <project path="frameworks/rs" name="AOSPA/android_frameworks_rs" remote="aospa" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Bluetooth" name="AOSPA/android_packages_apps_Bluetooth" remote="aospa" groups="aospa" />
+  <project path="packages/apps/Bluetooth" name="AOSPA/android_packages_apps_Bluetooth" remote="aospa" />
   <remove-project name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Calendar" name="AOSPA/android_packages_apps_Calendar" remote="aospa" groups="aospa" />
+  <project path="packages/apps/Calendar" name="AOSPA/android_packages_apps_Calendar" remote="aospa" />
   <remove-project name="platform/packages/apps/Camera2" />
-  <project path="packages/apps/Camera2" name="AOSPA/android_packages_apps_Camera2" remote="aospa" groups="aospa" />
+  <project path="packages/apps/Camera2" name="AOSPA/android_packages_apps_Camera2" remote="aospa" />
   <remove-project name="platform/packages/apps/CarrierConfig" />
-  <project path="packages/apps/CarrierConfig" name="AOSPA/android_packages_apps_CarrierConfig" remote="aospa" groups="aospa" />
+  <project path="packages/apps/CarrierConfig" name="AOSPA/android_packages_apps_CarrierConfig" remote="aospa" />
   <remove-project name="platform/packages/apps/Contacts" />
-  <project path="packages/apps/Contacts" name="AOSPA/android_packages_apps_Contacts" remote="aospa" groups="aospa" />
-  <remove-project name="platform/packages/apps/ContactsCommon" />
-  <project path="packages/apps/ContactsCommon" name="AOSPA/android_packages_apps_ContactsCommon" remote="aospa" groups="aospa" />
+  <project path="packages/apps/Contacts" name="AOSPA/android_packages_apps_Contacts" remote="aospa" />
   <remove-project name="platform/packages/apps/DeskClock" />
-  <project path="packages/apps/DeskClock" name="AOSPA/android_packages_apps_DeskClock" remote="aospa" groups="aospa" />
+  <project path="packages/apps/DeskClock" name="AOSPA/android_packages_apps_DeskClock" remote="aospa" />
   <remove-project name="platform/packages/apps/ExactCalculator" />
-  <project path="packages/apps/ExactCalculator" name="AOSPA/android_packages_apps_ExactCalculator" remote="aospa" groups="aospa" />
+  <project path="packages/apps/ExactCalculator" name="AOSPA/android_packages_apps_ExactCalculator" remote="aospa" />
   <remove-project name="platform/packages/apps/Launcher3" />
-  <project path="packages/apps/Launcher3" name="AOSPA/android_packages_apps_Launcher3" remote="aospa" groups="aospa" />
+  <project path="packages/apps/Launcher3" name="AOSPA/android_packages_apps_Launcher3" remote="aospa" />
   <remove-project name="platform/packages/apps/Mms" />
-  <project path="packages/apps/Mms" name="AOSPA/android_packages_apps_Mms" remote="aospa" groups="aospa" />
+  <project path="packages/apps/Mms" name="AOSPA/android_packages_apps_Mms" remote="aospa" />
   <remove-project name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/MusicFX" name="AOSPA/android_packages_apps_MusicFX" remote="aospa" groups="aospa" />
+  <project path="packages/apps/MusicFX" name="AOSPA/android_packages_apps_MusicFX" remote="aospa" />
   <remove-project name="platform/packages/apps/SoundRecorder" />
-  <project path="packages/apps/SoundRecorder" name="AOSPA/android_packages_apps_SoundRecorder" remote="aospa" groups="aospa" />
+  <project path="packages/apps/SoundRecorder" name="AOSPA/android_packages_apps_SoundRecorder" remote="aospa" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/PackageInstaller" name="AOSPA/android_packages_apps_PackageInstaller" remote="aospa" groups="aospa" />
-  <project path="packages/apps/ParanoidHub" name="AOSPA/android_packages_apps_ParanoidHub" remote="aospa" groups="aospa" />
-  <project path="packages/apps/ParanoidPapers" name="AOSPA/android_packages_apps_ParanoidPapers" remote="aospa" groups="aospa" />
+  <project path="packages/apps/PackageInstaller" name="AOSPA/android_packages_apps_PackageInstaller" remote="aospa" />
+  <project path="packages/apps/ParanoidHub" name="AOSPA/android_packages_apps_ParanoidHub" remote="aospa" />
+  <project path="packages/apps/ParanoidPapers" name="AOSPA/android_packages_apps_ParanoidPapers" remote="aospa" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
-  <project path="packages/apps/PhoneCommon" name="AOSPA/android_packages_apps_PhoneCommon" remote="aospa" groups="aospa" />
+  <project path="packages/apps/PhoneCommon" name="AOSPA/android_packages_apps_PhoneCommon" remote="aospa" />
   <remove-project name="platform/packages/apps/Settings" />
-  <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" groups="aospa" />
+  <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" />
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
-  <project path="packages/apps/SnapdragonCamera" name="AOSPA/android_packages_apps_SnapdragonCamera" remote="aospa" groups="aospa" />
+  <project path="packages/apps/SnapdragonCamera" name="AOSPA/android_packages_apps_SnapdragonCamera" remote="aospa" />
   <remove-project name="platform/packages/apps/SnapdragonGallery" />
-  <project path="packages/apps/SnapdragonGallery" name="AOSPA/android_packages_apps_SnapdragonGallery" remote="aospa" groups="aospa" />
+  <project path="packages/apps/SnapdragonGallery" name="AOSPA/android_packages_apps_SnapdragonGallery" remote="aospa" />
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
-  <project path="packages/apps/SnapdragonMusic" name="AOSPA/android_packages_apps_SnapdragonMusic" remote="aospa" groups="aospa" />
-  <project path="packages/apps/WallpaperPicker" name="platform/packages/apps/WallpaperPicker" remote="aosp" />
+  <project path="packages/apps/SnapdragonMusic" name="AOSPA/android_packages_apps_SnapdragonMusic" remote="aospa" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
-  <project path="packages/inputmethods/LatinIME" name="AOSPA/android_packages_inputmethods_LatinIME" remote="aospa" groups="aospa" />
+  <project path="packages/inputmethods/LatinIME" name="AOSPA/android_packages_inputmethods_LatinIME" remote="aospa" />
 
   <!-- External -->
   <remove-project name="platform/external/e2fsprogs" />
-  <project path="external/e2fsprogs" name="AOSPA/android_external_e2fsprogs" remote="aospa" groups="aospa" />
+  <project path="external/e2fsprogs" name="AOSPA/android_external_e2fsprogs" remote="aospa" />
   <remove-project name="platform/external/f2fs-tools" />
-  <project path="external/f2fs-tools" name="AOSPA/android_external_f2fs-tools" remote="aospa" groups="aospa" />
+  <project path="external/f2fs-tools" name="AOSPA/android_external_f2fs-tools" remote="aospa" />
   <remove-project name="platform/external/gemmlowp" />
-  <project path="external/gemmlowp" name="AOSPA/android_external_gemmlowp" remote="aospa" groups="aospa" />
+  <project path="external/gemmlowp" name="AOSPA/android_external_gemmlowp" remote="aospa" />
   <remove-project name="platform/external/iproute2" />
-  <project path="external/iproute2" name="AOSPA/android_external_iproute2" remote="aospa" groups="aospa" />
+  <project path="external/iproute2" name="AOSPA/android_external_iproute2" remote="aospa" />
   <remove-project name="platform/external/vulkan-validation-layers" />
-  <project path="external/vulkan-validation-layers" name="AOSPA/android_external_vulkan-validation-layers" remote="aospa" groups="aospa" />
-  <remove-project name="platform/external/libnfc-nci" />
-  <project path="external/libnfc-nci" name="AOSPA/android_external_libnfc-nci" remote="aospa" groups="aospa" />
+  <project path="external/vulkan-validation-layers" name="AOSPA/android_external_vulkan-validation-layers" remote="aospa" />
   <remove-project name="platform/external/libunwind_llvm" />
-  <project path="external/libunwind_llvm" name="AOSPA/android_external_libunwind_llvm" remote="aospa" groups="aospa" />
+  <project path="external/libunwind_llvm" name="AOSPA/android_external_libunwind_llvm" remote="aospa" />
   <remove-project name="platform/external/libjpeg-turbo" />
-  <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="aospa" groups="aospa" />
+  <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="aospa" />
   <remove-project name="platform/external/libpng" />
-  <project path="external/libpng" name="AOSPA/android_external_libpng" remote="aospa" groups="aospa" />
+  <project path="external/libpng" name="AOSPA/android_external_libpng" remote="aospa" />
   <remove-project name="platform/external/skia" />
-  <project path="external/skia" name="AOSPA/android_external_skia" remote="aospa" groups="aospa" />
+  <project path="external/skia" name="AOSPA/android_external_skia" remote="aospa" />
   <remove-project name="platform/external/jemalloc" />
-  <project path="external/jemalloc" name="AOSPA/android_external_jemalloc" remote="aospa" groups="aospa" />
+  <project path="external/jemalloc" name="AOSPA/android_external_jemalloc" remote="aospa" />
   <remove-project name="platform/external/sqlite" />
-  <project path="external/sqlite" name="AOSPA/android_external_sqlite" remote="aospa" groups="aospa" />
+  <project path="external/sqlite" name="AOSPA/android_external_sqlite" remote="aospa" />
   <remove-project name="platform/external/webp" />
-  <project path="external/webp" name="AOSPA/android_external_webp" remote="aospa" groups="aospa" />
+  <project path="external/webp" name="AOSPA/android_external_webp" remote="aospa" />
   <remove-project name="platform/external/webrtc" />
-  <project path="external/webrtc" name="AOSPA/android_external_webrtc" remote="aospa" groups="aospa" />
+  <project path="external/webrtc" name="AOSPA/android_external_webrtc" remote="aospa" />
   <remove-project name="platform/external/zlib" />
-  <project path="external/zlib" name="AOSPA/android_external_zlib" remote="aospa" groups="aospa" />
+  <project path="external/zlib" name="AOSPA/android_external_zlib" remote="aospa" />
 
   <!-- System -->
   <remove-project name="platform/system/bt" />
-  <project path="system/bt" name="AOSPA/android_system_bt" remote="aospa" groups="aospa" />
+  <project path="system/bt" name="AOSPA/android_system_bt" remote="aospa" />
   <remove-project name="platform/system/core" />
-  <project path="system/core" name="AOSPA/android_system_core" remote="aospa" groups="aospa" />
+  <project path="system/core" name="AOSPA/android_system_core" remote="aospa" />
   <remove-project name="platform/system/extras" />
-  <project path="system/extras" name="AOSPA/android_system_extras" remote="aospa" groups="aospa" />
+  <project path="system/extras" name="AOSPA/android_system_extras" remote="aospa" />
   <remove-project name="platform/system/media" />
-  <project path="system/media" name="AOSPA/android_system_media" remote="aospa" groups="aospa" />
+  <project path="system/media" name="AOSPA/android_system_media" remote="aospa" />
   <remove-project name="platform/system/netd" />
-  <project path="system/netd" name="AOSPA/android_system_netd" remote="aospa" groups="aospa" />
+  <project path="system/netd" name="AOSPA/android_system_netd" remote="aospa" />
   <remove-project name="platform/system/sepolicy" />
-  <project path="system/sepolicy" name="AOSPA/android_system_sepolicy" remote="aospa" groups="aospa" />
+  <project path="system/sepolicy" name="AOSPA/android_system_sepolicy" remote="aospa" />
   <remove-project name="platform/system/vold" />
-  <project path="system/vold" name="AOSPA/android_system_vold" remote="aospa" groups="aospa" />
+  <project path="system/vold" name="AOSPA/android_system_vold" remote="aospa" />
 
   <!-- Vendor -->
-  <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="aospa" groups="aospa" >
+  <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="aospa" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
-  <project path="vendor/qcom/opensource/bluetooth" name="AOSPA/android_vendor_qcom_opensource_bluetooth" remote="aospa" groups="aospa" />
-  <project path="vendor/blobscript" name="AOSPA/android_vendor_blobscript" remote="aospa" groups="aospa" />
+  <project path="vendor/qcom/opensource/bluetooth" name="AOSPA/android_vendor_qcom_opensource_bluetooth" remote="aospa" />
+  <project path="vendor/blobscript" name="AOSPA/android_vendor_blobscript" remote="aospa" />
 
   <!-- Darwin -->
-  <project path="prebuilts/clang/darwin-x86/host/3.6" name="platform/prebuilts/clang/darwin-x86/host/3.6" groups="darwin" remote="aosp" clone-depth="1"/>
-  <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" groups="darwin" remote="aosp" clone-depth="1"/>
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="AOSPA/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="darwin,arm" remote="aospa" clone-depth="1"/>
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="AOSPA/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" groups="darwin,arm" remote="aospa" clone-depth="1"/>
-  <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="darwin" remote="aosp" clone-depth="1"/>
-  <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="darwin,mips" remote="aosp" clone-depth="1"/>
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="darwin,x86" remote="aosp" clone-depth="1"/>
-  <project path="prebuilts/gdb/darwin-x86" name="platform/prebuilts/gdb/darwin-x86" groups="darwin" remote="aosp" clone-depth="1"/>
-  <project path="prebuilts/go/darwin-x86" name="platform/prebuilts/go/darwin-x86" groups="darwin,tradefed" remote="aosp" clone-depth="1"/>
-  <project path="prebuilts/ninja/darwin-x86" name="platform/prebuilts/ninja/darwin-x86" groups="darwin,tradefed" remote="aosp" clone-depth="1"/>
-  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" remote="aosp" clone-depth="1"/>
+  <project path="prebuilts/clang/darwin-x86/host/3.6" name="platform/prebuilts/clang/darwin-x86/host/3.6" remote="aosp" clone-depth="1"/>
+  <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" remote="aosp" clone-depth="1"/>
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="AOSPA/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="aospa" clone-depth="1"/>
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="AOSPA/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="aospa" clone-depth="1"/>
+  <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" remote="aosp" clone-depth="1"/>
+  <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" remote="aosp" clone-depth="1"/>
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" remote="aosp" clone-depth="1"/>
+  <project path="prebuilts/gdb/darwin-x86" name="platform/prebuilts/gdb/darwin-x86" remote="aosp" clone-depth="1"/>
+  <project path="prebuilts/go/darwin-x86" name="platform/prebuilts/go/darwin-x86" remote="aosp" clone-depth="1"/>
+  <project path="prebuilts/ninja/darwin-x86" name="platform/prebuilts/ninja/darwin-x86" remote="aosp" clone-depth="1"/>
+  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" remote="aosp" clone-depth="1"/>
 
   <!-- Telephony -->
   <remove-project name="platform/packages/apps/Dialer" />
-  <project path="packages/apps/Dialer" name="AOSPA/android_packages_apps_Dialer" remote="aospa" groups="aospa" />
+  <project path="packages/apps/Dialer" name="AOSPA/android_packages_apps_Dialer" remote="aospa" />
   <remove-project name="platform/packages/services/Telephony" />
-  <project path="packages/services/Telephony" name="AOSPA/android_packages_services_Telephony" remote="aospa" groups="aospa" />
+  <project path="packages/services/Telephony" name="AOSPA/android_packages_services_Telephony" remote="aospa" />
   <remove-project name="platform/packages/services/Telecomm" />
-  <project path="packages/services/Telecomm" name="AOSPA/android_packages_services_Telecomm" remote="aospa" groups="aospa" />
+  <project path="packages/services/Telecomm" name="AOSPA/android_packages_services_Telecomm" remote="aospa" />
 
   <!-- Substratum -->
-  <project path="packages/apps/ThemeInterfacer" name="AOSPA/android_packages_apps_ThemeInterfacer" remote="aospa" groups="aospa" />
+  <project path="packages/apps/ThemeInterfacer" name="AOSPA/android_packages_apps_ThemeInterfacer" remote="aospa" />
 
   <!-- Obsolete Packages -->
   <remove-project name="abl/tianocore/edk2"/>
@@ -202,14 +197,9 @@
   <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut"/>
   <remove-project name="platform/vendor/qcom/cobalt"/>
-  <remove-project name="platform/vendor/qcom/cobalt_32"/>
   <remove-project name="platform/vendor/qcom/falcon_32"/>
   <remove-project name="platform/vendor/qcom/falcon_64"/>
-  <remove-project name="platform/vendor/qcom/thorium_32"/>
-  <remove-project name="platform/vendor/qcom/thorium_64"/>
   <remove-project name="platform/vendor/qcom/thulium"/>
-  <remove-project name="platform/vendor/qcom/titanium_32"/>
-  <remove-project name="platform/vendor/qcom/titanium_64"/>
   <remove-project name="platform/hardware/qcom/audio"/>
   <remove-project name="platform/hardware/qcom/camera"/>
   <remove-project name="platform/hardware/qcom/display"/>
@@ -224,5 +214,21 @@
   <remove-project name="device/generic/goldfish-opengl"/>
   <remove-project name="platform/packages/apps/Launcher2"/>
 
+  <!-- Car Packages -->
+  <remove-project name="device/generic/car"/>
+  <remove-project name="platform/packages/apps/Car/Dialer"/>
+  <remove-project name="platform/packages/apps/Car/Hvac"/>
+  <remove-project name="platform/packages/apps/Car/LatinIME"/>
+  <remove-project name="platform/packages/apps/Car/LensPicker"/>
+  <remove-project name="platform/packages/apps/Car/LocalMediaPlayer"/>
+  <remove-project name="platform/packages/apps/Car/Media"/>
+  <remove-project name="platform/packages/apps/Car/Messenger"/>
+  <remove-project name="platform/packages/apps/Car/Overview"/>
+  <remove-project name="platform/packages/apps/Car/Radio"/>
+  <remove-project name="platform/packages/apps/Car/Settings"/>
+  <remove-project name="platform/packages/apps/Car/Stream"/>
+  <remove-project name="platform/packages/apps/Car/SystemUpdater"/>
+  <remove-project name="platform/packages/apps/Car/UserManagement"/>
+  <remove-project name="platform/packages/apps/Car/libs"/>
 </manifest>
 
