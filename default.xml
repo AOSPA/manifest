@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           revision="refs/tags/android-7.1.2_r33"
+           revision="refs/tags/android-8.0.0_r4"
            fetch="https://android.googlesource.com"/>
 
   <remote  name="private"
@@ -11,7 +11,7 @@
   <remote  name="aospa"
            fetch=".."
            review="gerrit.aospa.co"
-           revision="nougat-mr2"/>
+           revision="oreo"/>
 
   <remote  name="caf"
            fetch="git://codeaurora.org/quic/la"
@@ -27,7 +27,7 @@
   <remote  name="github-ssh"
            fetch="ssh://git@github.com"/>
 
-  <default revision="refs/tags/LA.UM.5.8.r1-02700-8x98.0"
+  <default revision="refs/tags/LA.UM.6.4.r1-03200-8x98.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>
