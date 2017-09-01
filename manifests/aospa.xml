@@ -88,14 +88,13 @@
   <project path="packages/apps/SoundRecorder" name="AOSPA/android_packages_apps_SoundRecorder" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/PackageInstaller" name="AOSPA/android_packages_apps_PackageInstaller" remote="aospa" groups="aospa" />
+  <project path="packages/apps/ParanoidCamera" name="AOSPA/android_packages_apps_ParanoidCamera" remote="aospa" groups="aospa" />
   <project path="packages/apps/ParanoidHub" name="AOSPA/android_packages_apps_ParanoidHub" remote="aospa" groups="aospa" />
   <project path="packages/apps/ParanoidPapers" name="AOSPA/android_packages_apps_ParanoidPapers" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/PhoneCommon" name="AOSPA/android_packages_apps_PhoneCommon" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" groups="aospa" />
-  <remove-project name="platform/packages/apps/SnapdragonCamera" />
-  <project path="packages/apps/SnapdragonCamera" name="AOSPA/android_packages_apps_SnapdragonCamera" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/SnapdragonGallery" />
   <project path="packages/apps/SnapdragonGallery" name="AOSPA/android_packages_apps_SnapdragonGallery" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
@@ -223,6 +222,7 @@
   <remove-project name="platform/packages/apps/CMFileManager"/>
   <remove-project name="device/generic/goldfish-opengl"/>
   <remove-project name="platform/packages/apps/Launcher2"/>
+  <remove-project name="platform/packages/apps/SnapdragonCamera" />
 
 </manifest>
 
