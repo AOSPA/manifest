@@ -579,12 +579,12 @@
   <project name="platform/tools/tradefederation" path="tools/tradefederation/core"/>
   <project name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib"/>
   <project name="platform/vendor/codeaurora/telephony" path="vendor/codeaurora/telephony"/>
-  <project name="platform/vendor/nxp/interfaces/opensource/nfc" path="vendor/nxp/interfaces/opensource/nfc">
+  <project name="platform/vendor/nxp/interfaces/opensource/nfc" path="vendor/nxp/interfaces/opensource/nfc" revision="LA.UM.6.4.r1-03800-8x98.0">
     <linkfile dest="vendor/nxp/interfaces/Android.bp" src="prop_pickup.bp"/>
   </project>
-  <project name="platform/vendor/nxp/opensource/external/libnfc-nci" path="vendor/nxp/opensource/external/libnfc-nci"/>
-  <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/frameworks"/>
-  <project name="platform/vendor/nxp/opensource/packages/apps/Nfc" path="vendor/nxp/opensource/packages/apps/Nfc"/>
+  <project name="platform/vendor/nxp/opensource/external/libnfc-nci" path="vendor/nxp/opensource/external/libnfc-nci" revision="LA.UM.6.4.r1-03800-8x98.0"/>
+  <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/frameworks" revision="LA.UM.6.4.r1-03800-8x98.0"/>
+  <project name="platform/vendor/nxp/opensource/packages/apps/Nfc" path="vendor/nxp/opensource/packages/apps/Nfc" revision="LA.UM.6.4.r1-03800-8x98.0"/>
   <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth"/>
   <project name="platform/vendor/qcom-opensource/bluetooth_ext" path="vendor/qcom/opensource/bluetooth_ext"/>
   <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr"/>
