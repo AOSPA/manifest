@@ -183,6 +183,14 @@
   <remove-project name="platform/packages/services/Telecomm" />
   <project path="packages/services/Telecomm" name="AOSPA/android_packages_services_Telecomm" remote="aospa" groups="aospa" />
 
+  <!-- NXP NFC -->
+  <remove-project name="platform/vendor/nxp/opensource/external/libnfc-nci" />
+  <project name="platform/vendor/nxp/opensource/external/libnfc-nci" path="vendor/nxp/opensource/external/libnfc-nci" revision="refs/tags/LA.UM.6.4.r1-03800-8x98.0" />
+  <remove-project name="platform/vendor/nxp/opensource/frameworks" />
+  <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/frameworks" revision="refs/tags/LA.UM.6.4.r1-03800-8x98.0" />
+  <remove-project name="platform/vendor/nxp/opensource/packages/apps/Nfc" />
+  <project name="platform/vendor/nxp/opensource/packages/apps/Nfc" path="vendor/nxp/opensource/packages/apps/Nfc" revision="refs/tags/LA.UM.6.4.r1-03800-8x98.0" />
+
   <!-- Obsolete Packages -->
   <remove-project name="abl/tianocore/edk2"/>
   <remove-project name="device/generic/arm64"/>
