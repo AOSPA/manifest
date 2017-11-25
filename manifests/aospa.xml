@@ -27,6 +27,7 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="AOSPA/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="aospa" groups="aospa" clone-depth="1"/>
   <project path="vendor/qcom/sdclang-4.0/linux-x86" name="proprietary_vendor_qcom_sdclang-4.0_linux-x86" remote="blobs"/>
+  <project path="vendor/qcom/sdclang-3.9/linux-x86" name="proprietary_vendor_qcom_sdclang-3.9_linux-x86" remote="blobs"/>
 
   <!-- Hardware -->
   <remove-project name="device/qcom/common" />
