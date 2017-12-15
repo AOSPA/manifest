@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           revision="refs/tags/android-8.0.0_r36"
+           revision="refs/tags/android-8.1.0_r3"
            fetch="https://android.googlesource.com"/>
 
   <remote  name="private"
@@ -11,7 +11,7 @@
   <remote  name="aospa"
            fetch=".."
            review="gerrit.aospa.co"
-           revision="oreo"/>
+           revision="oreo-mr1"/>
 
   <remote  name="caf"
            fetch="git://codeaurora.org/quic/la"
@@ -27,7 +27,7 @@
   <remote  name="github-ssh"
            fetch="ssh://git@github.com"/>
 
-  <default revision="refs/tags/LA.UM.6.4.r1-05200-8x98.0"
+  <default revision="refs/tags/LA.UM.6.4.r1-05700-8x98.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>
@@ -45,6 +45,7 @@
   <project name="device/generic/mini-emulator-x86"/>
   <project name="device/generic/mini-emulator-x86_64"/>
   <project name="device/generic/qemu"/>
+  <project name="device/generic/uml"/>
   <project name="device/generic/x86"/>
   <project name="device/generic/x86_64"/>
   <project name="device/google/accessory/arduino"/>
@@ -77,6 +78,7 @@
     <linkfile dest="Android.bp" src="root.bp"/>
     <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
   </project>
+  <project name="platform/compatibility/cdd" path="compatibility/cdd"/>
   <project name="platform/cts" path="cts"/>
   <project name="platform/dalvik" path="dalvik"/>
   <project name="platform/developers/build" path="developers/build"/>
@@ -103,11 +105,13 @@
   <project name="platform/external/arm-neon-tests" path="external/arm-neon-tests"/>
   <project name="platform/external/autotest" path="external/autotest"/>
   <project name="platform/external/avb" path="external/avb"/>
+  <project name="platform/external/bart" path="external/bart"/>
   <project name="platform/external/bison" path="external/bison"/>
   <project name="platform/external/blktrace" path="external/blktrace"/>
   <project name="platform/external/boringssl" path="external/boringssl"/>
   <project name="platform/external/bouncycastle" path="external/bouncycastle"/>
   <project name="platform/external/brctl" path="external/brctl"/>
+  <project name="platform/external/brotli" path="external/brotli"/>
   <project name="platform/external/bsdiff" path="external/bsdiff"/>
   <project name="platform/external/bzip2" path="external/bzip2"/>
   <project name="platform/external/c-ares" path="external/c-ares"/>
@@ -126,6 +130,7 @@
   <project name="platform/external/dagger2" path="external/dagger2"/>
   <project name="platform/external/deqp" path="external/deqp"/>
   <project name="platform/external/desugar" path="external/desugar"/>
+  <project name="platform/external/devlib" path="external/devlib"/>
   <project name="platform/external/dexmaker" path="external/dexmaker"/>
   <project name="platform/external/dhcpcd-6.8.2" path="external/dhcpcd-6.8.2"/>
   <project name="platform/external/dlmalloc" path="external/dlmalloc"/>
@@ -136,6 +141,7 @@
   <project name="platform/external/drm_gralloc" path="external/drm_gralloc"/>
   <project name="platform/external/drm_hwcomposer" path="external/drm_hwcomposer"/>
   <project name="platform/external/droiddriver" path="external/droiddriver"/>
+  <project name="platform/external/drrickorang" path="external/drrickorang"/>
   <project name="platform/external/dtc" path="external/dtc"/>
   <project name="platform/external/e2fsprogs" path="external/e2fsprogs"/>
   <project name="platform/external/easymock" path="external/easymock"/>
@@ -161,6 +167,7 @@
   <project name="platform/external/gemmlowp" path="external/gemmlowp"/>
   <project name="platform/external/giflib" path="external/giflib"/>
   <project name="platform/external/glide" path="external/glide"/>
+  <project name="platform/external/google-api-services-storage" path="external/google-api-services-storage"/>
   <project name="platform/external/google-benchmark" path="external/google-benchmark"/>
   <project name="platform/external/google-breakpad" path="external/google-breakpad"/>
   <project name="platform/external/google-fonts/carrois-gothic-sc" path="external/google-fonts/carrois-gothic-sc"/>
@@ -203,6 +210,7 @@
   <project name="platform/external/kmod" path="external/kmod"/>
   <project name="platform/external/ksoap2" path="external/ksoap2"/>
   <project name="platform/external/libavc" path="external/libavc"/>
+  <project name="platform/external/libbackup" path="external/libbackup"/>
   <project name="platform/external/libbrillo" path="external/libbrillo"/>
   <project name="platform/external/libcap" path="external/libcap"/>
   <project name="platform/external/libcap-ng" path="external/libcap-ng"/>
@@ -218,6 +226,7 @@
   <project name="platform/external/libese" path="external/libese"/>
   <project name="platform/external/libevent" path="external/libevent"/>
   <project name="platform/external/libexif" path="external/libexif"/>
+  <project name="platform/external/libgdx" path="external/libgdx"/>
   <project name="platform/external/libgsm" path="external/libgsm"/>
   <project name="platform/external/libhevc" path="external/libhevc"/>
   <project name="platform/external/libjpeg-turbo" path="external/libjpeg-turbo"/>
@@ -240,17 +249,19 @@
   <project name="platform/external/libunwind_llvm" path="external/libunwind_llvm"/>
   <project name="platform/external/libusb" path="external/libusb"/>
   <project name="platform/external/libusb-compat" path="external/libusb-compat"/>
-  <project name="platform/external/libutf" path="external/libutf"/>
   <project name="platform/external/libvncserver" path="external/libvncserver"/>
   <project name="platform/external/libvorbis" path="external/libvorbis"/>
   <project name="platform/external/libvpx" path="external/libvpx"/>
   <project name="platform/external/libvterm" path="external/libvterm"/>
+  <project name="platform/external/libweave" path="external/libweave"/>
   <project name="platform/external/libxml2" path="external/libxml2"/>
   <project name="platform/external/libyuv" path="external/libyuv"/>
   <project name="platform/external/linux-kselftest" path="external/linux-kselftest"/>
+  <project name="platform/external/lisa" path="external/lisa"/>
   <project name="platform/external/littlemock" path="external/littlemock"/>
   <project name="platform/external/lld" path="external/lld"/>
   <project name="platform/external/llvm" path="external/llvm"/>
+  <project name="platform/external/lmfit" path="external/lmfit"/>
   <project name="platform/external/ltp" path="external/ltp"/>
   <project name="platform/external/lz4" path="external/lz4"/>
   <project name="platform/external/lzma" path="external/lzma"/>
@@ -287,9 +298,13 @@
   <project name="platform/external/pcre" path="external/pcre"/>
   <project name="platform/external/pdfium" path="external/pdfium"/>
   <project name="platform/external/piex" path="external/piex"/>
+  <project name="platform/external/ply" path="external/ply"/>
   <project name="platform/external/ppp" path="external/ppp"/>
   <project name="platform/external/proguard" path="external/proguard"/>
   <project name="platform/external/protobuf" path="external/protobuf"/>
+  <project name="platform/external/python/cpython2" path="external/python/cpython2"/>
+  <project name="platform/external/python/cpython3" path="external/python/cpython3"/>
+  <project name="platform/external/r8" path="external/r8"/>
   <project name="platform/external/regex-re2" path="external/regex-re2"/>
   <project name="platform/external/replicaisland" path="external/replicaisland"/>
   <project name="platform/external/rmi4utils" path="external/rmi4utils"/>
@@ -329,9 +344,11 @@
   <project name="platform/external/toolchain-utils" path="external/toolchain-utils"/>
   <project name="platform/external/toybox" path="external/toybox"/>
   <project name="platform/external/tpm2" path="external/tpm2"/>
+  <project name="platform/external/trappy" path="external/trappy"/>
   <project name="platform/external/tremolo" path="external/tremolo"/>
   <project name="platform/external/unicode" path="external/unicode"/>
   <project name="platform/external/universal-tween-engine" path="external/universal-tween-engine"/>
+  <project name="platform/external/v4l2_codec2" path="external/v4l2_codec2"/>
   <project name="platform/external/v8" path="external/v8"/>
   <project name="platform/external/valgrind" path="external/valgrind"/>
   <project name="platform/external/vboot_reference" path="external/vboot_reference"/>
@@ -339,6 +356,7 @@
   <project name="platform/external/vogar" path="external/vogar"/>
   <project name="platform/external/volley" path="external/volley"/>
   <project name="platform/external/vulkan-validation-layers" path="external/vulkan-validation-layers"/>
+  <project name="platform/external/walt" path="external/walt"/>
   <project name="platform/external/webp" path="external/webp"/>
   <project name="platform/external/webrtc" path="external/webrtc"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
@@ -347,6 +365,7 @@
   <project name="platform/external/xmlrpcpp" path="external/xmlrpcpp"/>
   <project name="platform/external/xmlwriter" path="external/xmlwriter"/>
   <project name="platform/external/xmp_toolkit" path="external/xmp_toolkit"/>
+  <project name="platform/external/xz-embedded" path="external/xz-embedded"/>
   <project name="platform/external/zlib" path="external/zlib"/>
   <project name="platform/external/zopfli" path="external/zopfli"/>
   <project name="platform/external/zxing" path="external/zxing"/>
@@ -358,6 +377,7 @@
   <project name="platform/frameworks/data-binding" path="frameworks/data-binding"/>
   <project name="platform/frameworks/ex" path="frameworks/ex"/>
   <project name="platform/frameworks/hardware/interfaces" path="frameworks/hardware/interfaces"/>
+  <project name="platform/frameworks/layoutlib" path="frameworks/layoutlib"/>
   <project name="platform/frameworks/minikin" path="frameworks/minikin"/>
   <project name="platform/frameworks/ml" path="frameworks/ml"/>
   <project name="platform/frameworks/multidex" path="frameworks/multidex"/>
@@ -373,6 +393,7 @@
   <project name="platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon"/>
   <project name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet"/>
   <project name="platform/frameworks/opt/net/ims" path="frameworks/opt/net/ims"/>
+  <project name="platform/frameworks/opt/net/lowpan" path="frameworks/opt/net/lowpan"/>
   <project name="platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip"/>
   <project name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi"/>
   <project name="platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer"/>
@@ -474,6 +495,8 @@
   <project name="platform/packages/apps/Tag" path="packages/apps/Tag"/>
   <project name="platform/packages/apps/Terminal" path="packages/apps/Terminal"/>
   <project name="platform/packages/apps/Test/connectivity" path="packages/apps/Test/connectivity"/>
+  <project name="platform/packages/apps/TimeZoneData" path="packages/apps/TimeZoneData"/>
+  <project name="platform/packages/apps/TimeZoneUpdater" path="packages/apps/TimeZoneUpdater"/>
   <project name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings"/>
   <project name="platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail"/>
   <project name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker"/>
@@ -524,6 +547,7 @@
   <project name="platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86"/>
   <project name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86"/>
   <project name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin"/>
+  <project name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8"/>
   <project name="platform/prebuilts/libs/libedit" path="prebuilts/libs/libedit"/>
   <project name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android"/>
   <project name="platform/prebuilts/maven_repo/bumptech" path="prebuilts/maven_repo/bumptech"/>
@@ -557,6 +581,7 @@
   <project name="platform/system/qcom" path="vendor/qcom/opensource/softap"/>
   <project name="platform/system/security" path="system/security"/>
   <project name="platform/system/sepolicy" path="system/sepolicy"/>
+  <project name="platform/system/timezone" path="system/timezone"/>
   <project name="platform/system/tools/aidl" path="system/tools/aidl"/>
   <project name="platform/system/tools/hidl" path="system/tools/hidl"/>
   <project name="platform/system/tpm" path="system/tpm"/>
