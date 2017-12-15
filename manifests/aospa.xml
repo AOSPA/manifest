@@ -50,10 +50,10 @@
   <project path="hardware/broadcom/wlan" name="AOSPA/android_hardware_broadcom_wlan" remote="aospa" groups="aospa" />
 
   <!-- Native -->
-  <remove-project name="platform/bionic" />
-  <project path="bionic" name="AOSPA/android_bionic" remote="aospa" groups="aospa" />
   <remove-project name="platform/art" />
   <project path="art" name="AOSPA/android_art" remote="aospa" groups="aospa" />
+  <remove-project name="platform/bionic" />
+  <project path="bionic" name="AOSPA/android_bionic" remote="aospa" groups="aospa" />
   <remove-project name="platform/libcore" />
   <project path="libcore" name="AOSPA/android_libcore" remote="aospa" groups="aospa" />
 
@@ -185,14 +185,6 @@
   <project path="packages/services/Telephony" name="AOSPA/android_packages_services_Telephony" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/services/Telecomm" />
   <project path="packages/services/Telecomm" name="AOSPA/android_packages_services_Telecomm" remote="aospa" groups="aospa" />
-
-  <!-- NXP NFC -->
-  <remove-project name="platform/vendor/nxp/opensource/external/libnfc-nci" />
-  <project name="platform/vendor/nxp/opensource/external/libnfc-nci" path="vendor/nxp/opensource/external/libnfc-nci" revision="refs/tags/LA.UM.6.4.r1-03800-8x98.0" />
-  <remove-project name="platform/vendor/nxp/opensource/frameworks" />
-  <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/frameworks" revision="refs/tags/LA.UM.6.4.r1-03800-8x98.0" />
-  <remove-project name="platform/vendor/nxp/opensource/packages/apps/Nfc" />
-  <project name="platform/vendor/nxp/opensource/packages/apps/Nfc" path="vendor/nxp/opensource/packages/apps/Nfc" revision="refs/tags/LA.UM.6.4.r1-03800-8x98.0" />
 
   <!-- Obsolete Packages -->
   <remove-project name="abl/tianocore/edk2"/>
