@@ -50,10 +50,10 @@
   <project path="hardware/broadcom/wlan" name="AOSPA/android_hardware_broadcom_wlan" remote="aospa" groups="aospa" />
 
   <!-- Native -->
-  <remove-project name="platform/bionic" />
-  <project path="bionic" name="AOSPA/android_bionic" remote="aospa" groups="aospa" />
   <remove-project name="platform/art" />
   <project path="art" name="AOSPA/android_art" remote="aospa" groups="aospa" />
+  <remove-project name="platform/bionic" />
+  <project path="bionic" name="AOSPA/android_bionic" remote="aospa" groups="aospa" />
   <remove-project name="platform/libcore" />
   <project path="libcore" name="AOSPA/android_libcore" remote="aospa" groups="aospa" />
 
