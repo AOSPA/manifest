@@ -164,6 +164,8 @@
   </project>
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
   <project path="vendor/qcom/opensource/bluetooth" name="AOSPA/android_vendor_qcom_opensource_bluetooth" remote="aospa" groups="aospa" />
+  <remove-project name="platform/system/qcom" />
+  <project path="vendor/qcom/opensource/softap" name="AOSPA/android_vendor_qcom_opensource_softap" remote="aospa" groups="aospa" />
   <project path="vendor/blobscript" name="AOSPA/android_vendor_blobscript" remote="aospa" groups="aospa" />
 
   <!-- Darwin -->
