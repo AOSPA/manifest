@@ -147,6 +147,8 @@
   <project path="system/core" name="AOSPA/android_system_core" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/extras" />
   <project path="system/extras" name="AOSPA/android_system_extras" remote="aospa" groups="aospa" />
+  <remove-project name="platform/system/keymaster" />
+  <project path="system/keymaster" name="AOSPA/android_system_keymaster" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/media" />
   <project path="system/media" name="AOSPA/android_system_media" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/netd" />
