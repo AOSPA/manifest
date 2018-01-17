@@ -194,6 +194,10 @@
   <remove-project name="platform/vendor/nxp/opensource/packages/apps/Nfc" />
   <project name="platform/vendor/nxp/opensource/packages/apps/Nfc" path="vendor/nxp/opensource/packages/apps/Nfc" revision="refs/tags/LA.UM.6.4.r1-03800-8x98.0" />
 
+  <!-- Recovery -->
+  <remove-project name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="AOSPA/android_bootable_recovery" remote="aospa" groups="aospa" />
+
   <!-- Obsolete Packages -->
   <remove-project name="abl/tianocore/edk2"/>
   <remove-project name="device/generic/arm64"/>
