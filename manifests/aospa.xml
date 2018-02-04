@@ -145,6 +145,8 @@
   <project path="system/bt" name="AOSPA/android_system_bt" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/core" />
   <project path="system/core" name="AOSPA/android_system_core" remote="aospa" groups="aospa" />
+  <remove-project name="platform/system/connectivity/wificond" />
+  <project path="system/connectivity/wificond" name="AOSPA/android_system_connectivity_wificond" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/extras" />
   <project path="system/extras" name="AOSPA/android_system_extras" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/media" />
