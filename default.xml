@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           revision="refs/tags/android-7.1.2_r33"
+           revision="refs/tags/android-7.1.2_r36"
            fetch="https://android.googlesource.com"/>
 
   <remote  name="private"
