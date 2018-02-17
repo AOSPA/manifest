@@ -79,7 +79,7 @@
     <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
   </project>
   <project name="platform/compatibility/cdd" path="compatibility/cdd"/>
-  <project name="platform/cts" path="cts"/>
+  <project name="platform/cts" path="cts" clone-depth="1"/>
   <project name="platform/dalvik" path="dalvik"/>
   <project name="platform/developers/build" path="developers/build"/>
   <project name="platform/developers/demos" path="developers/demos"/>
@@ -103,7 +103,7 @@
   <project name="platform/external/apache-xml" path="external/apache-xml"/>
   <project name="platform/external/archive-patcher" path="external/archive-patcher"/>
   <project name="platform/external/arm-neon-tests" path="external/arm-neon-tests"/>
-  <project name="platform/external/autotest" path="external/autotest"/>
+  <project name="platform/external/autotest" path="external/autotest" clone-depth="1"/>
   <project name="platform/external/avb" path="external/avb"/>
   <project name="platform/external/bart" path="external/bart"/>
   <project name="platform/external/bison" path="external/bison"/>
@@ -119,7 +119,7 @@
   <project name="platform/external/cblas" path="external/cblas"/>
   <project name="platform/external/chromium-libpac" path="external/chromium-libpac"/>
   <project name="platform/external/chromium-trace" path="external/chromium-trace"/>
-  <project name="platform/external/chromium-webview" path="external/chromium-webview"/>
+  <project name="platform/external/chromium-webview" path="external/chromium-webview" clone-depth="1" />
   <project name="platform/external/clang" path="external/clang"/>
   <project name="platform/external/cmockery" path="external/cmockery"/>
   <project name="platform/external/compiler-rt" path="external/compiler-rt"/>
@@ -226,7 +226,7 @@
   <project name="platform/external/libese" path="external/libese"/>
   <project name="platform/external/libevent" path="external/libevent"/>
   <project name="platform/external/libexif" path="external/libexif"/>
-  <project name="platform/external/libgdx" path="external/libgdx"/>
+  <project name="platform/external/libgdx" path="external/libgdx" clone-depth="1"/>
   <project name="platform/external/libgsm" path="external/libgsm"/>
   <project name="platform/external/libhevc" path="external/libhevc"/>
   <project name="platform/external/libjpeg-turbo" path="external/libjpeg-turbo"/>
@@ -256,7 +256,7 @@
   <project name="platform/external/libweave" path="external/libweave"/>
   <project name="platform/external/libxml2" path="external/libxml2"/>
   <project name="platform/external/libyuv" path="external/libyuv"/>
-  <project name="platform/external/linux-kselftest" path="external/linux-kselftest"/>
+  <project name="platform/external/linux-kselftest" path="external/linux-kselftest" clone-depth="1"/>
   <project name="platform/external/lisa" path="external/lisa"/>
   <project name="platform/external/littlemock" path="external/littlemock"/>
   <project name="platform/external/lld" path="external/lld"/>
@@ -377,7 +377,7 @@
   <project name="platform/frameworks/data-binding" path="frameworks/data-binding"/>
   <project name="platform/frameworks/ex" path="frameworks/ex"/>
   <project name="platform/frameworks/hardware/interfaces" path="frameworks/hardware/interfaces"/>
-  <project name="platform/frameworks/layoutlib" path="frameworks/layoutlib"/>
+  <project name="platform/frameworks/layoutlib" path="frameworks/layoutlib" clone-depth="1"/>
   <project name="platform/frameworks/minikin" path="frameworks/minikin"/>
   <project name="platform/frameworks/ml" path="frameworks/ml"/>
   <project name="platform/frameworks/multidex" path="frameworks/multidex"/>
@@ -608,7 +608,7 @@
     <linkfile dest="vendor/nxp/interfaces/Android.bp" src="prop_pickup.bp"/>
   </project>
   <project name="platform/vendor/nxp/opensource/external/libnfc-nci" path="vendor/nxp/opensource/external/libnfc-nci"/>
-  <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/frameworks"/>
+  <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/frameworks" clone-depth="1"/>
   <project name="platform/vendor/nxp/opensource/packages/apps/Nfc" path="vendor/nxp/opensource/packages/apps/Nfc"/>
   <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth"/>
   <project name="platform/vendor/qcom-opensource/bluetooth_ext" path="vendor/qcom/opensource/bluetooth_ext"/>
