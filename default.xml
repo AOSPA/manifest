@@ -27,7 +27,7 @@
   <remote  name="github-ssh"
            fetch="ssh://git@github.com"/>
 
-  <default revision="refs/tags/LA.UM.6.4.r1-06500-8x98.0"
+  <default revision="refs/tags/LA.UM.6.4.r1-06900-8x98.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>
