@@ -166,6 +166,8 @@
   </project>
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
   <project path="vendor/qcom/opensource/bluetooth" name="AOSPA/android_vendor_qcom_opensource_bluetooth" remote="aospa" groups="aospa" />
+  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr"/>
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="AOSPA/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aospa" groups="aospa" />
   <project path="vendor/blobscript" name="AOSPA/android_vendor_blobscript" remote="aospa" groups="aospa" />
 
   <!-- Darwin -->
@@ -218,7 +220,6 @@
   <remove-project name="platform/hardware/qcom/display"/>
   <remove-project name="platform/hardware/qcom/gps"/>
   <remove-project name="platform/hardware/qcom/media"/>
-  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr"/>
   <remove-project name="device/sample"/>
   <remove-project name="kernel/msm-4.4"/>
   <remove-project name="device/generic/x86_64"/>
