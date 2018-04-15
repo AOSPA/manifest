@@ -19,7 +19,7 @@
 
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario"
-           revision="oreo"/>
+           revision="oreo-mr1"/>
 
   <remote  name="github"
            fetch="https://github.com"/>
