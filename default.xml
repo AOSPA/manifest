@@ -27,7 +27,7 @@
   <remote  name="github-ssh"
            fetch="ssh://git@github.com"/>
 
-  <default revision="refs/tags/LA.UM.6.4.r1-08000-8x98.0"
+  <default revision="refs/tags/LA.BR.1.3.7-04410-8976.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>
@@ -421,7 +421,6 @@
   <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project name="platform/hardware/qcom/thermal" path="hardware/qcom/thermal"/>
-  <project name="platform/hardware/qcom/vr" path="hardware/qcom/vr"/>
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project name="platform/hardware/ril" path="hardware/ril"/>
   <project name="platform/hardware/stm" path="hardware/stm"/>
@@ -616,7 +615,6 @@
   <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices"/>
   <project name="platform/vendor/qcom-opensource/dpm" path="vendor/qcom/opensource/dpm"/>
   <project name="platform/vendor/qcom-opensource/fm" path="vendor/qcom/opensource/fm"/>
-  <project name="platform/vendor/qcom-opensource/fst-manager" path="vendor/qcom/opensource/fst-manager"/>
   <project name="platform/vendor/qcom-opensource/interfaces" path="vendor/qcom/opensource/interfaces">
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
