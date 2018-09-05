@@ -253,7 +253,6 @@
   <project name="platform/external/libvorbis" path="external/libvorbis"/>
   <project name="platform/external/libvpx" path="external/libvpx"/>
   <project name="platform/external/libvterm" path="external/libvterm"/>
-  <project name="platform/external/libweave" path="external/libweave"/>
   <project name="platform/external/libxml2" path="external/libxml2"/>
   <project name="platform/external/libyuv" path="external/libyuv"/>
   <project name="platform/external/linux-kselftest" path="external/linux-kselftest" clone-depth="1"/>
