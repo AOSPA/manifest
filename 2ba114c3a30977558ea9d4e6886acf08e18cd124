@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "162ef8e2_e6c957ce",
+        "filename": "manifests/aospa.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2018-09-19T16:32:50Z",
+      "side": 1,
+      "message": "Update",
+      "range": {
+        "startLine": 23,
+        "startChar": 120,
+        "endLine": 23,
+        "endChar": 135
+      },
+      "revId": "2ba114c3a30977558ea9d4e6886acf08e18cd124",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a42c2653_4431cb7d",
+        "filename": "manifests/aospa.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2018-09-19T16:32:50Z",
+      "side": 1,
+      "message": "Update",
+      "range": {
+        "startLine": 24,
+        "startChar": 120,
+        "endLine": 24,
+        "endChar": 135
+      },
+      "revId": "2ba114c3a30977558ea9d4e6886acf08e18cd124",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
