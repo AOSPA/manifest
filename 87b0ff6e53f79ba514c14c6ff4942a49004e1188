@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0c191002_dc52c587",
+        "filename": "manifests/aospa.xml",
+        "patchSetId": 17
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2018-12-21T11:25:20Z",
+      "side": 1,
+      "message": "Needed for sdm845 build...",
+      "range": {
+        "startLine": 109,
+        "startChar": 2,
+        "endLine": 109,
+        "endChar": 81
+      },
+      "revId": "87b0ff6e53f79ba514c14c6ff4942a49004e1188",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
