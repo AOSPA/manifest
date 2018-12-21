@@ -22,6 +22,24 @@
       "revId": "87b0ff6e53f79ba514c14c6ff4942a49004e1188",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dc3b78cb_e39e4ef6",
+        "filename": "manifests/aospa.xml",
+        "patchSetId": 17
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1000140
+      },
+      "writtenOn": "2018-12-21T11:35:13Z",
+      "side": 1,
+      "message": "\u003e Needed for sdm845 build...\nit should go in pa.dependencies",
+      "parentUuid": "0c191002_dc52c587",
+      "revId": "87b0ff6e53f79ba514c14c6ff4942a49004e1188",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
     }
   ]
 }
