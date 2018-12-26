@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "30596389_5c7a7aae",
+        "filename": "manifests/aospa.xml",
+        "patchSetId": 19
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2018-12-26T08:17:19Z",
+      "side": 1,
+      "message": "https://gerrit.aospa.co/#/c/AOSPA/android_vendor_pa/+/5324/\n\nTODO: Remove",
+      "range": {
+        "startLine": 125,
+        "startChar": 2,
+        "endLine": 125,
+        "endChar": 65
+      },
+      "revId": "dc96070cab795456eb54b04578a9ca0b54e8d25b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
