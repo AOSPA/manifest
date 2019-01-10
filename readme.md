@@ -79,7 +79,7 @@ $ repo sync PROJECT
 
 The bundled builder tool `./rom-build.sh` handles all the building steps for the specified device
 automatically. As the device value, you just feed it with the device codename (for example,
-'hammerhead' for the Nexus 5).
+'beryllium' for the Pocophone F1).
 
 ```bash
 # Go to the root of the source tree...
@@ -140,7 +140,23 @@ $ git add -A
 $ git commit -a -s
 
 # Upload your changes
-$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/oreo-mr1
+$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/pie
+```
+
+### Extra commands for Gerrit ###
+
+```bash
+# If you desire to upload a change as private use the below command
+$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/pie%private
+
+# If you desire to upload a change as W.I.P(Work in Progress) use the below command
+$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/pie%wip
+
+# After that, if you want to make the commit public you can use the UI tools on AOSPA Gerrit website, or use the below command
+$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/pie%remove-private
+
+# If you want to unset the W.I.P status on your commit, you can use UI tools on AOSPA Gerrit website, or use the below command
+$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/pie%ready
 ```
 
 ### Making additional changes ###
