@@ -48,6 +48,7 @@
   <!--
   <project path="packages/apps/ParanoidCamera" name="android_packages_apps_ParanoidCamera" remote="aospa" groups="aospa" />
   -->
+  <project path="packages/apps/ParanoidHub" name="AOSPA/android_packages_apps_ParanoidHub" remote="aospa" groups="aospa" />
   <project path="packages/apps/ParanoidPapers" name="android_packages_apps_ParanoidPapers" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="aospa" groups="aospa" />
