@@ -84,6 +84,9 @@
   <remove-project name="platform/bootable/recovery" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="aospa" groups="aospa" />
 
+  <!-- Darwin -->
+  <project path="prebuilts/go/darwin-x86" name="platform/prebuilts/go/darwin-x86" groups="darwin,pdk,tradefed" clone-depth="1" remote="aosp" />
+
   <!-- Obsolete Packages -->
   <remove-project name="abl/tianocore/edk2"/>
   <remove-project name="device/generic/arm64"/>
