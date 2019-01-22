@@ -27,7 +27,7 @@
   <remote  name="github-ssh"
            fetch="ssh://git@github.com"/>
 
-  <default revision="refs/tags/LA.UM.7.3.r1-06600-sdm845.0"
+  <default revision="refs/tags/LA.UM.7.3.r1-06700-sdm845.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>
@@ -40,7 +40,6 @@
   <project name="device/generic/common"/>
   <project name="device/generic/goldfish"/>
   <project name="device/generic/goldfish-opengl"/>
-  <project name="device/generic/lionhead"/>
   <project name="device/generic/mini-emulator-arm64"/>
   <project name="device/generic/mini-emulator-armv7-a-neon"/>
   <project name="device/generic/mini-emulator-x86"/>
@@ -53,11 +52,13 @@
   <project name="device/google/accessory/demokit"/>
   <project name="device/google/atv"/>
   <project name="device/google/contexthub"/>
+  <project name="device/google/cuttlefish" path="overlays/keystone/device/google/cuttlefish"/>
+  <project name="device/google/cuttlefish_common" path="overlays/keystone/device/google/cuttlefish_common"/>
+  <project name="device/google/cuttlefish_kernel" path="overlays/keystone/device/google/cuttlefish_kernel"/>
   <project name="device/google/muskie"/>
   <project name="device/google/taimen"/>
   <project name="device/google/vrservices"/>
   <project name="device/google/wahoo"/>
-  <project name="device/google/wahoo-kernel"/>
   <project name="device/qcom/common">
     <copyfile dest="build.sh" src="build.sh"/>
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
@@ -264,7 +265,6 @@
   <project name="platform/external/libusb" path="external/libusb"/>
   <project name="platform/external/libusb-compat" path="external/libusb-compat"/>
   <project name="platform/external/libvncserver" path="external/libvncserver"/>
-  <project name="platform/external/libvorbis" path="external/libvorbis"/>
   <project name="platform/external/libvpx" path="external/libvpx"/>
   <project name="platform/external/libvterm" path="external/libvterm"/>
   <project name="platform/external/libxaac" path="external/libxaac"/>
@@ -312,7 +312,6 @@
   <project name="platform/external/okhttp" path="external/okhttp"/>
   <project name="platform/external/one-true-awk" path="external/one-true-awk"/>
   <project name="platform/external/opencv" path="external/opencv"/>
-  <project name="platform/external/openssh" path="external/openssh"/>
   <project name="platform/external/owasp/sanitizer" path="external/owasp/sanitizer"/>
   <project name="platform/external/parameter-framework" path="external/parameter-framework"/>
   <project name="platform/external/pcre" path="external/pcre"/>
@@ -486,7 +485,7 @@
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
   <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
-  <project name="platform/hardware/qcom/thermal" path="hardware/qcom/thermal"/>
+  <project name="platform/hardware/qcom/thermal" path="vendor/qcom/opensource/thermal-hal"/>
   <project name="platform/hardware/qcom/vr" path="hardware/qcom/vr"/>
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project name="platform/hardware/ril" path="hardware/ril"/>
@@ -605,7 +604,6 @@
   <project name="platform/prebuilts/deqp" path="prebuilts/deqp" clone-depth="1"/>
   <project name="platform/prebuilts/devtools" path="prebuilts/devtools" clone-depth="1"/>
   <project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1"/>
-  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" clone-depth="1"/>
   <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1"/>
   <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" clone-depth="1"/>
   <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" clone-depth="1"/>
@@ -658,7 +656,6 @@
   <project name="platform/system/update_engine" path="system/update_engine"/>
   <project name="platform/system/vold" path="system/vold"/>
   <project name="platform/test/framework" path="test/framework"/>
-  <project name="platform/test/sts" path="test/sts"/>
   <project name="platform/test/suite_harness" path="test/suite_harness"/>
   <project name="platform/test/vti/alert" path="test/vti/alert"/>
   <project name="platform/test/vti/dashboard" path="test/vti/dashboard"/>
@@ -685,11 +682,9 @@
   <project name="platform/tools/test/connectivity" path="tools/test/connectivity"/>
   <project name="platform/tools/tradefederation" path="tools/tradefederation/core"/>
   <project name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib"/>
-  <project name="platform/tools/vendor/google_prebuilts/arc" path="tools/vendor/google_prebuilts/arc"/>
   <project name="platform/vendor/codeaurora/packages/apps/Dialer" path="vendor/codeaurora/commonsys/packages/apps/Dialer"/>
   <project name="platform/vendor/codeaurora/telephony" path="vendor/codeaurora/commonsys/telephony"/>
   <project name="platform/vendor/google_easel" path="vendor/google_easel"/>
-  <project name="platform/vendor/google_paintbox" path="vendor/google_paintbox"/>
   <project name="platform/vendor/nxp/interfaces/opensource/nfc" path="vendor/nxp/opensource/interfaces/nfc"/>
   <project name="platform/vendor/nxp/opensource/external/libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci"/>
   <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/commonsys/frameworks" clone-depth="1"/>
