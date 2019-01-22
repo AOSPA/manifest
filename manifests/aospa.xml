@@ -27,6 +27,8 @@
   <!-- Hardware -->
   <remove-project name="device/qcom/common" />
   <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="aospa" groups="aospa" />
+  <remove-project name="platform/hardware/qcom/booctrl"/>
+  <project path="hardware/qcom/booctrl" name="AOSPA/android_hardware_qcom_bootctrl" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/qcom/bt"/>
   <project path="hardware/qcom/bt" name="AOSPA/android_hardware_qcom_bt" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/interfaces" />
