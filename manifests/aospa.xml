@@ -2,11 +2,11 @@
 <manifest>
 
   <!-- Manifest -->
-  <project path="manifest" name="manifest" remote="aospa" groups="aospa" />
+  <project path="manifest" name="AOSPA/manifest" remote="aospa" groups="aospa" />
 
   <!-- Build repositories -->
   <remove-project name="platform/build" />
-  <project path="build/make" name="android_build" remote="aospa" groups="aospa" >
+  <project path="build/make" name="AOSPA/android_build" remote="aospa" groups="aospa" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -16,7 +16,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <remove-project name="platform/build/soong" />
-  <project path="build/soong" name="android_build_soong" remote="aospa" groups="aospa" >
+  <project path="build/soong" name="AOSPA/android_build_soong" remote="aospa" groups="aospa" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -26,63 +26,63 @@
 
   <!-- Hardware -->
   <remove-project name="device/qcom/common" />
-  <project path="device/qcom/common" name="android_device_qcom_common" remote="aospa" groups="aospa" />
+  <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/qcom/bt"/>
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="aospa" groups="aospa" />
+  <project path="hardware/qcom/bt" name="AOSPA/android_hardware_qcom_bt" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/interfaces" />
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="aospa" groups="aospa" />
+  <project path="hardware/interfaces" name="AOSPA/android_hardware_interfaces" remote="aospa" groups="aospa" />
 
   <!-- Native -->
   <remove-project name="platform/bionic" />
-  <project path="bionic" name="android_bionic" remote="aospa" groups="aospa" />
+  <project path="bionic" name="AOSPA/android_bionic" remote="aospa" groups="aospa" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="aospa" groups="aospa" />
+  <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" groups="aospa" />
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="aospa" groups="aospa" />
+  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" groups="aospa" />
   <remove-project name="platform/frameworks/native" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="aospa" groups="aospa" />
+  <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" groups="aospa" />
 
   <!-- Packages -->
   <!--
-  <project path="packages/apps/ParanoidCamera" name="android_packages_apps_ParanoidCamera" remote="aospa" groups="aospa" />
+  <project path="packages/apps/ParanoidCamera" name="AOSPA/android_packages_apps_ParanoidCamera" remote="aospa" groups="aospa" />
   -->
-  <project path="packages/apps/ParanoidPapers" name="android_packages_apps_ParanoidPapers" remote="aospa" groups="aospa" />
+  <project path="packages/apps/ParanoidPapers" name="AOSPA/android_packages_apps_ParanoidPapers" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Settings" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="aospa" groups="aospa" />
+  <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" groups="aospa" />
 
   <!-- External -->
   <remove-project name="platform/external/selinux" />
-  <project path="external/selinux" name="android_external_selinux" remote="aospa" groups="aospa" />
+  <project path="external/selinux" name="AOSPA/android_external_selinux" remote="aospa" groups="aospa" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
-  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="aospa" groups="aospa" />
+  <project path="prebuilts/build-tools" name="AOSPA/android_prebuilts_build-tools" remote="aospa" groups="aospa" />
 
   <!-- System -->
   <remove-project name="platform/system/core" />
-  <project path="system/core" name="android_system_core" remote="aospa" groups="aospa" />
+  <project path="system/core" name="AOSPA/android_system_core" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/sepolicy" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="aospa" groups="aospa" />
+  <project path="system/sepolicy" name="AOSPA/android_system_sepolicy" remote="aospa" groups="aospa" />
 
   <!-- Vendor -->
-  <project path="vendor/pa" name="android_vendor_pa" remote="aospa" groups="aospa" >
+  <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="aospa" groups="aospa" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
   <remove-project name="platform/vendor/codeaurora/telephony" />
-  <project path="vendor/codeaurora/commonsys/telephony" name="android_vendor_codeaurora_commonsys_telephony" remote="aospa" groups="aospa" />
+  <project path="vendor/codeaurora/commonsys/telephony" name="AOSPA/android_vendor_codeaurora_commonsys_telephony" remote="aospa" groups="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
-  <project path="vendor/qcom/opensource/commonsys/bluetooth" name="android_vendor_qcom_opensource_commonsys_bluetooth" remote="aospa" groups="aospa" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth" name="AOSPA/android_vendor_qcom_opensource_commonsys_bluetooth" remote="aospa" groups="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" />
-  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_commonsys_bluetooth_ext" remote="aospa" groups="aospa" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="AOSPA/android_vendor_qcom_opensource_commonsys_bluetooth_ext" remote="aospa" groups="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_commonsys_system_bt" remote="aospa" groups="aospa" />
-  <project path="vendor/blobscript" name="android_vendor_blobscript" remote="aospa" groups="aospa" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="AOSPA/android_vendor_qcom_opensource_commonsys_system_bt" remote="aospa" groups="aospa" />
+  <project path="vendor/blobscript" name="AOSPA/android_vendor_blobscript" remote="aospa" groups="aospa" />
 
   <!-- Recovery -->
   <remove-project name="platform/bootable/recovery" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="aospa" groups="aospa" />
+  <project path="bootable/recovery" name="AOSPA/android_bootable_recovery" remote="aospa" groups="aospa" />
 
   <!-- Obsolete Packages -->
   <remove-project name="abl/tianocore/edk2"/>
