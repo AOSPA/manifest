@@ -9,8 +9,8 @@
            fetch="ssh://git@git.aospa.co/AOSPA"/>
 
   <remote  name="aospa"
-           fetch="https://github.com/AOSPA"
-           review="https://gerrit.aospa.co/"
+           fetch=".."
+           review="gerrit.aospa.co"
            revision="pie"/>
 
   <remote  name="caf"
