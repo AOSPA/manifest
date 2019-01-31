@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5def04b3_5ed3efc6",
+        "filename": "manifests/aospa.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2019-01-31T12:28:51Z",
+      "side": 1,
+      "message": "Please add AOSPA/ on name\u003d\" to match the latest manifest commit merged.",
+      "revId": "063f120fe0b0f9f465fdfdd171eb125fb66f1ffc",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
