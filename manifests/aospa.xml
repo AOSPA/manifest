@@ -59,6 +59,8 @@
   <project path="external/selinux" name="AOSPA/android_external_selinux" remote="aospa" groups="aospa" />
 
   <!-- Prebuilts -->
+  <remove-project name="platform/external/ant-wireless/ant_native" />
+  <project path="external/ant-wireless/ant_native" name="AOSPA/android_external_ant-wireless_ant_native" remote="aospa" groups="aospa" />
   <remove-project name="platform/prebuilts/build-tools" />
   <project path="prebuilts/build-tools" name="AOSPA/android_prebuilts_build-tools" remote="aospa" groups="aospa" />
 
