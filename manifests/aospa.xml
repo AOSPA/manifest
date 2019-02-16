@@ -144,5 +144,4 @@
   <remove-project name="platform/packages/apps/Gallery"/>
   <remove-project name="platform/packages/apps/Launcher2"/>
   <remove-project name="platform/packages/apps/SnapdragonCamera"/>
-  <remove-project name="platform/hardware/qcom/thermal"/>
 </manifest>
