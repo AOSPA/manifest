@@ -45,6 +45,8 @@
   <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" groups="aospa" />
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" groups="aospa" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="aospa" groups="aospa" />
 
   <!-- Packages -->
   <!--
