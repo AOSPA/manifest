@@ -33,6 +33,8 @@
   <project path="hardware/qcom/bt" name="AOSPA/android_hardware_qcom_bt" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/interfaces" />
   <project path="hardware/interfaces" name="AOSPA/android_hardware_interfaces" remote="aospa" groups="aospa" />
+  <remove-project name="platform/hardware/libhardware" />
+  <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="aospa" groups="aospa" />
 
   <!-- Native -->
   <remove-project name="platform/bionic" />
