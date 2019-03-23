@@ -33,6 +33,8 @@
   <project path="hardware/qcom/bt" name="AOSPA/android_hardware_qcom_bt" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/interfaces" />
   <project path="hardware/interfaces" name="AOSPA/android_hardware_interfaces" remote="aospa" groups="aospa" />
+  <remove-project name="platform/hardware/libhardware" />
+  <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="aospa" groups="aospa" />
 
   <!-- Native -->
   <remove-project name="platform/bionic" />
@@ -85,6 +87,8 @@
   <project path="vendor/qcom/opensource/fm" name="AOSPA/android_vendor_qcom-opensource_fm" remote="aospa" groups="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
   <project path="vendor/qcom/opensource/commonsys/fm" name="AOSPA/android_vendor_qcom-opensource_fm-commonsys" remote="aospa" groups="aospa" />
+  <remove-project name="platform/vendor/qcom-opensource/power" />
+  <project path="vendor/qcom/opensource/power" name="AOSPA/android_vendor_qcom-opensource_power" remote="aospa" groups="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="AOSPA/android_vendor_qcom_opensource_commonsys_system_bt" remote="aospa" groups="aospa" />
   <project path="vendor/blobscript" name="AOSPA/android_vendor_blobscript" remote="aospa" groups="aospa" />
