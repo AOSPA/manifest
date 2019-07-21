@@ -37,6 +37,7 @@
   <project path="hardware/interfaces" name="AOSPA/android_hardware_interfaces" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="aospa" groups="aospa" />
+  <project path="hardware/pa/interfaces" name="AOSPA/android_hardware_pa_interfaces" remote="aospa" groups="aospa" />
 
   <!-- Native -->
   <remove-project name="platform/bionic" />
@@ -71,6 +72,9 @@
   <project path="external/ant-wireless/ant_native" name="AOSPA/android_external_ant-wireless_ant_native" remote="aospa" groups="aospa" />
   <remove-project name="platform/prebuilts/build-tools" />
   <project path="prebuilts/build-tools" name="AOSPA/android_prebuilts_build-tools" remote="aospa" groups="aospa" />
+
+  <!-- Sepolicy -->
+  <project path="device/pa/sepolicy" name="AOSPA/android_device_pa_sepolicy" remote="aospa" groups="aospa" />
 
   <!-- System -->
   <remove-project name="platform/system/core" />
