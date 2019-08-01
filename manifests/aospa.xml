@@ -35,6 +35,8 @@
   <project path="hardware/qcom/bt" name="AOSPA/android_hardware_qcom_bt" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/interfaces" />
   <project path="hardware/interfaces" name="AOSPA/android_hardware_interfaces" remote="aospa" groups="aospa" />
+  <remove-project name="platform/hardware/nxp/nfc" />
+  <project path="hardware/nxp/nfc" name="AOSPA/android_hardware_nxp_nfc" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="aospa" groups="aospa" />
   <project path="hardware/pa/interfaces" name="AOSPA/android_hardware_pa_interfaces" remote="aospa" groups="aospa" />
@@ -59,6 +61,8 @@
   -->
   <project path="packages/apps/ParanoidHub" name="AOSPA/android_packages_apps_ParanoidHub" remote="aospa" groups="aospa" />
   <project path="packages/apps/ParanoidPapers" name="AOSPA/android_packages_apps_ParanoidPapers" remote="aospa" groups="aospa" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <project path="packages/apps/Nfc" name="AOSPA/android_packages_apps_Nfc" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" groups="aospa" />
 
