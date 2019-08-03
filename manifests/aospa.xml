@@ -70,6 +70,7 @@
   <remove-project name="platform/external/selinux" />
   <project path="external/selinux" name="AOSPA/android_external_selinux" remote="aospa" groups="aospa" />
   <project path="external/exfat" name="AOSPA/android_external_exfat" remote="aospa" groups="aospa" />
+  <project path="external/libnfc-nxp" name="AOSPA/android_external_libnfc-nxp" remote="aospa" groups="aospa" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/external/ant-wireless/ant_native" />
