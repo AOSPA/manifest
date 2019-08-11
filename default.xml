@@ -27,7 +27,7 @@
   <remote  name="github-ssh"
            fetch="ssh://git@github.com"/>
 
-  <default revision="refs/tags/LA.UM.7.1.r1-15600-sm8150.0"
+  <default revision="refs/tags/LA.UM.7.1.r1-15800-sm8150.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>
@@ -66,7 +66,7 @@
   <project name="device/qcom/sepolicy"/>
   <project name="device/sample"/>
   <project name="kernel/configs"/>
-  <project name="kernel/msm-4.9"/>
+  <project name="kernel/msm-4.14"/>
   <project name="platform/art" path="art"/>
   <project name="platform/bionic" path="bionic"/>
   <project name="platform/bootable/recovery" path="bootable/recovery"/>
@@ -308,7 +308,6 @@
   <project name="platform/external/oj-libjdwp" path="external/oj-libjdwp"/>
   <project name="platform/external/okhttp" path="external/okhttp"/>
   <project name="platform/external/one-true-awk" path="external/one-true-awk"/>
-  <project name="platform/external/opencv" path="external/opencv"/>
   <project name="platform/external/owasp/sanitizer" path="external/owasp/sanitizer"/>
   <project name="platform/external/parameter-framework" path="external/parameter-framework"/>
   <project name="platform/external/pcre" path="external/pcre"/>
@@ -697,6 +696,7 @@
   </project>
   <project name="platform/vendor/qcom-opensource/cryptfs_hw" path="vendor/qcom/opensource/commonsys/cryptfs_hw"/>
   <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr"/>
+  <project name="platform/vendor/qcom-opensource/data-kernel" path="vendor/qcom/opensource/data-kernel"/>
   <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices"/>
   <project name="platform/vendor/qcom-opensource/dataservices-commonsys" path="vendor/qcom/opensource/commonsys/dataservices"/>
   <project name="platform/vendor/qcom-opensource/display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display"/>
@@ -717,6 +717,7 @@
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services"/>
   <project name="platform/vendor/qcom-opensource/tools" path="vendor/qcom/opensource/tools"/>
   <project name="platform/vendor/qcom-opensource/usb" path="vendor/qcom/opensource/usb"/>
+  <project name="platform/vendor/qcom-opensource/vibrator" path="vendor/qcom/opensource/vibrator"/>
   <project name="platform/vendor/qcom-opensource/wfd-commonsys" path="vendor/qcom/opensource/commonsys/wfd"/>
   <project name="platform/vendor/qcom-opensource/wigig" path="vendor/qcom/opensource/wigig"/>
   <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="vendor/qcom/opensource/wlan/fw-api"/>
@@ -725,6 +726,7 @@
   <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="vendor/qcom/opensource/wlan/utils/sigma-dut"/>
   <project name="platform/vendor/qcom/ferrum" path="device/qcom/msm8909"/>
   <project name="platform/vendor/qcom/msm8909go" path="device/qcom/msm8909go"/>
+  <project name="platform/vendor/qcom/msmnile" path="device/qcom/msmnile"/>
   <project name="platform/vendor/qcom/skunk" path="device/qcom/sdm845"/>
   <project name="platform/vendor/qcom/thulium" path="device/qcom/msm8996"/>
   <project name="platform/vendor/qcom/wlan" path="device/qcom/wlan"/>
