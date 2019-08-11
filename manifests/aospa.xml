@@ -136,12 +136,14 @@
   <remove-project name="device/google/taimen"/>
   <remove-project name="device/google/wahoo"/>
   <remove-project name="platform/vendor/opensource/audio-kernel"/>
+  <remove-project name="platform/vendor/qcom-opensource/data-kernel"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut"/>
   <remove-project name="platform/vendor/qcom/ferrum"/>
   <remove-project name="platform/vendor/qcom/msm8909go"/>
+  <remove-project name="platform/vendor/qcom/msmnile"/>
   <remove-project name="platform/vendor/qcom/skunk"/>
   <remove-project name="platform/vendor/qcom/thulium"/>
   <remove-project name="platform/vendor/qcom/wlan"/>
@@ -150,7 +152,7 @@
   <remove-project name="platform/hardware/qcom/gps"/>
   <remove-project name="platform/hardware/qcom/media"/>
   <remove-project name="device/sample"/>
-  <remove-project name="kernel/msm-4.9"/>
+  <remove-project name="kernel/msm-4.14"/>
   <remove-project name="device/generic/x86_64"/>
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf"/>
   <remove-project name="platform/vendor/qcom-opensource/location"/>
