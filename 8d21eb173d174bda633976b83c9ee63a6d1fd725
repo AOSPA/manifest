@@ -107,6 +107,24 @@
     },
     {
       "key": {
+        "uuid": "75f19abe_ef71d982",
+        "filename": "manifests/aospa.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-09-04T19:15:33Z",
+      "side": 1,
+      "message": "rest of these seemed like they can be deleted right?",
+      "parentUuid": "876faff4_f34b85ba",
+      "revId": "8d21eb173d174bda633976b83c9ee63a6d1fd725",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "be25fcb7_8dada7d7",
         "filename": "manifests/aospa.xml",
         "patchSetId": 4
