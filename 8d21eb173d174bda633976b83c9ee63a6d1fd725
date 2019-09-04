@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "97b78d93_ecf7846d",
+        "filename": "manifests/aospa.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2019-09-04T18:45:37Z",
+      "side": 1,
+      "message": "They\u0027re empty repos",
+      "parentUuid": "b878f49a_43268073",
+      "revId": "8d21eb173d174bda633976b83c9ee63a6d1fd725",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3eabdd5a_2b4e9249",
         "filename": "manifests/aospa.xml",
         "patchSetId": 4
@@ -30,6 +48,24 @@
       "writtenOn": "2019-09-04T18:18:52Z",
       "side": 1,
       "message": "this is semi useful isn\u0027t it?",
+      "revId": "8d21eb173d174bda633976b83c9ee63a6d1fd725",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ef438fa_34552fe2",
+        "filename": "manifests/aospa.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2019-09-04T18:45:37Z",
+      "side": 1,
+      "message": "Can add it back, yeah. With caf this\u0027ll be gone anyways..",
+      "parentUuid": "3eabdd5a_2b4e9249",
       "revId": "8d21eb173d174bda633976b83c9ee63a6d1fd725",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "876faff4_f34b85ba",
+        "filename": "manifests/aospa.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2019-09-04T18:45:37Z",
+      "side": 1,
+      "message": "Yeah this stuff will change with CAF manifest. But I\u0027ll include them back for now.",
+      "parentUuid": "137803ea_cb9008ef",
+      "revId": "8d21eb173d174bda633976b83c9ee63a6d1fd725",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "be25fcb7_8dada7d7",
         "filename": "manifests/aospa.xml",
         "patchSetId": 4
@@ -64,6 +118,24 @@
       "writtenOn": "2019-09-04T18:18:52Z",
       "side": 1,
       "message": "do we not need this?",
+      "revId": "8d21eb173d174bda633976b83c9ee63a6d1fd725",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c2e8538e_ceda9874",
+        "filename": "manifests/aospa.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2019-09-04T18:45:37Z",
+      "side": 1,
+      "message": "Empty repo",
+      "parentUuid": "be25fcb7_8dada7d7",
       "revId": "8d21eb173d174bda633976b83c9ee63a6d1fd725",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": false
