@@ -93,7 +93,7 @@
     <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
   </project>
   <project name="platform/compatibility/cdd" path="compatibility/cdd"/>
-  <project name="platform/cts" path="cts"/>
+  <project name="platform/cts" path="cts" clone-depth="1"/>
   <project name="platform/dalvik" path="dalvik"/>
   <project name="platform/developers/build" path="developers/build"/>
   <project name="platform/development" path="development"/>
@@ -119,7 +119,7 @@
   <project name="platform/external/apache-xml" path="external/apache-xml"/>
   <project name="platform/external/archive-patcher" path="external/archive-patcher"/>
   <project name="platform/external/arm-optimized-routines" path="external/arm-optimized-routines"/>
-  <project name="platform/external/autotest" path="external/autotest"/>
+  <project name="platform/external/autotest" path="external/autotest" clone-depth="1"/>
   <project name="platform/external/avb" path="external/avb"/>
   <project name="platform/external/bcc" path="external/bcc"/>
   <project name="platform/external/blktrace" path="external/blktrace"/>
@@ -155,7 +155,7 @@
   <project name="platform/external/dng_sdk" path="external/dng_sdk"/>
   <project name="platform/external/dnsmasq" path="external/dnsmasq"/>
   <project name="platform/external/doclava" path="external/doclava"/>
-  <project name="platform/external/dokka" path="external/dokka"/>
+  <project name="platform/external/dokka" path="external/dokka" clone-depth="1"/>
   <project name="platform/external/drm_hwcomposer" path="external/drm_hwcomposer"/>
   <project name="platform/external/droiddriver" path="external/droiddriver"/>
   <project name="platform/external/drrickorang" path="external/drrickorang"/>
@@ -207,7 +207,7 @@
   <project name="platform/external/harfbuzz_ng" path="external/harfbuzz_ng"/>
   <project name="platform/external/honggfuzz" path="external/honggfuzz"/>
   <project name="platform/external/hyphenation-patterns" path="external/hyphenation-patterns"/>
-  <project name="platform/external/icu" path="external/icu"/>
+  <project name="platform/external/icu" path="external/icu" clone-depth="1"/>
   <project name="platform/external/image_io" path="external/image_io"/>
   <project name="platform/external/ims" path="external/ims"/>
   <project name="platform/external/iperf3" path="external/iperf3"/>
@@ -284,7 +284,7 @@
   <project name="platform/external/libxkbcommon" path="external/libxkbcommon"/>
   <project name="platform/external/libxml2" path="external/libxml2"/>
   <project name="platform/external/libyuv" path="external/libyuv"/>
-  <project name="platform/external/linux-kselftest" path="external/linux-kselftest"/>
+  <project name="platform/external/linux-kselftest" path="external/linux-kselftest" clone-depth="1"/>
   <project name="platform/external/llvm" path="external/llvm"/>
   <project name="platform/external/lmfit" path="external/lmfit"/>
   <project name="platform/external/ltp" path="external/ltp"/>
@@ -464,7 +464,7 @@
   <project name="platform/frameworks/compile/slang" path="frameworks/compile/slang"/>
   <project name="platform/frameworks/ex" path="frameworks/ex"/>
   <project name="platform/frameworks/hardware/interfaces" path="frameworks/hardware/interfaces"/>
-  <project name="platform/frameworks/layoutlib" path="frameworks/layoutlib"/>
+  <project name="platform/frameworks/layoutlib" path="frameworks/layoutlib" clone-depth="1"/>
   <project name="platform/frameworks/minikin" path="frameworks/minikin"/>
   <project name="platform/frameworks/ml" path="frameworks/ml"/>
   <project name="platform/frameworks/multidex" path="frameworks/multidex"/>
@@ -710,7 +710,7 @@
   <project name="platform/system/vold" path="system/vold"/>
   <project name="platform/test/framework" path="test/framework"/>
   <project name="platform/test/mlts/benchmark" path="test/mlts/benchmark"/>
-  <project name="platform/test/mlts/models" path="test/mlts/models"/>
+  <project name="platform/test/mlts/models" path="test/mlts/models" clone-depth="1"/>
   <project name="platform/test/suite_harness" path="test/suite_harness"/>
   <project name="platform/test/vti/alert" path="test/vti/alert"/>
   <project name="platform/test/vti/dashboard" path="test/vti/dashboard"/>
