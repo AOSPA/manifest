@@ -25,8 +25,8 @@
   <!-- Device -->
   <remove-project name="device/generic/goldfish" />
   <project path="device/generic/goldfish" name="AOSPA/android_device_generic_goldfish" remote="aospa" groups="aospa" revision="q" />
-  <!-- <remove-project name="device/qcom/common" />
-  <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="aospa" groups="aospa" /> -->
+  <remove-project name="device/qcom/common" />
+  <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="aospa" groups="aospa" />
   <!-- <remove-project name="device/qcom/sepolicy" />
   <project path="device/qcom/sepolicy" name="AOSPA/android_device_qcom_sepolicy" remote="aospa" groups="aospa" /> -->
   <!-- <project path="device/pa/sepolicy" name="AOSPA/android_device_pa_sepolicy" remote="aospa" groups="aospa" /> -->
