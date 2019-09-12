@@ -820,6 +820,9 @@
   <project name="platform/vendor/qcom/wlan" path="device/qcom/wlan"/>
   <project name="toolchain/pgo-profiles"/>
 
+  <!-- Remove obsolete packages -->
+  <include name="manifests/obsolete.xml"/>
+
   <!-- Paranoid Android additions -->
   <include name="manifests/aospa.xml"/>
 
