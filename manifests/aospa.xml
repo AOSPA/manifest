@@ -20,9 +20,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="vendor/qcom/sdclang-3.9/linux-x86" name="proprietary_vendor_qcom_sdclang-3.9_linux-x86" remote="blobs" revision="pie" />
-  <project path="vendor/qcom/sdclang-4.0/linux-x86" name="proprietary_vendor_qcom_sdclang-4.0_linux-x86" remote="blobs" revision="pie" />
-  <project path="vendor/qcom/sdclang-6.0/linux-x86" name="proprietary_vendor_qcom_sdclang-6.0_linux-x86" remote="blobs" revision="pie" />
+  <project path="vendor/qcom/sdclang-8.0/linux-x86" name="proprietary_vendor_qcom_sdclang-8.0_linux-x86" remote="blobs" revision="quartz" />
 
   <!-- Hardware -->
   <remove-project name="device/qcom/common" />
