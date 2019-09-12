@@ -29,8 +29,6 @@
   <project path="device/qcom/sepolicy" name="AOSPA/android_device_qcom_sepolicy" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/qcom/bootctrl"/>
   <project path="hardware/qcom/bootctrl" name="AOSPA/android_hardware_qcom_bootctrl" remote="aospa" groups="aospa" />
-  <remove-project name="platform/hardware/qcom/bt"/>
-  <project path="hardware/qcom/bt" name="AOSPA/android_hardware_qcom_bt" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/interfaces" />
   <project path="hardware/interfaces" name="AOSPA/android_hardware_interfaces" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/nxp/nfc" />
@@ -99,8 +97,6 @@
   <project path="vendor/qcom/opensource/commonsys/bluetooth" name="AOSPA/android_vendor_qcom_opensource_commonsys_bluetooth" remote="aospa" groups="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="AOSPA/android_vendor_qcom_opensource_commonsys_bluetooth_ext" remote="aospa" groups="aospa" />
-  <remove-project name="platform/vendor/qcom-opensource/fm" />
-  <project path="vendor/qcom/opensource/fm" name="AOSPA/android_vendor_qcom-opensource_fm" remote="aospa" groups="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
   <project path="vendor/qcom/opensource/commonsys/fm" name="AOSPA/android_vendor_qcom-opensource_fm-commonsys" remote="aospa" groups="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
