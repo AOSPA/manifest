@@ -2,32 +2,33 @@
 <manifest>
 
   <remote  name="aosp"
-           revision="refs/tags/android-9.0.0_r1"
-           fetch="https://android.googlesource.com"/>
+           revision="refs/tags/android-10.0.0_r2"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
 
   <remote  name="private"
-           fetch="ssh://git@git.aospa.co/AOSPA"/>
+           fetch="ssh://git@git.aospa.co/AOSPA" />
 
   <remote  name="aospa"
            fetch=".."
            review="gerrit.aospa.co"
-           revision="pie"/>
+           revision="quartz" />
 
   <remote  name="caf"
            fetch="git://codeaurora.org/quic/la"
-           review="codeaurora.org"/>
+           review="codeaurora.org" />
 
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario"
-           revision="pie"/>
+           revision="quartz" />
 
   <remote  name="github"
-           fetch="https://github.com"/>
+           fetch="https://github.com" />
 
   <remote  name="github-ssh"
-           fetch="ssh://git@github.com"/>
+           fetch="ssh://git@github.com" />
 
-  <default revision="refs/tags/LA.UM.7.1.r1-16300-sm8150.0"
+  <default revision="refs/tags/LA.UM.8.1.r1-08700-sm8150.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>
