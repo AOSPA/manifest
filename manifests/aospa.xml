@@ -22,11 +22,16 @@
   </project>
   <project path="vendor/qcom/sdclang-8.0/linux-x86" name="proprietary_vendor_qcom_sdclang-8.0_linux-x86" remote="blobs" revision="quartz" />
 
-  <!-- Hardware -->
+  <!-- Device -->
+  <remove-project name="device/generic/goldfish" />
+  <project path="device/generic/goldfish" name="AOSPA/android_device_generic_goldfish" remote="aospa" groups="aospa" />
   <remove-project name="device/qcom/common" />
   <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="aospa" groups="aospa" />
   <remove-project name="device/qcom/sepolicy" />
   <project path="device/qcom/sepolicy" name="AOSPA/android_device_qcom_sepolicy" remote="aospa" groups="aospa" />
+  <project path="device/pa/sepolicy" name="AOSPA/android_device_pa_sepolicy" remote="aospa" groups="aospa" />
+
+  <!-- Hardware -->
   <remove-project name="platform/hardware/qcom/bootctrl"/>
   <project path="hardware/qcom/bootctrl" name="AOSPA/android_hardware_qcom_bootctrl" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/interfaces" />
@@ -63,6 +68,8 @@
   <project path="packages/apps/Nfc" name="AOSPA/android_packages_apps_Nfc" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" groups="aospa" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <project path="packages/services/Telephony" name="AOSPA/android_packages_services_Telephony" remote="aospa" groups="aospa" />
 
   <!-- External -->
   <remove-project name="platform/external/selinux" />
@@ -75,9 +82,10 @@
   <project path="external/ant-wireless/ant_native" name="AOSPA/android_external_ant-wireless_ant_native" remote="aospa" groups="aospa" />
   <remove-project name="platform/prebuilts/build-tools" />
   <project path="prebuilts/build-tools" name="AOSPA/android_prebuilts_build-tools" remote="aospa" groups="aospa" />
-
-  <!-- Sepolicy -->
-  <project path="device/pa/sepolicy" name="AOSPA/android_device_pa_sepolicy" remote="aospa" groups="aospa" />
+  <remove-project name="platform/prebuilts/r8" />
+  <project path="prebuilts/r8" name="AOSPA/android_prebuilts_r8" remote="aospa" groups="aospa" clone-depth="1" />
+  <project path="prebuilts/openssl" name="AOSPA/android_prebuilts_openssl" remote="aospa" groups="aospa" clone-depth="1" />
+  <project path="prebuilts/tools-pa" name="AOSPA/android_prebuilts_tools-pa" remote="aospa" groups="aospa" clone-depth="1" />
 
   <!-- System -->
   <remove-project name="platform/system/core" />
