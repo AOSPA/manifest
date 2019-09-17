@@ -66,6 +66,8 @@
   <project path="packages/apps/ParanoidPapers" name="AOSPA/android_packages_apps_ParanoidPapers" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Nfc" />
   <project path="packages/apps/Nfc" name="AOSPA/android_packages_apps_Nfc" remote="aospa" groups="aospa" />
+  <remove-project name="platform/packages/apps/PackageInstaller"/>
+  <project path="packages/apps/PermissionController" name="AOSPA/android_packages_apps_PackageInstaller" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/services/Telephony" />
