@@ -113,6 +113,8 @@
   <project path="vendor/qcom/opensource/interfaces" name="AOSPA/android_vendor_qcom-opensource_interfaces" remote="aospa" groups="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
   <project path="vendor/qcom/opensource/power" name="AOSPA/android_vendor_qcom-opensource_power" remote="aospa" groups="aospa" />
+  <remove-project name="platform/vendor/qcom-opensource/recovery-ext" />
+  <project path="vendor/qcom/opensource/recovery-ext" name="AOSPA/android_vendor_qcom-opensource_recovery-ext" remote="aospa" groups="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="AOSPA/android_vendor_qcom_opensource_commonsys_system_bt" remote="aospa" groups="aospa" />
   <project path="vendor/blobscript" name="AOSPA/android_vendor_blobscript" remote="aospa" groups="aospa" />
