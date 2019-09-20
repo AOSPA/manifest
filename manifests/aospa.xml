@@ -105,10 +105,8 @@
   <project path="vendor/qcom/opensource/commonsys/bluetooth" name="AOSPA/android_vendor_qcom_opensource_commonsys_bluetooth" remote="aospa" groups="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="AOSPA/android_vendor_qcom_opensource_commonsys_bluetooth_ext" remote="aospa" groups="aospa" />
-  <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
   <remove-project name="platform/vendor/qcom-opensource/core-utils" />
   <project path="vendor/qcom/opensource/core-utils" remote="aospa" groups="aospa" />
-  <project path="vendor/qcom/opensource/commonsys/fm" name="AOSPA/android_vendor_qcom-opensource_fm-commonsys" remote="aospa" groups="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
   <project path="vendor/qcom/opensource/power" name="AOSPA/android_vendor_qcom-opensource_power" remote="aospa" groups="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
