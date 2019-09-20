@@ -28,6 +28,8 @@
   <remove-project name="device/linaro/poplar"/>
   <remove-project name="device/linaro/poplar-kernel"/>
   <remove-project name="device/sample"/>
+  <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
+  <remove-project name="platform/vendor/qcom-opensource/fst-manager"/>
   <remove-project name="platform/vendor/opensource/audio-kernel"/>
   <remove-project name="platform/vendor/qcom-opensource/data-kernel"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api"/>
