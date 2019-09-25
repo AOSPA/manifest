@@ -55,6 +55,8 @@
   -->
   <remove-project name="platform/packages/apps/Gallery"/>
   <remove-project name="platform/packages/apps/SnapdragonCamera"/>
+  <remove-project name="platform/packages/apps/SoundRecorder"/>
   <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer"/>
+  <remove-project name="platform/vendor/codeaurora/packages/apps/SoundRecorder">
   <remove-project name="platform/hardware/qcom/thermal"/>
 </manifest>
