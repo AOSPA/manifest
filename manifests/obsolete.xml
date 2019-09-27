@@ -54,6 +54,7 @@
   <remove-project name="platform/packages/apps/Camera2" />
   -->
   <remove-project name="platform/packages/apps/Gallery"/>
+  <remove-project name="platform/packages/apps/QuickSearch"/>
   <remove-project name="platform/packages/apps/SnapdragonCamera"/>
   <remove-project name="platform/packages/apps/SoundRecorder"/>
   <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer"/>
