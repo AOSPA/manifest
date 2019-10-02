@@ -66,6 +66,8 @@
   <remove-project name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/ParanoidLauncher" name="AOSPA/android_packages_apps_ParanoidLauncher" remote="aospa" groups="aospa" />
   <project path="packages/apps/ParanoidPapers" name="AOSPA/android_packages_apps_ParanoidPapers" remote="aospa" groups="aospa" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <project path="packages/apps/Messaging" name="AOSPA/android_packages_apps_Messaging" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Nfc" />
   <project path="packages/apps/Nfc" name="AOSPA/android_packages_apps_Nfc" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/PackageInstaller"/>
