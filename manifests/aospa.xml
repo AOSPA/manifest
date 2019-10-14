@@ -80,6 +80,8 @@
   <project path="packages/services/Telephony" name="AOSPA/android_packages_services_Telephony" remote="aospa" groups="aospa" />
 
   <!-- External -->
+  <remove-project name="platform/external/arm-optimized-routines" />
+  <project path="external/arm-optimized-routines" name="AOSPA/android_external_arm-optimized-routines" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/selinux" />
   <project path="external/selinux" name="AOSPA/android_external_selinux" remote="aospa" groups="aospa" />
   <project path="external/exfat" name="AOSPA/android_external_exfat" remote="aospa" groups="aospa" />
