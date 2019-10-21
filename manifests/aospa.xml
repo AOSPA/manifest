@@ -84,6 +84,8 @@
   <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/selinux" />
   <project path="external/selinux" name="AOSPA/android_external_selinux" remote="aospa" groups="aospa" />
+  <remove-project name="platform/external/zlib" />
+  <project path="external/zlib" name="AOSPA/android_external_zlib" remote="aospa" groups="aospa" />
   <project path="external/exfat" name="AOSPA/android_external_exfat" remote="aospa" groups="aospa" />
   <project path="external/libnfc-nxp" name="AOSPA/android_external_libnfc-nxp" remote="aospa" groups="aospa" />
 
