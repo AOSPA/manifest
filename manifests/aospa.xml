@@ -76,6 +76,8 @@
   <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <project path="packages/apps/ThemePicker" name="AOSPA/android_packages_apps_ThemePicker" remote="aospa" groups="aospa" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
+  <project path="platform/packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" remote="aosp" />
   <remove-project name="platform/packages/services/Telephony" />
   <project path="packages/services/Telephony" name="AOSPA/android_packages_services_Telephony" remote="aospa" groups="aospa" />
 
