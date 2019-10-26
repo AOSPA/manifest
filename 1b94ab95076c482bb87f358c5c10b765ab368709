@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0ae0da1f_a48a56f7",
+        "filename": "manifests/aospa.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1000092
+      },
+      "writtenOn": "2019-10-26T13:09:13Z",
+      "side": 1,
+      "message": "Derp.",
+      "revId": "1b94ab95076c482bb87f358c5c10b765ab368709",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
