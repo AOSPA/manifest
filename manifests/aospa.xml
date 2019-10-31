@@ -47,6 +47,8 @@
   <project path="art" name="AOSPA/android_art" remote="aospa" groups="aospa" />
   <remove-project name="platform/bionic" />
   <project path="bionic" name="AOSPA/android_bionic" remote="aospa" groups="aospa" />
+  <remove-project name="platform/libcore" />
+  <project path="libcore" name="AOSPA/android_libcore" remote="aospa" groups="aospa" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
