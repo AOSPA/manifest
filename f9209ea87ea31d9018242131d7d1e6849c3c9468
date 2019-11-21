@@ -1,0 +1,9 @@
+Code-Review+1: Name of user not set #1000459
+Code-Review+2: Jake Weinstein <jake@aospa.co>
+Verified+1: Name of user not set #1000459
+Verified+1: Jake Weinstein <jake@aospa.co>
+Submitted-by: Jake Weinstein <jake@aospa.co>
+Submitted-at: Thu, 21 Nov 2019 12:31:31 +0000
+Reviewed-on: https://gerrit.aospa.co/c/AOSPA/manifest/+/7307
+Project: AOSPA/manifest
+Branch: refs/heads/quartz
