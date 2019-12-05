@@ -143,4 +143,8 @@
   <remove-project name="platform/bootable/recovery" />
   <project path="bootable/recovery" name="AOSPA/android_bootable_recovery" remote="aospa" groups="aospa" />
 
+  <!-- GCC -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="AOSPA/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="aospa" groups="aospa" revision="master" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="AOSPA/android_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="aospa" groups="aospa" revision="master" clone-depth="1" />
+
 </manifest>
