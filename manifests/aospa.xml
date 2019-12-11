@@ -70,8 +70,6 @@
   <remove-project name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/ParanoidLauncher" name="AOSPA/android_packages_apps_ParanoidLauncher" remote="aospa" groups="aospa" />
   <project path="packages/apps/ParanoidPapers" name="AOSPA/android_packages_apps_ParanoidPapers" remote="aospa" groups="aospa" />
-  <remove-project name="platform/packages/apps/DocumentsUI" />
-  <project path="packages/apps/DocumentsUI" name="platform/packages/apps/DocumentsUI" remote="aosp" />
   <remove-project name="platform/packages/apps/Messaging" />
   <project path="packages/apps/Messaging" name="AOSPA/android_packages_apps_Messaging" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Nfc" />
@@ -84,16 +82,10 @@
   <project path="packages/apps/SettingsIntelligence" name="AOSPA/android_packages_apps_SettingsIntelligence" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <project path="packages/apps/ThemePicker" name="AOSPA/android_packages_apps_ThemePicker" remote="aospa" groups="aospa" />
-  <remove-project name="platform/packages/apps/WallpaperPicker2" />
-  <project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" remote="aosp" />
-  <remove-project name="platform/packages/providers/DownloadProvider" />
-  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" remote="aosp" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/MediaProvider" name="AOSPA/android_packages_providers_MediaProvider" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/services/Telephony" />
   <project path="packages/services/Telephony" name="AOSPA/android_packages_services_Telephony" remote="aospa" groups="aospa" />
-  <remove-project name="platform/packages/wallpapers/LivePicker" />
-  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" remote="aosp" />
 
   <!-- External -->
   <remove-project name="platform/external/libjpeg-turbo" />
@@ -150,5 +142,15 @@
   <!-- Recovery -->
   <remove-project name="platform/bootable/recovery" />
   <project path="bootable/recovery" name="AOSPA/android_bootable_recovery" remote="aospa" groups="aospa" />
+
+  <!-- AOSP -->
+  <remove-project name="platform/packages/apps/DocumentsUI" />
+  <project path="packages/apps/DocumentsUI" name="platform/packages/apps/DocumentsUI" remote="aosp" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
+  <project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" remote="aosp" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" remote="aosp" />
+  <remove-project name="platform/packages/wallpapers/LivePicker" />
+  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" remote="aosp" />
 
 </manifest>
