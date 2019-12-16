@@ -637,7 +637,7 @@
   <project name="platform/prebuilts/checkcolor" path="prebuilts/checkcolor" clone-depth="1"/>
   <project name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle" clone-depth="1"/>
   <project name="platform/prebuilts/clang-tools" path="prebuilts/clang-tools" clone-depth="1"/>
-  <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" clone-depth="1"/>
+  <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" clone-depth="1" revision="master" />
   <project name="platform/prebuilts/devtools" path="prebuilts/devtools" clone-depth="1"/>
   <project name="platform/prebuilts/fuchsia_sdk" path="prebuilts/fuchsia_sdk" clone-depth="1"/>
   <project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1"/>
