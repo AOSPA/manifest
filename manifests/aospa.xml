@@ -143,20 +143,14 @@
   <project path="bootable/recovery" name="AOSPA/android_bootable_recovery" remote="aospa" groups="aospa" />
 
   <!-- AOSP -->
-  <remove-project name="platform/external/chromium-libpac" />
-  <project path="external/chromium-libpac" name="platform/external/chromium-libpac" remote="aosp" />
   <remove-project name="platform/external/libcups" />
   <project path="external/libcups" name="platform/external/libcups" remote="aosp" />
-  <remove-project name="platform/external/libcxx" />
-  <project path="external/libcxx" name="platform/external/libcxx" remote="aosp" />
   <remove-project name="platform/external/libhevc" />
   <project path="external/libhevc" name="platform/external/libhevc" remote="aosp" />
   <remove-project name="platform/external/ImageMagick" />
   <project path="external/ImageMagick" name="platform/external/ImageMagick" remote="aosp" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <project path="packages/apps/DocumentsUI" name="platform/packages/apps/DocumentsUI" remote="aosp" />
-  <remove-project name="platform/packages/apps/ManagedProvisioning" />
-  <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" remote="aosp" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" remote="aosp" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
