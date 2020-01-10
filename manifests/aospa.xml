@@ -89,16 +89,18 @@
   <project path="packages/services/Telephony" name="AOSPA/android_packages_services_Telephony" remote="aospa" groups="aospa" />
 
   <!-- External -->
+  <project path="external/exfat" name="AOSPA/android_external_exfat" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="aospa" groups="aospa" />
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" />
+  <project path="external/libnfc-nxp" name="AOSPA/android_external_libnfc-nxp" remote="aospa" groups="aospa" />
+  <project path="external/nano" name="LineageOS/android_external_libncurses" remote="github" />
   <remove-project name="platform/external/selinux" />
   <project path="external/selinux" name="AOSPA/android_external_selinux" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/skia" />
   <project path="external/skia" name="AOSPA/android_external_skia" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/zlib" />
   <project path="external/zlib" name="AOSPA/android_external_zlib" remote="aospa" groups="aospa" />
-  <project path="external/exfat" name="AOSPA/android_external_exfat" remote="aospa" groups="aospa" />
-  <project path="external/libnfc-nxp" name="AOSPA/android_external_libnfc-nxp" remote="aospa" groups="aospa" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/external/ant-wireless/ant_native" />
