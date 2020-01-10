@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2a065c12_a12eeaec",
+        "filename": "manifests/aospa.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2020-01-10T17:31:01Z",
+      "side": 1,
+      "message": "Wrong repo name",
+      "range": {
+        "startLine": 97,
+        "startChar": 48,
+        "endLine": 97,
+        "endChar": 75
+      },
+      "revId": "93e4a361e7f2c8a3218377441b82ad876d169cf3",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
