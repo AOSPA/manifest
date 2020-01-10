@@ -54,6 +54,10 @@
   <remove-project name="platform/external/libhevc" />
   <project path="external/libhevc" name="platform/external/libhevc" remote="aosp" />
 
+  <!-- External (nano) -->
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-18.0" />
+  <project path="external/nano" name="LineageOS/android_external_nano" remote="github" revision="lineage-18.0" />
+
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
   <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" />
