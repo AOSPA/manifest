@@ -107,6 +107,10 @@
   <!-- Prebuilts -->
   <remove-project name="platform/external/ant-wireless/ant_native" />
   <project path="external/ant-wireless/ant_native" name="AOSPA/android_external_ant-wireless_ant_native" remote="aospa" groups="aospa" />
+  <remove-project name="platform/prebuilts/abi-dumps/ndk" />
+  <project path="prebuilts/abi-dumps/ndk" name="AOSPA/android_prebuilts_abi-dumps_ndk" remote="aospa" groups="aospa" clone-depth="1" />
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+  <project path="prebuilts/abi-dumps/vndk" name="AOSPA/android_prebuilts_abi-dumps_vndk" remote="aospa" groups="aospa" clone-depth="1" />
   <remove-project name="platform/prebuilts/build-tools" />
   <project path="prebuilts/build-tools" name="AOSPA/android_prebuilts_build-tools" remote="aospa" groups="aospa" />
   <remove-project name="platform/prebuilts/r8" />
