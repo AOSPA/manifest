@@ -138,6 +138,8 @@
   <project path="vendor/qcom/opensource/commonsys/bluetooth" name="AOSPA/android_vendor_qcom_opensource_commonsys_bluetooth" remote="aospa" groups="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="AOSPA/android_vendor_qcom_opensource_commonsys_bluetooth_ext" remote="aospa" groups="aospa" />
+  <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
+  <project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="AOSPA/android_vendor_qcom_opensource_cryptfs_hw" />
   <remove-project name="platform/vendor/qcom-opensource/core-utils" />
   <project path="vendor/qcom/opensource/core-utils" name="AOSPA/android_vendor_qcom-opensource_core-utils" remote="aospa" groups="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/dataservices" />
