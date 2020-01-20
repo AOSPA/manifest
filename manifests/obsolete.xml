@@ -31,23 +31,32 @@
   <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
   <remove-project name="platform/vendor/qcom-opensource/fst-manager"/>
   <remove-project name="platform/vendor/opensource/audio-kernel"/>
+  <!-- This isn't in this tag
   <remove-project name="platform/vendor/qcom-opensource/data-kernel"/>
+  -->
   <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut"/>
   <remove-project name="platform/vendor/qcom/ferrum"/>
   <remove-project name="platform/vendor/qcom/msm8909go"/>
+  <!-- This isn't in this tag
   <remove-project name="platform/vendor/qcom/msmnile"/>
+  -->
   <remove-project name="platform/vendor/qcom/skunk"/>
+  <!-- This isn't in this tag
   <remove-project name="platform/vendor/qcom/steppe"/>
+  -->
   <remove-project name="platform/vendor/qcom/thulium"/>
   <remove-project name="platform/vendor/qcom/wlan"/>
   <remove-project name="platform/hardware/qcom/audio"/>
   <remove-project name="platform/hardware/qcom/display"/>
   <remove-project name="platform/hardware/qcom/gps"/>
   <remove-project name="platform/hardware/qcom/media"/>
+  <!-- This isn't in this tag
   <remove-project name="kernel/msm-4.14"/>
+  -->
+  <remove-project name="kernel/msm-4.9"/>
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf"/>
   <remove-project name="platform/vendor/qcom-opensource/location"/>
   <!--
