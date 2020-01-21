@@ -165,4 +165,10 @@
   <remove-project name="platform/system/nfc" />
   <project path="system/nfc" name="platform/system/nfc" remote="aosp" />
 
+  <!-- Use Google servers for faster sync -->
+  <remove-project name="platform/prebuilts/gradle-plugin" />
+  <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/tools/external/gradle" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" remote="aosp" clone-depth="1" />
+
 </manifest>
