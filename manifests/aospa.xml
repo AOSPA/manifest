@@ -61,6 +61,8 @@
   <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" groups="aospa" />
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" groups="aospa" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
+  <project path="frameworks/opt/net/wifi" name="AOSPA/android_frameworks_opt_net_wifi" remote="aospa" groups="aospa" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="aospa" groups="aospa" />
 
@@ -131,6 +133,8 @@
   <project path="system/bt" name="AOSPA/android_system_bt" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/core" />
   <project path="system/core" name="AOSPA/android_system_core" remote="aospa" groups="aospa" />
+  <remove-project name="platform/system/keymaster" />
+  <project path="system/keymaster" name="AOSPA/android_system_keymaster" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/netd" />
   <project path="system/netd" name="AOSPA/android_system_netd" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/sepolicy" />
