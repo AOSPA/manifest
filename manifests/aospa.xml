@@ -171,6 +171,10 @@
   <remove-project name="platform/system/nfc" />
   <project path="system/nfc" name="platform/system/nfc" remote="aosp" />
 
+  <!-- February 2020 SPL -->
+  <remove-project name="platform/packages/apps/CertInstaller" />
+  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" remote="aosp" />
+
   <!-- Use Google servers for faster sync -->
   <remove-project name="platform/prebuilts/gradle-plugin" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" remote="aosp" clone-depth="1" />
