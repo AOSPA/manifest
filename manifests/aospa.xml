@@ -166,8 +166,6 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="AOSPA/android_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="aospa" groups="aospa" revision="master" clone-depth="1" />
 
   <!-- January 2020 SPL -->
-  <remove-project name="platform/external/libavc" />
-  <project path="external/libavc" name="platform/external/libavc" remote="aosp" />
   <remove-project name="platform/system/nfc" />
   <project path="system/nfc" name="platform/system/nfc" remote="aosp" />
 
