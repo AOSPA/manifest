@@ -152,6 +152,8 @@
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="AOSPA/android_vendor_qcom_opensource_commonsys_bluetooth_ext" remote="aospa" groups="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/core-utils" />
   <project path="vendor/qcom/opensource/core-utils" name="AOSPA/android_vendor_qcom-opensource_core-utils" remote="aospa" groups="aospa" />
+  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" /> 
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="AOSPA/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aospa" groups="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/dataservices" />
   <project path="vendor/qcom/opensource/dataservices" name="AOSPA/android_vendor_qcom-opensource_dataservices" remote="aospa" groups="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/interfaces" />
