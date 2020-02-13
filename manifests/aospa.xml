@@ -171,6 +171,10 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="AOSPA/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="aospa" groups="aospa" revision="master" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="AOSPA/android_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="aospa" groups="aospa" revision="master" clone-depth="1" />
 
+  <!-- AOSP QPR2 -->
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
+  <project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" remote="aosp" />
+
   <!-- January 2020 SPL -->
   <remove-project name="platform/external/libavc" />
   <project path="external/libavc" name="platform/external/libavc" remote="aosp" />
