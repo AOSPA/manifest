@@ -742,7 +742,7 @@
   <project name="platform/tools/currysrc" path="tools/currysrc"/>
   <project name="platform/tools/dexter" path="tools/dexter"/>
   <project name="platform/tools/external/fat32lib" path="tools/external/fat32lib"/>
-  <project clone-depth="1" name="platform/tools/external/gradle" path="tools/external/gradle"/>
+  <project clone-depth="1" name="platform/tools/external/gradle" path="tools/external/gradle" revision="android-10.0.0_r29" />
   <project name="platform/tools/external_updater" path="tools/external_updater"/>
   <project name="platform/tools/loganalysis" path="tools/loganalysis"/>
   <project name="platform/tools/metalava" path="tools/metalava"/>
