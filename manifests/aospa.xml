@@ -113,6 +113,8 @@
   <project path="external/zlib" name="AOSPA/android_external_zlib" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/f2fs-tools" />
   <project path="external/f2fs-tools" name="AOSPA/android_external_f2fs-tools" remote="aospa" groups="aospa" />
+  <remove-project name="platform/external/toybox" />
+  <project path="external/toybox" name="AOSPA/android_external_toybox" remote="aospa" groups="aospa" />
   <project path="external/exfat" name="AOSPA/android_external_exfat" remote="aospa" groups="aospa" />
   <project path="external/libnfc-nxp" name="AOSPA/android_external_libnfc-nxp" remote="aospa" groups="aospa" />
 
