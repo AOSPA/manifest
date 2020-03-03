@@ -176,6 +176,8 @@
   <project path="external/libavc" name="platform/external/libavc" remote="aosp" />
   <remove-project name="platform/system/nfc" />
   <project path="system/nfc" name="platform/system/nfc" remote="aosp" />
+  <remove-project name="platform/prebuilts/vndk/v28" />
+  <project path="prebuilts/vndk/v28" name="platform/prebuilts/vndk/v28" clone-depth="1" remote="aosp" />
 
   <!-- February 2020 SPL -->
   <remove-project name="platform/packages/apps/CertInstaller" />
