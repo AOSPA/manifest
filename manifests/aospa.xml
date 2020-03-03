@@ -171,7 +171,7 @@
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" remote="aosp" />
 
-  <!-- January 2020 SPL -->
+  <!-- General AOSP Security Updates (these repos are most frequent) -->
   <remove-project name="platform/external/libavc" />
   <project path="external/libavc" name="platform/external/libavc" remote="aosp" />
   <remove-project name="platform/system/nfc" />
