@@ -185,6 +185,6 @@
   <remove-project name="platform/prebuilts/gradle-plugin" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" remote="aosp" clone-depth="1" />
   <remove-project name="platform/tools/external/gradle" />
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" remote="aosp" revision="refs/tags/android-10.0.0_r29" clone-depth="1" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" remote="aosp" clone-depth="1" />
 
 </manifest>
