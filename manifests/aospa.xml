@@ -45,6 +45,8 @@
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="aospa" groups="aospa" />
   <project path="hardware/pa/interfaces" name="AOSPA/android_hardware_pa_interfaces" remote="aospa" groups="aospa" />
+  <remove-project name="platform/hardware/ril" />
+  <project path="hardware/ril" name="AOSPA/android_hardware_ril" remote="aospa" groups="aospa" />
 
   <!-- Native -->
   <remove-project name="platform/art" />
