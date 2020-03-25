@@ -163,7 +163,7 @@
   <remove-project name="platform/vendor/qcom-opensource/core-utils" />
   <project path="vendor/qcom/opensource/core-utils" name="AOSPA/android_vendor_qcom-opensource_core-utils" remote="aospa" groups="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
-  <project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="AOSPA/android_vendor_qcom-opensource_cryptfs_hw" remote="aospa" groups="aospa" />
+  <project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="AOSPA/android_vendor_qcom_opensource_cryptfs_hw" remote="aospa" groups="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="AOSPA/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aospa" groups="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/dataservices" />
