@@ -201,4 +201,7 @@
   <remove-project name="platform/tools/external/gradle" />
   <project path="tools/external/gradle" name="platform/tools/external/gradle" remote="aosp" clone-depth="1" />
 
+  <!-- AOSPA gapps -->
+  <project path="vendor/gapps" name="AOSPA/vendor_gapps" remote="gitlab" revision="quartz" clone-depth="1" />
+
 </manifest>
