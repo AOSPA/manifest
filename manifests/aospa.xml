@@ -203,4 +203,7 @@
   <remove-project name="platform/tools/external/gradle" />
   <project path="tools/external/gradle" name="platform/tools/external/gradle" remote="aosp" clone-depth="1" />
 
+  <!-- Pixel Experience gapps -->
+  <project path="vendor/gapps" name="PixelExperience/vendor_gapps" remote="gitlab" revision="ten" />
+
 </manifest>

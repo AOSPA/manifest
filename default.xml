@@ -28,6 +28,9 @@
   <remote  name="github-ssh"
            fetch="ssh://git@github.com" />
 
+  <remote name="gitlab"
+           fetch="https://gitlab.com"/>
+
   <default revision="refs/tags/LA.UM.8.2.r1-06300-sdm660.0"
            remote="caf"
            sync-j="4"
