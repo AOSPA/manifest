@@ -30,9 +30,12 @@
   <remove-project name="device/qcom/common" />
   <remove-project name="device/qcom/qssi" />
   <remove-project name="device/sample"/>
+  <remove-project name="platform/developers/build"/>
+  <remove-project name="platform/developers/demos"/>
   <remove-project name="platform/developers/samples/android"/>
   <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
   <remove-project name="platform/vendor/qcom-opensource/fst-manager"/>
+  <remove-project name="platform/vendor/qcom-opensource/shortcut-fe"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0"/>
