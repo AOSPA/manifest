@@ -131,6 +131,10 @@
   <project path="prebuilts/abi-dumps/vndk" name="AOSPA/android_prebuilts_abi-dumps_vndk" remote="aospa" groups="aospa" clone-depth="1" />
   <remove-project name="platform/prebuilts/build-tools" />
   <project path="prebuilts/build-tools" name="AOSPA/android_prebuilts_build-tools" remote="aospa" groups="aospa" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="AOSPA/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="aospa" groups="aospa" clone-depth="1" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="AOSPA/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="aospa" groups="aospa" clone-depth="1" />
   <remove-project name="platform/prebuilts/r8" />
   <project path="prebuilts/r8" name="AOSPA/android_prebuilts_r8" remote="aospa" groups="aospa" clone-depth="1" />
   <project path="prebuilts/openssl" name="AOSPA/android_prebuilts_openssl" remote="aospa" groups="aospa" clone-depth="1" />
