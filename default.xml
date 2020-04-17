@@ -73,10 +73,12 @@
   <project name="device/qcom/qssi"/>
   <project name="device/qcom/sepolicy"/>
   <project name="device/sample"/>
+  <project name="kernel/build"/>
   <project name="kernel/configs"/>
   <project name="kernel/msm-4.4" />
   <project name="kernel/msm-4.9" />
   <project name="kernel/msm-4.14" />
+  <project name="kernel/msm-4.19" />
   <project name="kernel/tests"/>
   <project name="platform/art" path="art"/>
   <project name="platform/bionic" path="bionic"/>
@@ -776,6 +778,9 @@
     <linkfile dest="vendor/qcom/defs/product-defs/system/nfc-system-product.mk" src="nfc_system_product.mk"/>
   </project>
   <project name="platform/vendor/opensource/audio-kernel" path="vendor/qcom/opensource/audio-kernel"/>
+  <project name="platform/vendor/opensource/camera-kernel" path="vendor/qcom/opensource/camera-kernel"/>
+  <project name="platform/vendor/opensource/display-drivers" path="vendor/qcom/opensource/display-drivers"/>
+  <project name="platform/vendor/opensource/video-driver" path="vendor/qcom/opensource/video-driver"/>
   <project name="platform/vendor/qcom-opensource/audio" path="vendor/qcom/opensource/audio"/>
   <project name="platform/vendor/qcom-opensource/audio-hal/st-hal" path="vendor/qcom/opensource/audio-hal/st-hal"/>
   <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/commonsys/bluetooth"/>
@@ -835,6 +840,7 @@
   <project name="platform/vendor/qcom/falcon_32" path="device/qcom/falcon_32"/>
   <project name="platform/vendor/qcom/falcon_64" path="device/qcom/falcon_64"/>
   <project name="platform/vendor/qcom/ferrum" path="device/qcom/msm8909"/>
+  <project name="platform/vendor/qcom/kona" path="device/qcom/kona"/>
   <project name="platform/vendor/qcom/msm8909go" path="device/qcom/msm8909go"/>
   <project name="platform/vendor/qcom/msm8937_32go" path="device/qcom/msm8937_32go"/>
   <project name="platform/vendor/qcom/msmnile" path="device/qcom/msmnile"/>

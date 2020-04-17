@@ -61,6 +61,7 @@
   <!-- UM 4.4 series -->
   <remove-project name="kernel/msm-4.4"/>
   <remove-project name="platform/hardware/qcom/camera"/>
+  <remove-project name="platform/hardware/qcom/vr"/>
   <remove-project name="platform/vendor/qcom/cobalt"/>
   <remove-project name="platform/vendor/qcom/falcon_32"/>
   <remove-project name="platform/vendor/qcom/falcon_64"/>
@@ -79,5 +80,13 @@
   <remove-project name="platform/vendor/qcom/atoll"/>
   <remove-project name="platform/vendor/qcom/msmnile"/>
   <remove-project name="platform/vendor/qcom/steppe"/>
+
+  <!-- UM 4.19 series -->
+  <remove-project name="kernel/build"/>
+  <remove-project name="kernel/msm-4.19"/>
+  <remove-project name="platform/vendor/opensource/camera-kernel"/>
+  <remove-project name="platform/vendor/opensource/display-drivers"/>
+  <remove-project name="platform/vendor/opensource/video-driver"/>
+  <remove-project name="platform/vendor/qcom/kona"/>
 
 </manifest>
