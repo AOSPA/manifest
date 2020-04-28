@@ -31,6 +31,11 @@
   <remote name="gitlab"
            fetch="https://gitlab.com"/>
 
+  <remote  name="caf_bluetooth"
+           fetch="git://codeaurora.org/quic/la"
+           review="codeaurora.org"
+           revision="refs/tags/LA.UM.8.13.r1-08000-SAIPAN.0" />
+
   <default revision="refs/tags/LA.UM.8.4.1.r1-01700-8x98.0"
            remote="caf"
            sync-j="4"
@@ -784,13 +789,13 @@
   <project name="platform/vendor/opensource/video-driver" path="vendor/qcom/opensource/video-driver"/>
   <project name="platform/vendor/qcom-opensource/audio" path="vendor/qcom/opensource/audio"/>
   <project name="platform/vendor/qcom-opensource/audio-hal/st-hal" path="vendor/qcom/opensource/audio-hal/st-hal"/>
-  <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/commonsys/bluetooth"/>
-  <project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/bluetooth">
+  <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/commonsys/bluetooth" remote="caf_bluetooth"/>
+  <project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="caf_bluetooth">
     <linkfile dest="vendor/qcom/defs/board-defs/system/bt-commonsys-intf-board.mk" src="bt-commonsys-intf-board.mk"/>
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/bt-commonsys-intf-board.mk" src="bt-commonsys-intf-board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/system/bt-system-opensource-product.mk" src="bt-system-opensource-product.mk"/>
   </project>
-  <project name="platform/vendor/qcom-opensource/bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext"/>
+  <project name="platform/vendor/qcom-opensource/bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext" remote="caf_bluetooth"/>
   <project name="platform/vendor/qcom-opensource/core-utils" path="vendor/qcom/opensource/core-utils">
     <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>
     <linkfile dest="vendor/qcom/build/tasks/QMAA_enforcement.mk" src="build/QMAA_enforcement.mk"/>
@@ -824,7 +829,7 @@
   </project>
   <project name="platform/vendor/qcom-opensource/recovery-ext" path="vendor/qcom/opensource/recovery-ext"/>
   <project name="platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe"/>
-  <project name="platform/vendor/qcom-opensource/system/bt" path="vendor/qcom/opensource/commonsys/system/bt"/>
+  <project name="platform/vendor/qcom-opensource/system/bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="caf_bluetooth"/>
   <project name="platform/vendor/qcom-opensource/thermal-engine" path="vendor/qcom/opensource/thermal-engine"/>
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services"/>
   <project name="platform/vendor/qcom-opensource/tools" path="vendor/qcom/opensource/tools"/>
