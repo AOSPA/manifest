@@ -31,7 +31,7 @@
   <remote name="gitlab"
            fetch="https://gitlab.com"/>
 
-  <default revision="refs/tags/LA.UM.8.12.r1-10400-sm8250.0"
+  <default revision="refs/tags/LA.UM.8.4.1.r1-01700-8x98.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>
@@ -744,6 +744,7 @@
   <project name="platform/test/vts-testcase/security" path="test/vts-testcase/security"/>
   <project name="platform/test/vts-testcase/vndk" path="test/vts-testcase/vndk"/>
   <project name="platform/tools/acloud" path="tools/acloud"/>
+  <project name="platform/tools/apifinder" path="tools/apifinder"/>
   <project name="platform/tools/apksig" path="tools/apksig"/>
   <project name="platform/tools/apkzlib" path="tools/apkzlib"/>
   <project name="platform/tools/asuite" path="tools/asuite"/>
