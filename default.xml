@@ -31,7 +31,7 @@
   <remote name="gitlab"
            fetch="https://gitlab.com"/>
 
-  <default revision="refs/tags/LA.UM.8.12.r1-10400-sm8250.0"
+  <default revision="refs/tags/LA.UM.8.4.1.r1-01700-8x98.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>
