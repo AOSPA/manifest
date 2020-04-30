@@ -56,7 +56,6 @@
   <remove-project name="platform/packages/apps/SoundRecorder"/>
   <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer"/>
   <remove-project name="platform/vendor/codeaurora/packages/apps/SoundRecorder"/>
-  <remove-project name="platform/hardware/qcom/thermal"/>
 
   <!-- UM 4.4 series -->
   <remove-project name="kernel/msm-4.4"/>
