@@ -70,6 +70,7 @@
   <!--
   <project path="packages/apps/ParanoidCamera" name="AOSPA/android_packages_apps_ParanoidCamera" remote="aospa" groups="aospa" />
   -->
+  <project path="packages/apps/ParanoidHub" name="AOSPA/android_packages_apps_ParanoidHub" remote="aospa" groups="aospa" />
   <project path="packages/apps/ParanoidDoze" name="AOSPA/android_packages_apps_ParanoidDoze" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/ParanoidLauncher" name="AOSPA/android_packages_apps_ParanoidLauncher" remote="aospa" groups="aospa" />
