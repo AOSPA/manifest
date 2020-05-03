@@ -147,6 +147,8 @@
   <project path="system/netd" name="AOSPA/android_system_netd" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="AOSPA/android_system_sepolicy" remote="aospa" groups="aospa" />
+  <remove-project name="platform/system/tools/hidl" />
+  <project path="system/tools/hidl" name="AOSPA/android_system_tools_hidl" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/update_engine" />
   <project path="system/update_engine" name="AOSPA/android_system_update_engine" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/vold" />
