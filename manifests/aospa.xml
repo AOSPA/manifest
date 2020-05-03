@@ -22,7 +22,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="vendor/qcom/sdclang-8.0/linux-x86" name="proprietary_vendor_qcom_sdclang-8.0_linux-x86" remote="blobs" revision="quartz" />
+  <project path="vendor/qcom/sdclang/linux-x86" name="AOSPA/proprietary_vendor_qcom_sdclang_linux-x86" remote="github-ssh" revision="master" />
 
   <!-- Device -->
   <remove-project name="device/generic/goldfish" />
