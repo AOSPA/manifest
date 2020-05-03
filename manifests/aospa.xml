@@ -22,7 +22,6 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="vendor/qcom/sdclang-8.0/linux-x86" name="proprietary_vendor_qcom_sdclang-8.0_linux-x86" remote="blobs" revision="quartz" />
 
   <!-- Device -->
   <remove-project name="device/generic/goldfish" />
@@ -137,6 +136,7 @@
   <project path="prebuilts/r8" name="AOSPA/android_prebuilts_r8" remote="aospa" groups="aospa" clone-depth="1" />
   <project path="prebuilts/openssl" name="AOSPA/android_prebuilts_openssl" remote="aospa" groups="aospa" clone-depth="1" />
   <project path="prebuilts/tools-pa" name="AOSPA/android_prebuilts_tools-pa" remote="aospa" groups="aospa" clone-depth="1" />
+  <project path="vendor/qcom/sdclang/linux-x86" name="AOSPA/proprietary_vendor_qcom_sdclang_linux-x86" remote="blobs" groups="aospa" clone-depth="1" />
 
   <!-- System -->
   <remove-project name="platform/system/bt" />
