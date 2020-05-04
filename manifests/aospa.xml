@@ -196,9 +196,9 @@
   <remove-project name="platform/prebuilts/vndk/v28" />
   <project path="prebuilts/vndk/v28" name="platform/prebuilts/vndk/v28" clone-depth="1" remote="aosp" />
 
-  <!-- February 2020 SPL -->
-  <remove-project name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" remote="aosp" />
+  <!-- May 2020 SPL -->
+  <remove-project name="platform/external/libexif" />
+  <project path="external/libexif" name="platform/external/libexif" remote="aosp" />
 
   <!-- Use Google servers for faster sync -->
   <remove-project name="platform/prebuilts/gradle-plugin" />
