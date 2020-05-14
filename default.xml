@@ -34,9 +34,9 @@
   <remote  name="caf_bluetooth"
            fetch="git://codeaurora.org/quic/la"
            review="codeaurora.org"
-           revision="refs/tags/LA.UM.8.1.r1-14900-sm8150.0" />
+           revision="refs/tags/LA.UM.8.13.r1-08200-SAIPAN.0" />
 
-  <default revision="refs/tags/LA.UM.8.1.r1-14900-sm8150.0"
+  <default revision="refs/tags/LA.UM.8.13.r1-08200-SAIPAN.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>
