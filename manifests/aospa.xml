@@ -186,21 +186,46 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="AOSPA/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="aospa" groups="aospa" revision="master" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="AOSPA/android_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="aospa" groups="aospa" revision="master" clone-depth="1" />
 
-  <!-- AOSP QPR2 -->
-  <remove-project name="platform/packages/apps/WallpaperPicker2" />
-  <project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" remote="aosp" />
-
   <!-- General AOSP Security Updates (these repos are most frequent) -->
+  <remove-project name="platform/external/ImageMagick" />
+  <project path="external/ImageMagick" name="platform/external/ImageMagick" remote="aosp" />
   <remove-project name="platform/external/libavc" />
   <project path="external/libavc" name="platform/external/libavc" remote="aosp" />
+  <remove-project name="platform/external/libexif" />
+  <project path="external/libexif" name="platform/external/libexif" remote="aosp" />
+  <remove-project name="platform/external/libhevc" />
+  <project path="external/libhevc" name="platform/external/libhevc" remote="aosp" />
   <remove-project name="platform/system/nfc" />
   <project path="system/nfc" name="platform/system/nfc" remote="aosp" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
+  <project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" remote="aosp" />
+  <remove-project name="platform/packages/wallpapers/LivePicker" />
+  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" remote="aosp" />
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+  <project path="prebuilts/prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" remote="aosp" />
   <remove-project name="platform/prebuilts/vndk/v28" />
   <project path="prebuilts/vndk/v28" name="platform/prebuilts/vndk/v28" clone-depth="1" remote="aosp" />
 
-  <!-- May 2020 SPL -->
-  <remove-project name="platform/external/libexif" />
-  <project path="external/libexif" name="platform/external/libexif" remote="aosp" />
+  <!-- June 2020 SPL -->
+  <remove-project name="platform/external/avb" />
+  <project path="external/avb" name="platform/external/avb" remote="aosp" />
+  <remove-project name="platform/external/bouncycastle" />
+  <project path="external/bouncycastle" name="platform/external/bouncycastle" remote="aosp" />
+  <remove-project name="platform/external/libgav1" />
+  <project path="external/libgav1" name="platform/external/libgav1" remote="aosp" />
+  <remove-project name="platform/external/libmpeg2" />
+  <project path="external/libmpeg2" name="platform/external/libmpeg2" remote="aosp" />
+  <remove-project name="platform/external/libvpx" />
+  <project path="external/libvpx" name="platform/external/libvpx" remote="aosp" />
+  <remove-project name="platform/external/libyuv" />
+  <project path="external/libyuv" name="platform/external/libyuv" remote="aosp" />
+  <remove-project name="platform/external/ppp" />
+  <project path="external/ppp" name="platform/external/ppp" remote="aosp" />
+  <remove-project name="platform/external/sonivox" />
+  <project path="external/sonivox" name="platform/external/sonivox" remote="aosp" />
+  <remove-project name="platform/frameworks/opt/net/voip" />
+  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" remote="aosp" />
+
 
   <!-- Use Google servers for faster sync -->
   <remove-project name="platform/prebuilts/gradle-plugin" />
