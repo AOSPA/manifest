@@ -202,7 +202,7 @@
   <remove-project name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" remote="aosp" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
-  <project path="prebuilts/prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" remote="aosp" />
   <remove-project name="platform/prebuilts/vndk/v28" />
   <project path="prebuilts/vndk/v28" name="platform/prebuilts/vndk/v28" clone-depth="1" remote="aosp" />
 
