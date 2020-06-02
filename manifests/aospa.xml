@@ -46,6 +46,9 @@
   <remove-project name="platform/hardware/ril" />
   <project path="hardware/ril" name="AOSPA/android_hardware_ril" remote="aospa" groups="aospa" />
 
+  <!-- Kernel-->
+  <remove-project name="kernel/configs" />
+  <project path="kernel/configs" name="AOSPA/android_kernel_configs" remote="aospa" groups="aospa" />
   <!-- Native -->
   <remove-project name="platform/art" />
   <project path="art" name="AOSPA/android_art" remote="aospa" groups="aospa" />
