@@ -225,7 +225,8 @@
   <project path="external/sonivox" name="platform/external/sonivox" remote="aosp" />
   <remove-project name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" remote="aosp" />
-
+  <remove-project name="platform/system/libhwbinder" />
+  <project path="system/libhwbinder" name="platform/system/libhwbinder" remote="aosp" />
 
   <!-- Use Google servers for faster sync -->
   <remove-project name="platform/prebuilts/gradle-plugin" />
