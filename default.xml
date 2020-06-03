@@ -36,7 +36,7 @@
            review="codeaurora.org"
            revision="refs/tags/LA.UM.8.13.r1-08500-SAIPAN.0" />
 
-  <default revision="refs/tags/LA.UM.8.13.r1-08500-SAIPAN.0"
+  <default revision="refs/tags/LA.UM.8.2.1.r1-04900-sdm660.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>
