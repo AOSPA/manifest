@@ -142,6 +142,8 @@
   <project path="prebuilts/tools-pa" name="AOSPA/android_prebuilts_tools-pa" remote="aospa" groups="aospa" clone-depth="1" />
 
   <!-- System -->
+  <remove-project name="platform/system/bpf" />
+  <project path="system/bpf" name="AOSPA/android_system_bpf" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/bt" />
   <project path="system/bt" name="AOSPA/android_system_bt" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/core" />
