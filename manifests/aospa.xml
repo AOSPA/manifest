@@ -180,6 +180,7 @@
   <project path="vendor/qcom/opensource/interfaces" name="AOSPA/android_vendor_qcom-opensource_interfaces" remote="aospa" groups="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
   <project path="vendor/qcom/opensource/power" name="AOSPA/android_vendor_qcom-opensource_power" remote="aospa" groups="aospa" />
+  <project path="vendor/google-customization" name="AOSPA/vendor_google-customization" remote="aospa" groups="aospa" />
 
   <!-- Recovery -->
   <remove-project name="platform/bootable/recovery" />
