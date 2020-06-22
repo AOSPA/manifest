@@ -36,7 +36,7 @@
            review="codeaurora.org"
            revision="refs/tags/LA.UM.8.12.r1-11900-sm8250.0" />
 
-  <default revision="refs/tags/LA.UM.8.12.r1-11900-sm8250.0"
+  <default revision="refs/tags/LA.UM.8.4.r1-05700-8x98.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>
