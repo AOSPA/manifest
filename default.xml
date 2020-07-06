@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           revision="refs/tags/android-10.0.0_r39"
+           revision="refs/tags/android-10.0.0_r40"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
@@ -144,7 +144,7 @@
   <project name="platform/external/capstone" path="external/capstone"/>
   <project name="platform/external/catch2" path="external/catch2"/>
   <project name="platform/external/cblas" path="external/cblas"/>
-  <project name="platform/external/chromium-libpac" path="external/chromium-libpac"/>
+  <project name="platform/external/chromium-libpac" path="external/chromium-libpac" remote="aosp"/>
   <project name="platform/external/chromium-trace" path="external/chromium-trace"/>
   <project clone-depth="1" name="platform/external/chromium-webview" path="external/chromium-webview"/>
   <project name="platform/external/clang" path="external/clang"/>
@@ -164,7 +164,7 @@
   <project name="platform/external/desugar" path="external/desugar"/>
   <project name="platform/external/dexmaker" path="external/dexmaker"/>
   <project name="platform/external/dlmalloc" path="external/dlmalloc"/>
-  <project name="platform/external/dng_sdk" path="external/dng_sdk"/>
+  <project name="platform/external/dng_sdk" path="external/dng_sdk" remote="aosp"/>
   <project name="platform/external/dnsmasq" path="external/dnsmasq"/>
   <project name="platform/external/doclava" path="external/doclava"/>
   <project name="platform/external/dokka" path="external/dokka" clone-depth="1"/>
@@ -452,7 +452,7 @@
   <project name="platform/external/unicode" path="external/unicode"/>
   <project name="platform/external/universal-tween-engine" path="external/universal-tween-engine"/>
   <project name="platform/external/v4l2_codec2" path="external/v4l2_codec2"/>
-  <project name="platform/external/v8" path="external/v8"/>
+  <project name="platform/external/v8" path="external/v8" remote="aosp"/>
   <project name="platform/external/vboot_reference" path="external/vboot_reference"/>
   <project name="platform/external/virglrenderer" path="external/virglrenderer"/>
   <project name="platform/external/vixl" path="external/vixl"/>
