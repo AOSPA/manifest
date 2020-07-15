@@ -12,7 +12,7 @@
   <remote  name="aospa"
            fetch=".."
            review="gerrit.aospa.co"
-           revision="quartz" />
+           revision="refs/tags/quartz-4" />
 
   <remote  name="caf"
            fetch="git://codeaurora.org/quic/la"
