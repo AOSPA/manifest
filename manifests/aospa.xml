@@ -219,36 +219,6 @@
   <remove-project name="platform/prebuilts/vndk/v28" />
   <project path="prebuilts/vndk/v28" name="platform/prebuilts/vndk/v28" clone-depth="1" remote="aosp" />
 
-  <!-- August 2020 SPL -->
-  <remove-project name="platform/external/avb" />
-  <project path="external/avb" name="platform/external/avb" remote="aosp" />
-  <remove-project name="platform/external/bouncycastle" />
-  <project path="external/bouncycastle" name="platform/external/bouncycastle" remote="aosp" />
-  <remove-project name="platform/external/chromium-libpac" />
-  <project path="external/chromium-libpac" name="platform/external/chromium-libpac" remote="aosp" />
-  <remove-project name="platform/external/dng_sdk" />
-  <project path="external/dng_sdk" name="platform/external/dng_sdk" remote="aosp" />
-  <remove-project name="platform/external/gptfdisk" />
-  <project path="external/gptfdisk" name="platform/external/gptfdisk" remote="aosp" />
-  <remove-project name="platform/external/libgav1" />
-  <project path="external/libgav1" name="platform/external/libgav1" remote="aosp" />
-  <remove-project name="platform/external/libmpeg2" />
-  <project path="external/libmpeg2" name="platform/external/libmpeg2" remote="aosp" />
-  <remove-project name="platform/external/libvpx" />
-  <project path="external/libvpx" name="platform/external/libvpx" remote="aosp" />
-  <remove-project name="platform/external/libyuv" />
-  <project path="external/libyuv" name="platform/external/libyuv" remote="aosp" />
-  <remove-project name="platform/external/ppp" />
-  <project path="external/ppp" name="platform/external/ppp" remote="aosp" />
-  <remove-project name="platform/external/sonivox" />
-  <project path="external/sonivox" name="platform/external/sonivox" remote="aosp" />
-  <remove-project name="platform/external/v8" />
-  <project path="external/v8" name="platform/external/v8" remote="aosp" />
-  <remove-project name="platform/frameworks/opt/net/voip" />
-  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" remote="aosp" />
-  <remove-project name="platform/system/libhwbinder" />
-  <project path="system/libhwbinder" name="platform/system/libhwbinder" remote="aosp" />
-
   <!-- Use Google servers for faster sync -->
   <remove-project name="platform/prebuilts/gradle-plugin" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" remote="aosp" clone-depth="1" />
