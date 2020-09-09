@@ -219,6 +219,10 @@
   <remove-project name="platform/prebuilts/vndk/v28" />
   <project path="prebuilts/vndk/v28" name="platform/prebuilts/vndk/v28" clone-depth="1" remote="aosp" />
 
+  <!-- September 2020 SPL -->
+  <remove-project name="platform/external/sonivox" />
+  <project path="external/sonivox" name="platform/external/sonivox" remote="aosp" revision="refs/tags/android-10.0.0_r46" />
+
   <!-- Use Google servers for faster sync -->
   <remove-project name="platform/prebuilts/gradle-plugin" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" remote="aosp" clone-depth="1" />
