@@ -28,7 +28,8 @@
            fetch="ssh://git@github.com" />
 
   <remote name="gitlab"
-           fetch="https://gitlab.com"/>
+           fetch="https://gitlab.com"
+           revision="quartz" />
 
   <remote  name="caf_bluetooth"
            fetch="git://source.codeaurora.org/quic/la"
