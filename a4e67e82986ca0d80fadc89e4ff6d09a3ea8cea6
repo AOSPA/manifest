@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "ddb41a95_8e13ec6c",
+        "filename": "manifests/aospa.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-09-13T21:14:26Z",
+      "side": 1,
+      "message": "ok",
+      "parentUuid": "c8f0858e_c9874321",
+      "revId": "a4e67e82986ca0d80fadc89e4ff6d09a3ea8cea6",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "8d9d6497_02e02fb2",
         "filename": "manifests/aospa.xml",
         "patchSetId": 2
@@ -30,6 +48,30 @@
       "writtenOn": "2020-09-13T21:06:51Z",
       "side": 1,
       "message": "We use Google\u0027s fork.",
+      "range": {
+        "startLine": 122,
+        "startChar": 39,
+        "endLine": 122,
+        "endChar": 47
+      },
+      "revId": "a4e67e82986ca0d80fadc89e4ff6d09a3ea8cea6",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7e5920a6_5b4c7c99",
+        "filename": "manifests/aospa.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-09-13T21:14:26Z",
+      "side": 1,
+      "message": "removed in the next commit anyway",
+      "parentUuid": "8d9d6497_02e02fb2",
       "range": {
         "startLine": 122,
         "startChar": 39,
