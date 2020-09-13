@@ -12,14 +12,14 @@
   <remote  name="aospa"
            fetch=".."
            review="gerrit.aospa.co"
-           revision="quartz" />
+           revision="ruby" />
 
   <remote  name="caf"
            fetch="https://source.codeaurora.org/quic/la" />
 
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario"
-           revision="quartz" />
+           revision="ruby" />
 
   <remote  name="github"
            fetch="https://github.com" />
@@ -29,7 +29,7 @@
 
   <remote name="gitlab"
            fetch="https://gitlab.com"
-           revision="quartz" />
+           revision="ruby" />
 
   <remote  name="caf_bluetooth"
            fetch="git://source.codeaurora.org/quic/la"
