@@ -27,8 +27,6 @@
   <project path="libcore" name="AOSPA/android_libcore" remote="aospa" groups="aospa" />
 
   <!-- Device -->
-  <remove-project name="device/generic/goldfish" />
-  <project path="device/generic/goldfish" name="AOSPA/android_device_generic_goldfish" remote="aospa" groups="aospa" />
   <remove-project name="device/qcom/sepolicy" />
   <project path="device/qcom/sepolicy" name="AOSPA/android_device_qcom_sepolicy" remote="aospa" groups="aospa" />
 
@@ -86,8 +84,6 @@
   <project path="hardware/qcom/wlan" name="AOSPA/android_hardware_qcom_wlan" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/interfaces" />
   <project path="hardware/interfaces" name="AOSPA/android_hardware_interfaces" remote="aospa" groups="aospa" />
-  <remove-project name="platform/hardware/nxp/nfc" />
-  <project path="hardware/nxp/nfc" name="AOSPA/android_hardware_nxp_nfc" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/ril" />
@@ -116,8 +112,6 @@
   <project path="packages/apps/SettingsIntelligence" name="AOSPA/android_packages_apps_SettingsIntelligence" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <project path="packages/apps/ThemePicker" name="AOSPA/android_packages_apps_ThemePicker" remote="aospa" groups="aospa" />
-  <remove-project name="platform/packages/providers/MediaProvider" />
-  <project path="packages/providers/MediaProvider" name="AOSPA/android_packages_providers_MediaProvider" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/services/Telecomm" />
   <project path="packages/services/Telecomm" name="AOSPA/android_packages_services_Telecomm" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/services/Telephony" />
