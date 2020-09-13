@@ -16,8 +16,6 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <remove-project name="platform/build/blueprint" />
-  <project path="build/blueprint" name="AOSPA/android_build_blueprint" remote="aospa" groups="aospa" />
   <remove-project name="platform/build/soong" />
   <project path="build/soong" name="AOSPA/android_build_soong" remote="aospa" groups="aospa" >
     <linkfile src="root.bp" dest="Android.bp" />
@@ -27,8 +25,6 @@
   <project path="libcore" name="AOSPA/android_libcore" remote="aospa" groups="aospa" />
 
   <!-- Device -->
-  <remove-project name="device/generic/goldfish" />
-  <project path="device/generic/goldfish" name="AOSPA/android_device_generic_goldfish" remote="aospa" groups="aospa" />
   <remove-project name="device/qcom/sepolicy" />
   <project path="device/qcom/sepolicy" name="AOSPA/android_device_qcom_sepolicy" remote="aospa" groups="aospa" />
 
@@ -50,8 +46,6 @@
   <project path="external/libpng" name="AOSPA/android_external_libpng" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/selinux" />
   <project path="external/selinux" name="AOSPA/android_external_selinux" remote="aospa" groups="aospa" />
-  <remove-project name="platform/external/skia" />
-  <project path="external/skia" name="AOSPA/android_external_skia" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/sqlite" />
   <project path="external/sqlite" name="AOSPA/android_external_sqlite" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/zlib" />
@@ -86,8 +80,6 @@
   <project path="hardware/qcom/wlan" name="AOSPA/android_hardware_qcom_wlan" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/interfaces" />
   <project path="hardware/interfaces" name="AOSPA/android_hardware_interfaces" remote="aospa" groups="aospa" />
-  <remove-project name="platform/hardware/nxp/nfc" />
-  <project path="hardware/nxp/nfc" name="AOSPA/android_hardware_nxp_nfc" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/ril" />
@@ -106,22 +98,10 @@
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Bluetooth" name="AOSPA/android_packages_apps_Bluetooth" remote="aospa" groups="aospa" />
-  <remove-project name="platform/packages/apps/Messaging" />
-  <project path="packages/apps/Messaging" name="AOSPA/android_packages_apps_Messaging" remote="aospa" groups="aospa" />
-  <remove-project name="platform/packages/apps/Nfc" />
-  <project path="packages/apps/Nfc" name="AOSPA/android_packages_apps_Nfc" remote="aospa" groups="aospa" />
-  <remove-project name="platform/packages/apps/PackageInstaller"/>
-  <project path="packages/apps/PermissionController" name="AOSPA/android_packages_apps_PackageInstaller" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" groups="aospa" />
-  <remove-project name="platform/packages/apps/SettingsIntelligence" />
-  <project path="packages/apps/SettingsIntelligence" name="AOSPA/android_packages_apps_SettingsIntelligence" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <project path="packages/apps/ThemePicker" name="AOSPA/android_packages_apps_ThemePicker" remote="aospa" groups="aospa" />
-  <remove-project name="platform/packages/inputmethods/LatinIME" />
-  <project path="packages/inputmethods/LatinIME" name="AOSPA/android_packages_inputmethods_LatinIME" remote="aospa" groups="aospa" />
-  <remove-project name="platform/packages/providers/MediaProvider" />
-  <project path="packages/providers/MediaProvider" name="AOSPA/android_packages_providers_MediaProvider" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/services/Telecomm" />
   <project path="packages/services/Telecomm" name="AOSPA/android_packages_services_Telecomm" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/services/Telephony" />
@@ -167,20 +147,8 @@
   <project path="system/core" name="AOSPA/android_system_core" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/extras" />
   <project path="system/extras" name="AOSPA/android_system_extras" remote="aospa" groups="aospa" />
-  <remove-project name="platform/system/libhidl" />
-  <project path="system/libhidl" name="AOSPA/android_system_libhidl" remote="aospa" groups="aospa" />
-  <remove-project name="platform/system/keymaster" />
-  <project path="system/keymaster" name="AOSPA/android_system_keymaster" remote="aospa" groups="aospa" />
-  <remove-project name="platform/system/media" />
-  <project path="system/media" name="AOSPA/android_system_media" remote="aospa" groups="aospa" />
-  <remove-project name="platform/system/netd" />
-  <project path="system/netd" name="AOSPA/android_system_netd" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="AOSPA/android_system_sepolicy" remote="aospa" groups="aospa" />
-  <remove-project name="platform/system/security" />
-  <project path="system/security" name="AOSPA/android_system_security" remote="aospa" groups="aospa" />
-  <remove-project name="platform/system/tools/hidl" />
-  <project path="system/tools/hidl" name="AOSPA/android_system_tools_hidl" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/update_engine" />
   <project path="system/update_engine" name="AOSPA/android_system_update_engine" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/vold" />
@@ -224,16 +192,10 @@
   <project path="system/nfc" name="platform/system/nfc" remote="aosp" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" remote="aosp" />
-  <remove-project name="platform/packages/wallpapers/LivePicker" />
-  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" remote="aosp" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" remote="aosp" />
   <remove-project name="platform/prebuilts/vndk/v28" />
   <project path="prebuilts/vndk/v28" name="platform/prebuilts/vndk/v28" clone-depth="1" remote="aosp" />
-
-  <!-- September 2020 SPL -->
-  <remove-project name="platform/external/sonivox" />
-  <project path="external/sonivox" name="platform/external/sonivox" remote="aosp" revision="refs/tags/android-10.0.0_r46" />
 
   <!-- Use Google servers for faster sync -->
   <remove-project name="platform/prebuilts/gradle-plugin" />
