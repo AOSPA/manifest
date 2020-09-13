@@ -98,6 +98,24 @@
       "revId": "a4e67e82986ca0d80fadc89e4ff6d09a3ea8cea6",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "267d9897_3d3a5c6f",
+        "filename": "manifests/aospa.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-09-13T21:16:51Z",
+      "side": 1,
+      "message": "shouldn\u0027t hurt anything as-is, so I don\u0027t see a need to kill it for now.",
+      "parentUuid": "976223e5_6031fda8",
+      "revId": "a4e67e82986ca0d80fadc89e4ff6d09a3ea8cea6",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
     }
   ]
 }
