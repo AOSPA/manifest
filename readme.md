@@ -56,7 +56,7 @@ and their change histories.
 # The -j# option specifies the number of concurrent download threads to run.
 # 4 threads is a good number for most internet connections.
 # You may need to adjust this value if you have a particularly slow connection.
-$ repo sync -j4
+$ repo sync -c --no-clone-bundle --current-branch --no-tags -j4
 ```
 
 #### Syncing specific projects ####
