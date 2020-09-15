@@ -33,7 +33,7 @@
   <remote  name="caf_bluetooth"
            fetch="git://source.codeaurora.org/quic/la"
            review="codeaurora.org"
-           revision="refs/tags/LA.UM.8.12.c3-12900-sm8250.0" />
+           revision="refs/tags/LA.UM.8.12.r1-14100-sm8250.0" />
 
   <default revision="refs/tags/LA.UM.8.2.r2-02700-sdm660.0"
            remote="caf"
