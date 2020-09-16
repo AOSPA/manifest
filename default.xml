@@ -798,10 +798,4 @@
   <project name="toolchain/pgo-profiles"/>
   <project name="tools/platform-compat"/>
 
-  <!-- Remove obsolete packages -->
-  <include name="manifests/obsolete.xml"/>
-
-  <!-- Paranoid Android additions -->
-  <include name="manifests/aospa.xml"/>
-
 </manifest>
