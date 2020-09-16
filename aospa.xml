@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Build -->
+  <remove-project name="platform/build" />
+  <project path="build/make" name="AOSPA/android_build" remote="aospa" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <remove-project name="platform/build/soong" />
+  <project path="build/soong" name="AOSPA/android_build_soong" remote="aospa" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- External -->
+  <remove-project name="platform/external/json-c" />
+  <project path="external/json-c" name="AOSPA/android_external_json-c" remote="aospa" />
+
+  <!-- Frameworks -->
+  <remove-project name="platform/frameworks/base" />
+  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" />
+
+  <!-- Manifest -->
+  <project path="manifest" name="AOSPA/manifest" remote="aospa" />
+
+  <!-- Packages -->
+  <remove-project name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" />
+
+  <!-- Prebuilt -->
+  <project path="prebuilts/tools-pa" name="AOSPA/android_prebuilts_tools-pa" remote="aospa" />
+
+  <!-- System -->
+  <remove-project name="platform/system/core" />
+  <project path="system/core" name="AOSPA/android_system_core" remote="aospa" />
+
+  <!-- Vendor (AOSPA) -->
+  <project path="vendor/google/gms" name="AOSPA/android_vendor_google_gms" remote="gitlab" revision="ruby" />
+  <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="blobs" />
+  <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="aospa" >
+    <copyfile src="build.sh" dest="rom-build.sh" />
+  </project>
+
+</manifest>
