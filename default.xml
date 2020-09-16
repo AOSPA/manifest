@@ -25,5 +25,6 @@
            fetch="https://gitlab.com"/>
 
   <include name="aospa.xml"/>
+  <include name="obsolete.xml"/>
 
 </manifest>
