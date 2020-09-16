@@ -40,8 +40,6 @@
            sync-j="4"
            sync-c="true"/>
 
-  <project name="device/amlogic/yukawa"/>
-  <project clone-depth="1" name="device/amlogic/yukawa-kernel"/>
   <project name="device/common"/>
   <project name="device/generic/arm64"/>
   <project name="device/generic/armv7-a-neon"/>
@@ -60,17 +58,6 @@
   <project name="device/generic/uml"/>
   <project name="device/generic/x86"/>
   <project name="device/generic/x86_64"/>
-  <project name="device/google/atv"/>
-  <project name="device/google/contexthub"/>
-  <project name="device/google/cuttlefish"/>
-  <project clone-depth="1" name="device/google/cuttlefish_kernel"/>
-  <project clone-depth="1" name="device/google/cuttlefish_vmm"/>
-  <project name="device/google/vrservices"/>
-  <project name="device/google_car"/>
-  <project name="device/linaro/dragonboard"/>
-  <project clone-depth="1" name="device/linaro/dragonboard-kernel"/>
-  <project name="device/linaro/poplar"/>
-  <project clone-depth="1" name="device/linaro/poplar-kernel"/>
   <project name="device/qcom/qssi"/>
   <project name="device/qcom/qssi_32"/>
   <project name="device/qcom/qssi_32go"/>
@@ -658,7 +645,6 @@
   <project clone-depth="1" name="platform/prebuilts/module_sdk/art" path="prebuilts/module_sdk/art"/>
   <project clone-depth="1" name="platform/prebuilts/ndk" path="prebuilts/ndk"/>
   <project clone-depth="1" name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5"/>
-  <project clone-depth="1" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel"/>
   <project clone-depth="1" name="platform/prebuilts/r8" path="prebuilts/r8"/>
   <project clone-depth="1" name="platform/prebuilts/remoteexecution-client" path="prebuilts/remoteexecution-client"/>
   <project clone-depth="1" name="platform/prebuilts/runtime" path="prebuilts/runtime"/>
