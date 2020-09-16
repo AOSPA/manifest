@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="device/amlogic/yukawa" />
+  <remove-project name="device/amlogic/yukawa-kernel" />
+  <remove-project name="device/google/atv" />
+  <remove-project name="device/google/contexthub" />
+  <remove-project name="device/google/cuttlefish" />
+  <remove-project name="device/google/cuttlefish_kernel" />
+  <remove-project name="device/google/cuttlefish_vmm" />
+  <remove-project name="device/google/vrservices" />
+  <remove-project name="device/google_car" />
+  <remove-project name="device/linaro/dragonboard" />
+  <remove-project name="device/linaro/dragonboard-kernel" />
+  <remove-project name="device/linaro/poplar" />
+  <remove-project name="device/linaro/poplar-kernel" />
+  <remove-project name="platform/prebuilts/qemu-kernel" />
+
+</manifest>
