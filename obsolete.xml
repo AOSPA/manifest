@@ -16,4 +16,16 @@
   <remove-project name="device/linaro/poplar-kernel" />
   <remove-project name="platform/prebuilts/qemu-kernel" />
 
+  <!-- Kernel -->
+  <remove-project name="kernel/build" />
+  <remove-project name="kernel/msm-4.19" />
+  <remove-project name="platform/vendor/opensource/audio-kernel" />
+  <remove-project name="platform/vendor/opensource/camera-kernel" />
+  <remove-project name="platform/vendor/opensource/display-drivers" />
+  <remove-project name="platform/vendor/opensource/video-driver" />
+  <remove-project name="platform/vendor/qcom-opensource/data-kernel" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" />
+
 </manifest>
