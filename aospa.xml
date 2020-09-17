@@ -18,6 +18,12 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- Device -->
+  <remove-project name="kernel/build" />
+  <project path="device/qcom/kernelscripts" name="AOSPA/android_kernel_build" remote="aospa" >
+    <linkfile dest="vendor/pa/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk"/>
+  </project>
+
   <!-- External -->
   <remove-project name="platform/external/json-c" />
   <project path="external/json-c" name="AOSPA/android_external_json-c" remote="aospa" />
