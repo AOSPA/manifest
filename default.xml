@@ -27,7 +27,13 @@
            fetch="https://github.com/ThankYouMario"
            revision="ruby" />
 
-  <remote name="gitlab"
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <remote  name="github-ssh"
+           fetch="ssh://git@github.com" />
+
+  <remote  name="gitlab"
            fetch="https://gitlab.com"/>
 
   <include name="aospa.xml"/>
