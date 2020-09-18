@@ -25,6 +25,8 @@
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="aospa" />
 
   <!-- Manifest -->
   <project path="manifest" name="AOSPA/manifest" remote="aospa" />
@@ -43,5 +45,11 @@
   <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="aospa" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
+
+  <!-- Vendor (CAF) -->
+  <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="AOSPA/android_vendor_qcom-opensource_bluetooth-commonsys-intf" remote="aospa" />
+  <remove-project name="platform/vendor/qcom-opensource/vibrator" />
+  <project path="vendor/qcom/opensource/vibrator" name="AOSPA/android_vendor_qcom-opensource_vibrator" remote="aospa" />
 
 </manifest>
