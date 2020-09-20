@@ -52,7 +52,7 @@
   <project path="vendor/google/gms" name="AOSPA/android_vendor_google_gms" remote="gitlab" revision="ruby" />
   <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="blobs" />
   <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="aospa" >
-    <copyfile src="build.sh" dest="rom-build.sh" />
+    <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
 
   <!-- Vendor (CAF) -->
