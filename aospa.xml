@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Build -->
+  <!-- Build and Core-->
+  <remove-project name="platform/art" />
+  <project path="art" name="AOSPA/android_art" remote="aospa" />
+  <remove-project name="platform/bionic" />
+  <project path="bionic" name="AOSPA/android_bionic" remote="aospa" />
   <remove-project name="platform/build" />
   <project path="build/make" name="AOSPA/android_build" remote="aospa" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -35,6 +39,8 @@
   <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="aospa" />
 
   <!-- Hardware -->
+  <remove-project name="platform/hardware/interfaces" />
+  <project path="hardware/interfaces" name="AOSPA/android_hardware_interfaces" remote="aospa" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <project path="hardware/qcom/wlan" name="AOSPA/android_hardware_qcom_wlan" remote="aospa" />
 
