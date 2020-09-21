@@ -31,6 +31,10 @@
   <!-- External -->
   <remove-project name="platform/external/json-c" />
   <project path="external/json-c" name="AOSPA/android_external_json-c" remote="aospa" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="aospa" />
+  <remove-project name="platform/external/libpng" />
+  <project path="external/libpng" name="AOSPA/android_external_libpng" remote="aospa" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
