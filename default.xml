@@ -5,7 +5,7 @@
   <remote name="caf_system"
           fetch="git://codeaurora.org/quic/la"
           review="codeaurora.org"
-          revision="refs/tags/LA.QSSI.11.0.r1-05600-qssi.0"/>
+          revision="refs/tags/LA.QSSI.11.0.r1-05800-qssi.0"/>
 
   <remote name="caf_vendor"
           fetch="git://codeaurora.org/quic/la"
