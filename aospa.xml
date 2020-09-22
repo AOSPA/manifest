@@ -35,6 +35,8 @@
   <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="aospa" />
   <remove-project name="platform/external/libpng" />
   <project path="external/libpng" name="AOSPA/android_external_libpng" remote="aospa" />
+  <remove-project name="platform/external/zlib" />
+  <project path="external/zlib" name="AOSPA/android_external_zlib" remote="aospa" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
@@ -55,7 +57,13 @@
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" />
 
-  <!-- Prebuilt -->
+  <!-- Prebuilts -->
+  <remove-project name="platform/prebuilts/abi-dumps/ndk" />
+  <project path="prebuilts/abi-dumps/ndk" name="AOSPA/android_prebuilts_abi-dumps_ndk" remote="aospa" />
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+  <project path="prebuilts/abi-dumps/vndk" name="AOSPA/android_prebuilts_abi-dumps_vndk" remote="aospa" />
+
+  <!-- Prebuilts (AOSPA) -->
   <project path="prebuilts/tools-pa" name="AOSPA/android_prebuilts_tools-pa" remote="aospa" />
 
   <!-- System -->
