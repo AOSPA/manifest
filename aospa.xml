@@ -43,8 +43,6 @@
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" />
-  <remove-project name="platform/frameworks/opt/telephony" />
-  <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="aospa" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
