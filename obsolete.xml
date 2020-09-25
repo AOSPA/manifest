@@ -31,6 +31,7 @@
   <remove-project name="platform/vendor/opensource/display-drivers" />
   <remove-project name="platform/vendor/opensource/video-driver" />
   <remove-project name="platform/vendor/qcom-opensource/data-kernel" />
+  <remove-project name="platform/vendor/qcom-opensource/location" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" />
