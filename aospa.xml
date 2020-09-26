@@ -25,7 +25,7 @@
   <!-- Device -->
   <remove-project name="kernel/build" />
   <project path="device/qcom/kernelscripts" name="AOSPA/android_kernel_build" remote="aospa" >
-    <linkfile dest="vendor/pa/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk"/>
+    <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk"/>
   </project>
 
   <!-- External -->
