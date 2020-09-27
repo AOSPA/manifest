@@ -60,6 +60,10 @@
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
+  <project path="packages/apps/ThemePicker" name="AOSPA/android_packages_apps_ThemePicker" remote="aospa" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
+  <project path="packages/apps/WallpaperPicker2" name="AOSPA/android_packages_apps_WallpaperPicker2" remote="aospa" />
 
   <!-- Packages (AOSPA) -->
   <project path="packages/apps/ParanoidPapers" name="AOSPA/android_packages_apps_ParanoidPapers" remote="aospa" />
