@@ -47,6 +47,7 @@
   <remove-project name="platform/hardware/qcom/gps"/>
   <remove-project name="platform/hardware/qcom/media"/>
   <remove-project name="platform/vendor/qcom-opensource/location"/>
+  <remove-project name="platform/vendor/qcom-opensource/wigig"/>
   <!--
   <remove-project name="platform/packages/apps/Camera2" />
   -->
