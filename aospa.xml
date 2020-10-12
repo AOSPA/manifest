@@ -95,7 +95,10 @@
 
   <!-- Vendor (CAF) -->
   <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
-  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="AOSPA/android_vendor_qcom-opensource_bluetooth-commonsys-intf" remote="aospa" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="AOSPA/android_vendor_qcom-opensource_bluetooth-commonsys-intf" remote="aospa" >
+     <linkfile dest="vendor/qcom/defs/board-defs/legacy/bt-commonsys-intf-legacy-board.mk" src="bt-commonsys-intf-legacy-board.mk"/>
+     <linkfile dest="vendor/qcom/defs/product-defs/legacy/bt-system-opensource-product.mk" src="bt-system-opensource-product.mk"/>
+  </project>
   <remove-project name="platform/vendor/qcom-opensource/interfaces" />
   <project path="vendor/qcom/opensource/interfaces" name="AOSPA/android_vendor_qcom-opensource_interfaces" remote="aospa" />
 
