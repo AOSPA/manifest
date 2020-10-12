@@ -730,7 +730,9 @@
   <project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/bluetooth">
     <linkfile dest="vendor/qcom/defs/board-defs/system/bt-commonsys-intf-board.mk" src="bt-commonsys-intf-board.mk"/>
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/bt-commonsys-intf-board.mk" src="bt-commonsys-intf-board.mk"/>
+    <linkfile dest="vendor/qcom/defs/board-defs/legacy/bt-commonsys-intf-legacy-board.mk" src="bt-commonsys-intf-legacy-board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/system/bt-system-opensource-product.mk" src="bt-system-opensource-product.mk"/>
+    <linkfile dest="vendor/qcom/defs/product-defs/legacy/bt-system-opensource-product.mk" src="bt-system-opensource-product.mk"/>
   </project>
   <project name="platform/vendor/qcom-opensource/bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext"/>
   <project name="platform/vendor/qcom-opensource/core-utils" path="vendor/qcom/opensource/core-utils">
@@ -748,6 +750,8 @@
   <project name="platform/vendor/qcom-opensource/display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display">
     <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk"/>
+    <linkfile dest="vendor/qcom/defs/product-defs/legacy/display-product-system.mk" src="config/display-product-system.mk"/>
+    <linkfile dest="vendor/qcom/defs/product-defs/legacy/display-interfaces-product.mk" src="config/display-interfaces-product.mk"/>
   </project>
   <project name="platform/vendor/qcom-opensource/dpm-commonsys" path="vendor/qcom/opensource/commonsys/dpm"/>
   <project name="platform/vendor/qcom-opensource/fm-commonsys" path="vendor/qcom/opensource/commonsys/fm"/>
