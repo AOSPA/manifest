@@ -44,6 +44,10 @@
   <remove-project name="platform/external/zlib" />
   <project path="external/zlib" name="AOSPA/android_external_zlib" remote="aospa" />
 
+  <!-- External (AOSP) -->
+  <remove-project name="platform/external/libhevc" />
+  <project path="external/libhevc" name="platform/external/libhevc" remote="aosp" />
+
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" />
