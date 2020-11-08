@@ -39,6 +39,8 @@
   <!-- External -->
   <remove-project name="platform/external/arm-optimized-routines" />
   <project path="external/arm-optimized-routines" name="AOSPA/android_external_arm-optimized-routines" remote="aospa" />
+  <remove-project name="platform/external/iptables" />
+  <project path="external/iptables" name="AOSPA/android_external_iptables" remote="aospa" />
   <remove-project name="platform/external/json-c" />
   <project path="external/json-c" name="AOSPA/android_external_json-c" remote="aospa" />
   <remove-project name="platform/external/libjpeg-turbo" />
@@ -51,6 +53,10 @@
   <project path="external/zlib" name="AOSPA/android_external_zlib" remote="aospa" />
 
   <!-- External (AOSP) -->
+  <remove-project name="platform/external/aac" />
+  <project path="external/aac" name="platform/external/aac" remote="aosp" />
+  <remove-project name="platform/external/libexif" />
+  <project path="external/libexif" name="platform/external/libexif" remote="aosp" />
   <remove-project name="platform/external/libhevc" />
   <project path="external/libhevc" name="platform/external/libhevc" remote="aosp" />
 
@@ -72,6 +78,8 @@
   <project path="manifest" name="AOSPA/manifest" remote="aospa" />
 
   <!-- Packages -->
+  <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
+  <project path="packages/apps/CellBroadcastReceiver" name="AOSPA/android_packages_apps_CellBroadcastReceiver" remote="aospa" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/Launcher3" name="AOSPA/android_packages_apps_ParanoidLauncher" remote="aospa" />
   <remove-project name="platform/packages/apps/Settings" />
@@ -80,9 +88,15 @@
   <project path="packages/apps/ThemePicker" name="AOSPA/android_packages_apps_ThemePicker" remote="aospa" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <project path="packages/apps/WallpaperPicker2" name="AOSPA/android_packages_apps_WallpaperPicker2" remote="aospa" />
+  <remove-project name="platform/packages/services/Telecomm" />
+  <project path="packages/services/Telecomm" name="AOSPA/android_packages_services_Telecomm" remote="aospa" />
 
   <!-- Packages (AOSPA) -->
   <project path="packages/apps/ParanoidPapers" name="AOSPA/android_packages_apps_ParanoidPapers" remote="aospa" />
+
+  <!-- Packages (AOSP) -->
+  <remove-project name="packages/modules/DnsResolver" />
+  <project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" remote="aosp" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/ndk" />
@@ -102,6 +116,10 @@
   <project path="system/sepolicy" name="AOSPA/android_system_sepolicy" remote="aospa" />
   <remove-project name="platform/system/vold" />
   <project path="system/vold" name="AOSPA/android_system_vold" remote="aospa" />
+
+  <!-- System (AOSP) -->
+  <remove-project name="platform/system/nfc" />
+  <project path="system/nfc" name="platform/system/nfc" remote="aosp" />
 
   <!-- Vendor (AOSPA) -->
   <project path="vendor/google/gms" name="AOSPA/android_vendor_google_gms" remote="gitlab" revision="ruby" />
