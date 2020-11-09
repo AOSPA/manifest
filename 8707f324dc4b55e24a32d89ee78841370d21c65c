@@ -16,6 +16,24 @@
       "revId": "8707f324dc4b55e24a32d89ee78841370d21c65c",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d20865fa_33f59f35",
+        "filename": "aospa.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-11-09T22:01:10Z",
+      "side": 1,
+      "message": "fixed in a force push yesterday, syncs should work now.",
+      "parentUuid": "6e776390_42337876",
+      "revId": "8707f324dc4b55e24a32d89ee78841370d21c65c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
     }
   ]
 }
