@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6e776390_42337876",
+        "filename": "aospa.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1000460
+      },
+      "writtenOn": "2020-11-09T20:08:12Z",
+      "side": 1,
+      "message": "Typo here platform/packages/modules/DnsResolver",
+      "revId": "8707f324dc4b55e24a32d89ee78841370d21c65c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
