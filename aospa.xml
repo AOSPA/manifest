@@ -35,6 +35,8 @@
   <project path="device/qcom/kernelscripts" name="AOSPA/android_kernel_build" remote="aospa" >
     <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk"/>
   </project>
+  <remove-project name="platform/vendor/qcom/wlan" />
+  <project path="device/qcom/wlan" name="AOSPA/android_device_qcom_wlan" remote="aospa" />
 
   <!-- External -->
   <remove-project name="platform/external/arm-optimized-routines" />
