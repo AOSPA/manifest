@@ -130,6 +130,7 @@
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="blobs" />
+  <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" />
 
   <!-- Vendor (CAF) -->
   <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
