@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "af0bfd6a_5d0b57d3",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-11-29T15:01:26Z",
+      "side": 1,
+      "message": "I don\u0027t think we should hardcode this. You can use the insteadOf command from their wiki if you want the redirect.",
+      "revId": "504295360975b808a0e6dc6499a0edadaaf4a7c8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
