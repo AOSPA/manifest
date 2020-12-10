@@ -58,8 +58,12 @@
   <project path="external/aac" name="platform/external/aac" remote="aosp" />
   <remove-project name="platform/external/libexif" />
   <project path="external/libexif" name="platform/external/libexif" remote="aosp" />
+  <remove-project name="platform/external/libgav1" />
+  <project path="external/libgav1" name="platform/external/libgav1" remote="aosp" />
   <remove-project name="platform/external/libhevc" />
   <project path="external/libhevc" name="platform/external/libhevc" remote="aosp" />
+  <remove-project name="platform/external/v4l2_codec2" />
+  <project path="external/v4l2_codec2" name="platform/external/v4l2_codec2" remote="aosp" />
 
   <!-- External (nano) -->
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-18.0" />
@@ -101,6 +105,10 @@
   <project path="packages/apps/ParanoidPapers" name="AOSPA/android_packages_apps_ParanoidPapers" remote="aospa" />
 
   <!-- Packages (AOSP) -->
+  <remove-project name="platform/packages/apps/Car/libs" />
+  <project path="packages/apps/Car/libs" name="platform/packages/apps/Car/libs" remote="aosp" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
+  <project path="packages/apps/PermissionController" name="platform/packages/apps/PackageInstaller" remote="aosp" />
   <remove-project name="platform/packages/modules/DnsResolver" />
   <project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" remote="aosp" />
 
@@ -110,12 +118,20 @@
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <project path="prebuilts/abi-dumps/vndk" name="AOSPA/android_prebuilts_abi-dumps_vndk" remote="aospa" />
 
+  <!-- Prebuilts (AOSP) -->
+  <remove-project name="platform/prebuilts/r8" />
+  <project path="prebuilts/r8" name="platform/prebuilts/r8" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/sdk" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" clone-depth="1" />
+
   <!-- Prebuilts (AOSPA) -->
   <project path="prebuilts/tools-pa" name="AOSPA/android_prebuilts_tools-pa" remote="aospa" />
 
   <!-- System -->
   <remove-project name="platform/system/core" />
   <project path="system/core" name="AOSPA/android_system_core" remote="aospa" />
+  <remove-project name="platform/system/extras" />
+  <project path="system/extras" name="AOSPA/android_system_extras" remote="aospa" />
   <remove-project name="platform/system/hardware/interfaces" />
   <project path="system/hardware/interfaces" name="AOSPA/android_system_hardware_interfaces" remote="aospa" />
   <remove-project name="platform/system/memory/lmkd" />
