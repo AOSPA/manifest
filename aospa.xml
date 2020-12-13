@@ -37,6 +37,8 @@
   </project>
 
   <!-- External -->
+  <remove-project name="platform/external/android-clat" />
+  <project path="external/android-clat" name="AOSPA/android_external_android-clat" remote="aospa" />
   <remove-project name="platform/external/arm-optimized-routines" />
   <project path="external/arm-optimized-routines" name="AOSPA/android_external_arm-optimized-routines" remote="aospa" />
   <project path="external/exfatprogs" name="AOSPA/android_external_exfatprogs" remote="aospa" />
@@ -56,14 +58,38 @@
   <!-- External (AOSP) -->
   <remove-project name="platform/external/aac" />
   <project path="external/aac" name="platform/external/aac" remote="aosp" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" remote="aosp" />
+  <remove-project name="platform/external/flac" />
+  <project path="external/flac" name="platform/external/flac" remote="aosp" />
+  <remove-project name="platform/external/icu" />
+  <project path="external/icu" name="platform/external/icu" remote="aosp" />
+  <remove-project name="platform/external/libaom" />
+  <project path="external/libaom" name="platform/external/libaom" remote="aosp" />
+  <remove-project name="platform/external/libavc" />
+  <project path="external/libavc" name="platform/external/libavc" remote="aosp" />
   <remove-project name="platform/external/libexif" />
   <project path="external/libexif" name="platform/external/libexif" remote="aosp" />
   <remove-project name="platform/external/libgav1" />
   <project path="external/libgav1" name="platform/external/libgav1" remote="aosp" />
   <remove-project name="platform/external/libhevc" />
   <project path="external/libhevc" name="platform/external/libhevc" remote="aosp" />
+  <remove-project name="platform/external/minigbm" />
+  <project path="external/minigbm" name="platform/external/minigbm" remote="aosp" />
+  <remove-project name="platform/external/nos/host/generic" />
+  <project path="external/nos/host/generic" name="platform/external/nos/host/generic" remote="aosp" />
+  <remove-project name="platform/external/noto-fonts" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" />
+  <remove-project name="platform/external/sonivox" />
+  <project path="external/sonivox" name="platform/external/sonivox" remote="aosp" />
+  <remove-project name="platform/external/tremolo" />
+  <project path="external/tremolo" name="platform/external/tremolo" remote="aosp" />
+  <remove-project name="platform/external/unicode" />
+  <project path="external/unicode" name="platform/external/unicode" remote="aosp" />
   <remove-project name="platform/external/v4l2_codec2" />
   <project path="external/v4l2_codec2" name="platform/external/v4l2_codec2" remote="aosp" />
+  <remove-project name="platform/external/wayland-protocols" />
+  <project path="external/wayland-protocols" name="platform/external/wayland-protocols" remote="aosp" />
 
   <!-- External (nano) -->
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-18.0" />
@@ -111,6 +137,8 @@
   <project path="packages/apps/PermissionController" name="platform/packages/apps/PackageInstaller" remote="aosp" />
   <remove-project name="platform/packages/modules/DnsResolver" />
   <project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" remote="aosp" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <project path="packages/providers/MediaProvider" name="AOSPA/android_packages_providers_MediaProvider" remote="aospa" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/ndk" />
@@ -128,16 +156,26 @@
   <project path="prebuilts/tools-pa" name="AOSPA/android_prebuilts_tools-pa" remote="aospa" />
 
   <!-- System -->
+  <remove-project name="platform/system/apex" />
+  <project path="system/apex" name="AOSPA/android_system_apex" remote="aospa" />
+  <remove-project name="platform/system/chre" />
+  <project path="system/chre" name="AOSPA/android_system_chre" remote="aospa" />
   <remove-project name="platform/system/core" />
   <project path="system/core" name="AOSPA/android_system_core" remote="aospa" />
   <remove-project name="platform/system/extras" />
   <project path="system/extras" name="AOSPA/android_system_extras" remote="aospa" />
   <remove-project name="platform/system/hardware/interfaces" />
   <project path="system/hardware/interfaces" name="AOSPA/android_system_hardware_interfaces" remote="aospa" />
+  <remove-project name="platform/system/libhidl" />
+  <project path="system/libhidl" name="AOSPA/android_system_libhidl" remote="aospa" />
+  <remove-project name="platform/system/media" />
+  <project path="system/media" name="AOSPA/android_system_media" remote="aospa" />
   <remove-project name="platform/system/memory/lmkd" />
   <project path="system/memory/lmkd" name="AOSPA/android_system_memory_lmkd" remote="aospa" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="AOSPA/android_system_sepolicy" remote="aospa" />
+  <remove-project name="platform/system/tools/aidl" />
+  <project path="system/tools/aidl" name="AOSPA/android_system_tools_aidl" remote="aospa" />
   <remove-project name="platform/system/vold" />
   <project path="system/vold" name="AOSPA/android_system_vold" remote="aospa" />
 
