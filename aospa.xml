@@ -54,16 +54,43 @@
   <project path="external/zlib" name="AOSPA/android_external_zlib" remote="aospa" />
 
   <!-- External (AOSP) -->
+  <remove-project name="platform/external/android-clat" />
+  <project path="external/android-clat" name="AOSPA/android_external_android-clat" remote="aospa" />
+
   <remove-project name="platform/external/aac" />
   <project path="external/aac" name="platform/external/aac" remote="aosp" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" remote="aosp" />
+  <remove-project name="platform/external/flac" />
+  <project path="external/flac" name="platform/external/flac" remote="aosp" />
+  <remove-project name="platform/external/icu" />
+  <project path="external/icu" name="platform/external/icu" remote="aosp" />
+  <remove-project name="platform/external/libaom" />
+  <project path="external/libaom" name="platform/external/libaom" remote="aosp" />
+  <remove-project name="platform/external/libavc" />
+  <project path="external/libavc" name="platform/external/libavc" remote="aosp" />
   <remove-project name="platform/external/libexif" />
   <project path="external/libexif" name="platform/external/libexif" remote="aosp" />
   <remove-project name="platform/external/libgav1" />
   <project path="external/libgav1" name="platform/external/libgav1" remote="aosp" />
   <remove-project name="platform/external/libhevc" />
   <project path="external/libhevc" name="platform/external/libhevc" remote="aosp" />
+  <remove-project name="platform/external/minigbm" />
+  <project path="external/minigbm" name="platform/external/minigbm" remote="aosp" />
+  <remove-project name="platform/external/nos/host/generic" />
+  <project path="external/nos/host/generic" name="platform/external/nos/host/generic" remote="aosp" />
+  <remove-project name="platform/external/noto-fonts" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" />
+  <remove-project name="platform/external/sonivox" />
+  <project path="external/sonivox" name="platform/external/sonivox" remote="aosp" />
+  <remove-project name="platform/external/tremolo" />
+  <project path="external/tremolo" name="platform/external/tremolo" remote="aosp" />
+  <remove-project name="platform/external/unicode" />
+  <project path="external/unicode" name="platform/external/unicode" remote="aosp" />
   <remove-project name="platform/external/v4l2_codec2" />
   <project path="external/v4l2_codec2" name="platform/external/v4l2_codec2" remote="aosp" />
+  <remove-project name="platform/external/wayland-protocols" />
+  <project path="external/wayland-protocols" name="platform/external/wayland-protocols" remote="aosp" />
 
   <!-- External (nano) -->
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-18.0" />
@@ -109,6 +136,9 @@
   <project path="packages/apps/ParanoidPapers" name="AOSPA/android_packages_apps_ParanoidPapers" remote="aospa" />
 
   <!-- Packages (AOSP) -->
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <project path="packages/providers/MediaProvider" name="AOSPA/android_packages_providers_MediaProvider" remote="aospa" />
+
   <remove-project name="platform/packages/apps/Car/libs" />
   <project path="packages/apps/Car/libs" name="platform/packages/apps/Car/libs" remote="aosp" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
@@ -146,6 +176,15 @@
   <project path="system/vold" name="AOSPA/android_system_vold" remote="aospa" />
 
   <!-- System (AOSP) -->
+  <remove-project name="platform/system/chre" />
+  <project path="system/chre" name="AOSPA/android_system_chre" remote="aospa" />
+  <remove-project name="platform/system/libhidl" />
+  <project path="system/libhidl" name="AOSPA/android_system_libhidl" remote="aospa" />
+  <remove-project name="platform/system/media" />
+  <project path="system/media" name="AOSPA/android_system_media" remote="aospa" />
+
+  <remove-project name="platform/system/apex" />
+  <project path="system/apex" name="platform/system/apex" remote="aosp" />
   <remove-project name="platform/system/nfc" />
   <project path="system/nfc" name="platform/system/nfc" remote="aosp" />
 
