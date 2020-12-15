@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "40898ba6_434e1015",
+        "filename": "aospa.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-12-15T20:55:57Z",
+      "side": 1,
+      "message": "CAF does not modify this.  Please take another look at this repo and the others.",
+      "revId": "97392cd3a6438a3c804d182d1bfc7817008896c2",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
