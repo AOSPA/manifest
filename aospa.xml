@@ -110,6 +110,8 @@
   <remove-project name="platform/hardware/qcom/wlan" />
   <project path="hardware/qcom/wlan" name="AOSPA/android_hardware_qcom_wlan" remote="aospa" />
 
+  <!-- Hardware (AOSP) -->
+  <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" remote="aosp" />
   <!-- Kernel -->
   <remove-project name="kernel/configs" />
   <project path="kernel/configs" name="AOSPA/android_kernel_configs" remote="aospa" />
