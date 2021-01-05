@@ -65,6 +65,10 @@
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" remote="aosp" />
   <remove-project name="platform/external/flac" />
   <project path="external/flac" name="platform/external/flac" remote="aosp" />
+  <remove-project name="platform/external/freetype" />
+  <project path="external/freetype" name="platform/external/freetype" remote="aosp" />
+  <remove-project name="platform/external/gptfdisk" />
+  <project path="external/gptfdisk" name="platform/external/gptfdisk" remote="aosp" />
   <remove-project name="platform/external/icu" />
   <project path="external/icu" name="platform/external/icu" remote="aosp" />
   <remove-project name="platform/external/libaom" />
@@ -105,6 +109,10 @@
   <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" />
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" />
+
+  <!-- Frameworks (AOSP) -->
+  <remove-project name="platform/frameworks/minikin" />
+  <project path="frameworks/minikin" name="platform/frameworks/minikin" remote="aosp" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
@@ -191,6 +199,8 @@
   <project path="system/apex" name="platform/system/apex" remote="aosp" />
   <remove-project name="platform/system/nfc" />
   <project path="system/nfc" name="platform/system/nfc" remote="aosp" />
+  <remove-project name="platform/system/security" />
+  <project path="system/security" name="platform/system/security" remote="aosp" />
 
   <!-- Vendor (AOSPA) -->
   <project path="vendor/google/gms" name="AOSPA/android_vendor_google_gms" remote="gitlab" revision="ruby" />
