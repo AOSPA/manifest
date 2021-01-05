@@ -106,6 +106,10 @@
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" />
 
+  <!-- Frameworks (AOSP) -->
+  <remove-project name="platform/frameworks/minikin" />
+  <project path="frameworks/minikin" name="platform/frameworks/minikin" remote="aosp" />
+
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
   <project path="hardware/interfaces" name="AOSPA/android_hardware_interfaces" remote="aospa" />
