@@ -209,7 +209,7 @@
   <project path="vendor/google/gms" name="AOSPA/android_vendor_google_gms" remote="gitlab" revision="ruby" />
   <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="blobs" />
   <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="aospa" >
-    <linkfile src="build.sh" dest="rom-build.sh" />
+    <linkfile src="scripts/build.sh" dest="rom-build.sh" />
   </project>
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="blobs" />
   <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" />
