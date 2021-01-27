@@ -17,7 +17,7 @@
           review="codeaurora.org"
           revision="refs/tags/LA.UM.9.14.r1-12600-LAHAINA.0"/>
 
-  <default revision="refs/tags/LA.QSSI.11.0.r1-09400-qssi.0"
+  <default revision="refs/tags/LA.QSSI.11.0.r1-09600-qssi.0"
            remote="caf_system"/>
 
   <include name="system.xml"/>
