@@ -15,7 +15,7 @@
   <remote name="caf_vendor"
           fetch="https://source.codeaurora.org/quic/la"
           review="codeaurora.org"
-          revision="refs/tags/LA.UM.9.14.r1-12600-LAHAINA.0"/>
+          revision="refs/tags/LA.UM.9.14.r1-12800-LAHAINA.0"/>
 
   <default revision="refs/tags/LA.QSSI.11.0.r1-09600-qssi.0"
            remote="caf_system"/>
