@@ -28,6 +28,10 @@
   <remove-project name="platform/bootable/recovery" />
   <project path="bootable/recovery" name="AOSPA/android_bootable_recovery" remote="aospa" />
 
+  <!-- CTS -->
+  <remove-project name="platform/cts" />
+  <project path="cts" name="platform/cts" remote="aosp" />
+
   <!-- Device -->
   <remove-project name="device/qcom/common" />
   <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="aospa" >
@@ -71,6 +75,8 @@
   <project path="external/freetype" name="platform/external/freetype" remote="aosp" />
   <remove-project name="platform/external/gptfdisk" />
   <project path="external/gptfdisk" name="platform/external/gptfdisk" remote="aosp" />
+  <remove-project name="platform/external/okhttp" />
+  <project path="external/okhttp" name="platform/external/okhttp" remote="aosp" />
   <remove-project name="platform/external/icu" />
   <project path="external/icu" name="platform/external/icu" remote="aosp" />
   <remove-project name="platform/external/libaom" />
@@ -99,6 +105,8 @@
   <project path="external/v4l2_codec2" name="platform/external/v4l2_codec2" remote="aosp" />
   <remove-project name="platform/external/wayland-protocols" />
   <project path="external/wayland-protocols" name="platform/external/wayland-protocols" remote="aosp" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="aosp" />
 
   <!-- External (nano) -->
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-18.0" />
