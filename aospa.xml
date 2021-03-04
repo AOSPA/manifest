@@ -62,6 +62,10 @@
   <project path="external/zlib" name="AOSPA/android_external_zlib" remote="aospa" />
 
   <!-- External (AOSP) -->
+  <remove-project name="platform/external/chromium-webview" />
+  <project path="external/chromium-webview" name="platform/external/chromium-webview" remote="aosp" />
+  <remove-project name="platform/external/deqp" />
+  <project path="external/deqp" name="platform/external/deqp" remote="aosp" />
   <remove-project name="platform/external/freetype" />
   <project path="external/freetype" name="platform/external/freetype" remote="aosp" />
   <remove-project name="platform/external/gptfdisk" />
