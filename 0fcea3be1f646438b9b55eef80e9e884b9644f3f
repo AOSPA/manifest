@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b62d652_08995ec7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000509
+      },
+      "writtenOn": "2021-03-04T11:59:09Z",
+      "side": 1,
+      "message": "We don\u0027t need to update the default.xml file?\nTo change the aosp revision",
+      "revId": "0fcea3be1f646438b9b55eef80e9e884b9644f3f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
