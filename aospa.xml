@@ -62,12 +62,16 @@
   <project path="external/zlib" name="AOSPA/android_external_zlib" remote="aospa" />
 
   <!-- External (AOSP) -->
+  <remove-project name="platform/external/dnsmasq" />
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" remote="aosp" />
   <remove-project name="platform/external/freetype" />
   <project path="external/freetype" name="platform/external/freetype" remote="aosp" />
   <remove-project name="platform/external/gptfdisk" />
   <project path="external/gptfdisk" name="platform/external/gptfdisk" remote="aosp" />
   <remove-project name="platform/external/okhttp" />
   <project path="external/okhttp" name="platform/external/okhttp" remote="aosp" />
+  <remove-project name="platform/external/v8" />
+  <project path="external/v8" name="platform/external/v8" remote="aosp" />
 
   <!-- External (Nano) -->
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-18.0" />
@@ -80,6 +84,8 @@
   <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" />
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
+  <project path="frameworks/opt/net/wifi" name="AOSPA/android_frameworks_opt_net_wifi" remote="aospa" />
 
   <!-- Frameworks (AOSP) -->
   <remove-project name="platform/frameworks/minikin" />
@@ -132,6 +138,8 @@
   <project path="prebuilts/tools-pa" name="AOSPA/android_prebuilts_tools-pa" remote="aospa" />
 
   <!-- System -->
+  <remove-project name="platform/system/connectivity/wificond" />
+  <project path="system/connectivity/wificond" name="AOSPA/android_system_connectivity_wificond" remote="aospa" />
   <remove-project name="platform/system/core" />
   <project path="system/core" name="AOSPA/android_system_core" remote="aospa" />
   <remove-project name="platform/system/hardware/interfaces" />
@@ -142,6 +150,8 @@
   <project path="system/memory/lmkd" name="AOSPA/android_system_memory_lmkd" remote="aospa" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="AOSPA/android_system_sepolicy" remote="aospa" />
+  <remove-project name="platform/system/tools/hidl" />
+  <project path="system/tools/hidl" name="AOSPA/android_system_tools_hidl" remote="aospa" />
   <remove-project name="platform/system/update_engine" />
   <project path="system/update_engine" name="AOSPA/android_system_update_engine" remote="aospa" />
   <remove-project name="platform/system/vold" />
@@ -150,6 +160,7 @@
   <!-- System (AOSP) -->
   <remove-project name="platform/system/security" />
   <project path="system/security" name="platform/system/security" remote="aosp" />
+
 
   <!-- Tools (AOSPA) -->
   <project path="tools/extract-utils" name="AOSPA/android_tools_extract-utils" remote="aospa" />
@@ -172,6 +183,8 @@
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="AOSPA/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
   <project path="vendor/qcom/opensource/commonsys/fm" name="AOSPA/android_vendor_qcom-opensource_fm-commonsys" remote="aospa" />
+  <remove-project name="platform/vendor/qcom-opensource/system/bt" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="AOSPA/android_vendor_qcom_opensource_commonsys_system_bt" remote="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/interfaces" />
   <project path="vendor/qcom/opensource/interfaces" name="AOSPA/android_vendor_qcom-opensource_interfaces" remote="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
