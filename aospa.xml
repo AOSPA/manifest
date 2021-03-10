@@ -39,6 +39,7 @@
   </project>
   <remove-project name="device/qcom/sepolicy" />
   <project path="device/qcom/sepolicy" name="AOSPA/android_device_qcom_sepolicy" remote="aospa" />
+  <project path="device/qcom/sepolicy-legacy" name="AOSPA/android_device_qcom_sepolicy" remote="aospa" revision="ruby-legacy"/>
   <remove-project name="kernel/build" />
   <project path="device/qcom/kernelscripts" name="AOSPA/android_kernel_build" remote="aospa" >
     <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk"/>
