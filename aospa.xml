@@ -55,8 +55,8 @@
   <project path="external/zlib" name="AOSPA/android_external_zlib" remote="aospa" />
 
   <!-- External (Nano) -->
-  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-18.0" />
-  <project path="external/nano" name="LineageOS/android_external_nano" remote="github" revision="lineage-18.0" />
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-18.1" />
+  <project path="external/nano" name="LineageOS/android_external_nano" remote="github" revision="lineage-18.1" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
