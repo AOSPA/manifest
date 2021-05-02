@@ -23,6 +23,9 @@
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/media" />
 
+  <!-- External -->
+  <remove-project name="platform/external/libunwind" />
+
   <!-- Kernel -->
   <remove-project name="kernel/msm-5.4" />
   <remove-project name="platform/vendor/opensource/audio-kernel" />
