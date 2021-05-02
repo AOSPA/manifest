@@ -44,6 +44,8 @@
   <!-- External -->
   <remove-project name="platform/external/arm-optimized-routines" />
   <project path="external/arm-optimized-routines" name="AOSPA/android_external_arm-optimized-routines" remote="aospa" />
+  <remove-project name="platform/external/compiler-rt" />
+  <project path="external/compiler-rt" name="AOSPA/android_external_compiler-rt" remote="aospa" />
   <project path="external/exfatprogs" name="AOSPA/android_external_exfatprogs" remote="aospa" />
   <remove-project name="platform/external/fastrpc" />
   <project path="external/fastrpc" name="AOSPA/android_external_fastrpc" remote="aospa" />
@@ -51,6 +53,8 @@
   <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="aospa" />
   <remove-project name="platform/external/libpng" />
   <project path="external/libpng" name="AOSPA/android_external_libpng" remote="aospa" />
+  <remove-project name="platform/external/python/cpython2" />
+  <project path="external/python/cpython2" name="AOSPA/android_external_python_cpython2" remote="aospa" />
   <remove-project name="platform/external/scudo" />
   <project path="external/scudo" name="AOSPA/android_external_scudo" remote="aospa" />
   <remove-project name="platform/external/zlib" />
@@ -83,6 +87,8 @@
   <project path="hardware/nxp/nfc" name="AOSPA/android_hardware_nxp_nfc" remote="aospa" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <project path="hardware/qcom/wlan" name="AOSPA/android_hardware_qcom_wlan" remote="aospa" />
+  <remove-project name="platform/hardware/ril" />
+  <project path="hardware/ril" name="AOSPA/android_hardware_ril" remote="aospa" />
 
   <!-- Kernel -->
   <remove-project name="kernel/configs" />
@@ -111,6 +117,8 @@
   <project path="prebuilts/abi-dumps/ndk" name="AOSPA/android_prebuilts_abi-dumps_ndk" remote="aospa" />
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <project path="prebuilts/abi-dumps/vndk" name="AOSPA/android_prebuilts_abi-dumps_vndk" remote="aospa" />
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+  <project path="prebuilts/clang/host/linux-x86" name="AOSPA/android_prebuilts_clang_host_linux-x86" remote="aospa" clone-depth="1" />
 
   <!-- Prebuilts (AOSPA) -->
   <project path="prebuilts/extract-tools" name="AOSPA/android_prebuilts_extract-tools" remote="aospa" clone-depth="1" />
@@ -131,6 +139,8 @@
   <project path="system/memory/lmkd" name="AOSPA/android_system_memory_lmkd" remote="aospa" />
   <remove-project name="platform/system/nfc" />
   <project path="system/nfc" name="AOSPA/android_system_nfc" remote="aospa" />
+  <remove-project name="platform/system/security" />
+  <project path="system/security" name="AOSPA/android_system_security" remote="aospa" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="AOSPA/android_system_sepolicy" remote="aospa" />
   <remove-project name="platform/system/update_engine" />
@@ -148,9 +158,11 @@
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="blobs" />
-  <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" />
+  <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" revision="ruby-12" />
 
   <!-- Vendor (CAF) -->
+  <remove-project name="platform/vendor/qcom-opensource/system/bt" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="AOSPA/android_vendor_qcom_opensource_commonsys_system_bt" remote="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="AOSPA/android_vendor_qcom-opensource_bluetooth-commonsys-intf" remote="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/wfd-commonsys" />
