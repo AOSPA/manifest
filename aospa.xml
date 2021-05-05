@@ -115,6 +115,8 @@
   <project path="prebuilts/tools-pa" name="AOSPA/android_prebuilts_tools-pa" remote="aospa" />
 
   <!-- System -->
+  <remove-project name="platform/system/bt" />
+  <project path="system/core" name="AOSPA/android_system_bt" remote="aospa" />
   <remove-project name="platform/system/core" />
   <project path="system/core" name="AOSPA/android_system_core" remote="aospa" />
   <remove-project name="platform/system/hardware/interfaces" />
@@ -125,6 +127,8 @@
   <project path="system/libhidl" name="AOSPA/android_system_libhidl" remote="aospa" />
   <remove-project name="platform/system/memory/lmkd" />
   <project path="system/memory/lmkd" name="AOSPA/android_system_memory_lmkd" remote="aospa" />
+  <remove-project name="platform/system/nfc" />
+  <project path="system/core" name="AOSPA/android_system_nfc" remote="aospa" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="AOSPA/android_system_sepolicy" remote="aospa" />
   <remove-project name="platform/system/update_engine" />
