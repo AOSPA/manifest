@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5603fccb_9323428a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2021-05-05T12:52:51Z",
+      "side": 1,
+      "message": "I believe we had a conversation about this at some point, I wanted to remove it but people do use it locally.\n\nI actually use it locally myself now for Face Sense and partner modules.",
+      "revId": "ec7b9455b4a3e72afae28f9fa3dc47a98473f96e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
