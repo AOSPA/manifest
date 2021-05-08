@@ -47,6 +47,8 @@
   <project path="external/exfatprogs" name="AOSPA/android_external_exfatprogs" remote="aospa" />
   <remove-project name="platform/external/fastrpc" />
   <project path="external/fastrpc" name="AOSPA/android_external_fastrpc" remote="aospa" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="aospa" />
   <remove-project name="platform/external/libpng" />
   <project path="external/libpng" name="AOSPA/android_external_libpng" remote="aospa" />
   <remove-project name="platform/external/scudo" />
