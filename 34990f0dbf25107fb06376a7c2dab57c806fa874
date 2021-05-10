@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f295a0e_028a2ce0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-05-10T12:10:35Z",
+      "side": 1,
+      "message": "naming the branch after the OS doesn\u0027t really make much sense. I could see where we would skip the OS and just do the version number. Qualcomm does not change major versions that often, so there\u0027s typically not more than one or two per Android release.",
+      "revId": "34990f0dbf25107fb06376a7c2dab57c806fa874",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
