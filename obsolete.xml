@@ -32,7 +32,6 @@
   <remove-project name="platform/vendor/opensource/camera-kernel" />
   <remove-project name="platform/vendor/opensource/dataipa" />
   <remove-project name="platform/vendor/opensource/display-drivers" />
-  <remove-project name="platform/vendor/opensource/sched" />
   <remove-project name="platform/vendor/opensource/video-driver" />
   <remove-project name="platform/vendor/qcom/opensource/datarmnet" />
   <remove-project name="platform/vendor/qcom/opensource/datarmnet-ext" />

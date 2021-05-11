@@ -35,7 +35,6 @@
   <project groups="cyborg" name="platform/vendor/opensource/camera-kernel" path="kernel/msm-5.4/techpack/camera" remote="caf_vendor"/>
   <project groups="cyborg" name="platform/vendor/opensource/dataipa" path="kernel/msm-5.4/techpack/dataipa" remote="caf_vendor"/>
   <project groups="cyborg" name="platform/vendor/opensource/display-drivers" path="kernel/msm-5.4/techpack/display" remote="caf_vendor"/>
-  <project groups="cyborg" name="platform/vendor/opensource/sched" path="kernel/msm-5.4/techpack/sched" remote="caf_vendor"/>
   <project groups="cyborg" name="platform/vendor/opensource/video-driver" path="kernel/msm-5.4/techpack/video" remote="caf_vendor"/>
   <project name="platform/vendor/qcom-opensource/audio-hal/st-hal" path="vendor/qcom/opensource/audio-hal/st-hal" remote="caf_vendor"/>
   <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="caf_vendor">
