@@ -131,6 +131,8 @@
   <project path="system/core" name="AOSPA/android_system_core" remote="aospa" />
   <remove-project name="platform/system/hardware/interfaces" />
   <project path="system/hardware/interfaces" name="AOSPA/android_system_hardware_interfaces" remote="aospa" />
+  <remove-project name="platform/system/hwservicemanager" />
+  <project path="system/hwservicemanager" name="AOSPA/android_system_hwservicemanager" remote="aospa" />
   <remove-project name="platform/system/libhwbinder" />
   <project path="system/libhwbinder" name="AOSPA/android_system_libhwbinder" remote="aospa" />
   <remove-project name="platform/system/libhidl" />
