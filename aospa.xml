@@ -74,10 +74,6 @@
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" />
 
-  <!-- Frameworks (AOSP) -->
-  <remove-project name="platform/frameworks/hardware/interfaces" />
-  <project path="frameworks/hardware/interfaces" name="platform/frameworks/hardware/interfaces" remote="aosp" />
-
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
   <project path="hardware/interfaces" name="AOSPA/android_hardware_interfaces" remote="aospa" />
@@ -125,8 +121,6 @@
   <project path="prebuilts/tools-pa" name="AOSPA/android_prebuilts_tools-pa" remote="aospa" />
 
   <!-- System -->
-  <remove-project name="platform/system/bt" />
-  <project path="system/bt" name="AOSPA/android_system_bt" remote="aospa" />
   <remove-project name="platform/system/core" />
   <project path="system/core" name="AOSPA/android_system_core" remote="aospa" />
   <remove-project name="platform/system/hardware/interfaces" />
@@ -135,12 +129,8 @@
   <project path="system/hwservicemanager" name="AOSPA/android_system_hwservicemanager" remote="aospa" />
   <remove-project name="platform/system/libhwbinder" />
   <project path="system/libhwbinder" name="AOSPA/android_system_libhwbinder" remote="aospa" />
-  <remove-project name="platform/system/libhidl" />
-  <project path="system/libhidl" name="AOSPA/android_system_libhidl" remote="aospa" />
   <remove-project name="platform/system/memory/lmkd" />
   <project path="system/memory/lmkd" name="AOSPA/android_system_memory_lmkd" remote="aospa" />
-  <remove-project name="platform/system/nfc" />
-  <project path="system/nfc" name="AOSPA/android_system_nfc" remote="aospa" />
   <remove-project name="platform/system/security" />
   <project path="system/security" name="AOSPA/android_system_security" remote="aospa" />
   <remove-project name="platform/system/sepolicy" />
