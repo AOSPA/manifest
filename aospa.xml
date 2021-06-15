@@ -57,8 +57,34 @@
   <project path="external/python/cpython2" name="AOSPA/android_external_python_cpython2" remote="aospa" />
   <remove-project name="platform/external/scudo" />
   <project path="external/scudo" name="AOSPA/android_external_scudo" remote="aospa" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <project path="external/wpa_supplicant_8" name="AOSPA/android_external_wpa_supplicant_8" remote="aospa" />
   <remove-project name="platform/external/zlib" />
   <project path="external/zlib" name="AOSPA/android_external_zlib" remote="aospa" />
+
+  <!-- External (AOSP) -->
+  <remove-project name="platform/external/boringssl" />
+  <project path="external/boringssl" name="platform/external/boringssl" remote="aosp" />
+  <remove-project name="platform/external/chromium-libpac" />
+  <project path="external/chromium-libpac" name="platform/external/chromium-libpac" remote="aosp" />
+  <remove-project name="platform/external/cldr" />
+  <project path="external/cldr" name="platform/external/cldr" remote="aosp" />
+  <remove-project name="platform/external/dnsmasq" />
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" remote="aosp" />
+  <remove-project name="platform/external/flac" />
+  <project path="external/flac" name="platform/external/flac" remote="aosp" />
+  <remove-project name="platform/external/icu" />
+  <project path="external/icu" name="platform/external/icu" remote="aosp" />
+  <remove-project name="platform/external/libavc" />
+  <project path="external/libavc" name="platform/external/libavc" remote="aosp" />
+  <remove-project name="platform/external/libhevc" />
+  <project path="external/libhevc" name="platform/external/libhevc" remote="aosp" />
+  <remove-project name="platform/external/mesa3d" />
+  <project path="external/mesa3d" name="platform/external/mesa3d" remote="aosp" />
+  <remove-project name="platform/external/protobuf" />
+  <project path="external/protobuf" name="platform/external/protobuf" remote="aosp" />
+  <remove-project name="platform/external/tremolo" />
+  <project path="external/tremolo" name="platform/external/tremolo" remote="aosp" />
 
   <!-- External (Nano) -->
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-18.1" />
@@ -73,6 +99,17 @@
   <project path="frameworks/libs/systemui" name="AOSPA/android_frameworks_libs_systemui" remote="aospa" />
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" />
+
+  <!-- Frameworks (AOSP) -->
+  <remove-project name="platform/frameworks/hardware/interfaces" />
+  <project path="frameworks/hardware/interfaces" name="platform/frameworks/hardware/interfaces" remote="aosp" />
+  <remove-project name="platform/frameworks/opt/net/voip" />
+  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" remote="aosp" />
+
+  <remove-project name="platform/frameworks/opt/net/ims" />
+  <project path="frameworks/opt/net/ims" name="AOSPA/android_frameworks_opt_net_ims" remote="aospa" />
+  <remove-project name="platform/frameworks/opt/telephony" />   
+  <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="aospa" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
@@ -103,6 +140,31 @@
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <project path="packages/apps/WallpaperPicker2" name="AOSPA/android_packages_apps_WallpaperPicker2" remote="aospa" />
 
+  <!-- Packages (AOSP) -->
+  <remove-project name="platform/packages/apps/ManagedProvisioning" />
+  <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" remote="aosp" />
+  <remove-project name="platform/packages/providers/CalendarProvider" />
+  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" remote="aosp" />
+  <remove-project name="platform/packages/providers/ContactsProvider" />
+  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" remote="aosp" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" remote="aosp" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" remote="aosp" />
+  <remove-project name="platform/packages/services/Mms" />
+  <project path="packages/services/Mms" name="platform/packages/services/Mms" remote="aosp" />
+
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <project path="packages/apps/Bluetooth" name="AOSPA/android_packages_apps_Bluetooth" remote="aospa" />
+  <remove-project name="platform/packages/apps/CarrierConfig" />
+  <project path="packages/apps/CarrierConfig" name="AOSPA/android_packages_apps_CarrierConfig" remote="aospa" />
+  <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
+  <project path="packages/apps/CellBroadcastReceiver" name="AOSPA/android_packages_apps_CellBroadcastReceiver" remote="aospa" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <project path="packages/providers/TelephonyProvider" name="AOSPA/android_packages_providers_TelephonyProvider" remote="aospa" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <project path="packages/services/Telephony" name="AOSPA/android_packages_services_Telephony" remote="aospa" />
+
   <!-- Packages (AOSPA) -->
   <project path="packages/apps/ParanoidDoze" name="AOSPA/android_packages_apps_ParanoidDoze" remote="aospa" />
   <project path="packages/apps/ParanoidHub" name="AOSPA/android_packages_apps_ParanoidHub" remote="aospa" />
@@ -116,13 +178,21 @@
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <project path="prebuilts/clang/host/linux-x86" name="AOSPA/android_prebuilts_clang_host_linux-x86" remote="aospa" clone-depth="1" />
 
+  <!-- Prebuilts (AOSP) -->
+  <remove-project name="platform/prebuilts/asuite" />
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" remote="aosp" />
+
   <!-- Prebuilts (AOSPA) -->
   <project path="prebuilts/extract-tools" name="AOSPA/android_prebuilts_extract-tools" remote="aospa" clone-depth="1" />
   <project path="prebuilts/tools-pa" name="AOSPA/android_prebuilts_tools-pa" remote="aospa" />
 
   <!-- System -->
+  <remove-project name="platform/system/bt" />
+  <project path="system/bt" name="AOSPA/android_system_bt" remote="aospa" />
   <remove-project name="platform/system/core" />
   <project path="system/core" name="AOSPA/android_system_core" remote="aospa" />
+  <remove-project name="platform/system/connectivity/wificond" />
+  <project path="system/connectivity/wificond" name="AOSPA/android_system_connectivity_wificond" remote="aospa" />
   <remove-project name="platform/system/hardware/interfaces" />
   <project path="system/hardware/interfaces" name="AOSPA/android_system_hardware_interfaces" remote="aospa" />
   <remove-project name="platform/system/hwservicemanager" />
@@ -131,6 +201,10 @@
   <project path="system/libhwbinder" name="AOSPA/android_system_libhwbinder" remote="aospa" />
   <remove-project name="platform/system/memory/lmkd" />
   <project path="system/memory/lmkd" name="AOSPA/android_system_memory_lmkd" remote="aospa" />
+  <remove-project name="platform/system/netd" />
+  <project path="system/netd" name="AOSPA/android_system_netd" remote="aospa" />
+  <remove-project name="platform/system/nfc" />
+  <project path="system/nfc" name="AOSPA/android_system_nfc" remote="aospa" />
   <remove-project name="platform/system/security" />
   <project path="system/security" name="AOSPA/android_system_security" remote="aospa" />
   <remove-project name="platform/system/sepolicy" />
@@ -139,6 +213,10 @@
   <project path="system/update_engine" name="AOSPA/android_system_update_engine" remote="aospa" />
   <remove-project name="platform/system/vold" />
   <project path="system/vold" name="AOSPA/android_system_vold" remote="aospa" />
+
+  <!-- System (AOSP) -->
+  <remove-project name="platform/system/apex" />
+  <project path="system/apex" name="platform/system/apex" remote="aosp" />
 
   <!-- Tools (AOSPA) -->
   <project path="tools/extract-utils" name="AOSPA/android_tools_extract-utils" remote="aospa" />
