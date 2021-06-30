@@ -222,7 +222,7 @@
   <project path="tools/extract-utils" name="AOSPA/android_tools_extract-utils" remote="aospa" />
 
   <!-- Vendor (AOSPA) -->
-  <project path="vendor/google/gms" name="AOSPA/android_vendor_google_gms" remote="gitlab" revision="ruby" />
+  <project path="vendor/google/gms" name="ThankYouMario/proprietary_vendor_google_gms" remote="bitbucket" />
   <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="blobs" />
   <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="aospa" >
     <linkfile src="build.sh" dest="rom-build.sh" />

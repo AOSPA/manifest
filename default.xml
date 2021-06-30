@@ -29,6 +29,10 @@
            review="gerrit.aospa.co"
            revision="ruby"/>
 
+  <remote  name="bitbucket"
+           fetch="https://bitbucket.org"
+           revision="ruby" />
+
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario"
            revision="ruby" />
