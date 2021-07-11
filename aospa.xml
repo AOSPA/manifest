@@ -231,6 +231,8 @@
   <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" revision="ruby-12" />
 
   <!-- Vendor (CAF) -->
+  <remove-project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="AOSPA/android_vendor_qcom-opensource_packages_apps_Bluetooth" />
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="AOSPA/android_vendor_qcom_opensource_commonsys_system_bt" remote="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
