@@ -16,6 +16,24 @@
       "message": "needs https://android.googlesource.com/platform/packages/apps/Bluetooth/+/caf10da52ea7ce198c9e880833b2c2c408f7c740 for qti bluetooth",
       "revId": "c91b0728b356dbb655639707c96905df5958f14b",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a0a47ca_0a470756",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-07-12T08:37:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "104c205b_86c1ae78",
+      "revId": "c91b0728b356dbb655639707c96905df5958f14b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
