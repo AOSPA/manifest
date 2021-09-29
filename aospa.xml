@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Device -->
+  <remove-project name="device/qcom/common" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="aospa" >
+    <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
+  </project>
+  <remove-project name="kernel/build" />
+  <project path="device/qcom/kernelscripts" name="AOSPA/android_kernel_build" remote="aospa" >
+    <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk"/>
+  </project>
+
+  <!-- Manifest -->
+  <project path="manifest" name="manifest" remote="aospa" />
+
+  <!-- Packages (AOSPA) -->
+  <project path="packages/apps/ParanoidDoze" name="AOSPA/android_packages_apps_ParanoidDoze" remote="aospa" />
+  <project path="packages/apps/ParanoidHub" name="AOSPA/android_packages_apps_ParanoidHub" remote="aospa" />
+  <project path="packages/apps/ParanoidPapers" name="AOSPA/android_packages_apps_ParanoidPapers" remote="aospa" />
+
+  <!-- Prebuilts (AOSPA) -->
+  <project path="prebuilts/extract-tools" name="AOSPA/android_prebuilts_extract-tools" remote="aospa" clone-depth="1" />
+  <project path="prebuilts/tools-aospa" name="AOSPA/android_prebuilts_tools-pa" remote="aospa" />
+
+  <!-- Tools (AOSPA) -->
+  <project path="tools/extract-utils" name="AOSPA/android_tools_extract-utils" remote="aospa" />
+
+  <!-- Vendor (AOSPA) -->
+  <project path="vendor/aospa" name="android_vendor_aospa" remote="aospa" >
+    <linkfile src="build.sh" dest="rom-build.sh" />
+  </project>
+  <project path="vendor/qcom/sdclang" name="android_vendor_qcom_sdclang" remote="aospa" />
+  <project path="vendor/google/gms" name="ThankYouMario/proprietary_vendor_google_gms" remote="bitbucket" />
+  <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="blobs" />
+  <project path="vendor/qcom/common" name="android_vendor_qcom_common" remote="aospa" />
+
+</manifest>
