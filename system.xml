@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="device/amlogic/yukawa"/>
-  <project clone-depth="1" name="device/amlogic/yukawa-kernel"/>
+  <project clone-depth="2" name="device/amlogic/yukawa-kernel"/>
   <project name="device/common"/>
   <project name="device/generic/arm64"/>
   <project name="device/generic/armv7-a-neon"/>
@@ -18,28 +18,44 @@
   <project name="device/generic/qemu"/>
   <project name="device/generic/trusty"/>
   <project name="device/generic/uml"/>
+  <project name="device/generic/vulkan-cereal"/>
   <project name="device/generic/x86"/>
   <project name="device/generic/x86_64"/>
   <project name="device/google/atv"/>
   <project name="device/google/contexthub"/>
   <project name="device/google/cuttlefish"/>
-  <project clone-depth="1" name="device/google/cuttlefish_kernel"/>
-  <project clone-depth="1" name="device/google/cuttlefish_vmm"/>
+  <project name="device/google/cuttlefish_prebuilts"/>
+  <project name="device/google/trout"/>
   <project name="device/google/vrservices"/>
   <project name="device/google_car"/>
   <project name="device/linaro/dragonboard"/>
-  <project clone-depth="1" name="device/linaro/dragonboard-kernel"/>
+  <project name="device/linaro/dragonboard-kernel"/>
   <project name="device/linaro/poplar"/>
-  <project clone-depth="1" name="device/linaro/poplar-kernel"/>
+  <project name="device/linaro/poplar-kernel"/>
   <project name="device/qcom/qssi"/>
   <project name="device/qcom/qssi_32"/>
   <project name="device/qcom/qssi_32go"/>
   <project name="device/qcom/sepolicy"/>
   <project name="device/sample"/>
   <project name="kernel/configs"/>
+  <project name="kernel/prebuilts/4.19/arm64"/>
+  <project name="kernel/prebuilts/5.10/arm64"/>
+  <project name="kernel/prebuilts/5.10/x86-64" path="kernel/prebuilts/5.10/x86_64"/>
+  <project name="kernel/prebuilts/5.4/arm64"/>
+  <project name="kernel/prebuilts/5.4/x86-64" path="kernel/prebuilts/5.4/x86_64"/>
+  <project name="kernel/prebuilts/common-modules/virtual-device/4.19/arm64"/>
+  <project name="kernel/prebuilts/common-modules/virtual-device/4.19/x86-64"/>
+  <project name="kernel/prebuilts/common-modules/virtual-device/5.10/arm64"/>
+  <project name="kernel/prebuilts/common-modules/virtual-device/5.10/x86-64"/>
+  <project name="kernel/prebuilts/common-modules/virtual-device/5.4/arm64"/>
+  <project name="kernel/prebuilts/common-modules/virtual-device/5.4/x86-64"/>
+  <project name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64"/>
+  <project name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64"/>
+  <project name="kernel/prebuilts/mainline/arm64"/>
   <project name="kernel/tests"/>
   <project name="platform/art" path="art"/>
   <project name="platform/bionic" path="bionic"/>
+  <project name="platform/bootable/libbootloader" path="bootable/libbootloader"/>
   <project name="platform/bootable/recovery" path="bootable/recovery"/>
   <project name="platform/build" path="build/make">
     <copyfile dest="Makefile" src="core/root.mk"/>
@@ -50,7 +66,13 @@
     <linkfile dest="build/target" src="target"/>
     <linkfile dest="build/tools" src="tools"/>
   </project>
+  <project name="platform/build/bazel" path="build/bazel">
+    <linkfile dest="WORKSPACE" src="bazel.WORKSPACE"/>
+    <linkfile dest="tools/bazel" src="bazel.sh"/>
+    <linkfile dest="BUILD" src="bazel.BUILD"/>
+  </project>
   <project name="platform/build/blueprint" path="build/blueprint"/>
+  <project name="platform/build/pesto" path="build/pesto"/>
   <project name="platform/build/soong" path="build/soong">
     <linkfile dest="Android.bp" src="root.bp"/>
     <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
@@ -67,8 +89,9 @@
   <project name="platform/external/Reactive-Extensions/RxCpp" path="external/Reactive-Extensions/RxCpp"/>
   <project name="platform/external/XNNPACK" path="external/XNNPACK"/>
   <project name="platform/external/aac" path="external/aac"/>
-  <project name="platform/external/adeb" path="external/adeb"/>
+  <project name="platform/external/abseil-cpp" path="external/abseil-cpp"/>
   <project name="platform/external/adhd" path="external/adhd"/>
+  <project name="platform/external/adt-infra" path="external/adt-infra"/>
   <project name="platform/external/android-clat" path="external/android-clat"/>
   <project name="platform/external/androidplot" path="external/androidplot"/>
   <project name="platform/external/angle" path="external/angle"/>
@@ -83,8 +106,10 @@
   <project name="platform/external/apache-xml" path="external/apache-xml"/>
   <project name="platform/external/arm-optimized-routines" path="external/arm-optimized-routines"/>
   <project name="platform/external/arm-trusted-firmware" path="external/arm-trusted-firmware"/>
-  <project name="platform/external/autotest" path="external/autotest" clone-depth="1"/>
+  <project name="platform/external/auto" path="external/auto"/>
+  <project name="platform/external/autotest" path="external/autotest"/>
   <project name="platform/external/avb" path="external/avb"/>
+  <project name="platform/external/bazelbuild-rules_android" path="external/bazelbuild-rules_android"/>
   <project name="platform/external/bc" path="external/bc"/>
   <project name="platform/external/bcc" path="external/bcc"/>
   <project name="platform/external/blktrace" path="external/blktrace"/>
@@ -98,13 +123,13 @@
   <project name="platform/external/catch2" path="external/catch2"/>
   <project name="platform/external/cblas" path="external/cblas"/>
   <project name="platform/external/cbor-java" path="external/cbor-java"/>
-  <project name="platform/external/chromium-libpac" path="external/chromium-libpac"/>
   <project name="platform/external/chromium-trace" path="external/chromium-trace"/>
   <project clone-depth="1" name="platform/external/chromium-webview" path="external/chromium-webview"/>
   <project name="platform/external/clang" path="external/clang"/>
   <project name="platform/external/cldr" path="external/cldr"/>
   <project name="platform/external/cn-cbor" path="external/cn-cbor"/>
   <project name="platform/external/compiler-rt" path="external/compiler-rt"/>
+  <project name="platform/external/connectedappssdk" path="external/connectedappssdk"/>
   <project name="platform/external/conscrypt" path="external/conscrypt"/>
   <project name="platform/external/cpu_features" path="external/cpu_features"/>
   <project name="platform/external/cpuinfo" path="external/cpuinfo"/>
@@ -125,6 +150,7 @@
   <project name="platform/external/dnsmasq" path="external/dnsmasq"/>
   <project name="platform/external/doclava" path="external/doclava"/>
   <project name="platform/external/dokka" path="external/dokka" clone-depth="1"/>
+  <project name="platform/external/downloader" path="external/downloader"/>
   <project name="platform/external/drm_hwcomposer" path="external/drm_hwcomposer"/>
   <project name="platform/external/drrickorang" path="external/drrickorang"/>
   <project name="platform/external/dtc" path="external/dtc"/>
@@ -134,7 +160,9 @@
   <project name="platform/external/eigen" path="external/eigen"/>
   <project name="platform/external/elfutils" path="external/elfutils"/>
   <project name="platform/external/emma" path="external/emma"/>
+  <project name="platform/external/erofs-utils" path="external/erofs-utils"/>
   <project name="platform/external/error_prone" path="external/error_prone"/>
+  <project name="platform/external/escapevelocity" path="external/escapevelocity"/>
   <project name="platform/external/ethtool" path="external/ethtool"/>
   <project name="platform/external/exoplayer" path="external/exoplayer"/>
   <project name="platform/external/expat" path="external/expat"/>
@@ -142,6 +170,8 @@
   <project name="platform/external/fastrpc" path="external/fastrpc"/>
   <project name="platform/external/fdlibm" path="external/fdlibm"/>
   <project name="platform/external/fec" path="external/fec"/>
+  <project name="platform/external/fft2d" path="external/fft2d"/>
+  <project name="platform/external/firebase-messaging" path="external/firebase-messaging"/>
   <project name="platform/external/flac" path="external/flac"/>
   <project name="platform/external/flatbuffers" path="external/flatbuffers"/>
   <project name="platform/external/fmtlib" path="external/fmtlib"/>
@@ -150,6 +180,8 @@
   <project name="platform/external/fsck_msdos" path="external/fsck_msdos"/>
   <project name="platform/external/fsverity-utils" path="external/fsverity-utils"/>
   <project name="platform/external/gemmlowp" path="external/gemmlowp"/>
+  <project name="platform/external/geojson-jackson" path="external/geojson-jackson"/>
+  <project name="platform/external/geonames" path="external/geonames"/>
   <project name="platform/external/gflags" path="external/gflags"/>
   <project name="platform/external/giflib" path="external/giflib"/>
   <project name="platform/external/glide" path="external/glide"/>
@@ -172,6 +204,7 @@
   <project name="platform/external/google-fonts/source-sans-pro" path="external/google-fonts/source-sans-pro"/>
   <project name="platform/external/google-fonts/zilla-slab" path="external/google-fonts/zilla-slab"/>
   <project name="platform/external/google-fruit" path="external/google-fruit"/>
+  <project name="platform/external/google-java-format" path="external/google-java-format"/>
   <project name="platform/external/google-styleguide" path="external/google-styleguide"/>
   <project name="platform/external/googletest" path="external/googletest"/>
   <project name="platform/external/gptfdisk" path="external/gptfdisk"/>
@@ -182,8 +215,8 @@
   <project name="platform/external/gwp_asan" path="external/gwp_asan"/>
   <project name="platform/external/hamcrest" path="external/hamcrest"/>
   <project name="platform/external/harfbuzz_ng" path="external/harfbuzz_ng"/>
-  <project name="platform/external/honggfuzz" path="external/honggfuzz"/>
   <project name="platform/external/hyphenation-patterns" path="external/hyphenation-patterns"/>
+  <project name="platform/external/icing" path="external/icing"/>
   <project name="platform/external/icu" path="external/icu" clone-depth="1"/>
   <project name="platform/external/igt-gpu-tools" path="external/igt-gpu-tools"/>
   <project name="platform/external/image_io" path="external/image_io"/>
@@ -194,15 +227,19 @@
   <project name="platform/external/iptables" path="external/iptables"/>
   <project name="platform/external/iputils" path="external/iputils"/>
   <project name="platform/external/iw" path="external/iw"/>
+  <project name="platform/external/jackson-annotations" path="external/jackson-annotations"/>
+  <project name="platform/external/jackson-core" path="external/jackson-core"/>
+  <project name="platform/external/jackson-databind" path="external/jackson-databind"/>
   <project name="platform/external/jacoco" path="external/jacoco"/>
   <project name="platform/external/jarjar" path="external/jarjar"/>
   <project name="platform/external/javaparser" path="external/javaparser"/>
   <project name="platform/external/javapoet" path="external/javapoet"/>
   <project name="platform/external/javasqlite" path="external/javasqlite"/>
+  <project name="platform/external/javassist" path="external/javassist"/>
   <project name="platform/external/jcommander" path="external/jcommander"/>
   <project name="platform/external/jdiff" path="external/jdiff"/>
-  <project name="platform/external/jemalloc" path="external/jemalloc"/>
   <project name="platform/external/jemalloc_new" path="external/jemalloc_new"/>
+  <project name="platform/external/jimfs" path="external/jimfs"/>
   <project name="platform/external/jline" path="external/jline"/>
   <project name="platform/external/jsilver" path="external/jsilver"/>
   <project name="platform/external/jsmn" path="external/jsmn"/>
@@ -215,8 +252,11 @@
   <project name="platform/external/kernel-headers" path="external/kernel-headers"/>
   <project name="platform/external/kmod" path="external/kmod"/>
   <project name="platform/external/kotlinc" path="external/kotlinc"/>
+  <project name="platform/external/kotlinx.atomicfu" path="external/kotlinx.atomicfu"/>
   <project name="platform/external/kotlinx.coroutines" path="external/kotlinx.coroutines"/>
+  <project name="platform/external/kotlinx.metadata" path="external/kotlinx.metadata"/>
   <project name="platform/external/ksoap2" path="external/ksoap2"/>
+  <project name="platform/external/libabigail" path="external/libabigail"/>
   <project name="platform/external/libaom" path="external/libaom"/>
   <project name="platform/external/libavc" path="external/libavc"/>
   <project name="platform/external/libbackup" path="external/libbackup"/>
@@ -224,10 +264,11 @@
   <project name="platform/external/libcap" path="external/libcap"/>
   <project name="platform/external/libcap-ng" path="external/libcap-ng"/>
   <project name="platform/external/libchrome" path="external/libchrome"/>
+  <project name="platform/external/libchromeos-rs" path="external/libchromeos-rs"/>
+  <project name="platform/external/libcppbor" path="external/libcppbor"/>
   <project name="platform/external/libcups" path="external/libcups"/>
   <project name="platform/external/libcxx" path="external/libcxx"/>
   <project name="platform/external/libcxxabi" path="external/libcxxabi"/>
-  <project name="platform/external/libdaemon" path="external/libdaemon"/>
   <project name="platform/external/libdivsufsort" path="external/libdivsufsort"/>
   <project name="platform/external/libdrm" path="external/libdrm"/>
   <project name="platform/external/libepoxy" path="external/libepoxy"/>
@@ -255,12 +296,11 @@
   <project name="platform/external/libprotobuf-mutator" path="external/libprotobuf-mutator"/>
   <project name="platform/external/libsrtp2" path="external/libsrtp2"/>
   <project name="platform/external/libtextclassifier" path="external/libtextclassifier"/>
-  <project name="platform/external/libunwind" path="external/libunwind"/>
-  <project name="platform/external/libunwind_llvm" path="external/libunwind_llvm"/>
   <project name="platform/external/libusb" path="external/libusb"/>
   <project name="platform/external/libutf" path="external/libutf"/>
   <project name="platform/external/libvpx" path="external/libvpx"/>
-  <project name="platform/external/libvterm" path="external/libvterm"/>
+  <project name="platform/external/libwebm" path="external/libwebm"/>
+  <project name="platform/external/libwebsockets" path="external/libwebsockets"/>
   <project name="platform/external/libxaac" path="external/libxaac"/>
   <project name="platform/external/libxkbcommon" path="external/libxkbcommon"/>
   <project name="platform/external/libxml2" path="external/libxml2"/>
@@ -268,10 +308,12 @@
   <project name="platform/external/linux-kselftest" path="external/linux-kselftest" clone-depth="1"/>
   <project name="platform/external/llvm" path="external/llvm"/>
   <project name="platform/external/lmfit" path="external/lmfit"/>
+  <project name="platform/external/lottie" path="external/lottie"/>
   <project name="platform/external/ltp" path="external/ltp"/>
   <project name="platform/external/lua" path="external/lua"/>
   <project name="platform/external/lz4" path="external/lz4"/>
   <project name="platform/external/lzma" path="external/lzma"/>
+  <project name="platform/external/marisa-trie" path="external/marisa-trie"/>
   <project name="platform/external/markdown" path="external/markdown"/>
   <project name="platform/external/mdnsresponder" path="external/mdnsresponder"/>
   <project name="platform/external/mesa3d" path="external/mesa3d"/>
@@ -284,6 +326,8 @@
   <project name="platform/external/mockwebserver" path="external/mockwebserver"/>
   <project name="platform/external/modp_b64" path="external/modp_b64"/>
   <project name="platform/external/mp4parser" path="external/mp4parser"/>
+  <project name="platform/external/ms-tpm-20-ref" path="external/ms-tpm-20-ref"/>
+  <project name="platform/external/mtools" path="external/mtools"/>
   <project name="platform/external/mtpd" path="external/mtpd"/>
   <project name="platform/external/nanohttpd" path="external/nanohttpd"/>
   <project name="platform/external/nanopb-c" path="external/nanopb-c"/>
@@ -291,17 +335,20 @@
   <project name="platform/external/neon_2_sse" path="external/neon_2_sse"/>
   <project name="platform/external/neven" path="external/neven"/>
   <project name="platform/external/newfs_msdos" path="external/newfs_msdos"/>
-  <project name="platform/external/nfacct" path="external/nfacct"/>
   <project name="platform/external/nist-pkits" path="external/nist-pkits"/>
   <project name="platform/external/nist-sip" path="external/nist-sip"/>
   <project name="platform/external/nos/host/generic" path="external/nos/host/generic"/>
   <project name="platform/external/noto-fonts" path="external/noto-fonts"/>
   <project name="platform/external/oauth" path="external/oauth"/>
   <project name="platform/external/objenesis" path="external/objenesis"/>
+  <project name="platform/external/oboe" path="external/oboe"/>
   <project name="platform/external/oj-libjdwp" path="external/oj-libjdwp"/>
   <project name="platform/external/okhttp" path="external/okhttp"/>
+  <project name="platform/external/okhttp4" path="external/okhttp4"/>
+  <project name="platform/external/okio" path="external/okio"/>
   <project name="platform/external/one-true-awk" path="external/one-true-awk"/>
   <project name="platform/external/opencensus-java" path="external/opencensus-java"/>
+  <project name="platform/external/openscreen" path="external/openscreen"/>
   <project name="platform/external/openssh" path="external/openssh"/>
   <project name="platform/external/oss-fuzz" path="external/oss-fuzz"/>
   <project name="platform/external/owasp/sanitizer" path="external/owasp/sanitizer"/>
@@ -309,7 +356,9 @@
   <project name="platform/external/pcre" path="external/pcre"/>
   <project name="platform/external/pdfium" path="external/pdfium"/>
   <project name="platform/external/perfetto" path="external/perfetto"/>
+  <project name="platform/external/pffft" path="external/pffft"/>
   <project name="platform/external/piex" path="external/piex"/>
+  <project name="platform/external/pigweed" path="external/pigweed"/>
   <project name="platform/external/ply" path="external/ply"/>
   <project name="platform/external/ppp" path="external/ppp"/>
   <project name="platform/external/proguard" path="external/proguard"/>
@@ -330,6 +379,8 @@
   <project name="platform/external/python/google-api-python-client" path="external/python/google-api-python-client"/>
   <project name="platform/external/python/httplib2" path="external/python/httplib2"/>
   <project name="platform/external/python/ipaddress" path="external/python/ipaddress"/>
+  <project name="platform/external/python/jinja" path="external/python/jinja"/>
+  <project name="platform/external/python/markupsafe" path="external/python/markupsafe"/>
   <project name="platform/external/python/mock" path="external/python/mock"/>
   <project name="platform/external/python/oauth2client" path="external/python/oauth2client"/>
   <project name="platform/external/python/parse_type" path="external/python/parse_type"/>
@@ -337,6 +388,7 @@
   <project name="platform/external/python/pyasn1-modules" path="external/python/pyasn1-modules"/>
   <project name="platform/external/python/pybind11" path="external/python/pybind11"/>
   <project name="platform/external/python/pycparser" path="external/python/pycparser"/>
+  <project name="platform/external/python/pyfakefs" path="external/python/pyfakefs"/>
   <project name="platform/external/python/pyopenssl" path="external/python/pyopenssl"/>
   <project name="platform/external/python/rsa" path="external/python/rsa"/>
   <project name="platform/external/python/setuptools" path="external/python/setuptools"/>
@@ -345,16 +397,186 @@
   <project name="platform/external/rappor" path="external/rappor"/>
   <project name="platform/external/replicaisland" path="external/replicaisland"/>
   <project name="platform/external/rmi4utils" path="external/rmi4utils"/>
+  <project name="platform/external/rnnoise" path="external/rnnoise"/>
   <project name="platform/external/robolectric-shadows" path="external/robolectric-shadows"/>
   <project name="platform/external/roboto-fonts" path="external/roboto-fonts"/>
   <project name="platform/external/rootdev" path="external/rootdev"/>
+  <project name="platform/external/rust/crates/ahash" path="external/rust/crates/ahash"/>
+  <project name="platform/external/rust/crates/aho-corasick" path="external/rust/crates/aho-corasick"/>
+  <project name="platform/external/rust/crates/android_log-sys" path="external/rust/crates/android_log-sys"/>
+  <project name="platform/external/rust/crates/android_logger" path="external/rust/crates/android_logger"/>
+  <project name="platform/external/rust/crates/anyhow" path="external/rust/crates/anyhow"/>
+  <project name="platform/external/rust/crates/arbitrary" path="external/rust/crates/arbitrary"/>
+  <project name="platform/external/rust/crates/async-stream" path="external/rust/crates/async-stream"/>
+  <project name="platform/external/rust/crates/async-stream-impl" path="external/rust/crates/async-stream-impl"/>
+  <project name="platform/external/rust/crates/async-task" path="external/rust/crates/async-task"/>
+  <project name="platform/external/rust/crates/async-trait" path="external/rust/crates/async-trait"/>
+  <project name="platform/external/rust/crates/atty" path="external/rust/crates/atty"/>
+  <project name="platform/external/rust/crates/bencher" path="external/rust/crates/bencher"/>
+  <project name="platform/external/rust/crates/bindgen" path="external/rust/crates/bindgen"/>
+  <project name="platform/external/rust/crates/bitflags" path="external/rust/crates/bitflags"/>
+  <project name="platform/external/rust/crates/bstr" path="external/rust/crates/bstr"/>
   <project name="platform/external/rust/crates/byteorder" path="external/rust/crates/byteorder"/>
+  <project name="platform/external/rust/crates/bytes" path="external/rust/crates/bytes"/>
+  <project name="platform/external/rust/crates/cast" path="external/rust/crates/cast"/>
+  <project name="platform/external/rust/crates/cexpr" path="external/rust/crates/cexpr"/>
+  <project name="platform/external/rust/crates/cfg-if" path="external/rust/crates/cfg-if"/>
+  <project name="platform/external/rust/crates/chrono" path="external/rust/crates/chrono"/>
+  <project name="platform/external/rust/crates/clang-sys" path="external/rust/crates/clang-sys"/>
+  <project name="platform/external/rust/crates/clap" path="external/rust/crates/clap"/>
+  <project name="platform/external/rust/crates/codespan-reporting" path="external/rust/crates/codespan-reporting"/>
+  <project name="platform/external/rust/crates/crc32fast" path="external/rust/crates/crc32fast"/>
+  <project name="platform/external/rust/crates/criterion" path="external/rust/crates/criterion"/>
+  <project name="platform/external/rust/crates/criterion-plot" path="external/rust/crates/criterion-plot"/>
+  <project name="platform/external/rust/crates/crossbeam-channel" path="external/rust/crates/crossbeam-channel"/>
+  <project name="platform/external/rust/crates/crossbeam-deque" path="external/rust/crates/crossbeam-deque"/>
+  <project name="platform/external/rust/crates/crossbeam-epoch" path="external/rust/crates/crossbeam-epoch"/>
+  <project name="platform/external/rust/crates/crossbeam-utils" path="external/rust/crates/crossbeam-utils"/>
+  <project name="platform/external/rust/crates/csv" path="external/rust/crates/csv"/>
+  <project name="platform/external/rust/crates/csv-core" path="external/rust/crates/csv-core"/>
+  <project name="platform/external/rust/crates/derive_arbitrary" path="external/rust/crates/derive_arbitrary"/>
+  <project name="platform/external/rust/crates/downcast-rs" path="external/rust/crates/downcast-rs"/>
+  <project name="platform/external/rust/crates/either" path="external/rust/crates/either"/>
+  <project name="platform/external/rust/crates/env_logger" path="external/rust/crates/env_logger"/>
+  <project name="platform/external/rust/crates/fallible-iterator" path="external/rust/crates/fallible-iterator"/>
+  <project name="platform/external/rust/crates/fallible-streaming-iterator" path="external/rust/crates/fallible-streaming-iterator"/>
+  <project name="platform/external/rust/crates/flate2" path="external/rust/crates/flate2"/>
+  <project name="platform/external/rust/crates/fnv" path="external/rust/crates/fnv"/>
+  <project name="platform/external/rust/crates/form_urlencoded" path="external/rust/crates/form_urlencoded"/>
+  <project name="platform/external/rust/crates/futures" path="external/rust/crates/futures"/>
+  <project name="platform/external/rust/crates/futures-channel" path="external/rust/crates/futures-channel"/>
+  <project name="platform/external/rust/crates/futures-core" path="external/rust/crates/futures-core"/>
+  <project name="platform/external/rust/crates/futures-executor" path="external/rust/crates/futures-executor"/>
+  <project name="platform/external/rust/crates/futures-io" path="external/rust/crates/futures-io"/>
+  <project name="platform/external/rust/crates/futures-macro" path="external/rust/crates/futures-macro"/>
+  <project name="platform/external/rust/crates/futures-sink" path="external/rust/crates/futures-sink"/>
+  <project name="platform/external/rust/crates/futures-task" path="external/rust/crates/futures-task"/>
+  <project name="platform/external/rust/crates/futures-util" path="external/rust/crates/futures-util"/>
+  <project name="platform/external/rust/crates/gdbstub" path="external/rust/crates/gdbstub"/>
+  <project name="platform/external/rust/crates/getrandom" path="external/rust/crates/getrandom"/>
+  <project name="platform/external/rust/crates/glob" path="external/rust/crates/glob"/>
+  <project name="platform/external/rust/crates/grpcio" path="external/rust/crates/grpcio"/>
+  <project name="platform/external/rust/crates/grpcio-compiler" path="external/rust/crates/grpcio-compiler"/>
+  <project name="platform/external/rust/crates/grpcio-sys" path="external/rust/crates/grpcio-sys"/>
+  <project name="platform/external/rust/crates/half" path="external/rust/crates/half"/>
+  <project name="platform/external/rust/crates/hashbrown" path="external/rust/crates/hashbrown"/>
+  <project name="platform/external/rust/crates/hashlink" path="external/rust/crates/hashlink"/>
+  <project name="platform/external/rust/crates/heck" path="external/rust/crates/heck"/>
+  <project name="platform/external/rust/crates/idna" path="external/rust/crates/idna"/>
+  <project name="platform/external/rust/crates/instant" path="external/rust/crates/instant"/>
+  <project name="platform/external/rust/crates/intrusive-collections" path="external/rust/crates/intrusive-collections"/>
+  <project name="platform/external/rust/crates/itertools" path="external/rust/crates/itertools"/>
+  <project name="platform/external/rust/crates/itoa" path="external/rust/crates/itoa"/>
+  <project name="platform/external/rust/crates/lazy_static" path="external/rust/crates/lazy_static"/>
+  <project name="platform/external/rust/crates/lazycell" path="external/rust/crates/lazycell"/>
   <project name="platform/external/rust/crates/libc" path="external/rust/crates/libc"/>
+  <project name="platform/external/rust/crates/libfuzzer-sys" path="external/rust/crates/libfuzzer-sys"/>
+  <project name="platform/external/rust/crates/libloading" path="external/rust/crates/libloading"/>
+  <project name="platform/external/rust/crates/libm" path="external/rust/crates/libm"/>
+  <project name="platform/external/rust/crates/libsqlite3-sys" path="external/rust/crates/libsqlite3-sys"/>
+  <project name="platform/external/rust/crates/libz-sys" path="external/rust/crates/libz-sys"/>
+  <project name="platform/external/rust/crates/linked-hash-map" path="external/rust/crates/linked-hash-map"/>
+  <project name="platform/external/rust/crates/lock_api" path="external/rust/crates/lock_api"/>
+  <project name="platform/external/rust/crates/log" path="external/rust/crates/log"/>
+  <project name="platform/external/rust/crates/lru-cache" path="external/rust/crates/lru-cache"/>
+  <project name="platform/external/rust/crates/macaddr" path="external/rust/crates/macaddr"/>
+  <project name="platform/external/rust/crates/managed" path="external/rust/crates/managed"/>
+  <project name="platform/external/rust/crates/matches" path="external/rust/crates/matches"/>
+  <project name="platform/external/rust/crates/memchr" path="external/rust/crates/memchr"/>
+  <project name="platform/external/rust/crates/memoffset" path="external/rust/crates/memoffset"/>
+  <project name="platform/external/rust/crates/mio" path="external/rust/crates/mio"/>
+  <project name="platform/external/rust/crates/nix" path="external/rust/crates/nix"/>
+  <project name="platform/external/rust/crates/no-panic" path="external/rust/crates/no-panic"/>
+  <project name="platform/external/rust/crates/nom" path="external/rust/crates/nom"/>
+  <project name="platform/external/rust/crates/num-derive" path="external/rust/crates/num-derive"/>
+  <project name="platform/external/rust/crates/num-integer" path="external/rust/crates/num-integer"/>
+  <project name="platform/external/rust/crates/num-traits" path="external/rust/crates/num-traits"/>
+  <project name="platform/external/rust/crates/num_cpus" path="external/rust/crates/num_cpus"/>
+  <project name="platform/external/rust/crates/once_cell" path="external/rust/crates/once_cell"/>
+  <project name="platform/external/rust/crates/oorandom" path="external/rust/crates/oorandom"/>
+  <project name="platform/external/rust/crates/parking_lot" path="external/rust/crates/parking_lot"/>
+  <project name="platform/external/rust/crates/parking_lot_core" path="external/rust/crates/parking_lot_core"/>
+  <project name="platform/external/rust/crates/paste" path="external/rust/crates/paste"/>
+  <project name="platform/external/rust/crates/peeking_take_while" path="external/rust/crates/peeking_take_while"/>
+  <project name="platform/external/rust/crates/percent-encoding" path="external/rust/crates/percent-encoding"/>
+  <project name="platform/external/rust/crates/pin-project" path="external/rust/crates/pin-project"/>
+  <project name="platform/external/rust/crates/pin-project-internal" path="external/rust/crates/pin-project-internal"/>
+  <project name="platform/external/rust/crates/pin-project-lite" path="external/rust/crates/pin-project-lite"/>
+  <project name="platform/external/rust/crates/pin-utils" path="external/rust/crates/pin-utils"/>
+  <project name="platform/external/rust/crates/plotters" path="external/rust/crates/plotters"/>
+  <project name="platform/external/rust/crates/plotters-backend" path="external/rust/crates/plotters-backend"/>
+  <project name="platform/external/rust/crates/plotters-svg" path="external/rust/crates/plotters-svg"/>
+  <project name="platform/external/rust/crates/ppv-lite86" path="external/rust/crates/ppv-lite86"/>
+  <project name="platform/external/rust/crates/proc-macro-error" path="external/rust/crates/proc-macro-error"/>
+  <project name="platform/external/rust/crates/proc-macro-error-attr" path="external/rust/crates/proc-macro-error-attr"/>
+  <project name="platform/external/rust/crates/proc-macro-hack" path="external/rust/crates/proc-macro-hack"/>
+  <project name="platform/external/rust/crates/proc-macro-nested" path="external/rust/crates/proc-macro-nested"/>
   <project name="platform/external/rust/crates/proc-macro2" path="external/rust/crates/proc-macro2"/>
+  <project name="platform/external/rust/crates/protobuf" path="external/rust/crates/protobuf"/>
+  <project name="platform/external/rust/crates/protobuf-codegen" path="external/rust/crates/protobuf-codegen"/>
+  <project name="platform/external/rust/crates/quiche" path="external/rust/crates/quiche"/>
   <project name="platform/external/rust/crates/quote" path="external/rust/crates/quote"/>
+  <project name="platform/external/rust/crates/rand" path="external/rust/crates/rand"/>
+  <project name="platform/external/rust/crates/rand_chacha" path="external/rust/crates/rand_chacha"/>
+  <project name="platform/external/rust/crates/rand_core" path="external/rust/crates/rand_core"/>
+  <project name="platform/external/rust/crates/rand_xorshift" path="external/rust/crates/rand_xorshift"/>
+  <project name="platform/external/rust/crates/rayon" path="external/rust/crates/rayon"/>
+  <project name="platform/external/rust/crates/rayon-core" path="external/rust/crates/rayon-core"/>
+  <project name="platform/external/rust/crates/regex" path="external/rust/crates/regex"/>
+  <project name="platform/external/rust/crates/regex-automata" path="external/rust/crates/regex-automata"/>
+  <project name="platform/external/rust/crates/regex-syntax" path="external/rust/crates/regex-syntax"/>
   <project name="platform/external/rust/crates/remain" path="external/rust/crates/remain"/>
+  <project name="platform/external/rust/crates/ring" path="external/rust/crates/ring"/>
+  <project name="platform/external/rust/crates/rusqlite" path="external/rust/crates/rusqlite"/>
+  <project name="platform/external/rust/crates/rustc-hash" path="external/rust/crates/rustc-hash"/>
+  <project name="platform/external/rust/crates/rustversion" path="external/rust/crates/rustversion"/>
+  <project name="platform/external/rust/crates/ryu" path="external/rust/crates/ryu"/>
+  <project name="platform/external/rust/crates/same-file" path="external/rust/crates/same-file"/>
+  <project name="platform/external/rust/crates/scopeguard" path="external/rust/crates/scopeguard"/>
+  <project name="platform/external/rust/crates/serde" path="external/rust/crates/serde"/>
+  <project name="platform/external/rust/crates/serde_cbor" path="external/rust/crates/serde_cbor"/>
+  <project name="platform/external/rust/crates/serde_derive" path="external/rust/crates/serde_derive"/>
+  <project name="platform/external/rust/crates/serde_json" path="external/rust/crates/serde_json"/>
+  <project name="platform/external/rust/crates/serde_test" path="external/rust/crates/serde_test"/>
+  <project name="platform/external/rust/crates/shared_child" path="external/rust/crates/shared_child"/>
+  <project name="platform/external/rust/crates/shlex" path="external/rust/crates/shlex"/>
+  <project name="platform/external/rust/crates/simplelog" path="external/rust/crates/simplelog"/>
+  <project name="platform/external/rust/crates/slab" path="external/rust/crates/slab"/>
+  <project name="platform/external/rust/crates/smallvec" path="external/rust/crates/smallvec"/>
+  <project name="platform/external/rust/crates/spin" path="external/rust/crates/spin"/>
+  <project name="platform/external/rust/crates/structopt" path="external/rust/crates/structopt"/>
+  <project name="platform/external/rust/crates/structopt-derive" path="external/rust/crates/structopt-derive"/>
   <project name="platform/external/rust/crates/syn" path="external/rust/crates/syn"/>
+  <project name="platform/external/rust/crates/syn-mid" path="external/rust/crates/syn-mid"/>
+  <project name="platform/external/rust/crates/termcolor" path="external/rust/crates/termcolor"/>
+  <project name="platform/external/rust/crates/textwrap" path="external/rust/crates/textwrap"/>
+  <project name="platform/external/rust/crates/thiserror" path="external/rust/crates/thiserror"/>
+  <project name="platform/external/rust/crates/thiserror-impl" path="external/rust/crates/thiserror-impl"/>
+  <project name="platform/external/rust/crates/thread_local" path="external/rust/crates/thread_local"/>
+  <project name="platform/external/rust/crates/tinytemplate" path="external/rust/crates/tinytemplate"/>
+  <project name="platform/external/rust/crates/tinyvec" path="external/rust/crates/tinyvec"/>
+  <project name="platform/external/rust/crates/tinyvec_macros" path="external/rust/crates/tinyvec_macros"/>
+  <project name="platform/external/rust/crates/tokio" path="external/rust/crates/tokio"/>
+  <project name="platform/external/rust/crates/tokio-macros" path="external/rust/crates/tokio-macros"/>
+  <project name="platform/external/rust/crates/tokio-stream" path="external/rust/crates/tokio-stream"/>
+  <project name="platform/external/rust/crates/tokio-test" path="external/rust/crates/tokio-test"/>
+  <project name="platform/external/rust/crates/unicode-bidi" path="external/rust/crates/unicode-bidi"/>
+  <project name="platform/external/rust/crates/unicode-normalization" path="external/rust/crates/unicode-normalization"/>
+  <project name="platform/external/rust/crates/unicode-segmentation" path="external/rust/crates/unicode-segmentation"/>
+  <project name="platform/external/rust/crates/unicode-width" path="external/rust/crates/unicode-width"/>
   <project name="platform/external/rust/crates/unicode-xid" path="external/rust/crates/unicode-xid"/>
+  <project name="platform/external/rust/crates/untrusted" path="external/rust/crates/untrusted"/>
+  <project name="platform/external/rust/crates/url" path="external/rust/crates/url"/>
+  <project name="platform/external/rust/crates/uuid" path="external/rust/crates/uuid"/>
+  <project name="platform/external/rust/crates/vmm_vhost" path="external/rust/crates/vmm_vhost"/>
+  <project name="platform/external/rust/crates/vsock" path="external/rust/crates/vsock"/>
+  <project name="platform/external/rust/crates/walkdir" path="external/rust/crates/walkdir"/>
+  <project name="platform/external/rust/crates/weak-table" path="external/rust/crates/weak-table"/>
+  <project name="platform/external/rust/crates/which" path="external/rust/crates/which"/>
+  <project name="platform/external/rust/crates/zip" path="external/rust/crates/zip"/>
+  <project name="platform/external/rust/cxx" path="external/rust/cxx"/>
+  <project name="platform/external/ruy" path="external/ruy"/>
+  <project name="platform/external/s2-geometry-library-java" path="external/s2-geometry-library-java"/>
   <project name="platform/external/scapy" path="external/scapy"/>
   <project name="platform/external/scrypt" path="external/scrypt"/>
   <project name="platform/external/scudo" path="external/scudo"/>
@@ -376,29 +598,33 @@
   <project name="platform/external/speex" path="external/speex"/>
   <project name="platform/external/sqlite" path="external/sqlite"/>
   <project name="platform/external/squashfs-tools" path="external/squashfs-tools"/>
+  <project name="platform/external/starlark-go" path="external/starlark-go"/>
   <project name="platform/external/strace" path="external/strace"/>
   <project name="platform/external/stressapptest" path="external/stressapptest"/>
-  <project clone-depth="1" name="platform/external/subsampling-scale-image-view" path="external/subsampling-scale-image-view"/>
+  <project clone-depth="1" name="platform/external/subsampling-scale-image-view" path="external/subsampling-scale-image-view" />
   <project name="platform/external/swiftshader" path="external/swiftshader"/>
   <project name="platform/external/tagsoup" path="external/tagsoup"/>
   <project name="platform/external/tcpdump" path="external/tcpdump"/>
   <project name="platform/external/tensorflow" path="external/tensorflow"/>
   <project name="platform/external/testng" path="external/testng"/>
+  <project name="platform/external/tflite-support" path="external/tflite-support"/>
+  <project clone-depth="2" name="platform/external/timezone-boundary-builder" path="external/timezone-boundary-builder"/>
   <project name="platform/external/tinyalsa" path="external/tinyalsa"/>
+  <project name="platform/external/tinyalsa_new" path="external/tinyalsa_new"/>
   <project name="platform/external/tinycompress" path="external/tinycompress"/>
-  <project name="platform/external/tinyxml" path="external/tinyxml"/>
   <project name="platform/external/tinyxml2" path="external/tinyxml2"/>
   <project name="platform/external/toybox" path="external/toybox"/>
+  <project name="platform/external/tpm2-tss" path="external/tpm2-tss"/>
   <project name="platform/external/tremolo" path="external/tremolo"/>
   <project name="platform/external/turbine" path="external/turbine"/>
-  <project name="platform/external/u-boot" path="external/u-boot"/>
   <project name="platform/external/ukey2" path="external/ukey2"/>
   <project name="platform/external/unicode" path="external/unicode"/>
+  <project name="platform/external/usrsctp" path="external/usrsctp"/>
   <project name="platform/external/v4l2_codec2" path="external/v4l2_codec2"/>
-  <project name="platform/external/v8" path="external/v8"/>
   <project name="platform/external/vboot_reference" path="external/vboot_reference"/>
   <project name="platform/external/virglrenderer" path="external/virglrenderer"/>
   <project name="platform/external/vixl" path="external/vixl"/>
+  <project name="platform/external/vm_tools/p9" path="external/vm_tools/p9"/>
   <project name="platform/external/vogar" path="external/vogar"/>
   <project name="platform/external/volley" path="external/volley"/>
   <project name="platform/external/vulkan-headers" path="external/vulkan-headers"/>
@@ -416,6 +642,7 @@
   <project name="platform/external/yapf" path="external/yapf"/>
   <project name="platform/external/zlib" path="external/zlib"/>
   <project name="platform/external/zopfli" path="external/zopfli"/>
+  <project name="platform/external/zstd" path="external/zstd"/>
   <project name="platform/external/zxing" path="external/zxing"/>
   <project name="platform/frameworks/av" path="frameworks/av"/>
   <project name="platform/frameworks/base" path="frameworks/base"/>
@@ -428,9 +655,9 @@
   <project name="platform/frameworks/libs/modules-utils" path="frameworks/libs/modules-utils"/>
   <project name="platform/frameworks/libs/native_bridge_support" path="frameworks/libs/native_bridge_support"/>
   <project name="platform/frameworks/libs/net" path="frameworks/libs/net"/>
+  <project name="platform/frameworks/libs/service_entitlement" path="frameworks/libs/service_entitlement"/>
   <project name="platform/frameworks/libs/systemui" path="frameworks/libs/systemui"/>
   <project name="platform/frameworks/minikin" path="frameworks/minikin"/>
-  <project name="platform/frameworks/ml" path="frameworks/ml"/>
   <project name="platform/frameworks/multidex" path="frameworks/multidex"/>
   <project name="platform/frameworks/native" path="frameworks/native"/>
   <project name="platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap"/>
@@ -449,6 +676,7 @@
   <project name="platform/frameworks/opt/timezonepicker" path="frameworks/opt/timezonepicker"/>
   <project name="platform/frameworks/opt/tv/tvsystem" path="frameworks/opt/tv/tvsystem"/>
   <project name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard"/>
+  <project name="platform/frameworks/proto_logging" path="frameworks/proto_logging"/>
   <project name="platform/frameworks/rs" path="frameworks/rs"/>
   <project name="platform/frameworks/wilhelm" path="frameworks/wilhelm"/>
   <project name="platform/hardware/google/apf" path="hardware/google/apf"/>
@@ -462,8 +690,10 @@
   <project name="platform/hardware/nxp/nfc" path="hardware/nxp/nfc"/>
   <project name="platform/hardware/nxp/secure_element" path="hardware/nxp/secure_element"/>
   <project name="platform/hardware/ril" path="hardware/ril"/>
+  <project name="platform/hardware/samsung/nfc" path="hardware/samsung/nfc"/>
   <project name="platform/hardware/st/nfc" path="hardware/st/nfc"/>
   <project name="platform/hardware/st/secure_element" path="hardware/st/secure_element"/>
+  <project name="platform/hardware/st/secure_element2" path="hardware/st/secure_element2"/>
   <project name="platform/hardware/ti/am57x" path="hardware/ti/am57x"/>
   <project name="platform/libcore" path="libcore"/>
   <project name="platform/libnativehelper" path="libnativehelper"/>
@@ -474,7 +704,7 @@
   <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2"/>
   <project name="platform/packages/apps/Car/Calendar" path="packages/apps/Car/Calendar"/>
   <project name="platform/packages/apps/Car/Cluster" path="packages/apps/Car/Cluster"/>
-  <project name="platform/packages/apps/Car/CompanionDeviceSupport" path="packages/apps/Car/CompanionDeviceSupport"/>
+  <project name="platform/packages/apps/Car/DebuggingRestrictionController" path="packages/apps/Car/DebuggingRestrictionController"/>
   <project name="platform/packages/apps/Car/Dialer" path="packages/apps/Car/Dialer"/>
   <project name="platform/packages/apps/Car/Hvac" path="packages/apps/Car/Hvac"/>
   <project name="platform/packages/apps/Car/LatinIME" path="packages/apps/Car/LatinIME"/>
@@ -484,9 +714,12 @@
   <project name="platform/packages/apps/Car/Media" path="packages/apps/Car/Media"/>
   <project name="platform/packages/apps/Car/Messenger" path="packages/apps/Car/Messenger"/>
   <project name="platform/packages/apps/Car/Notification" path="packages/apps/Car/Notification"/>
+  <project name="platform/packages/apps/Car/Provision" path="packages/apps/Car/Provision"/>
   <project name="platform/packages/apps/Car/Radio" path="packages/apps/Car/Radio"/>
   <project name="platform/packages/apps/Car/RotaryController" path="packages/apps/Car/RotaryController"/>
   <project name="platform/packages/apps/Car/Settings" path="packages/apps/Car/Settings"/>
+  <project name="platform/packages/apps/Car/SettingsIntelligence" path="packages/apps/Car/SettingsIntelligence"/>
+  <project name="platform/packages/apps/Car/SystemUI" path="packages/apps/Car/SystemUI"/>
   <project name="platform/packages/apps/Car/SystemUpdater" path="packages/apps/Car/SystemUpdater"/>
   <project name="platform/packages/apps/Car/libs" path="packages/apps/Car/libs"/>
   <project name="platform/packages/apps/Car/tests" path="packages/apps/Car/tests"/>
@@ -502,6 +735,7 @@
   <project name="platform/packages/apps/Gallery" path="packages/apps/Gallery"/>
   <project name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2"/>
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer"/>
+  <project name="platform/packages/apps/ImsServiceEntitlement" path="packages/apps/ImsServiceEntitlement"/>
   <project name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain"/>
   <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3"/>
   <project name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera"/>
@@ -515,12 +749,12 @@
   <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc"/>
   <project name="platform/packages/apps/OnDeviceAppPrediction" path="packages/apps/OnDeviceAppPrediction"/>
   <project name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer"/>
-  <project name="platform/packages/apps/PackageInstaller" path="packages/apps/PermissionController"/>
   <project name="platform/packages/apps/PhoneCommon" path="packages/apps/PhoneCommon"/>
   <project name="platform/packages/apps/Protips" path="packages/apps/Protips"/>
   <project name="platform/packages/apps/Provision" path="packages/apps/Provision"/>
   <project name="platform/packages/apps/QuickAccessWallet" path="packages/apps/QuickAccessWallet"/>
   <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox"/>
+  <project name="platform/packages/apps/RemoteProvisioner" path="packages/apps/RemoteProvisioner"/>
   <project name="platform/packages/apps/SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo"/>
   <project name="platform/packages/apps/SampleLocationAttribution" path="packages/apps/SampleLocationAttribution"/>
   <project name="platform/packages/apps/SecureElement" path="packages/apps/SecureElement"/>
@@ -529,13 +763,11 @@
   <project name="platform/packages/apps/SnapdragonMusic" path="vendor/codeaurora/commonsys/packages/apps/SnapdragonMusic">
     <linkfile dest="vendor/qcom/defs/product-defs/system/app_snapMusic_product.mk" src="app_snapMusic_system_product.mk"/>
   </project>
-  <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder"/>
   <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts"/>
   <project name="platform/packages/apps/Stk" path="packages/apps/Stk"/>
   <project name="platform/packages/apps/StorageManager" path="packages/apps/StorageManager"/>
   <project name="platform/packages/apps/TV" path="packages/apps/TV"/>
   <project name="platform/packages/apps/Tag" path="packages/apps/Tag"/>
-  <project name="platform/packages/apps/Terminal" path="packages/apps/Terminal"/>
   <project name="platform/packages/apps/Test/connectivity" path="packages/apps/Test/connectivity"/>
   <project name="platform/packages/apps/ThemePicker" path="packages/apps/ThemePicker"/>
   <project name="platform/packages/apps/TimeZoneData" path="packages/apps/TimeZoneData"/>
@@ -546,17 +778,31 @@
   <project name="platform/packages/apps/WallpaperPicker2" path="packages/apps/WallpaperPicker2"/>
   <project name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME"/>
   <project name="platform/packages/inputmethods/LeanbackIME" path="packages/inputmethods/LeanbackIME"/>
-  <project clone-depth="1" name="platform/packages/modules/ArtPrebuilt" path="packages/modules/ArtPrebuilt"/>
+  <project name="platform/packages/modules/ArtPrebuilt" path="packages/modules/ArtPrebuilt"/>
+  <project name="platform/packages/modules/BootPrebuilt/5.10/arm64" path="packages/modules/BootPrebuilt/5.10/arm64"/>
+  <project name="platform/packages/modules/BootPrebuilt/5.4/arm64" path="packages/modules/BootPrebuilt/5.4/arm64"/>
   <project name="platform/packages/modules/CaptivePortalLogin" path="packages/modules/CaptivePortalLogin"/>
   <project name="platform/packages/modules/CellBroadcastService" path="packages/modules/CellBroadcastService"/>
+  <project name="platform/packages/modules/Connectivity" path="packages/modules/Connectivity"/>
   <project name="platform/packages/modules/Cronet" path="packages/modules/Cronet"/>
   <project name="platform/packages/modules/DnsResolver" path="packages/modules/DnsResolver"/>
   <project name="platform/packages/modules/ExtServices" path="packages/modules/ExtServices"/>
+  <project name="platform/packages/modules/GeoTZ" path="packages/modules/GeoTZ"/>
+  <project name="platform/packages/modules/Gki" path="packages/modules/Gki"/>
   <project name="platform/packages/modules/IPsec" path="packages/modules/IPsec"/>
   <project name="platform/packages/modules/ModuleMetadata" path="packages/modules/ModuleMetadata"/>
   <project name="platform/packages/modules/NetworkPermissionConfig" path="packages/modules/NetworkPermissionConfig"/>
   <project name="platform/packages/modules/NetworkStack" path="packages/modules/NetworkStack"/>
+  <project name="platform/packages/modules/NeuralNetworks" path="packages/modules/NeuralNetworks"/>
+  <project name="platform/packages/modules/Permission" path="packages/modules/Permission"/>
+  <project name="platform/packages/modules/RuntimeI18n" path="packages/modules/RuntimeI18n"/>
+  <project name="platform/packages/modules/Scheduling" path="packages/modules/Scheduling"/>
   <project name="platform/packages/modules/SdkExtensions" path="packages/modules/SdkExtensions"/>
+  <project name="platform/packages/modules/StatsD" path="packages/modules/StatsD"/>
+  <project name="platform/packages/modules/Virtualization" path="packages/modules/Virtualization"/>
+  <project name="platform/packages/modules/Wifi" path="packages/modules/Wifi"/>
+  <project name="platform/packages/modules/adb" path="packages/modules/adb"/>
+  <project name="platform/packages/modules/common" path="packages/modules/common"/>
   <project name="platform/packages/modules/vndk" path="packages/modules/vndk"/>
   <project name="platform/packages/providers/BlockedNumberProvider" path="packages/providers/BlockedNumberProvider"/>
   <project name="platform/packages/providers/BookmarkProvider" path="packages/providers/BookmarkProvider"/>
@@ -574,6 +820,7 @@
   <project name="platform/packages/services/AlternativeNetworkAccess" path="packages/services/AlternativeNetworkAccess"/>
   <project name="platform/packages/services/BuiltInPrintService" path="packages/services/BuiltInPrintService"/>
   <project name="platform/packages/services/Car" path="packages/services/Car"/>
+  <project name="platform/packages/services/Iwlan" path="packages/services/Iwlan"/>
   <project name="platform/packages/services/Mms" path="packages/services/Mms"/>
   <project name="platform/packages/services/Mtp" path="packages/services/Mtp"/>
   <project name="platform/packages/services/Telecomm" path="packages/services/Telecomm"/>
@@ -583,51 +830,60 @@
   <project name="platform/pdk" path="pdk"/>
   <project name="platform/platform_testing" path="platform_testing"/>
   <project clone-depth="1" name="platform/prebuilts/abi-dumps/ndk" path="prebuilts/abi-dumps/ndk"/>
-  <project clone-depth="1" name="platform/prebuilts/abi-dumps/platform" path="prebuilts/abi-dumps/platform"/>
-  <project clone-depth="1" name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk"/>
-  <project clone-depth="1" name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator"/>
-  <project clone-depth="1" name="platform/prebuilts/asuite" path="prebuilts/asuite"/>
-  <project clone-depth="1" name="platform/prebuilts/build-tools" path="prebuilts/build-tools"/>
-  <project clone-depth="1" name="platform/prebuilts/bundletool" path="prebuilts/bundletool"/>
-  <project clone-depth="1" name="platform/prebuilts/checkcolor" path="prebuilts/checkcolor"/>
-  <project clone-depth="1" name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle"/>
-  <project clone-depth="1" name="platform/prebuilts/clang-tools" path="prebuilts/clang-tools"/>
-  <project clone-depth="1" name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86"/>
-  <project clone-depth="1" name="platform/prebuilts/cmdline-tools" path="prebuilts/cmdline-tools"/>
-  <project clone-depth="1" name="platform/prebuilts/devtools" path="prebuilts/devtools"/>
-  <project clone-depth="1" name="platform/prebuilts/fuchsia_sdk" path="prebuilts/fuchsia_sdk"/>
-  <project clone-depth="1" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"/>
+  <project name="platform/prebuilts/abi-dumps/platform" path="prebuilts/abi-dumps/platform"/>
+  <project name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk"/>
+  <project name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator"/>
+  <project name="platform/prebuilts/asuite" path="prebuilts/asuite"/>
+  <project name="platform/prebuilts/bazel/linux-x86_64" path="prebuilts/bazel/linux-x86_64"/>
+  <project name="platform/prebuilts/build-tools" path="prebuilts/build-tools"/>
+  <project name="platform/prebuilts/bundletool" path="prebuilts/bundletool"/>
+  <project name="platform/prebuilts/checkcolor" path="prebuilts/checkcolor"/>
+  <project name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle"/>
+  <project name="platform/prebuilts/clang-tools" path="prebuilts/clang-tools"/>
+  <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86"/>
+  <project name="platform/prebuilts/cmdline-tools" path="prebuilts/cmdline-tools"/>
+  <project name="platform/prebuilts/devtools" path="prebuilts/devtools"/>
+  <project name="platform/prebuilts/fuchsia_sdk" path="prebuilts/fuchsia_sdk"/>
+  <project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"/>
   <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"/>
   <project clone-depth="1" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"/>
-  <project clone-depth="1" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8"/>
-  <project clone-depth="1" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8"/>
-  <project clone-depth="1" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"/>
-  <project clone-depth="1" name="platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86"/>
-  <project clone-depth="1" name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86"/>
-  <project clone-depth="1" name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin"/>
-  <project clone-depth="1" name="platform/prebuilts/jdk/jdk11" path="prebuilts/jdk/jdk11"/>
-  <project clone-depth="1" name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8"/>
-  <project clone-depth="1" name="platform/prebuilts/jdk/jdk9" path="prebuilts/jdk/jdk9"/>
-  <project clone-depth="1" name="platform/prebuilts/ktlint" path="prebuilts/ktlint"/>
-  <project clone-depth="1" name="platform/prebuilts/manifest-merger" path="prebuilts/manifest-merger"/>
-  <project clone-depth="1" name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android"/>
-  <project clone-depth="1" name="platform/prebuilts/maven_repo/bumptech" path="prebuilts/maven_repo/bumptech"/>
-  <project clone-depth="1" name="platform/prebuilts/misc" path="prebuilts/misc"/>
-  <project clone-depth="1" name="platform/prebuilts/module_sdk/art" path="prebuilts/module_sdk/art"/>
-  <project clone-depth="1" name="platform/prebuilts/ndk" path="prebuilts/ndk"/>
-  <project clone-depth="1" name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5"/>
-  <project clone-depth="1" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel"/>
-  <project clone-depth="1" name="platform/prebuilts/r8" path="prebuilts/r8"/>
-  <project clone-depth="1" name="platform/prebuilts/remoteexecution-client" path="prebuilts/remoteexecution-client"/>
-  <project clone-depth="1" name="platform/prebuilts/runtime" path="prebuilts/runtime"/>
-  <project clone-depth="1" name="platform/prebuilts/rust" path="prebuilts/rust"/>
-  <project clone-depth="1" name="platform/prebuilts/sdk" path="prebuilts/sdk">
-    <linkfile dest="frameworks/support.md" src="current/androidx-README.md"/>
-  </project>
-  <project clone-depth="1" name="platform/prebuilts/tools" path="prebuilts/tools"/>
-  <project clone-depth="1" name="platform/prebuilts/vndk/v27" path="prebuilts/vndk/v27"/>
-  <project clone-depth="1" name="platform/prebuilts/vndk/v28" path="prebuilts/vndk/v28"/>
-  <project clone-depth="1" name="platform/prebuilts/vndk/v29" path="prebuilts/vndk/v29"/>
+  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8"/>
+  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8"/>
+  <project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"/>
+  <project name="platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86"/>
+  <project name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86"/>
+  <project name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin"/>
+  <project name="platform/prebuilts/jdk/jdk11" path="prebuilts/jdk/jdk11"/>
+  <project name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8"/>
+  <project name="platform/prebuilts/jdk/jdk9" path="prebuilts/jdk/jdk9"/>
+  <project name="platform/prebuilts/ktlint" path="prebuilts/ktlint"/>
+  <project name="platform/prebuilts/manifest-merger" path="prebuilts/manifest-merger"/>
+  <project name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android"/>
+  <project name="platform/prebuilts/maven_repo/bumptech" path="prebuilts/maven_repo/bumptech"/>
+  <project name="platform/prebuilts/misc" path="prebuilts/misc"/>
+  <project name="platform/prebuilts/module_sdk/Connectivity" path="prebuilts/module_sdk/Connectivity"/>
+  <project name="platform/prebuilts/module_sdk/IPsec" path="prebuilts/module_sdk/IPsec"/>
+  <project name="platform/prebuilts/module_sdk/Media" path="prebuilts/module_sdk/Media"/>
+  <project name="platform/prebuilts/module_sdk/MediaProvider" path="prebuilts/module_sdk/MediaProvider"/>
+  <project name="platform/prebuilts/module_sdk/Permission" path="prebuilts/module_sdk/Permission"/>
+  <project name="platform/prebuilts/module_sdk/Scheduling" path="prebuilts/module_sdk/Scheduling"/>
+  <project name="platform/prebuilts/module_sdk/SdkExtensions" path="prebuilts/module_sdk/SdkExtensions"/>
+  <project name="platform/prebuilts/module_sdk/StatsD" path="prebuilts/module_sdk/StatsD"/>
+  <project name="platform/prebuilts/module_sdk/Wifi" path="prebuilts/module_sdk/Wifi"/>
+  <project name="platform/prebuilts/module_sdk/art" path="prebuilts/module_sdk/art"/>
+  <project name="platform/prebuilts/module_sdk/conscrypt" path="prebuilts/module_sdk/conscrypt"/>
+  <project name="platform/prebuilts/ndk" path="prebuilts/ndk"/>
+  <project name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5"/>
+  <project name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel"/>
+  <project name="platform/prebuilts/r8" path="prebuilts/r8"/>
+  <project name="platform/prebuilts/remoteexecution-client" path="prebuilts/remoteexecution-client"/>
+  <project name="platform/prebuilts/runtime" path="prebuilts/runtime"/>
+  <project name="platform/prebuilts/rust" path="prebuilts/rust"/>
+  <project name="platform/prebuilts/sdk" path="prebuilts/sdk"/>
+  <project name="platform/prebuilts/tools" path="prebuilts/tools"/>
+  <project name="platform/prebuilts/vndk/v28" path="prebuilts/vndk/v28"/>
+  <project name="platform/prebuilts/vndk/v29" path="prebuilts/vndk/v29"/>
+  <project name="platform/prebuilts/vndk/v30" path="prebuilts/vndk/v30"/>
   <project name="platform/sdk" path="sdk"/>
   <project name="platform/system/apex" path="system/apex"/>
   <project name="platform/system/bpf" path="system/bpf"/>
@@ -636,7 +892,6 @@
   <project name="platform/system/ca-certificates" path="system/ca-certificates"/>
   <project name="platform/system/chre" path="system/chre"/>
   <project name="platform/system/connectivity/wificond" path="system/connectivity/wificond"/>
-  <project name="platform/system/connectivity/wifilogd" path="system/connectivity/wifilogd"/>
   <project name="platform/system/core" path="system/core"/>
   <project name="platform/system/extras" path="system/extras"/>
   <project name="platform/system/gatekeeper" path="system/gatekeeper"/>
@@ -647,17 +902,20 @@
   <project name="platform/system/iorap" path="system/iorap"/>
   <project name="platform/system/keymaster" path="system/keymaster"/>
   <project name="platform/system/libartpalette" path="system/libartpalette"/>
+  <project name="platform/system/libbase" path="system/libbase"/>
   <project name="platform/system/libfmq" path="system/libfmq"/>
   <project name="platform/system/libhidl" path="system/libhidl"/>
   <project name="platform/system/libhwbinder" path="system/libhwbinder"/>
+  <project name="platform/system/libprocinfo" path="system/libprocinfo"/>
   <project name="platform/system/libsysprop" path="system/libsysprop"/>
   <project name="platform/system/libufdt" path="system/libufdt"/>
   <project name="platform/system/libvintf" path="system/libvintf"/>
+  <project name="platform/system/libziparchive" path="system/libziparchive"/>
   <project name="platform/system/linkerconfig" path="system/linkerconfig"/>
+  <project name="platform/system/logging" path="system/logging"/>
   <project name="platform/system/media" path="system/media"/>
-  <project name="platform/system/memory/libion" path="system/memory/libion">
-    <linkfile dest="system/core/libion" src="."/>
-  </project>
+  <project name="platform/system/memory/libdmabufheap" path="system/memory/libdmabufheap"/>
+  <project name="platform/system/memory/libion" path="system/memory/libion"/>
   <project name="platform/system/memory/libmeminfo" path="system/memory/libmeminfo"/>
   <project name="platform/system/memory/libmemtrack" path="system/memory/libmemtrack"/>
   <project name="platform/system/memory/libmemunreachable" path="system/memory/libmemunreachable"/>
@@ -676,12 +934,12 @@
   <project name="platform/system/tools/mkbootimg" path="system/tools/mkbootimg"/>
   <project name="platform/system/tools/sysprop" path="system/tools/sysprop"/>
   <project name="platform/system/tools/xsdc" path="system/tools/xsdc"/>
+  <project name="platform/system/unwinding" path="system/unwinding"/>
   <project name="platform/system/update_engine" path="system/update_engine"/>
   <project name="platform/system/vold" path="system/vold"/>
   <project name="platform/test/framework" path="test/framework"/>
   <project name="platform/test/mlts/benchmark" path="test/mlts/benchmark"/>
-  <project name="platform/test/mlts/models" path="test/mlts/models" clone-depth="1"/>
-  <project name="platform/test/suite_harness" path="test/suite_harness"/>
+  <project name="platform/test/mlts/models" path="test/mlts/models"/>
   <project name="platform/test/vti/dashboard" path="test/vti/dashboard"/>
   <project name="platform/test/vti/fuzz_test_serving" path="test/vti/fuzz_test_serving"/>
   <project name="platform/test/vti/test_serving" path="test/vti/test_serving"/>
@@ -694,6 +952,7 @@
   <project name="platform/test/vts-testcase/performance" path="test/vts-testcase/performance"/>
   <project name="platform/test/vts-testcase/security" path="test/vts-testcase/security"/>
   <project name="platform/test/vts-testcase/vndk" path="test/vts-testcase/vndk"/>
+  <project name="platform/tools/aadevtools" path="tools/aadevtools"/>
   <project name="platform/tools/acloud" path="tools/acloud"/>
   <project name="platform/tools/apifinder" path="tools/apifinder"/>
   <project name="platform/tools/apksig" path="tools/apksig"/>
@@ -702,15 +961,13 @@
   <project name="platform/tools/currysrc" path="tools/currysrc"/>
   <project name="platform/tools/dexter" path="tools/dexter"/>
   <project name="platform/tools/doc_generation" path="tools/doc_generation"/>
-  <project name="platform/tools/loganalysis" path="tools/loganalysis"/>
   <project name="platform/tools/metalava" path="tools/metalava"/>
   <project name="platform/tools/ndkports" path="tools/ndkports"/>
   <project name="platform/tools/repohooks" path="tools/repohooks"/>
   <project name="platform/tools/security" path="tools/security"/>
   <project name="platform/tools/test/connectivity" path="tools/test/connectivity"/>
   <project name="platform/tools/test/graphicsbenchmark" path="tools/test/graphicsbenchmark"/>
-  <project name="platform/tools/tradefederation" path="tools/tradefederation/core"/>
-  <project name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib"/>
+  <project name="platform/tools/tradefederation/prebuilts" path="tools/tradefederation/prebuilts"/>
   <project name="platform/tools/trebuchet" path="tools/trebuchet"/>
   <project name="platform/vendor/codeaurora/packages/apps/Dialer" path="vendor/codeaurora/commonsys/packages/apps/Dialer"/>
   <project name="platform/vendor/codeaurora/packages/apps/SoundRecorder" path="vendor/codeaurora/commonsys/packages/apps/SoundRecorder">
@@ -723,11 +980,12 @@
   <project name="platform/vendor/nxp/opensource/packages/apps/Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc">
     <linkfile dest="vendor/qcom/defs/product-defs/system/nfc-system-product.mk" src="nfc_system_product.mk"/>
   </project>
-  <project name="platform/vendor/qcom-opensource/audio" path="vendor/qcom/opensource/commonsys/audio"/>
+  <project name="platform/vendor/qcom-opensource/audio" path="vendor/qcom/opensource/commonsys/audio">
+    <linkfile dest="vendor/qcom/defs/product-defs/system/audio_system_product.mk" src="configs/qssi/audio_system_product.mk"/>
+  </project>
   <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/commonsys/bluetooth"/>
   <project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/bluetooth">
-    <linkfile dest="vendor/qcom/defs/board-defs/system/bt-commonsys-intf-board.mk" src="bt-commonsys-intf-board.mk"/>
-    <linkfile dest="vendor/qcom/defs/board-defs/vendor/bt-commonsys-intf-board.mk" src="bt-commonsys-intf-board.mk"/>
+    <linkfile dest="vendor/qcom/defs/board-defs/system/bt-system-qssi-board.mk" src="bt-system-qssi-board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/system/bt-system-opensource-product.mk" src="bt-system-opensource-product.mk"/>
   </project>
   <project name="platform/vendor/qcom-opensource/bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext"/>
@@ -741,8 +999,12 @@
     <linkfile dest="kernel/Android.mk" src="build/stop_scan.mk"/>
     <linkfile dest="disregard/Android.mk" src="build/stop_scan.mk"/>
   </project>
+  <project name="platform/vendor/qcom-opensource/core-utils-sys" path="vendor/qcom/opensource/core-utils-sys"/>
   <project name="platform/vendor/qcom-opensource/cryptfs_hw" path="vendor/qcom/opensource/commonsys/cryptfs_hw"/>
   <project name="platform/vendor/qcom-opensource/dataservices-commonsys" path="vendor/qcom/opensource/commonsys/dataservices"/>
+  <project name="platform/vendor/qcom-opensource/display-commonsys" path="vendor/qcom/opensource/commonsys/display">
+    <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-commonsys.mk" src="config/display-product-commonsys.mk"/>
+  </project>
   <project name="platform/vendor/qcom-opensource/display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display">
     <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk"/>
@@ -752,7 +1014,8 @@
   <project name="platform/vendor/qcom-opensource/interfaces" path="vendor/qcom/opensource/interfaces"/>
   <project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth" path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth"/>
   <project name="platform/vendor/qcom-opensource/system/bt" path="vendor/qcom/opensource/commonsys/system/bt"/>
-  <project name="platform/vendor/qcom-opensource/wfd-commonsys" path="vendor/qcom/opensource/commonsys-intf/wfd"/>
+  <project name="platform/vendor/qcom/opensource/commonsys-intf/audio" path="vendor/qcom/opensource/commonsys-intf/audio"/>
+  <project name="toolchain/llvm-project" path="external/llvm-project"/>
   <project name="toolchain/pgo-profiles"/>
   <project name="tools/platform-compat"/>
 </manifest>
