@@ -1,50 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- AOSP -->
-  <remote name="aosp"
-          fetch="https://android.googlesource.com"
-          review="https://android-review.googlesource.com/"
-          revision="refs/tags/android-11.0.0_r39"/>
-
   <!-- CAF -->
   <remote name="caf_system"
           fetch="https://source.codeaurora.org/quic/la"
           review="codeaurora.org"/>
 
-  <remote name="caf_vendor"
-          fetch="https://source.codeaurora.org/quic/la"
-          review="codeaurora.org"
-          revision="refs/tags/LA.UM.9.14.r1-16900-LAHAINA.0"/>
-
-  <default revision="refs/tags/LA.QSSI.11.0.r1-12300-qssi.0"
+  <default revision="refs/tags/LA.QSSI.12.0.r1-04900-qssi.0"
            remote="caf_system"/>
 
   <include name="system.xml"/>
-  <include name="vendor.xml"/>
 
   <!-- AOSPA -->
   <remote  name="aospa"
            fetch=".."
            review="gerrit.aospa.co"
-           revision="ruby"/>
+           revision="sapphire"/>
 
   <remote  name="bitbucket"
            fetch="https://bitbucket.org"
-           revision="ruby" />
+           revision="sapphire" />
 
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario"
-           revision="ruby" />
-
-  <remote  name="github"
-           fetch="https://github.com" />
-
-  <remote  name="github-ssh"
-           fetch="ssh://git@github.com" />
-
-  <remote  name="gitlab"
-           fetch="https://gitlab.com"/>
+           revision="sapphire" />
 
   <include name="aospa.xml"/>
   <include name="obsolete.xml"/>
