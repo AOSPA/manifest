@@ -5,7 +5,7 @@
   <remote name="aosp"
           fetch="https://android.googlesource.com"
           review="https://android-review.googlesource.com/"
-          revision="refs/tags/android-11.0.0_r39"/>
+          revision="refs/tags/android-12.0.0_r2"/>
 
   <!-- CAF -->
   <remote name="caf_system"
@@ -15,9 +15,9 @@
   <remote name="caf_vendor"
           fetch="https://source.codeaurora.org/quic/la"
           review="codeaurora.org"
-          revision="refs/tags/LA.UM.9.14.r1-16900-LAHAINA.0"/>
+          revision="refs/tags/LA.UM.9.14.r1-18300.02-LAHAINA.QSSI12.0"/>
 
-  <default revision="refs/tags/LA.QSSI.11.0.r1-12300-qssi.0"
+  <default revision="refs/tags/LA.QSSI.12.0.r1-04900-qssi.0"
            remote="caf_system"/>
 
   <include name="system.xml"/>
@@ -27,24 +27,21 @@
   <remote  name="aospa"
            fetch=".."
            review="gerrit.aospa.co"
-           revision="ruby"/>
+           revision="sapphire"/>
 
   <remote  name="bitbucket"
            fetch="https://bitbucket.org"
-           revision="ruby" />
+           revision="sapphire" />
 
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario"
-           revision="ruby" />
+           revision="sapphire" />
 
   <remote  name="github"
            fetch="https://github.com" />
 
   <remote  name="github-ssh"
            fetch="ssh://git@github.com" />
-
-  <remote  name="gitlab"
-           fetch="https://gitlab.com"/>
 
   <include name="aospa.xml"/>
   <include name="obsolete.xml"/>
