@@ -1,0 +1,174 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5b048a1c_b2e9471d",
+        "filename": "system.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-10-15T20:56:02Z",
+      "side": 0,
+      "message": "keep",
+      "revId": "fea3b59554787e2873db480c3421e8939cd3e24e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ef091d77_1c2d810a",
+        "filename": "system.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-10-15T20:56:02Z",
+      "side": 0,
+      "message": "keep",
+      "revId": "fea3b59554787e2873db480c3421e8939cd3e24e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d2a42dec_c7acfedd",
+        "filename": "system.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-10-15T20:56:02Z",
+      "side": 0,
+      "message": "keep",
+      "revId": "fea3b59554787e2873db480c3421e8939cd3e24e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5fe8df0c_82cf499d",
+        "filename": "system.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 187,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-10-15T20:56:02Z",
+      "side": 0,
+      "message": "keep",
+      "revId": "fea3b59554787e2873db480c3421e8939cd3e24e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "07c0d77b_3a282091",
+        "filename": "system.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 268,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-10-15T20:56:02Z",
+      "side": 0,
+      "message": "keep",
+      "revId": "fea3b59554787e2873db480c3421e8939cd3e24e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5ba194d0_3eed2ddf",
+        "filename": "system.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 369,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-10-15T20:56:02Z",
+      "side": 0,
+      "message": "keep",
+      "revId": "fea3b59554787e2873db480c3421e8939cd3e24e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "70ff6733_d6efbfac",
+        "filename": "system.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 381,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-10-15T20:56:02Z",
+      "side": 0,
+      "message": "keep",
+      "revId": "fea3b59554787e2873db480c3421e8939cd3e24e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9ad932ed_64de68c8",
+        "filename": "system.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 427,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-10-15T20:56:02Z",
+      "side": 0,
+      "message": "keep",
+      "revId": "fea3b59554787e2873db480c3421e8939cd3e24e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9968ce56_b4bc629d",
+        "filename": "system.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 585,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-10-15T20:56:02Z",
+      "side": 0,
+      "message": "keep all these",
+      "revId": "fea3b59554787e2873db480c3421e8939cd3e24e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fc4f937d_d08f8c97",
+        "filename": "system.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 601,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-10-15T20:56:02Z",
+      "side": 0,
+      "message": "and these",
+      "revId": "fea3b59554787e2873db480c3421e8939cd3e24e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
