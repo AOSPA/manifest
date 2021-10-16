@@ -3,6 +3,91 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "bbfa37c3_f59d380d",
+        "filename": "aospa.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-10-16T13:35:43Z",
+      "side": 0,
+      "message": "we\u0027ll need this for pa branding.",
+      "revId": "fea3b59554787e2873db480c3421e8939cd3e24e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2352b5dc_fcc95f1c",
+        "filename": "aospa.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-10-16T13:35:43Z",
+      "side": 0,
+      "message": "don\u0027t we need this already?",
+      "revId": "fea3b59554787e2873db480c3421e8939cd3e24e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7f5a6624_30eed0c7",
+        "filename": "aospa.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-10-16T13:35:43Z",
+      "side": 0,
+      "message": "it might save you some time to fork some repos you know we\u0027ll want to change like frameworks/base, settings, launcher on the user facing side, maybe art, bionic, arm optimizations, etc on the core side.",
+      "revId": "fea3b59554787e2873db480c3421e8939cd3e24e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f4cdbdaa_a510a125",
+        "filename": "default.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-10-16T13:35:43Z",
+      "side": 0,
+      "message": "why remove vendor only to add it back in the next commit?",
+      "revId": "fea3b59554787e2873db480c3421e8939cd3e24e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e2871ae8_2cf37656",
+        "filename": "default.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-10-16T13:35:43Z",
+      "side": 0,
+      "message": "GitHub seems nice to have for testing",
+      "revId": "fea3b59554787e2873db480c3421e8939cd3e24e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "5b048a1c_b2e9471d",
         "filename": "system.xml",
         "patchSetId": 6
@@ -347,6 +432,23 @@
       "side": 0,
       "message": "Done",
       "parentUuid": "fc4f937d_d08f8c97",
+      "revId": "fea3b59554787e2873db480c3421e8939cd3e24e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e21ef950_c2af0f6e",
+        "filename": "system.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 549,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-10-16T13:35:43Z",
+      "side": 0,
+      "message": "check the size and see if we need to bring back clone depth for this or add it to the others",
       "revId": "fea3b59554787e2873db480c3421e8939cd3e24e",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
