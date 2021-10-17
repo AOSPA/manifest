@@ -105,6 +105,58 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "3a2ea22b_bf9e043c",
+        "filename": "system.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2021-10-17T11:51:58Z",
+      "side": 1,
+      "message": "385 megs",
+      "parentUuid": "f533f8a3_750c1d35",
+      "revId": "348b144c650be9c84aadc416f61abc913282a02c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "94bdf437_45970599",
+        "filename": "system.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2021-10-17T11:51:58Z",
+      "side": 1,
+      "message": "Those 2 should have depth\u003d\"1\" as the sum is about 12 gigs",
+      "revId": "348b144c650be9c84aadc416f61abc913282a02c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2d1ba094_c696ccc6",
+        "filename": "system.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2021-10-17T11:51:58Z",
+      "side": 1,
+      "message": "3.3 gb",
+      "revId": "348b144c650be9c84aadc416f61abc913282a02c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ed0760e1_86e8bed6",
         "filename": "system.xml",
         "patchSetId": 7
@@ -139,6 +191,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "74a7f61a_566da877",
+        "filename": "system.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 833,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2021-10-17T11:51:58Z",
+      "side": 1,
+      "message": "Only needed for vndk, android-emulator, clang-tools \u0026 clang/host/linux-x86, the rest is probably small enough",
+      "parentUuid": "01ec37f8_afa4b2f6",
+      "revId": "348b144c650be9c84aadc416f61abc913282a02c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "959de052_c34ccc80",
         "filename": "system.xml",
         "patchSetId": 7
@@ -150,6 +220,24 @@
       "writtenOn": "2021-10-16T13:35:43Z",
       "side": 1,
       "message": "how big is this and is it used for compiling platform?",
+      "revId": "348b144c650be9c84aadc416f61abc913282a02c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1a4d2678_f76d01a9",
+        "filename": "system.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 1018,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2021-10-17T11:51:58Z",
+      "side": 1,
+      "message": "Around 1.1gb",
+      "parentUuid": "959de052_c34ccc80",
       "revId": "348b144c650be9c84aadc416f61abc913282a02c",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
