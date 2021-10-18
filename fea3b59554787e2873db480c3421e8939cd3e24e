@@ -18,6 +18,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ddf67b9d_350d1350",
+        "filename": "aospa.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-10-18T03:32:38Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "bbfa37c3_f59d380d",
+      "revId": "fea3b59554787e2873db480c3421e8939cd3e24e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2352b5dc_fcc95f1c",
@@ -31,6 +49,24 @@
       "writtenOn": "2021-10-16T13:35:43Z",
       "side": 0,
       "message": "don\u0027t we need this already?",
+      "revId": "fea3b59554787e2873db480c3421e8939cd3e24e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "294d147f_c15f22cd",
+        "filename": "aospa.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-10-18T03:32:38Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "2352b5dc_fcc95f1c",
       "revId": "fea3b59554787e2873db480c3421e8939cd3e24e",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
@@ -52,6 +88,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1c585d6f_f8ce8864",
+        "filename": "aospa.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-10-18T03:32:38Z",
+      "side": 0,
+      "message": "not sure on arm repos and launcher for now. lets do it en route",
+      "parentUuid": "7f5a6624_30eed0c7",
+      "revId": "fea3b59554787e2873db480c3421e8939cd3e24e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f4cdbdaa_a510a125",
@@ -69,6 +123,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "97e5e7e9_ce1cb934",
+        "filename": "default.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-10-18T03:32:38Z",
+      "side": 0,
+      "message": "Ack",
+      "parentUuid": "f4cdbdaa_a510a125",
+      "revId": "fea3b59554787e2873db480c3421e8939cd3e24e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e2871ae8_2cf37656",
@@ -82,6 +154,24 @@
       "writtenOn": "2021-10-16T13:35:43Z",
       "side": 0,
       "message": "GitHub seems nice to have for testing",
+      "revId": "fea3b59554787e2873db480c3421e8939cd3e24e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "09114aaa_d87a885e",
+        "filename": "default.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-10-18T03:32:38Z",
+      "side": 0,
+      "message": "Ack",
+      "parentUuid": "e2871ae8_2cf37656",
       "revId": "fea3b59554787e2873db480c3421e8939cd3e24e",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
