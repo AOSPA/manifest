@@ -48,4 +48,11 @@
   <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" />
 
+  <!-- Vendor -->
+  <remove-project name="platform/packages/apps/Mms" />
+  <remove-project name="platform/packages/apps/SnapdragonCamera" />
+  <remove-project name="platform/packages/apps/SnapdragonMusic" />
+  <remove-project name="platform/vendor/codeaurora/packages/apps/SoundRecorder" />
+
+
 </manifest>
