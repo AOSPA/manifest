@@ -28,6 +28,10 @@
   <remove-project name="device/google/vrservices"/>
   <remove-project name="device/sample"/>
 
+  <!-- Hardware (NXP) -->
+  <remove-project name="platform/hardware/nxp/nfc" />
+  <remove-project name="platform/hardware/nxp/secure_element" />
+
   <!-- Hardware -->
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/display" />
