@@ -65,6 +65,8 @@
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <project path="packages/apps/SettingsIntelligence" name="AOSPA/android_packages_apps_SettingsIntelligence" remote="aospa" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <project path="packages/apps/ThemePicker" name="AOSPA/android_packages_apps_ThemePicker" remote="aospa" />
   <remove-project name="platform/packages/apps/Launcher3" />
