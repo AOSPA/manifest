@@ -31,6 +31,8 @@
   <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="aospa" >
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
+  <remove-project name="device/qcom/sepolicy_vndr" />
+  <project path="device/qcom/sepolicy_vndr" name="AOSPA/android_device_qcom_sepolicy_vndr" remote="aospa" />
   <remove-project name="device/qcom/vendor-common" />
   <project path="device/qcom/vendor-common" name="AOSPA/android_device_qcom_vendor-common" remote="aospa" />
   <remove-project name="kernel/build" />
