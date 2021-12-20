@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "87c8ec31_6989d705",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-12-20T09:09:20Z",
+      "side": 1,
+      "message": "did you diff the QSSI tag manifests for new repos? If not, please do it once.\nAlso about merging this in future :- I was planning to get the QSSI blobs completed first and then merge december SPL and then do tag changes. I think we should follow this step by step. If any doubts, hmu on TG.",
+      "revId": "9a4da01483806383469dfe9f1eb31dbff7511561",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
