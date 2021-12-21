@@ -16,6 +16,41 @@
       "message": "did you diff the QSSI tag manifests for new repos? If not, please do it once.\nAlso about merging this in future :- I was planning to get the QSSI blobs completed first and then merge december SPL and then do tag changes. I think we should follow this step by step. If any doubts, hmu on TG.",
       "revId": "9a4da01483806383469dfe9f1eb31dbff7511561",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5cce11d5_a13719c7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000702
+      },
+      "writtenOn": "2021-12-21T09:42:58Z",
+      "side": 1,
+      "message": "I was just testing stuff and kept this private so I can pick again\nYeah, I\u0027ve got a few errors and had to merge a few repos to resolve. But I made a build\n\nI didn\u0027t mean to publish it and I know there is reason to wait and update by yourself",
+      "parentUuid": "87c8ec31_6989d705",
+      "revId": "9a4da01483806383469dfe9f1eb31dbff7511561",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9abb2170_52e3afad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000702
+      },
+      "writtenOn": "2021-12-21T09:42:58Z",
+      "side": 1,
+      "message": "I was just testing stuff and kept this private so I can pick again\nYeah, I\u0027ve got a few errors and had to merge a few repos to resolve. But I made a build\n\nI didn\u0027t mean to publish it and I know there is reason to wait and update by yourself",
+      "revId": "9a4da01483806383469dfe9f1eb31dbff7511561",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
