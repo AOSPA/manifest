@@ -46,6 +46,10 @@
   <remove-project name="platform/external/fastrpc" />
   <project path="external/fastrpc" name="AOSPA/android_external_fastrpc" remote="aospa" />
 
+  <!-- External (ProtonAOSP) -->
+  <project path="external/colorkt" name="AOSPA/android_external_colorkt" remote="aospa" />
+  <project path="external/themelib" name="AOSPA/android_external_themelib" remote="aospa" />
+
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" />
