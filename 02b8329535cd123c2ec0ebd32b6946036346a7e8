@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "998a2fba_cd4a4eb1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-01-23T17:20:25Z",
+      "side": 1,
+      "message": "do we need hidlimpl too?",
+      "revId": "02b8329535cd123c2ec0ebd32b6946036346a7e8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
