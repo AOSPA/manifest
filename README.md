@@ -85,7 +85,7 @@ automatically. As the device value, you just feed it with the device codename (f
 # Go to the root of the source tree...
 $ cd WORKSPACE
 # ...and run the builder tool.
-$ ./rom-build.sh DEVICE
+$ ./build.sh DEVICE
 ```
 
 ## Submitting Patches ##
