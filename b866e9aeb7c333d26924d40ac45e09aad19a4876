@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4eda8790_1192cfe2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-01-30T16:51:07Z",
+      "side": 1,
+      "message": "works perfectly here, also build.sh is supposed to be caf build scripts",
+      "revId": "b866e9aeb7c333d26924d40ac45e09aad19a4876",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
