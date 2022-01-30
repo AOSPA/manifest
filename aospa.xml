@@ -99,7 +99,7 @@
   <project path="vendor/google/gms" name="ThankYouMario/proprietary_vendor_google_gms" remote="bitbucket" />
   <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="blobs" />
   <project path="vendor/aospa" name="AOSPA/android_vendor_aospa" remote="aospa" >
-    <linkfile src="build.sh" dest="rom-build.sh" />
+    <linkfile src="build.sh" dest="build.sh" />
   </project>
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="blobs" />
   <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" />
