@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c783ccf0_d3da6734",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-01-31T23:58:50Z",
+      "side": 1,
+      "message": "it\u0027s intentional, there\u0027s no reason for these to be OS specific.",
+      "revId": "eec87908e54b12a68040791e65aaf12dddd205a3",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
