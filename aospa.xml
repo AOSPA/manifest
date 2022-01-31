@@ -92,6 +92,8 @@
   <project path="system/memory/lmkd" name="AOSPA/android_system_memory_lmkd" remote="aospa" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="AOSPA/android_system_sepolicy" remote="aospa" />
+  <remove-project name="platform/system/vold" />
+  <project path="system/vold" name="AOSPA/android_system_vold" remote="aospa" />
 
   <!-- Tools (AOSPA) -->
   <project path="tools/extract-utils" name="AOSPA/android_tools_extract-utils" remote="aospa" />
