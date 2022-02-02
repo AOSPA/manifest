@@ -52,6 +52,10 @@
   <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" />
 
+  <!-- Prebuilts -->
+  <remove-project name="platform/prebuilts/android-emulator" />
+  <remove-project name="platform/prebuilts/qemu-kernel" />
+
   <!-- Vendor -->
   <remove-project name="platform/packages/apps/Mms" />
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
