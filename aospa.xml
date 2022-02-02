@@ -127,5 +127,7 @@
   <project path="vendor/qcom/opensource/power" name="AOSPA/android_vendor_qcom-opensource_power" remote="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/vibrator" />
   <project path="vendor/qcom/opensource/vibrator" name="AOSPA/android_vendor_qcom-opensource_vibrator" remote="aospa" />
+  <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
+  <project path="vendor/qcom/opensource/commonsys/fm" name="AOSPA/android_vendor_qcom-opensource_fm-commonsys" remote="aospa" />
 
 </manifest>
