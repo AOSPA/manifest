@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "405b7d4a_1b77bf68",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2022-02-03T21:33:23Z",
+      "side": 1,
+      "message": "I feel this should be synced per device, not all devices have FM.\n",
+      "revId": "225e40a175d42a17f4226e26e65095cfd5f8ecf3",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
