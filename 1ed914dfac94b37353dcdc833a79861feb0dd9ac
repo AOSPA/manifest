@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3d8b58a0_ba2dd7b0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-02-03T12:06:37Z",
+      "side": 1,
+      "message": "build is fine with this and saved me about 13GB",
+      "revId": "1ed914dfac94b37353dcdc833a79861feb0dd9ac",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
