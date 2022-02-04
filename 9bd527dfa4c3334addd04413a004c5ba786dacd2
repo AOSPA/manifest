@@ -16,6 +16,23 @@
       "message": "Testing",
       "revId": "9bd527dfa4c3334addd04413a004c5ba786dacd2",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7981de40_8a1be4ff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000468
+      },
+      "writtenOn": "2022-02-04T08:31:35Z",
+      "side": 1,
+      "message": "Gonna use https://github.com/ghostrider-reborn/scripts/blob/master/ubuntu-setup.sh#L77",
+      "revId": "9bd527dfa4c3334addd04413a004c5ba786dacd2",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
