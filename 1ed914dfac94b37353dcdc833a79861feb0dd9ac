@@ -16,6 +16,23 @@
       "message": "build is fine with this and saved me about 13GB",
       "revId": "1ed914dfac94b37353dcdc833a79861feb0dd9ac",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fbee7422_f9251fc7",
+        "filename": "obsolete.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1000766
+      },
+      "writtenOn": "2022-02-04T02:16:53Z",
+      "side": 1,
+      "message": "can also drop `prebuilts/qemu-kernel`",
+      "revId": "1ed914dfac94b37353dcdc833a79861feb0dd9ac",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
