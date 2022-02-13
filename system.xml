@@ -39,14 +39,14 @@
   <project name="device/sample"/>
   <project name="kernel/configs"/>
   <project name="kernel/prebuilts/4.19/arm64"/>
-  <project name="kernel/prebuilts/5.10/arm64"/>
-  <project name="kernel/prebuilts/5.10/x86-64" path="kernel/prebuilts/5.10/x86_64"/>
+  <project name="kernel/prebuilts/5.10/arm64" clone-depth="1"/>
+  <project name="kernel/prebuilts/5.10/x86-64" path="kernel/prebuilts/5.10/x86_64" clone-depth="1"/>
   <project name="kernel/prebuilts/5.4/arm64"/>
   <project name="kernel/prebuilts/5.4/x86-64" path="kernel/prebuilts/5.4/x86_64"/>
   <project name="kernel/prebuilts/common-modules/virtual-device/4.19/arm64"/>
   <project name="kernel/prebuilts/common-modules/virtual-device/4.19/x86-64"/>
-  <project name="kernel/prebuilts/common-modules/virtual-device/5.10/arm64"/>
-  <project name="kernel/prebuilts/common-modules/virtual-device/5.10/x86-64"/>
+  <project name="kernel/prebuilts/common-modules/virtual-device/5.10/arm64" clone-depth="1"/>
+  <project name="kernel/prebuilts/common-modules/virtual-device/5.10/x86-64" clone-depth="1"/>
   <project name="kernel/prebuilts/common-modules/virtual-device/5.4/arm64"/>
   <project name="kernel/prebuilts/common-modules/virtual-device/5.4/x86-64"/>
   <project name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64"/>
