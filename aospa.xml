@@ -40,6 +40,10 @@
     <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk"/>
   </project>
 
+  <!-- External (AOSP) -->
+  <remove-project name="platform/external/libavc" />
+  <project path="external/libavc" name="platform/external/libavc" remote="aosp" />
+
   <!-- External -->
   <remove-project name="platform/external/arm-optimized-routines" />
   <project path="external/arm-optimized-routines" name="AOSPA/android_external_arm-optimized-routines" remote="aospa" />
@@ -56,10 +60,13 @@
   <project path="external/themelib" name="AOSPA/android_external_themelib" remote="aospa" />
 
   <!-- Frameworks -->
+  <remove-project name="platform/frameworks/av" />
+  <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" />
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" />
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" />
+
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
@@ -88,6 +95,12 @@
   <project path="packages/apps/Launcher3" name="AOSPA/android_packages_apps_Launcher3" remote="aospa" />
   <remove-project name="platform/packages/services/Telecomm" />
   <project path="packages/services/Telecomm" name="AOSPA/android_packages_services_Telecomm" remote="aospa" />
+
+  <!-- System (AOSP) -->
+  <remove-project name="platform/system/nfc" />
+  <project path="system/nfc" name="platform/system/nfc" remote="aosp" />
+  <remove-project name="platform/system/tools/aidl" />
+  <project path="system/tools/aidl" name="platform/system/tools/aidl" remote="aosp" />
 
   <!-- System -->
   <remove-project name="platform/system/core" />
