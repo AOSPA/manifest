@@ -16,6 +16,23 @@
       "message": "Feel free to merge if it builds",
       "revId": "8ba17f5ce446f7518fff5283cc15c3c8709da0ad",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5bed9a7b_4a40a980",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2022-02-17T08:14:58Z",
+      "side": 1,
+      "message": "doesn\u0027t build",
+      "revId": "8ba17f5ce446f7518fff5283cc15c3c8709da0ad",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
