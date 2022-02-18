@@ -68,6 +68,24 @@
       "message": "-2 to your comment",
       "revId": "8ba17f5ce446f7518fff5283cc15c3c8709da0ad",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d10227df_99793d6f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-02-18T11:53:35Z",
+      "side": 1,
+      "message": "just need \n```  \u003cremove-project name\u003d\"kernel/prebuilts/common-modules/virtual-device/5.10/arm64\"/\u003e\n  \u003cremove-project name\u003d\"kernel/prebuilts/common-modules/virtual-device/5.10/x86-64\"/\u003e```\n\nwill clone these with depth 1, rest are fine",
+      "parentUuid": "604ea552_aa03772d",
+      "revId": "8ba17f5ce446f7518fff5283cc15c3c8709da0ad",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
