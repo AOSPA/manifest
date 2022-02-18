@@ -112,6 +112,9 @@
   <remove-project name="platform/system/vold" />
   <project path="system/vold" name="AOSPA/android_system_vold" remote="aospa" />
 
+  <!-- Repainter (kdrag0n) -->
+  <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
+
   <!-- Tools (AOSPA) -->
   <project path="tools/extract-utils" name="AOSPA/android_tools_extract-utils" remote="aospa" />
 
