@@ -28,7 +28,7 @@
 
   <!-- CTS -->
   <remove-project name="platform/cts" />
-  <project path="platform/cts" name="platform/cts" remote="aosp" />
+  <project path="platform/cts" name="platform/cts" remote="aosp" clone-depth="1"/>
 
   <!-- Device -->
   <remove-project name="device/qcom/common" />
