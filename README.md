@@ -18,15 +18,11 @@ simplifies using [Git](http://git-scm.com/book) in the context of the Android so
 ### Installing Repo ###
 
 ```bash
-# Make a directory where Repo will be stored and add it to the path
-$ mkdir ~/.bin
-$ PATH=~/.bin:$PATH
-
 # Download Repo itself
-$ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/.bin/repo
+$ sudo curl https://storage.googleapis.com/git-repo-downloads/repo > /usr/bin/repo
 
 # Make Repo executable
-$ chmod a+x ~/.bin/repo
+$ chmod a+x /usr/bin/repo
 ```
 
 ### Initializing Repo ###
