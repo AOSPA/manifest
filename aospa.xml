@@ -26,6 +26,10 @@
   <remove-project name="platform/bootable/recovery" />
   <project path="bootable/recovery" name="AOSPA/android_bootable_recovery" remote="aospa" />
 
+  <!-- CTS -->
+  <remove-project name="platform/cts" />
+  <project path="cts" name="platform/cts" remote="aosp" clone-depth="1"/>
+
   <!-- Device -->
   <remove-project name="device/qcom/common" />
   <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="aospa" >
