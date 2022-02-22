@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8569b87a_49cc2bca",
+        "filename": "obsolete.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-02-22T07:35:44Z",
+      "side": 1,
+      "message": "Do we really need to write \"path\" here too?",
+      "revId": "72390da20958cde7a06affcce1135370f977a450",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
