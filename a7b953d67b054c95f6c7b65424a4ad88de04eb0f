@@ -16,6 +16,23 @@
       "message": "why",
       "revId": "a7b953d67b054c95f6c7b65424a4ad88de04eb0f",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7d51aaa8_627a6173",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000468
+      },
+      "writtenOn": "2022-02-22T18:43:20Z",
+      "side": 1,
+      "message": "My vendor is in gitlab. So added it to sync via dependencies.\nNo need to merge though.",
+      "revId": "a7b953d67b054c95f6c7b65424a4ad88de04eb0f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
