@@ -16,6 +16,23 @@
       "message": "Distros (e.g., Ubuntu 21.10+) are providing repo and uses /usr/bin:\nhttps://launchpad.net/ubuntu/+source/repo\n\nIf we manually install it to /usr/bin, it can get overridden by the distro.",
       "revId": "ab459d237083fe88addeb77a63d997be42af234c",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed1ddbb4_954af581",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-02-22T07:25:17Z",
+      "side": 1,
+      "message": "I\u0027d change this to /usr/local/bin.\n\nDistros don\u0027t touch there and local ones have higher priority in $PATH.",
+      "revId": "ab459d237083fe88addeb77a63d997be42af234c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
