@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ecdeb7a_2c95ed1a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-02-22T06:55:19Z",
+      "side": 1,
+      "message": "Distros (e.g., Ubuntu 21.10+) are providing repo and uses /usr/bin:\nhttps://launchpad.net/ubuntu/+source/repo\n\nIf we manually install it to /usr/bin, it can get overridden by the distro.",
+      "revId": "ab459d237083fe88addeb77a63d997be42af234c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
