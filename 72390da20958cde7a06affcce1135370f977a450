@@ -16,6 +16,24 @@
       "message": "Do we really need to write \"path\" here too?",
       "revId": "72390da20958cde7a06affcce1135370f977a450",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "64e69791_e57686da",
+        "filename": "obsolete.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-02-26T10:05:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8569b87a_49cc2bca",
+      "revId": "72390da20958cde7a06affcce1135370f977a450",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
