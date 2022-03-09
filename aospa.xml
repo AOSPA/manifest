@@ -61,10 +61,6 @@
   <remove-project name="platform/external/scudo" />
   <project path="external/scudo" name="AOSPA/android_external_scudo" remote="aospa" />
 
-  <!-- External (ProtonAOSP) -->
-  <project path="external/colorkt" name="AOSPA/android_external_colorkt" remote="aospa" />
-  <project path="external/themelib" name="AOSPA/android_external_themelib" remote="aospa" />
-
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
   <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" />
