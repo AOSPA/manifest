@@ -33,6 +33,24 @@
       "message": "My vendor is in gitlab. So added it to sync via dependencies.\nNo need to merge though.",
       "revId": "a7b953d67b054c95f6c7b65424a4ad88de04eb0f",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6d562665_af4faaeb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-03-12T11:59:40Z",
+      "side": 1,
+      "message": "sensetime likes to dmca xiaomi camera blobs a lot and timesense has sometimes dmca\u0027d oneplus blobs so I\u0027d rather be safe than sorry\n\nfeaturing https://github.com/github/dmca/blob/master/2021/09/2021-09-07-sensetime-4.md",
+      "parentUuid": "20e4e4bd_a53a1009",
+      "revId": "a7b953d67b054c95f6c7b65424a4ad88de04eb0f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
