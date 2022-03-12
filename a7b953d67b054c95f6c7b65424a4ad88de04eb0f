@@ -51,6 +51,24 @@
       "parentUuid": "20e4e4bd_a53a1009",
       "revId": "a7b953d67b054c95f6c7b65424a4ad88de04eb0f",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4962578c_2379115f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-03-12T12:01:44Z",
+      "side": 1,
+      "message": "sole reason https://gitlab.com/gotenksIN/vendor_xiaomi_alioth exists on gitlab and github",
+      "parentUuid": "6d562665_af4faaeb",
+      "revId": "a7b953d67b054c95f6c7b65424a4ad88de04eb0f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
