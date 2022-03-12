@@ -43,6 +43,9 @@
   <remote  name="github-ssh"
            fetch="ssh://git@github.com" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com"/>
+
   <include name="aospa.xml"/>
   <include name="obsolete.xml"/>
 
