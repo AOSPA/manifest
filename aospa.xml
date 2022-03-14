@@ -75,8 +75,6 @@
 
 
   <!-- Hardware -->
-  <remove-project name="platform/hardware/interfaces" />
-  <project path="hardware/interfaces" name="AOSPA/android_hardware_interfaces" remote="aospa" />
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="aospa" />
   <remove-project name="platform/hardware/qcom/wlan" />
