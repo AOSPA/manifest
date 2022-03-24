@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "206aa35f_b7336937",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000469
+      },
+      "writtenOn": "2022-03-24T10:26:06Z",
+      "side": 1,
+      "message": "But AOSP also sets persistent\u003dtrue? https://android.googlesource.com/platform/packages/modules/CellBroadcastService/+/refs/tags/android-12.0.0_r32/AndroidManifest.xml#49",
+      "revId": "646a36448cff884898c13e43a4f69845e4666132",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
