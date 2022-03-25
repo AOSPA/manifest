@@ -34,6 +34,24 @@
       "parentUuid": "206aa35f_b7336937",
       "revId": "646a36448cff884898c13e43a4f69845e4666132",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4ca83041_a8da870e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-03-25T02:28:54Z",
+      "side": 1,
+      "message": "\u003e https://android.googlesource.com/platform/packages/modules/CellBroadcastService/+/refs/tags/android-12.0.0_r32/AndroidManifest_Platform.xml#44\n\nI switched to aosp and everything seemed fine",
+      "parentUuid": "298e20f7_2023d050",
+      "revId": "646a36448cff884898c13e43a4f69845e4666132",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
