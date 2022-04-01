@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4f1b6b81_3656f637",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-04-01T07:29:48Z",
+      "side": 1,
+      "message": "I don\u0027t think clo_ naming is needed. It\u0027s just more confusing.",
+      "revId": "5e03456f3b26d2e9e19434cbecc691c55815c06a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
