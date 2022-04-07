@@ -57,7 +57,7 @@
   <project name="platform/bionic" path="bionic"/>
   <project name="platform/bootable/libbootloader" path="bootable/libbootloader"/>
   <project name="platform/bootable/recovery" path="bootable/recovery"/>
-  <project name="platform/build" path="build/make">
+  <project name="platform/build_repo" path="build/make">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -630,7 +630,7 @@
   <project name="platform/external/vulkan-headers" path="external/vulkan-headers"/>
   <project name="platform/external/vulkan-validation-layers" path="external/vulkan-validation-layers"/>
   <project name="platform/external/walt" path="external/walt"/>
-  <project name="platform/external/wayland" path="external/wayland"/>
+  <project name="platform/external/wayland_repo" path="external/wayland"/>
   <project name="platform/external/wayland-protocols" path="external/wayland-protocols"/>
   <project name="platform/external/webp" path="external/webp"/>
   <project name="platform/external/webrtc" path="external/webrtc"/>

@@ -9,12 +9,12 @@
 
   <!-- CAF -->
   <remote name="caf_system"
-          fetch="https://source.codeaurora.org/quic/la"
-          review="codeaurora.org"/>
+          fetch="https://git.codelinaro.org/clo/la"
+          review="codelinaro.org"/>
 
   <remote name="caf_vendor"
-          fetch="https://source.codeaurora.org/quic/la"
-          review="codeaurora.org"
+          fetch="https://git.codelinaro.org/clo/la"
+          review="codelinaro.org"
           revision="refs/tags/LA.UM.9.16.r1-10000.02-MANNAR.QSSI12.0"/>
 
   <default revision="refs/tags/LA.QSSI.12.0.r1-06400.01-qssi.0"
