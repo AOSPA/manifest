@@ -6,7 +6,7 @@
   <project path="art" name="AOSPA/android_art" remote="aospa" />
   <remove-project name="platform/bionic" />
   <project path="bionic" name="AOSPA/android_bionic" remote="aospa" />
-  <remove-project name="platform/build" />
+  <remove-project name="platform/build_repo" />
   <project path="build/make" name="AOSPA/android_build" remote="aospa" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
