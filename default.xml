@@ -15,9 +15,9 @@
   <remote name="caf_vendor"
           fetch="https://git.codelinaro.org/clo/la"
           review="codelinaro.org"
-          revision="refs/tags/LA.UM.9.16.r1-10000.02-MANNAR.QSSI12.0"/>
+          revision="refs/tags/LA.UM.9.16.r2-03900-MANNAR.0"/>
 
-  <default revision="refs/tags/LA.QSSI.12.0.r1-06400.01-qssi.0"
+  <default revision="refs/tags/LA.QSSI.12.0.r1-06800-qssi.0"
            remote="caf_system"/>
 
   <include name="system.xml"/>
