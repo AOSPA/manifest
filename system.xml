@@ -35,6 +35,7 @@
   <project name="device/qcom/qssi"/>
   <project name="device/qcom/qssi_32"/>
   <project name="device/qcom/qssi_32go"/>
+  <project name="device/qcom/qssi_lite"/>
   <project name="device/qcom/sepolicy"/>
   <project name="device/sample"/>
   <project name="kernel/configs"/>
@@ -87,10 +88,10 @@
   <project name="platform/external/ImageMagick" path="external/ImageMagick"/>
   <project name="platform/external/OpenCSD" path="external/OpenCSD"/>
   <project name="platform/external/Reactive-Extensions/RxCpp" path="external/Reactive-Extensions/RxCpp"/>
+  <project name="platform/external/TestParameterInjector" path="external/TestParameterInjector"/>
   <project name="platform/external/XNNPACK" path="external/XNNPACK"/>
   <project name="platform/external/aac" path="external/aac"/>
   <project name="platform/external/abseil-cpp" path="external/abseil-cpp"/>
-  <project name="platform/external/adhd" path="external/adhd"/>
   <project name="platform/external/adt-infra" path="external/adt-infra"/>
   <project name="platform/external/android-clat" path="external/android-clat"/>
   <project name="platform/external/androidplot" path="external/androidplot"/>
@@ -453,6 +454,7 @@
   <project name="platform/external/rust/crates/futures-task" path="external/rust/crates/futures-task"/>
   <project name="platform/external/rust/crates/futures-util" path="external/rust/crates/futures-util"/>
   <project name="platform/external/rust/crates/gdbstub" path="external/rust/crates/gdbstub"/>
+  <project name="platform/external/rust/crates/gdbstub_arch" path="external/rust/crates/gdbstub_arch"/>
   <project name="platform/external/rust/crates/getrandom" path="external/rust/crates/getrandom"/>
   <project name="platform/external/rust/crates/glob" path="external/rust/crates/glob"/>
   <project name="platform/external/rust/crates/grpcio" path="external/rust/crates/grpcio"/>
@@ -624,7 +626,6 @@
   <project name="platform/external/vboot_reference" path="external/vboot_reference"/>
   <project name="platform/external/virglrenderer" path="external/virglrenderer"/>
   <project name="platform/external/vixl" path="external/vixl"/>
-  <project name="platform/external/vm_tools/p9" path="external/vm_tools/p9"/>
   <project name="platform/external/vogar" path="external/vogar"/>
   <project name="platform/external/volley" path="external/volley"/>
   <project name="platform/external/vulkan-headers" path="external/vulkan-headers"/>
@@ -884,6 +885,7 @@
   <project name="platform/prebuilts/vndk/v28" path="prebuilts/vndk/v28"/>
   <project name="platform/prebuilts/vndk/v29" path="prebuilts/vndk/v29"/>
   <project name="platform/prebuilts/vndk/v30" path="prebuilts/vndk/v30"/>
+  <project name="platform/prebuilts/vndk/v31" path="prebuilts/vndk/v31"/>
   <project name="platform/sdk" path="sdk"/>
   <project name="platform/system/apex" path="system/apex"/>
   <project name="platform/system/bpf" path="system/bpf"/>
