@@ -37,6 +37,10 @@
            fetch="https://github.com/ThankYouMario"
            revision="sapphire" />
 
+  <remote  name="blobs-gitlab"
+           fetch="https://gitlab.com/ThankYouMario"
+           revision="sapphire" />
+
   <remote  name="github"
            fetch="https://github.com" />
 
