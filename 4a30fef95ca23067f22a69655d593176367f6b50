@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "28056c1f_f86ee717",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-04-19T05:57:40Z",
+      "side": 1,
+      "message": "works on alioth (4.19)\nwill revert if sv2 blobs fix it",
+      "revId": "4a30fef95ca23067f22a69655d593176367f6b50",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
