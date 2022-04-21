@@ -113,6 +113,8 @@
   <project path="system/nfc" name="platform/system/nfc" remote="aosp" />
   <remove-project name="platform/system/tools/aidl" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" remote="aosp" />
+  <remove-project name="platform/system/update_engine" />
+  <project path="system/update_engine" name="AOSPA/android_system_update_engine" remote="aospa" />
 
   <!-- System -->
   <remove-project name="platform/system/core" />
