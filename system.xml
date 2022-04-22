@@ -876,10 +876,10 @@
   <project name="platform/prebuilts/ndk" path="prebuilts/ndk"/>
   <project name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5"/>
   <project name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel"/>
-  <project name="platform/prebuilts/r8" path="prebuilts/r8"/>
+  <project name="platform/prebuilts/r8" path="prebuilts/r8" clone-depth="1"/>
   <project name="platform/prebuilts/remoteexecution-client" path="prebuilts/remoteexecution-client"/>
   <project name="platform/prebuilts/runtime" path="prebuilts/runtime"/>
-  <project name="platform/prebuilts/rust" path="prebuilts/rust"/>
+  <project name="platform/prebuilts/rust" path="prebuilts/rust" clone-depth="1"/>
   <project name="platform/prebuilts/sdk" path="prebuilts/sdk"/>
   <project name="platform/prebuilts/tools" path="prebuilts/tools"/>
   <project name="platform/prebuilts/vndk/v28" path="prebuilts/vndk/v28"/>
