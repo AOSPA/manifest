@@ -72,4 +72,5 @@
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <remove-project name="platform/vendor/codeaurora/packages/apps/SoundRecorder" />
 
+
 </manifest>
