@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b6cd3e0e_297c556b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-04-27T23:04:56Z",
+      "side": 1,
+      "message": "why are we using a non qssi12 tag?",
+      "revId": "cbb9a7d9368803fa3f0793f2821ce5a7319d9a1b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
