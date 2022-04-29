@@ -16,6 +16,24 @@
       "message": "why are we using a non qssi12 tag?",
       "revId": "cbb9a7d9368803fa3f0793f2821ce5a7319d9a1b",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "51345bef_1ac12190",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000760
+      },
+      "writtenOn": "2022-04-29T09:37:50Z",
+      "side": 1,
+      "message": "\u003e why are we using a non qssi12 tag?\n\nbecause it was more recent and i just upstreamed what it was like earlier.. so shall i push a commit to switch to lahaina qssi 12 or what?",
+      "parentUuid": "b6cd3e0e_297c556b",
+      "revId": "cbb9a7d9368803fa3f0793f2821ce5a7319d9a1b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
