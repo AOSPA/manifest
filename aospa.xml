@@ -101,6 +101,8 @@
   <project path="packages/apps/ThemePicker" name="AOSPA/android_packages_apps_ThemePicker" remote="aospa" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/Launcher3" name="AOSPA/android_packages_apps_Launcher3" remote="aospa" />
+  <remove-project name"platform/packages/modules/CellBroadcastService" />
+  <project path="packages/modules/CellBroadcastService" name="AOSPA/android_packages_modules_CellBroadcastService" remote="aospa" />
   <remove-project name="platform/packages/services/Telecomm" />
   <project path="packages/services/Telecomm" name="AOSPA/android_packages_services_Telecomm" remote="aospa" />
 
