@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "35e9565f_a4f3c211",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2022-05-06T12:23:56Z",
+      "side": 1,
+      "message": "Needed until CAF fixes its AOSP missmerges.",
+      "revId": "ce11eb0aa8e209be66a8e1b88c992cefc1f05924",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
