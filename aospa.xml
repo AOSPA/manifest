@@ -150,6 +150,8 @@
   <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="aospa" />
 
   <!-- Vendor (QCOM) -->
+  <remove-project name="platform/vendor/codeaurora/telephony" />
+  <project path="vendor/codeaurora/commonsys/telephony" name="AOSPA/android_vendor_codeaurora_commonsys_telephony" remote="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="AOSPA/android_vendor_qcom-opensource_packages_apps_Bluetooth" remote="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
