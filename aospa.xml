@@ -67,6 +67,10 @@
   <project path="external/colorkt" name="AOSPA/android_external_colorkt" remote="aospa" />
   <project path="external/themelib" name="AOSPA/android_external_themelib" remote="aospa" />
 
+  <!-- External (LineageOS) (needs fork?) -->
+  <project path="external/ncurses" name="LineageOS/android_external_ncurses" remote="github" />
+  <project path="extermal/htop" name="LineageOS/android_external_htop" remote="github" />
+
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
   <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" />
