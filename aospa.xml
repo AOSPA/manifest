@@ -73,6 +73,13 @@
   <project path="external/colorkt" name="AOSPA/android_external_colorkt" remote="aospa" />
   <project path="external/themelib" name="AOSPA/android_external_themelib" remote="aospa" />
 
+  <!-- External (LineageOS) (needs fork?) -->
+  <project path="external/htop" name="LineageOS/android_external_htop" remote="github" revision="lineage-19.1" />
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-19.1" />
+  <remove-project name="platform/external/openssh" />
+  <project path="external/openssh" name="LineageOS/android_external_openssh" remote="github" revision="lineage-19.1" />
+  <project path="external/rsync" name="LineageOS/android_external_rsync" remote="github" revision="lineage-19.1" />
+
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
   <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" />
