@@ -47,6 +47,8 @@
   <!-- External (AOSP) -->
   <remove-project name="platform/external/chromium-webview" />
   <project clone-depth="1" name="platform/external/chromium-webview" path="external/chromium-webview" remote="aosp" />
+  <remove-project name="platform/external/erofs-utils" />
+  <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="75d73335d25d52afd6a09c116207cd09bece16ab" />
   <remove-project name="platform/external/libavc" />
   <project path="external/libavc" name="platform/external/libavc" remote="aosp" />
 
