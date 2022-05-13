@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "59882c73_649f10e7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-05-13T02:18:02Z",
+      "side": 1,
+      "message": "Not a good idea. AOSP\u0027s master introduces breaking changes a lot, especially with Android.bp. We might end up breaking compilation if we clone sapphire at a later dae.",
+      "revId": "1727214e7c9dea62a2ef3100947998ff83afc61e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
