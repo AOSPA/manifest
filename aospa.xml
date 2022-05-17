@@ -79,14 +79,19 @@
   <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" />
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" />
+  <remove-project name="platform/frameworks/libs/systemui" />
+  <project path="frameworks/libs/systemui" name="AOSPA/android_frameworks_libs_systemui" remote="aospa" />
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" />
+<<<<<<< HEAD   (2fd61f manifest: Update to android-13.0.0_r63)
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <project path="frameworks/opt/net/wifi" name="AOSPA/android_frameworks_opt_net_wifi" remote="aospa" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="aospa" />
   <remove-project name="platform/frameworks/proto_logging" />
   <project path="frameworks/proto_logging" name="AOSPA/android_frameworks_proto_logging" remote="aospa" />
+=======
+>>>>>>> CHANGE (1d87e7 manifest: Track frameworks/libs/systemui)
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
