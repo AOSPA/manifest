@@ -66,6 +66,8 @@
   <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="aospa" />
   <remove-project name="platform/external/scudo" />
   <project path="external/scudo" name="AOSPA/android_external_scudo" remote="aospa" />
+  <remove-project name="platform/external/zlib" />
+  <project path="external/zlib" name="AOSPA/android_external_zlib" remote="aospa" />
 
   <!-- External (ProtonAOSP) -->
   <project path="external/colorkt" name="AOSPA/android_external_colorkt" remote="aospa" />
