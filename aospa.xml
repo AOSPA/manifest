@@ -115,6 +115,7 @@
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" remote="aosp" />
+  <project path="prebuilts/extract-tools" name="AOSPA/android_prebuilts_extract-tools" remote="aospa" />
 
   <!-- System (AOSP) -->
   <remove-project name="platform/system/nfc" />
