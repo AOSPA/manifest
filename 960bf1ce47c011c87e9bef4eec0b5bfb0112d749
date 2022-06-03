@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "05474b5a_90fdc8df",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-06-03T08:53:20Z",
+      "side": 1,
+      "message": "required for latest extract-utils\n* tested with alioth, op msmnile and qti components",
+      "revId": "960bf1ce47c011c87e9bef4eec0b5bfb0112d749",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
