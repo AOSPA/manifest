@@ -70,7 +70,7 @@
   <remove-project name="platform/packages/apps/Mms" />
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
-  <remove-project name="platform/vendor/codeaurora/commonsys/packages/apps/Dialer" />
+  <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer" />
   <remove-project name="platform/vendor/codeaurora/packages/apps/SoundRecorder" />
 
 </manifest>
