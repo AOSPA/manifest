@@ -126,6 +126,8 @@
   <project path="system/update_engine" name="AOSPA/android_system_update_engine" remote="aospa" />
 
   <!-- System -->
+  <remove-project name="platform/system/bt" />
+  <project path="system/bt" name="AOSPA/android_system_bt" remote="aospa" />
   <remove-project name="platform/system/core" />
   <project path="system/core" name="AOSPA/android_system_core" remote="aospa" />
   <remove-project name="platform/system/libartpalette" />
