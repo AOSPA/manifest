@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2529932c_b1a7b2b5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-06-09T00:33:34Z",
+      "side": 1,
+      "message": "gross that Qualcomm doesn\u0027t do this",
+      "revId": "49bd9a76ad42088b74eafa356eb909f5e6e0b161",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
