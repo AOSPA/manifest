@@ -33,6 +33,23 @@
       "message": "This went through several rounds of forced-pushes.\n\nPlease look at our GitHub directly for latest patches, apologies.",
       "revId": "5680a45c2b9814456653cbe76e7f0261ba39fb4e",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7aa218a1_d4b51f8e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-06-11T18:01:18Z",
+      "side": 1,
+      "message": "AOSPA\u0027s sapphire branch is now replaced with zlib-ng port from ProtonAOSP for performance reasons given at https://github.com/ProtonAOSP/android_external_zlib-ng/commit/a74c80002711d4497b97daf93ea21c431e4095b9.\n\nWe can ignore the CTS test failures as it tests zlib for consistent output, which doesn\u0027t make much sense.",
+      "revId": "5680a45c2b9814456653cbe76e7f0261ba39fb4e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
