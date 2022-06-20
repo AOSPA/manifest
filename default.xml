@@ -15,7 +15,7 @@
   <remote name="caf_vendor"
           fetch="https://git.codelinaro.org/clo/la"
           review="codelinaro.org"
-          revision="refs/tags/LA.UM.9.14.2.r1-01100-QCM6490.QSSI12.0"/>
+          revision="refs/tags/LA.UM.9.14.r1-19800.01-LAHAINA.QSSI12.0"/>
 
   <default revision="refs/tags/LA.QSSI.12.0.r1-07900-qssi.0"
            remote="caf_system"/>
