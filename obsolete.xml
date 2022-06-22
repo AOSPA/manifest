@@ -20,12 +20,25 @@
   <remove-project name="device/generic/qemu"/>
   <remove-project name="device/generic/trusty"/>
   <remove-project name="device/generic/uml"/>
+  <remove-project name="device/generic/vulkan-cereal"/>
   <remove-project name="device/generic/x86"/>
   <remove-project name="device/generic/x86_64"/>
   <remove-project name="device/google_car"/>
   <remove-project name="device/google/atv"/>
+  <remove-project name="device/google/contexthub"/>
+  <remove-project name="device/google/cuttlefish"/>
+  <remove-project name="device/google/cuttlefish_prebuilts"/>
   <remove-project name="device/google/trout"/>
   <remove-project name="device/google/vrservices"/>
+  <remove-project name="device/linaro/dragonboard"/>
+  <remove-project name="device/linaro/dragonboard-kernel"/>
+  <remove-project name="device/linaro/poplar"/>
+  <remove-project name="device/linaro/poplar-kernel"/>
+  <remove-project name="device/qcom/qssi"/>
+  <remove-project name="device/qcom/qssi_32"/>
+  <remove-project name="device/qcom/qssi_32go"/>
+  <remove-project name="device/qcom/qssi_lite"/>
+  <remove-project name="device/qcom/vendor-common"/>
   <remove-project name="device/sample"/>
 
   <!-- Hardware (NXP) -->
@@ -72,5 +85,8 @@
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer" />
   <remove-project name="platform/vendor/codeaurora/packages/apps/SoundRecorder" />
+  <remove-project name="platform/vendor/qcom/holi"/>
+  <remove-project name="platform/vendor/qcom/kona"/>
+  <remove-project name="platform/vendor/qcom/lahaina"/>
 
 </manifest>
