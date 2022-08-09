@@ -5,7 +5,7 @@
   <remote name="aosp"
           fetch="https://android.googlesource.com"
           review="https://android-review.googlesource.com/"
-          revision="refs/tags/android-12.1.0_r5"/>
+          revision="refs/tags/android-12.1.0_r22"/>
 
   <!-- CAF -->
   <remote name="caf_system"
