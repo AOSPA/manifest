@@ -7,7 +7,7 @@
   <remove-project name="platform/bionic" />
   <project path="bionic" name="AOSPA/android_bionic" remote="aospa" />
   <remove-project name="platform/build_repo" />
-  <project path="build/make" name="AOSPA/android_build" remote="aospa" >
+  <project path="build/make" name="AOSPA/android_build" remote="aospa" revision="sapphire-upgrade" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -57,6 +57,8 @@
   <project path="external/tinycompress" name="AOSPA/android_external_tinycompress" remote="aospa" />
 
   <!-- External -->
+  <remove-project name="platform/external/aac" />
+  <project path="external/aac" name="AOSPA/android_external_aac" remote="aospa" revision="sapphire-upgrade" />
   <remove-project name="platform/external/arm-optimized-routines" />
   <project path="external/arm-optimized-routines" name="AOSPA/android_external_arm-optimized-routines" remote="aospa" />
   <project path="external/exfatprogs" name="AOSPA/android_external_exfatprogs" remote="aospa" />
@@ -79,11 +81,15 @@
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
-  <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" />
+  <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" revision="sapphire-upgrade" />
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" />
+  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" revision="sapphire-upgrade" />
   <remove-project name="platform/frameworks/native" />
-  <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" />
+  <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" revision="sapphire-upgrade" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="aospa" revision="sapphire-upgrade" />
+  <remove-project name="platform/frameworks/proto_logging" />
+  <project path="frameworks/proto_logging" name="AOSPA/android_frameworks_proto_logging" remote="aospa" revision="sapphire-upgrade" />
 
 
   <!-- Hardware -->
@@ -103,6 +109,14 @@
   <project path="packages/apps/ParanoidPapers" name="AOSPA/android_packages_apps_ParanoidPapers" remote="aospa" />
 
   <!-- Packages -->
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <project path="packages/apps/Bluetooth" name="AOSPA/android_packages_apps_Bluetooth" remote="aospa" revision="sapphire-upgrade" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <project path="packages/apps/Contacts" name="AOSPA/android_packages_apps_Contacts" remote="aospa" revision="sapphire-upgrade" />
+  <remove-project name="platform/packages/apps/KeyChain" />
+  <project path="packages/apps/KeyChain" name="AOSPA/android_packages_apps_KeyChain" remote="aospa" revision="sapphire-upgrade" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <project path="packages/apps/Nfc" name="AOSPA/android_packages_apps_Nfc" remote="aospa" revision="sapphire-upgrade" />
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
@@ -110,9 +124,13 @@
   <remove-project name="platform/packages/apps/ThemePicker" />
   <project path="packages/apps/ThemePicker" name="AOSPA/android_packages_apps_ThemePicker" remote="aospa" />
   <remove-project name="platform/packages/apps/Launcher3" />
-  <project path="packages/apps/Launcher3" name="AOSPA/android_packages_apps_Launcher3" remote="aospa" />
+  <project path="packages/apps/Launcher3" name="AOSPA/android_packages_apps_Launcher3" remote="aospa" revision="sapphire-upgrade" />
   <remove-project name="platform/packages/modules/CellBroadcastService" />
   <project path="packages/modules/CellBroadcastService" name="AOSPA/android_packages_modules_CellBroadcastService" remote="aospa" />
+  <remove-project name="platform/packages/providers/ContactsProvider" />
+  <project path="packages/providers/ContactsProvider" name="AOSPA/android_packages_providers_ContactsProvider" remote="aospa" revision="sapphire-upgrade" />
+  <remove-project name="platform/packages/services/AlternativeNetworkAccess" />
+  <project path="packages/services/AlternativeNetworkAccess" name="AOSPA/android_packages_services_AlternativeNetworkAccess" remote="aospa" revision="sapphire-upgrade" />
   <remove-project name="platform/packages/services/Telecomm" />
   <project path="packages/services/Telecomm" name="AOSPA/android_packages_services_Telecomm" remote="aospa" />
 
@@ -131,13 +149,15 @@
 
   <!-- System -->
   <remove-project name="platform/system/bt" />
-  <project path="system/bt" name="AOSPA/android_system_bt" remote="aospa" />
+  <project path="system/bt" name="AOSPA/android_system_bt" remote="aospa" revision="sapphire-upgrade" />
   <remove-project name="platform/system/core" />
   <project path="system/core" name="AOSPA/android_system_core" remote="aospa" />
   <remove-project name="platform/system/libartpalette" />
   <project path="system/libartpalette" name="AOSPA/android_system_libartpalette" remote="aospa" />
   <remove-project name="platform/system/memory/lmkd" />
   <project path="system/memory/lmkd" name="AOSPA/android_system_memory_lmkd" remote="aospa" />
+  <remove-project name="platform/system/nfc" />
+  <project path="system/nfc" name="AOSPA/android_system_nfc" remote="aospa" revision="sapphire-upgrade" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="AOSPA/android_system_sepolicy" remote="aospa" />
   <remove-project name="platform/system/vold" />
