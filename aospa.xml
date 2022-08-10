@@ -53,10 +53,6 @@
   <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="75d73335d25d52afd6a09c116207cd09bece16ab" />
   <remove-project name="platform/external/libavc" />
   <project path="external/libavc" name="platform/external/libavc" remote="aosp" />
-  <remove-project name="platform/external/mksh" />
-  <project path="external/mksh" name="AOSPA/android_external_mksh" remote="aospa" />
-  <remove-project name="platform/external/tinycompress" />
-  <project path="external/tinycompress" name="AOSPA/android_external_tinycompress" remote="aospa" />
 
   <!-- External -->
   <remove-project name="platform/external/aac" />
@@ -72,8 +68,12 @@
   <project path="external/jemalloc_new" name="AOSPA/android_external_jemalloc-new" remote="aospa" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="aospa" />
+  <remove-project name="platform/external/mksh" />
+  <project path="external/mksh" name="AOSPA/android_external_mksh" remote="aospa" />
   <remove-project name="platform/external/scudo" />
   <project path="external/scudo" name="AOSPA/android_external_scudo" remote="aospa" />
+  <remove-project name="platform/external/tinycompress" />
+  <project path="external/tinycompress" name="AOSPA/android_external_tinycompress" remote="aospa" />
   <remove-project name="platform/external/zlib" />
   <project path="external/zlib" name="AOSPA/android_external_zlib" remote="aospa" />
 
