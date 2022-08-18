@@ -854,9 +854,9 @@
   <project name="platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86"/>
   <project name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86"/>
   <project name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin"/>
-  <project name="platform/prebuilts/jdk/jdk11" path="prebuilts/jdk/jdk11"/>
-  <project name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8"/>
-  <project name="platform/prebuilts/jdk/jdk9" path="prebuilts/jdk/jdk9"/>
+  <project name="platform/prebuilts/jdk/jdk11" path="prebuilts/jdk/jdk11" clone-depth="1"/>
+  <project name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8" clone-depth="1"/>
+  <project name="platform/prebuilts/jdk/jdk9" path="prebuilts/jdk/jdk9" clone-depth="1"/>
   <project name="platform/prebuilts/ktlint" path="prebuilts/ktlint"/>
   <project name="platform/prebuilts/manifest-merger" path="prebuilts/manifest-merger"/>
   <project name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android"/>
