@@ -853,10 +853,10 @@
   <project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"/>
   <project name="platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86"/>
   <project name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86"/>
-  <project name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin"/>
-  <project name="platform/prebuilts/jdk/jdk11" path="prebuilts/jdk/jdk11"/>
-  <project name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8"/>
-  <project name="platform/prebuilts/jdk/jdk9" path="prebuilts/jdk/jdk9"/>
+  <project name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" clone-depth="1"/>
+  <project name="platform/prebuilts/jdk/jdk11" path="prebuilts/jdk/jdk11" clone-depth="1"/>
+  <project name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8" clone-depth="1"/>
+  <project name="platform/prebuilts/jdk/jdk9" path="prebuilts/jdk/jdk9" clone-depth="1"/>
   <project name="platform/prebuilts/ktlint" path="prebuilts/ktlint"/>
   <project name="platform/prebuilts/manifest-merger" path="prebuilts/manifest-merger"/>
   <project name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android"/>
@@ -877,10 +877,10 @@
   <project name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5"/>
   <project name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel"/>
   <project name="platform/prebuilts/r8" path="prebuilts/r8" clone-depth="1"/>
-  <project name="platform/prebuilts/remoteexecution-client" path="prebuilts/remoteexecution-client"/>
+  <project name="platform/prebuilts/remoteexecution-client" path="prebuilts/remoteexecution-client" clone-depth="1"/>
   <project name="platform/prebuilts/runtime" path="prebuilts/runtime"/>
   <project name="platform/prebuilts/rust" path="prebuilts/rust" clone-depth="1"/>
-  <project name="platform/prebuilts/sdk" path="prebuilts/sdk"/>
+  <project name="platform/prebuilts/sdk" path="prebuilts/sdk" clone-depth="1"/>
   <project name="platform/prebuilts/tools" path="prebuilts/tools"/>
   <project name="platform/prebuilts/vndk/v28" path="prebuilts/vndk/v28"/>
   <project name="platform/prebuilts/vndk/v29" path="prebuilts/vndk/v29"/>

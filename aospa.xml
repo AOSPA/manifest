@@ -85,7 +85,6 @@
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" />
 
-
   <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="aospa" />
@@ -118,7 +117,7 @@
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
-  <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" remote="aosp" />
+  <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" remote="aosp" clone-depth="1" />
   <project path="prebuilts/extract-tools" name="AOSPA/android_prebuilts_extract-tools" remote="aospa" />
 
   <!-- System (AOSP) -->
@@ -156,7 +155,7 @@
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="blobs" />
-  <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" revision="12" />
+  <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" revision="12" clone-depth="1" />
 
   <!-- Vendor (NXP) -->
   <remove-project name="platform/vendor/nxp/opensource/halimpl" />
