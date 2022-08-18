@@ -82,7 +82,7 @@
   <project name="platform/cts" path="cts" clone-depth="1"/>
   <project name="platform/dalvik" path="dalvik"/>
   <project name="platform/developers/build" path="developers/build"/>
-  <project name="platform/development" path="development"/>
+  <project name="platform/development" path="development" clone-depth="1"/>
   <project name="platform/external/FP16" path="external/FP16"/>
   <project name="platform/external/FXdiv" path="external/FXdiv"/>
   <project name="platform/external/ImageMagick" path="external/ImageMagick"/>
@@ -831,61 +831,61 @@
   <project name="platform/pdk" path="pdk"/>
   <project name="platform/platform_testing" path="platform_testing"/>
   <project clone-depth="1" name="platform/prebuilts/abi-dumps/ndk" path="prebuilts/abi-dumps/ndk"/>
-  <project name="platform/prebuilts/abi-dumps/platform" path="prebuilts/abi-dumps/platform"/>
-  <project name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk"/>
-  <project name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator"/>
-  <project name="platform/prebuilts/asuite" path="prebuilts/asuite"/>
-  <project name="platform/prebuilts/bazel/linux-x86_64" path="prebuilts/bazel/linux-x86_64"/>
-  <project name="platform/prebuilts/build-tools" path="prebuilts/build-tools"/>
-  <project name="platform/prebuilts/bundletool" path="prebuilts/bundletool"/>
-  <project name="platform/prebuilts/checkcolor" path="prebuilts/checkcolor"/>
-  <project name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle"/>
-  <project name="platform/prebuilts/clang-tools" path="prebuilts/clang-tools"/>
-  <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86"/>
-  <project name="platform/prebuilts/cmdline-tools" path="prebuilts/cmdline-tools"/>
-  <project name="platform/prebuilts/devtools" path="prebuilts/devtools"/>
-  <project name="platform/prebuilts/fuchsia_sdk" path="prebuilts/fuchsia_sdk"/>
-  <project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"/>
-  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"/>
-  <project clone-depth="1" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"/>
-  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8"/>
-  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8"/>
-  <project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"/>
-  <project name="platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86"/>
-  <project name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86"/>
-  <project name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin"/>
-  <project name="platform/prebuilts/jdk/jdk11" path="prebuilts/jdk/jdk11"/>
-  <project name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8"/>
-  <project name="platform/prebuilts/jdk/jdk9" path="prebuilts/jdk/jdk9"/>
-  <project name="platform/prebuilts/ktlint" path="prebuilts/ktlint"/>
-  <project name="platform/prebuilts/manifest-merger" path="prebuilts/manifest-merger"/>
-  <project name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android"/>
-  <project name="platform/prebuilts/maven_repo/bumptech" path="prebuilts/maven_repo/bumptech"/>
-  <project name="platform/prebuilts/misc" path="prebuilts/misc"/>
-  <project name="platform/prebuilts/module_sdk/Connectivity" path="prebuilts/module_sdk/Connectivity"/>
-  <project name="platform/prebuilts/module_sdk/IPsec" path="prebuilts/module_sdk/IPsec"/>
-  <project name="platform/prebuilts/module_sdk/Media" path="prebuilts/module_sdk/Media"/>
-  <project name="platform/prebuilts/module_sdk/MediaProvider" path="prebuilts/module_sdk/MediaProvider"/>
-  <project name="platform/prebuilts/module_sdk/Permission" path="prebuilts/module_sdk/Permission"/>
-  <project name="platform/prebuilts/module_sdk/Scheduling" path="prebuilts/module_sdk/Scheduling"/>
-  <project name="platform/prebuilts/module_sdk/SdkExtensions" path="prebuilts/module_sdk/SdkExtensions"/>
-  <project name="platform/prebuilts/module_sdk/StatsD" path="prebuilts/module_sdk/StatsD"/>
-  <project name="platform/prebuilts/module_sdk/Wifi" path="prebuilts/module_sdk/Wifi"/>
-  <project name="platform/prebuilts/module_sdk/art" path="prebuilts/module_sdk/art"/>
-  <project name="platform/prebuilts/module_sdk/conscrypt" path="prebuilts/module_sdk/conscrypt"/>
-  <project name="platform/prebuilts/ndk" path="prebuilts/ndk"/>
-  <project name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5"/>
-  <project name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel"/>
+  <project name="platform/prebuilts/abi-dumps/platform" path="prebuilts/abi-dumps/platform" clone-depth="1"/>
+  <project name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk" clone-depth="1" />
+  <project name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" clone-depth="1"/>
+  <project name="platform/prebuilts/asuite" path="prebuilts/asuite" clone-depth="1"/>
+  <project name="platform/prebuilts/bazel/linux-x86_64" path="prebuilts/bazel/linux-x86_64" clone-depth="1"/>
+  <project name="platform/prebuilts/build-tools" path="prebuilts/build-tools" clone-depth="1"/>
+  <project name="platform/prebuilts/bundletool" path="prebuilts/bundletool" clone-depth="1"/>
+  <project name="platform/prebuilts/checkcolor" path="prebuilts/checkcolor" clone-depth="1"/>
+  <project name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle" clone-depth="1"/>
+  <project name="platform/prebuilts/clang-tools" path="prebuilts/clang-tools" clone-depth="1"/>
+  <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" clone-depth="1"/>
+  <project name="platform/prebuilts/cmdline-tools" path="prebuilts/cmdline-tools" clone-depth="1"/>
+  <project name="platform/prebuilts/devtools" path="prebuilts/devtools" clone-depth="1"/>
+  <project name="platform/prebuilts/fuchsia_sdk" path="prebuilts/fuchsia_sdk" clone-depth="1"/>
+  <project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1"/>
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" clone-depth="1"/>
+  <project clone-depth="1" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1"/>
+  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1"/>
+  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" clone-depth="1"/>
+  <project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1"/>
+  <project name="platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86" clone-depth="1"/>
+  <project name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86" clone-depth="1"/>
+  <project name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" clone-depth="1"/>
+  <project name="platform/prebuilts/jdk/jdk11" path="prebuilts/jdk/jdk11" clone-depth="1"/>
+  <project name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8" clone-depth="1"/>
+  <project name="platform/prebuilts/jdk/jdk9" path="prebuilts/jdk/jdk9" clone-depth="1"/>
+  <project name="platform/prebuilts/ktlint" path="prebuilts/ktlint" clone-depth="1"/>
+  <project name="platform/prebuilts/manifest-merger" path="prebuilts/manifest-merger" clone-depth="1"/>
+  <project name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android" clone-depth="1"/>
+  <project name="platform/prebuilts/maven_repo/bumptech" path="prebuilts/maven_repo/bumptech" clone-depth="1"/>
+  <project name="platform/prebuilts/misc" path="prebuilts/misc" clone-depth="1"/>
+  <project name="platform/prebuilts/module_sdk/Connectivity" path="prebuilts/module_sdk/Connectivity" clone-depth="1"/>
+  <project name="platform/prebuilts/module_sdk/IPsec" path="prebuilts/module_sdk/IPsec" clone-depth="1"/>
+  <project name="platform/prebuilts/module_sdk/Media" path="prebuilts/module_sdk/Media" clone-depth="1"/>
+  <project name="platform/prebuilts/module_sdk/MediaProvider" path="prebuilts/module_sdk/MediaProvider" clone-depth="1"/>
+  <project name="platform/prebuilts/module_sdk/Permission" path="prebuilts/module_sdk/Permission" clone-depth="1"/>
+  <project name="platform/prebuilts/module_sdk/Scheduling" path="prebuilts/module_sdk/Scheduling" clone-depth="1"/>
+  <project name="platform/prebuilts/module_sdk/SdkExtensions" path="prebuilts/module_sdk/SdkExtensions" clone-depth="1"/>
+  <project name="platform/prebuilts/module_sdk/StatsD" path="prebuilts/module_sdk/StatsD" clone-depth="1"/>
+  <project name="platform/prebuilts/module_sdk/Wifi" path="prebuilts/module_sdk/Wifi" clone-depth="1"/>
+  <project name="platform/prebuilts/module_sdk/art" path="prebuilts/module_sdk/art" clone-depth="1"/>
+  <project name="platform/prebuilts/module_sdk/conscrypt" path="prebuilts/module_sdk/conscrypt" clone-depth="1"/>
+  <project name="platform/prebuilts/ndk" path="prebuilts/ndk" clone-depth="1"/>
+  <project name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" clone-depth="1"/>
+  <project name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" clone-depth="1"/>
   <project name="platform/prebuilts/r8" path="prebuilts/r8" clone-depth="1"/>
-  <project name="platform/prebuilts/remoteexecution-client" path="prebuilts/remoteexecution-client"/>
-  <project name="platform/prebuilts/runtime" path="prebuilts/runtime"/>
+  <project name="platform/prebuilts/remoteexecution-client" path="prebuilts/remoteexecution-client" clone-depth="1"/>
+  <project name="platform/prebuilts/runtime" path="prebuilts/runtime" clone-depth="1"/>
   <project name="platform/prebuilts/rust" path="prebuilts/rust" clone-depth="1"/>
-  <project name="platform/prebuilts/sdk" path="prebuilts/sdk"/>
-  <project name="platform/prebuilts/tools" path="prebuilts/tools"/>
-  <project name="platform/prebuilts/vndk/v28" path="prebuilts/vndk/v28"/>
-  <project name="platform/prebuilts/vndk/v29" path="prebuilts/vndk/v29"/>
-  <project name="platform/prebuilts/vndk/v30" path="prebuilts/vndk/v30"/>
-  <project name="platform/prebuilts/vndk/v31" path="prebuilts/vndk/v31"/>
+  <project name="platform/prebuilts/sdk" path="prebuilts/sdk" clone-depth="1"/>
+  <project name="platform/prebuilts/tools" path="prebuilts/tools" clone-depth="1"/>
+  <project name="platform/prebuilts/vndk/v28" path="prebuilts/vndk/v28" clone-depth="1"/>
+  <project name="platform/prebuilts/vndk/v29" path="prebuilts/vndk/v29" clone-depth="1"/>
+  <project name="platform/prebuilts/vndk/v30" path="prebuilts/vndk/v30" clone-depth="1"/>
+  <project name="platform/prebuilts/vndk/v31" path="prebuilts/vndk/v31" clone-depth="1"/>
   <project name="platform/sdk" path="sdk"/>
   <project name="platform/system/apex" path="system/apex"/>
   <project name="platform/system/bpf" path="system/bpf"/>

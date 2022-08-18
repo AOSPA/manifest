@@ -27,6 +27,12 @@
   <remove-project name="device/google/trout"/>
   <remove-project name="device/google/vrservices"/>
   <remove-project name="device/sample"/>
+  <remove-project name="device/google/cuttlefish"/>
+  <remove-project name="device/google/cuttlefish_prebuilts"/>
+  <remove-project name="device/linaro/dragonboard"/>
+  <remove-project name="device/linaro/dragonboard-kernel"/>
+  <remove-project name="device/linaro/poplar"/>
+  <remove-project name="device/linaro/poplar-kernel"/>
 
   <!-- Hardware (NXP) -->
   <remove-project name="platform/hardware/nxp/nfc" />
