@@ -10,8 +10,6 @@
   <remove-project name="device/generic/art"/>
   <remove-project name="device/generic/car"/>
   <remove-project name="device/generic/common"/>
-  <remove-project name="device/generic/goldfish"/>
-  <remove-project name="device/generic/goldfish-opengl"/>
   <remove-project name="device/generic/mini-emulator-arm64"/>
   <remove-project name="device/generic/mini-emulator-armv7-a-neon"/>
   <remove-project name="device/generic/mini-emulator-x86"/>
@@ -24,8 +22,13 @@
   <remove-project name="device/generic/x86_64"/>
   <remove-project name="device/google_car"/>
   <remove-project name="device/google/atv"/>
+  <remove-project name="device/google/cuttlefish_prebuilts"/>
   <remove-project name="device/google/trout"/>
   <remove-project name="device/google/vrservices"/>
+  <remove-project name="device/linaro/dragonboard"/>
+  <remove-project name="device/linaro/dragonboard-kernel"/>
+  <remove-project name="device/linaro/poplar"/>
+  <remove-project name="device/linaro/poplar-kernel"/>
   <remove-project name="device/sample"/>
 
   <!-- Hardware (NXP) -->
