@@ -41,7 +41,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/AOSPA/manifest -b sapphire
+$ repo init -u https://github.com/AOSPA/manifest -b topaz
 ```
 
 ### Downloading the source tree ###
@@ -56,7 +56,7 @@ and their change histories.
 # The -j# option specifies the number of concurrent download threads to run.
 # 4 threads is a good number for most internet connections.
 # You may need to adjust this value if you have a particularly slow connection.
-$ repo sync --no-clone-bundle --current-branch --no-tags -j4
+$ repo sync --no-clone-bundle -j4
 ```
 
 #### Syncing specific projects ####
@@ -140,23 +140,23 @@ $ git add -A
 $ git commit -a -s
 
 # Upload your changes
-$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/sapphire
+$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/topaz
 ```
 
 ### Extra commands for Gerrit ###
 
 ```bash
 # If you desire to upload a change as private use the below command
-$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/sapphire%private
+$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/topaz%private
 
 # If you desire to upload a change as W.I.P(Work in Progress) use the below command
-$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/sapphire%wip
+$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/topaz%wip
 
 # After that, if you want to make the commit public you can use the UI tools on AOSPA Gerrit website, or use the below command
-$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/sapphire%remove-private
+$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/topaz%remove-private
 
 # If you want to unset the W.I.P status on your commit, you can use UI tools on AOSPA Gerrit website, or use the below command
-$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/sapphire%ready
+$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/topaz%ready
 ```
 
 ### Making additional changes ###
