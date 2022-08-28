@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "18aef770_109509de",
+        "filename": "aospa.xml",
+        "patchSetId": 27
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2022-08-28T23:01:25Z",
+      "side": 1,
+      "message": "Aren\u0027t you missing the remove?",
+      "revId": "301a5f670ed832c528f8f7e606557f0a8312eeea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
