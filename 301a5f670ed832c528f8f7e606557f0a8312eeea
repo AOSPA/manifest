@@ -16,6 +16,24 @@
       "message": "Aren\u0027t you missing the remove?",
       "revId": "301a5f670ed832c528f8f7e606557f0a8312eeea",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c48f9f94_79d8a640",
+        "filename": "aospa.xml",
+        "patchSetId": 27
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-08-29T07:27:28Z",
+      "side": 1,
+      "message": "not tracked by default",
+      "parentUuid": "18aef770_109509de",
+      "revId": "301a5f670ed832c528f8f7e606557f0a8312eeea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
