@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "84d6bc59_a7bac072",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 31
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-08-29T18:11:57Z",
+      "side": 1,
+      "message": "all seems fine till 5400, once we sanity test this on a clean sync there\u0027s no reason to delay topaz ",
+      "revId": "49324c8988523f80acd3b91ed69cfa2fc3111c1d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
