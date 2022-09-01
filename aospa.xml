@@ -2,6 +2,8 @@
 <manifest>
 
   <!-- Build and Core -->
+  <remove-project name="platform/art" />
+  <project path="art" name="AOSPA/android_art" remote="aospa" />
   <remove-project name="platform/bionic" />
   <project path="bionic" name="AOSPA/android_bionic" remote="aospa" />
   <remove-project name="platform/build_repo" />
