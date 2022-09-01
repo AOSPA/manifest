@@ -46,6 +46,8 @@
   <project path="external/fastrpc" name="AOSPA/android_external_fastrpc" remote="aospa" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="aospa" />
+  <remove-project name="platform/external/sqlite" />
+  <project path="external/sqlite" name="AOSPA/android_external_sqlite" remote="aospa" />
   <remove-project name="platform/external/zlib" />
   <project path="external/zlib" name="AOSPA/android_external_zlib" remote="aospa" />
 
