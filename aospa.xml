@@ -64,6 +64,9 @@
   <!-- Manifest -->
   <project path="manifest" name="AOSPA/manifest" remote="aospa" />
 
+  <!-- Packages (AOSPA) -->
+  <project path="packages/apps/ParanoidDoze" name="AOSPA/android_packages_apps_ParanoidDoze" remote="aospa" />
+
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" />
