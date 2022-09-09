@@ -28,6 +28,8 @@
   <remove-project name="device/linaro/dragonboard-kernel"/>
   <remove-project name="device/linaro/poplar"/>
   <remove-project name="device/linaro/poplar-kernel"/>
+  <remove-project name="device/qcom/qssi_32"/>
+  <remove-project name="device/qcom/qssi_32go"/>
   <remove-project name="device/sample"/>
 
   <!-- Hardware (NXP) -->
@@ -51,6 +53,7 @@
   <remove-project name="platform/vendor/qcom/opensource/datarmnet" />
   <remove-project name="platform/vendor/qcom/opensource/datarmnet-ext" />
   <remove-project name="platform/vendor/qcom-opensource/location" />
+  <remove-project name="platform/vendor/qcom-opensource/wigig" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" />
@@ -59,10 +62,14 @@
   <remove-project name="kernel/prebuilts/4.19/arm64"/>
   <remove-project name="kernel/prebuilts/5.4/arm64"/>
   <remove-project name="kernel/prebuilts/5.4/x86-64"/>
+  <remove-project name="kernel/prebuilts/5.15/arm64"/>
+  <remove-project name="kernel/prebuilts/5.15/x86-64"/>
   <remove-project name="kernel/prebuilts/common-modules/virtual-device/4.19/arm64"/>
   <remove-project name="kernel/prebuilts/common-modules/virtual-device/4.19/x86-64"/>
   <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.4/arm64"/>
   <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.4/x86-64"/>
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.15/arm64"/>
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.15/x86-64"/>
   <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64"/>
   <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64"/>
   <remove-project name="kernel/prebuilts/mainline/arm64"/>
@@ -76,5 +83,8 @@
   <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer" />
   <remove-project name="platform/vendor/codeaurora/packages/apps/SoundRecorder" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
+  <remove-project name="platform/vendor/qcom/holi" />
+  <remove-project name="platform/vendor/qcom/kona" />
+  <remove-project name="platform/vendor/qcom/lahaina" />
 
 </manifest>
