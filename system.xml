@@ -722,6 +722,7 @@
   <project name="platform/packages/apps/Car/SettingsIntelligence" path="packages/apps/Car/SettingsIntelligence"/>
   <project name="platform/packages/apps/Car/SystemUI" path="packages/apps/Car/SystemUI"/>
   <project name="platform/packages/apps/Car/SystemUpdater" path="packages/apps/Car/SystemUpdater"/>
+  <project name="platform/packages/apps/Car/systemlibs" path="packages/apps/Car/systemlibs"/>
   <project name="platform/packages/apps/Car/libs" path="packages/apps/Car/libs"/>
   <project name="platform/packages/apps/Car/tests" path="packages/apps/Car/tests"/>
   <project name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig"/>
