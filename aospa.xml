@@ -75,6 +75,7 @@
   <!-- Packages (AOSPA) -->
   <project path="packages/apps/ParanoidDoze" name="AOSPA/android_packages_apps_ParanoidDoze" remote="aospa" />
   <project path="packages/apps/ParanoidHub" name="AOSPA/android_packages_apps_ParanoidHub" remote="aospa" revision="main" />
+  <project path="packages/resources/devicesettings" name="AOSPA/android_packages_resources_devicesettings" remote="aospa" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Launcher3" />
