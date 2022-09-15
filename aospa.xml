@@ -21,6 +21,10 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- Bootable -->
+  <remove-project name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="AOSPA/android_bootable_recovery" remote="aospa" />
+
   <!-- CTS (AOSP) -->
   <remove-project name="platform/cts" />
   <project path="cts" name="platform/cts" remote="aosp" clone-depth="1"/>
