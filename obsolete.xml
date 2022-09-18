@@ -43,6 +43,7 @@
   <remove-project name="platform/hardware/qcom/media" />
 
   <!-- Kernel -->
+  <remove-project name="kernel/build" />
   <remove-project name="kernel/msm-5.4" />
   <remove-project name="platform/vendor/opensource/audio-kernel" />
   <remove-project name="platform/vendor/opensource/camera-kernel" />
