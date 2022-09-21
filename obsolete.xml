@@ -37,19 +37,17 @@
   <remove-project name="platform/hardware/nxp/secure_element" />
 
   <!-- Hardware -->
-  <remove-project name="platform/hardware/qcom/audio" />
-  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/audio-ar" />
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/media" />
 
   <!-- Kernel -->
-  <remove-project name="kernel/msm-5.4" />
-  <remove-project name="platform/vendor/opensource/audio-kernel" />
-  <remove-project name="platform/vendor/opensource/camera-kernel" />
+  <remove-project name="platform/vendor/opensource/cvp-kernel" />
   <remove-project name="platform/vendor/opensource/dataipa" />
-  <remove-project name="platform/vendor/opensource/display-drivers" />
-  <remove-project name="platform/vendor/opensource/video-driver" />
+  <remove-project name="platform/vendor/opensource/eva-kernel" />
+  <remove-project name="platform/vendor/opensource/touch-drivers" />
   <remove-project name="platform/vendor/qcom/opensource/commonsys/wifi" />
+  <remove-project name="platform/vendor/qcom/opensource/audio-kernel-ar" />
   <remove-project name="platform/vendor/qcom/opensource/datarmnet" />
   <remove-project name="platform/vendor/qcom/opensource/datarmnet-ext" />
   <remove-project name="platform/vendor/qcom-opensource/location" />
@@ -78,13 +76,15 @@
 
   <!-- Vendor -->
   <remove-project name="platform/packages/apps/Mms" />
-  <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer" />
   <remove-project name="platform/vendor/codeaurora/packages/apps/SoundRecorder" />
+  <remove-project name="platform/vendor/qcom-opensource/audio-hal/st-hal-ar" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
-  <remove-project name="platform/vendor/qcom/holi" />
-  <remove-project name="platform/vendor/qcom/kona" />
+  <remove-project name="platform/vendor/qcom/opensource/agm" />
+  <remove-project name="platform/vendor/qcom/opensource/arpal-lx" />
   <remove-project name="platform/vendor/qcom/lahaina" />
+  <remove-project name="platform/vendor/qcom/parrot" />
+  <remove-project name="platform/vendor/qcom/taro" />
 
 </manifest>
