@@ -74,6 +74,10 @@
   <!-- Manifest -->
   <project path="manifest" name="AOSPA/manifest" remote="aospa" />
 
+  <!-- Packages (AOSP) -->
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" remote="aosp"/>
+
   <!-- Packages (AOSPA) -->
   <project path="packages/apps/ParanoidDoze" name="AOSPA/android_packages_apps_ParanoidDoze" remote="aospa" />
   <project path="packages/apps/ParanoidHub" name="AOSPA/android_packages_apps_ParanoidHub" remote="aospa" revision="main" />
