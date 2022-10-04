@@ -59,6 +59,10 @@
   <remove-project name="platform/external/zlib" />
   <project path="external/zlib" name="AOSPA/android_external_zlib" remote="aospa" />
 
+  <!-- External (LineageOS) -->
+  <project path="external/htop" name="LineageOS/android_external_htop" remote="github" revision="6e15b36adc280daf996abc87d7684aed22732688" />
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="2d87040ef56d93aa0ac4331fc3dfafdfdc5e9f8a" />
+
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" />
