@@ -368,10 +368,8 @@
   <project name="platform/external/opencensus-java" path="external/opencensus-java"/>
   <project name="platform/external/OpenCSD" path="external/OpenCSD"/>
   <project name="platform/external/openscreen" path="external/openscreen"/>
-  <project name="platform/external/openthread" path="external/openthread"/>
   <project name="platform/external/openwrt-prebuilts" path="external/openwrt-prebuilts"/>
   <project name="platform/external/oss-fuzz" path="external/oss-fuzz"/>
-  <project name="platform/external/ot-br-posix" path="external/ot-br-posix"/>
   <project name="platform/external/owasp/sanitizer" path="external/owasp/sanitizer"/>
   <project name="platform/external/parameter-framework" path="external/parameter-framework"/>
   <project name="platform/external/pcre" path="external/pcre"/>
@@ -747,7 +745,6 @@
   <project name="platform/frameworks/opt/net/ims" path="frameworks/opt/net/ims"/>
   <project name="platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip"/>
   <project name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi"/>
-  <project name="platform/frameworks/opt/pc/windowmanager" path="frameworks/opt/pc/windowmanager"/>
   <project name="platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer"/>
   <project name="platform/frameworks/opt/setupwizard" path="frameworks/opt/setupwizard"/>
   <project name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony"/>
@@ -772,7 +769,6 @@
   <project name="platform/hardware/st/nfc" path="hardware/st/nfc"/>
   <project name="platform/hardware/st/secure_element" path="hardware/st/secure_element"/>
   <project name="platform/hardware/st/secure_element2" path="hardware/st/secure_element2"/>
-  <project name="platform/hardware/synaptics/wlan" path="hardware/synaptics/wlan"/>
   <project name="platform/hardware/ti/am57x" path="hardware/ti/am57x"/>
   <project name="platform/libcore" path="libcore"/>
   <project name="platform/libnativehelper" path="libnativehelper"/>
@@ -797,8 +793,6 @@
   <project name="platform/packages/apps/Car/systemlibs" path="packages/apps/Car/systemlibs"/>
   <project name="platform/packages/apps/Car/SystemUI" path="packages/apps/Car/SystemUI"/>
   <project name="platform/packages/apps/Car/SystemUpdater" path="packages/apps/Car/SystemUpdater"/>
-  <project name="platform/packages/apps/Car/Templates" path="packages/apps/Car/Templates"/>
-  <project name="platform/packages/apps/Car/VoiceControl" path="packages/apps/Car/VoiceControl"/>
   <project name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig"/>
   <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver"/>
   <project name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller"/>
@@ -859,7 +853,6 @@
   <project name="platform/packages/modules/AdServices" path="packages/modules/AdServices"/>
   <project name="platform/packages/modules/AppSearch" path="packages/modules/AppSearch"/>
   <project name="platform/packages/modules/ArtPrebuilt" path="packages/modules/ArtPrebuilt" clone-depth="1"/>
-  <project name="platform/packages/modules/Auxiliary" path="packages/modules/Auxiliary"/>
   <project name="platform/packages/modules/Bluetooth" path="packages/modules/Bluetooth"/>
   <project name="platform/packages/modules/BootPrebuilt/5.10/arm64" path="packages/modules/BootPrebuilt/5.10/arm64" clone-depth="1"/>
   <project name="platform/packages/modules/BootPrebuilt/5.4/arm64" path="packages/modules/BootPrebuilt/5.4/arm64" clone-depth="1"/>
@@ -871,11 +864,9 @@
   <project name="platform/packages/modules/ExtServices" path="packages/modules/ExtServices"/>
   <project name="platform/packages/modules/GeoTZ" path="packages/modules/GeoTZ"/>
   <project name="platform/packages/modules/Gki" path="packages/modules/Gki"/>
-  <project name="platform/packages/modules/IntentResolver" path="packages/modules/IntentResolver"/>
   <project name="platform/packages/modules/IPsec" path="packages/modules/IPsec"/>
   <project name="platform/packages/modules/Media" path="packages/modules/Media"/>
   <project name="platform/packages/modules/ModuleMetadata" path="packages/modules/ModuleMetadata"/>
-  <project name="platform/packages/modules/Nearby" path="packages/modules/Nearby"/>
   <project name="platform/packages/modules/NetworkPermissionConfig" path="packages/modules/NetworkPermissionConfig"/>
   <project name="platform/packages/modules/NetworkStack" path="packages/modules/NetworkStack"/>
   <project name="platform/packages/modules/NeuralNetworks" path="packages/modules/NeuralNetworks"/>
@@ -1052,7 +1043,6 @@
   <project name="platform/tools/loganalysis" path="tools/loganalysis"/>
   <project name="platform/tools/metalava" path="tools/metalava"/>
   <project name="platform/tools/ndkports" path="tools/ndkports"/>
-  <project name="platform/tools/repohooks" path="tools/repohooks"/>
   <project name="platform/tools/security" path="tools/security"/>
   <project name="platform/tools/test/connectivity" path="tools/test/connectivity"/>
   <project name="platform/tools/test/graphicsbenchmark" path="tools/test/graphicsbenchmark"/>
