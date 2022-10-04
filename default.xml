@@ -23,7 +23,7 @@
           review="codelinaro.org"
           revision="refs/tags/LA.UM.9.14.2.r1-01700-QCM6490.QSSI12.0"/>
 
-  <default revision="refs/tags/LA.QSSI.13.0.r1-07000-qssi.0"
+  <default revision="refs/tags/LA.QSSI.13.0.r1-07100-qssi.0"
            remote="clo_system"/>
 
   <include name="system.xml"/>
