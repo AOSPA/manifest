@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- CTS (AOSP) -->
+  <remove-project name="platform/cts" />
+  <project path="cts" name="platform/cts" remote="aosp" clone-depth="1"/>
+
+  <!-- Packages (AOSP) -->
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" remote="aosp"/>
+
+</manifest>

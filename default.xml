@@ -56,6 +56,7 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
+  <include name="aosp.xml"/>
   <include name="aospa.xml"/>
   <include name="obsolete.xml"/>
 
