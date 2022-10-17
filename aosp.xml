@@ -5,6 +5,10 @@
   <remove-project name="platform/cts" />
   <project path="cts" name="platform/cts" remote="aosp" clone-depth="1"/>
 
+  <!-- External (AOSP) -->
+  <remove-project name="platform/external/dtc" />
+  <project path="external/dtc" name="platform/external/dtc" remote="aosp"/>
+
   <!-- Packages (AOSP) -->
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <project path="packages/apps/DocumentsUI" name="platform/packages/apps/DocumentsUI" remote="aosp"/>
