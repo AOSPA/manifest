@@ -6,6 +6,10 @@
   <project path="cts" name="platform/cts" remote="aosp" clone-depth="1"/>
 
   <!-- Packages (AOSP) -->
+  <remove-project name="platform/packages/apps/DocumentsUI" />
+  <project path="packages/apps/DocumentsUI" name="platform/packages/apps/DocumentsUI" remote="aosp"/>
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
+  <project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" remote="aosp"/>
   <remove-project name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" remote="aosp"/>
 

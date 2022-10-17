@@ -58,10 +58,14 @@
   <project path="external/zlib" name="AOSPA/android_external_zlib" remote="aospa" />
 
   <!-- Frameworks -->
+  <remove-project name="platform/frameworks/av" />
+  <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" />
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" />
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="aospa" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
@@ -94,8 +98,12 @@
   <!-- System -->
   <remove-project name="platform/system/core" />
   <project path="system/core" name="AOSPA/android_system_core" remote="aospa" />
+  <remove-project name="platform/system/media" />
+  <project path="system/media" name="AOSPA/android_system_media" remote="aospa" />
   <remove-project name="platform/system/memory/lmkd" />
   <project path="system/memory/lmkd" name="AOSPA/android_system_memory_lmkd" remote="aospa" />
+  <remove-project name="platform/system/sepolicy" />
+  <project path="system/sepolicy" name="AOSPA/android_system_sepolicy" remote="aospa" />
   <remove-project name="platform/system/update_engine" />
   <project path="system/update_engine" name="AOSPA/android_system_update_engine" remote="aospa" />
 
