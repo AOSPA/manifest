@@ -44,6 +44,7 @@
   </project>
 
   <!-- External -->
+  <project path="external/armnn" name="AOSPA/android_external_armnn" remote="aospa" />
   <remove-project name="platform/external/arm-optimized-routines" />
   <project path="external/arm-optimized-routines" name="AOSPA/android_external_arm-optimized-routines" remote="aospa" />
   <remove-project name="platform/external/fastrpc" />
