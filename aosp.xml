@@ -6,6 +6,7 @@
   <project path="cts" name="platform/cts" remote="aosp" clone-depth="1"/>
 
   <!-- External (AOSP) -->
+  <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" remote="aosp"/>
   <remove-project name="platform/external/dtc" />
   <project path="external/dtc" name="platform/external/dtc" remote="aosp"/>
 
