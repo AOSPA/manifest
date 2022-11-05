@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c6eebac8_30b5c1a2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2022-11-05T04:42:44Z",
+      "side": 1,
+      "message": "requires https://gerrit.aospa.co/c/AOSPA/android_frameworks_av/+/24373",
+      "revId": "c1fd06680d96f1507668d81b2009700fa287daaf",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
