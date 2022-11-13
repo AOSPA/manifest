@@ -9,6 +9,8 @@
   <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" remote="aosp"/>
   <remove-project name="platform/external/dtc" />
   <project path="external/dtc" name="platform/external/dtc" remote="aosp"/>
+  <remove-project name="platform/external/erofs-utils" />
+  <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="b5bbcb383357b92acb10082878b32bbe831a2137" />
 
   <!-- Packages (AOSP) -->
   <remove-project name="platform/packages/apps/DocumentsUI" />
