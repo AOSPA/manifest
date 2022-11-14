@@ -88,6 +88,8 @@
   <project path="packages/apps/Launcher3" name="AOSPA/android_packages_apps_Launcher3" remote="aospa" />
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" />
+  <remove-project name="platform/packages/modules/Bluetooth" />
+  <project path="packages/modules/Bluetooth" name="AOSPA/android_packages_modules_Bluetooth" remote="aospa" />
   <remove-project name="platform/packages/modules/Wifi" />
   <project path="packages/modules/Wifi" name="AOSPA/android_packages_modules_Wifi" remote="aospa" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
