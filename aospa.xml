@@ -84,6 +84,7 @@
   <project path="packages/apps/ParanoidHub" name="AOSPA/android_packages_apps_ParanoidHub" remote="aospa" revision="main" />
   <project path="packages/apps/ParanoidPapers" name="AOSPA/android_packages_apps_ParanoidPapers" remote="aospa" />
   <project path="packages/apps/ParanoidSense" name="AOSPA/android_packages_apps_ParanoidSense" remote="aospa" />
+  <project path="packages/apps/Paranoid/SystemUI" name="AOSPA/android_packages_apps_Paranoid_SystemUI" remote="aospa" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Launcher3" />
