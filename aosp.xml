@@ -3,21 +3,108 @@
 
   <!-- CTS (AOSP) -->
   <remove-project name="platform/cts" />
-  <project path="cts" name="platform/cts" remote="aosp" clone-depth="1"/>
+  <project path="cts" name="platform/cts" remote="aosp" clone-depth="1" />
 
   <!-- External (AOSP) -->
+  <remove-project name="platform/external/angle" />
+  <project path="external/angle" name="platform/external/angle" remote="aosp" />
   <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" remote="aosp"/>
   <remove-project name="platform/external/dtc" />
-  <project path="external/dtc" name="platform/external/dtc" remote="aosp"/>
+  <project path="external/dtc" name="platform/external/dtc" remote="aosp" />
   <remove-project name="platform/external/erofs-utils" />
   <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="b5bbcb383357b92acb10082878b32bbe831a2137" />
+  <remove-project name="platform/external/ims" />
+  <project path="external/ims" name="platform/external/ims" remote="aosp" />
+  <remove-project name="platform/external/libpalmrejection" />
+  <project path="external/libpalmrejection" name="platform/external/libpalmrejection" remote="aosp" />
+  <remove-project name="platform/external/nos/host/generic" />
+  <project path="external/nos/host/generic" name="platform/external/nos/host/generic" remote="aosp" />
+  <remove-project name="platform/external/noto-fonts" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" />
+  <remove-project name="platform/external/perfetto" />
+  <project path="external/perfetto" name="platform/external/perfetto" remote="aosp" />
+  <remove-project name="platform/external/robolectric-shadows" />
+  <project path="external/robolectric-shadows" name="platform/external/robolectric-shadows" remote="aosp" />
+  <remove-project name="platform/external/rust/crates/pin-utils" />
+  <project path="external/rust/crates/pin-utils" name="platform/external/rust/crates/pin-utils" remote="aosp" />
+  <remove-project name="platform/external/setupcompat" />
+  <project path="external/setupcompat" name="platform/external/setupcompat" remote="aosp" />
+  <remove-project name="platform/external/setupdesign" />
+  <project path="external/setupdesign" name="platform/external/setupdesign" remote="aosp" />
+
+  <!-- Frameworks (AOSP) -->
+  <remove-project name="platform/frameworks/libs/systemui" />
+  <project path="frameworks/libs/systemui" name="platform/frameworks/libs/systemui" remote="aosp" />
+  <remove-project name="platform/frameworks/minikin" />
+  <project path="frameworks/minikin" name="platform/frameworks/minikin" remote="aosp"
+  <remove-project name="platform/frameworks/opt/car/services" />
+  <project path="frameworks/opt/car/services" name="platform/frameworks/opt/car/services" remote="aosp" />
+
 
   <!-- Packages (AOSP) -->
+  <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" remote="aosp" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
-  <project path="packages/apps/DocumentsUI" name="platform/packages/apps/DocumentsUI" remote="aosp"/>
+  <project path="packages/apps/DocumentsUI" name="platform/packages/apps/DocumentsUI" remote="aosp" />
+  <remove-project name="platform/packages/apps/EmergencyInfo" />
+  <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" remote="aosp" />
+  <remove-project name="platform/packages/apps/ImsServiceEntitlement" />
+  <project path="packages/apps/ImsServiceEntitlement" name="platform/packages/apps/ImsServiceEntitlement" remote="aosp" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <project path="packages/apps/SettingsIntelligence" name="platform/packages/apps/SettingsIntelligence" remote="aosp" />
+  <remove-project name="platform/packages/apps/SystemUIGo" />
+  <project path="packages/apps/SystemUIGo" name="platform/packages/apps/SystemUIGo" remote="aosp" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
+  <project path="packages/apps/ThemePicker" name="platform/packages/apps/ThemePicker" remote="aosp" />
+  <remove-project name="platform/packages/apps/Traceur" />
+  <project path="packages/apps/Traceur" name="platform/packages/apps/Traceur" remote="aosp" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
-  <project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" remote="aosp"/>
+  <project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" remote="aosp" />
+  <remove-project name="platform/packages/modules/AppSearch" />
+  <project path="packages/modules/AppSearch" name="platform/packages/modules/AppSearch" remote="aosp" />
+  <remove-project name="platform/packages/modules/CellBroadcastService" />
+  <project path="packages/modules/CellBroadcastService" name="platform/packages/modules/CellBroadcastService" remote="aosp" />
+  <remove-project name="platform/packages/modules/Permission" />
+  <project path="packages/modules/Permission" name="platform/packages/modules/Permission" remote="aosp" />
+  <remove-project name="platform/packages/modules/Uwb" />
+  <project path="packages/modules/Uwb" name="platform/packages/modules/Uwb" remote="aosp" />
+  <remove-project name="platform/packages/modules/Virtualization" />
+  <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" remote="aosp" />
   <remove-project name="platform/packages/providers/MediaProvider" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" remote="aosp"/>
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" remote="aosp" />
+  <remove-project name="platform/packages/services/AlternativeNetworkAccess" />
+  <project path="packages/services/AlternativeNetworkAccess" name="platform/packages/services/AlternativeNetworkAccess" remote="aosp" />
+  <remove-project name="platform/packages/services/BuiltInPrintService" />
+  <project path="packages/services/BuiltInPrintService" name="platform/packages/services/BuiltInPrintService" remote="aosp" />
+  <remove-project name="platform/packages/services/Car" />
+  <project path="packages/services/Car" name="platform/packages/services/Car" remote="aosp" />
+  <remove-project name="platform/packages/services/Iwlan" />
+  <project path="packages/services/Iwlan" name="platform/packages/services/Iwlan" remote="aosp" />
+  <remove-project name="platform/packages/services/Mms" />
+  <project path="packages/services/Mms" name="platform/packages/services/Mms" remote="aosp" />
+
+  <!-- Prebuilts (AOSP) -->
+  <remove-project name="platform/prebuilts/r8" />
+  <project path="prebuilts/r8" name="platform/prebuilts/r8" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/sdk" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/tools" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" clone-depth="1" />
+
+  <!-- System (AOSP) -->
+  <remove-project name="platform/system/apex" />
+  <project path="system/apex" name="platform/system/apex" remote="aosp" />
+  <remove-project name="platform/system/bpf" />
+  <project path="system/bpf" name="platform/system/bpf" remote="aosp" />
+  <remove-project name="platform/system/hardware/interfaces" />
+  <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" remote="aosp" />
+  <remove-project name="platform/system/incremental_delivery" />
+  <project path="system/incremental_delivery" name="platform/system/incremental_delivery" remote="aosp" />
+  <remove-project name="platform/system/libfmq" />
+  <project path="system/libfmq" name="platform/system/libfmq" remote="aosp" />
+  <remove-project name="platform/system/libufdt" />
+  <project path="system/libufdt" name="platform/system/libufdt" remote="aosp" />
+  <remove-project name="platform/system/nfc" />
+  <project path="system/nfc" name="platform/system/nfc" remote="aosp" />
 
 </manifest>
