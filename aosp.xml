@@ -63,6 +63,7 @@
   <project path="packages/modules/AppSearch" name="platform/packages/modules/AppSearch" remote="aosp" />
   <remove-project name="platform/packages/modules/CellBroadcastService" />
   <project path="packages/modules/CellBroadcastService" name="platform/packages/modules/CellBroadcastService" remote="aosp" />
+  <project path="packages/modules/IntentResolver" name="platform/packages/modules/IntentResolver" remote="aosp" />
   <remove-project name="platform/packages/modules/Permission" />
   <project path="packages/modules/Permission" name="platform/packages/modules/Permission" remote="aosp" />
   <remove-project name="platform/packages/modules/Uwb" />
