@@ -82,6 +82,10 @@
   <remove-project name="platform/packages/services/Mms" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" remote="aosp" />
 
+  <!-- Platform Testing (AOSP) -->
+  <remove-project name="platform/platform_testing" />
+  <project path="platform_testing" name="platform/platform_testing" remote="aosp" />
+
   <!-- Prebuilts (AOSP) -->
   <remove-project name="platform/prebuilts/r8" />
   <project path="prebuilts/r8" name="platform/prebuilts/r8" remote="aosp" clone-depth="1" />
