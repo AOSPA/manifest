@@ -36,10 +36,9 @@
   <remove-project name="platform/frameworks/libs/systemui" />
   <project path="frameworks/libs/systemui" name="platform/frameworks/libs/systemui" remote="aosp" />
   <remove-project name="platform/frameworks/minikin" />
-  <project path="frameworks/minikin" name="platform/frameworks/minikin" remote="aosp"
+  <project path="frameworks/minikin" name="platform/frameworks/minikin" remote="aosp" />
   <remove-project name="platform/frameworks/opt/car/services" />
   <project path="frameworks/opt/car/services" name="platform/frameworks/opt/car/services" remote="aosp" />
-
 
   <!-- Packages (AOSP) -->
   <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
