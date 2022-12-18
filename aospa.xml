@@ -104,6 +104,8 @@
   <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" />
   <remove-project name="platform/packages/modules/Bluetooth" />
   <project path="packages/modules/Bluetooth" name="AOSPA/android_packages_modules_Bluetooth" remote="aospa" />
+  <remove-project name="platform/packages/modules/common" />
+  <project path="packages/modules/common" name="AOSPA/android_packages_modules_common" remote="aospa" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <project path="packages/modules/Connectivity" name="AOSPA/android_packages_modules_Connectivity" remote="aospa" />
   <remove-project name="platform/packages/modules/Wifi" />
