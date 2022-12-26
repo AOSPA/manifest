@@ -58,6 +58,7 @@
 
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
+  <include name="kernel_platform.xml"/>
   <include name="obsolete.xml"/>
 
 </manifest>
