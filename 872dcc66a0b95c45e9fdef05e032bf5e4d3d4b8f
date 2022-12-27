@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c18cc49a_465a9349",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-12-27T04:46:10Z",
+      "side": 1,
+      "message": "push the git repo somewhere so we can review the changes",
+      "revId": "872dcc66a0b95c45e9fdef05e032bf5e4d3d4b8f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
