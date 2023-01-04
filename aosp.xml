@@ -8,7 +8,11 @@
   <!-- External (AOSP) -->
   <remove-project name="platform/external/angle" />
   <project path="external/angle" name="platform/external/angle" remote="aosp" />
+  <remove-project name="platform/external/boringssl" />
+  <project path="external/boringssl" name="platform/external/boringssl" remote="aosp" />
   <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" remote="aosp"/>
+  <remove-project name="platform/external/conscrypt" />
+  <project path="external/conscrypt" name="platform/external/conscrypt" remote="aosp" />
   <remove-project name="platform/external/dtc" />
   <project path="external/dtc" name="platform/external/dtc" remote="aosp" />
   <remove-project name="platform/external/erofs-utils" />

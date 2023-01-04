@@ -116,6 +116,8 @@
   <project path="packages/providers/TelephonyProvider" name="AOSPA/android_packages_providers_TelephonyProvider" remote="aospa" />
   <remove-project name="platform/packages/services/Telecomm" />
   <project path="packages/services/Telecomm" name="AOSPA/android_packages_services_Telecomm" remote="aospa" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <project path="packages/services/Telephony" name="AOSPA/android_packages_services_Telephony" remote="aospa" />
 
   <!-- Prebuilts (AOSPA) -->
   <project path="prebuilts/extract-tools" name="AOSPA/android_prebuilts_extract-tools" remote="aospa" />
