@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2b5dcb0e_0dad6bd2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000498
+      },
+      "writtenOn": "2023-01-10T20:42:08Z",
+      "side": 1,
+      "message": "https://github.com/Mashopy/android_hardware_lineage_compat\n\nOplus devices need libcamera_metadata_shim from that repo for making aux camera available",
+      "revId": "5c981b0bec302c888bcc1493a45003aa807a9bd2",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
