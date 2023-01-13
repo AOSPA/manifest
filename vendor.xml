@@ -5,7 +5,7 @@
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
   <project name="device/qcom/sepolicy_vndr" remote="clo_vendor"/>
-  <project name="device/qcom/vendor-common" rremote="clo_vendor"/>
+  <project name="device/qcom/vendor-common" remote="clo_vendor"/>
   <project name="platform/hardware/qcom/audio-ar" path="vendor/qcom/opensource/audio-hal/primary-hal" remote="clo_vendor">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/audio_vendor_product.mk" src="configs/audio_vendor_product.mk"/>
   </project>
