@@ -33,6 +33,23 @@
       "message": "\u003cproject name\u003d\"kernelplatform/prebuilts-master/clang/host/linux-x86\" path\u003d\"kernel_platform/prebuilts-master/clang/host/linux-x86\" remote\u003d\"clo_kernel\" clone-depth\u003d\"1\" /\u003e\n\nAnd this is just straight up duplicate.",
       "revId": "5ff982ac0aaf65559c323a29b2ebf8b6384153a5",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "048f6e8c_02a8455c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-01-15T07:41:15Z",
+      "side": 1,
+      "message": "\u003cproject name\u003d\"kernel/common\" path\u003d\"kernel_platform/common\" remote\u003d\"clo_kernel\" revision\u003d\"refs/tags/KERNEL.PLATFORM.1.0.r1-09000-WAIPIO.0\" /\u003e\n\nHardcoded revision.",
+      "revId": "5ff982ac0aaf65559c323a29b2ebf8b6384153a5",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
