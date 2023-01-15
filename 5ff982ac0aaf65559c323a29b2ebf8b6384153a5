@@ -50,6 +50,42 @@
       "message": "\u003cproject name\u003d\"kernel/common\" path\u003d\"kernel_platform/common\" remote\u003d\"clo_kernel\" revision\u003d\"refs/tags/KERNEL.PLATFORM.1.0.r1-09000-WAIPIO.0\" /\u003e\n\nHardcoded revision.",
       "revId": "5ff982ac0aaf65559c323a29b2ebf8b6384153a5",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6765901b_d23a672b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2023-01-15T19:52:55Z",
+      "side": 1,
+      "message": "that\u0027s the only revision waipio rev, no LA.VENDOR tags",
+      "parentUuid": "048f6e8c_02a8455c",
+      "revId": "5ff982ac0aaf65559c323a29b2ebf8b6384153a5",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c7c4e760_7bf89b78",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2023-01-15T19:52:55Z",
+      "side": 1,
+      "message": "would need edits to kernel/build to fix, should we do that",
+      "parentUuid": "b400cba5_68c9b63b",
+      "revId": "5ff982ac0aaf65559c323a29b2ebf8b6384153a5",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
