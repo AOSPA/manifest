@@ -13,14 +13,6 @@
   <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" remote="aosp"/>
   <remove-project name="platform/external/conscrypt" />
   <project path="external/conscrypt" name="platform/external/conscrypt" remote="aosp" />
-  <remove-project name="platform/external/dtc" />
-  <project path="external/dtc" name="platform/external/dtc" remote="aosp" />
-  <remove-project name="platform/external/erofs-utils" />
-  <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="b5bbcb383357b92acb10082878b32bbe831a2137" />
-  <remove-project name="platform/external/ims" />
-  <project path="external/ims" name="platform/external/ims" remote="aosp" />
-  <remove-project name="platform/external/libpalmrejection" />
-  <project path="external/libpalmrejection" name="platform/external/libpalmrejection" remote="aosp" />
   <remove-project name="platform/external/nos/host/generic" />
   <project path="external/nos/host/generic" name="platform/external/nos/host/generic" remote="aosp" />
   <remove-project name="platform/external/noto-fonts" />
@@ -45,14 +37,8 @@
   <project path="frameworks/opt/car/services" name="platform/frameworks/opt/car/services" remote="aosp" />
 
   <!-- Packages (AOSP) -->
-  <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
-  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" remote="aosp" />
-  <remove-project name="platform/packages/apps/DocumentsUI" />
-  <project path="packages/apps/DocumentsUI" name="platform/packages/apps/DocumentsUI" remote="aosp" />
   <remove-project name="platform/packages/apps/EmergencyInfo" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" remote="aosp" />
-  <remove-project name="platform/packages/apps/ImsServiceEntitlement" />
-  <project path="packages/apps/ImsServiceEntitlement" name="platform/packages/apps/ImsServiceEntitlement" remote="aosp" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <project path="packages/apps/SettingsIntelligence" name="platform/packages/apps/SettingsIntelligence" remote="aosp" />
   <remove-project name="platform/packages/apps/SystemUIGo" />
@@ -83,36 +69,8 @@
   <project path="packages/services/BuiltInPrintService" name="platform/packages/services/BuiltInPrintService" remote="aosp" />
   <remove-project name="platform/packages/services/Car" />
   <project path="packages/services/Car" name="platform/packages/services/Car" remote="aosp" />
-  <remove-project name="platform/packages/services/Iwlan" />
-  <project path="packages/services/Iwlan" name="platform/packages/services/Iwlan" remote="aosp" />
-  <remove-project name="platform/packages/services/Mms" />
-  <project path="packages/services/Mms" name="platform/packages/services/Mms" remote="aosp" />
-
-  <!-- Platform Testing (AOSP) -->
-  <remove-project name="platform/platform_testing" />
-  <project path="platform_testing" name="platform/platform_testing" remote="aosp" />
-
-  <!-- Prebuilts (AOSP) -->
-  <remove-project name="platform/prebuilts/r8" />
-  <project path="prebuilts/r8" name="platform/prebuilts/r8" remote="aosp" clone-depth="1" />
-  <remove-project name="platform/prebuilts/sdk" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" clone-depth="1" />
-  <remove-project name="platform/prebuilts/tools" />
-  <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" clone-depth="1" />
 
   <!-- System (AOSP) -->
-  <remove-project name="platform/system/apex" />
-  <project path="system/apex" name="platform/system/apex" remote="aosp" />
-  <remove-project name="platform/system/bpf" />
-  <project path="system/bpf" name="platform/system/bpf" remote="aosp" />
-  <remove-project name="platform/system/hardware/interfaces" />
-  <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" remote="aosp" />
-  <remove-project name="platform/system/incremental_delivery" />
-  <project path="system/incremental_delivery" name="platform/system/incremental_delivery" remote="aosp" />
-  <remove-project name="platform/system/libfmq" />
-  <project path="system/libfmq" name="platform/system/libfmq" remote="aosp" />
-  <remove-project name="platform/system/libufdt" />
-  <project path="system/libufdt" name="platform/system/libufdt" remote="aosp" />
   <remove-project name="platform/system/nfc" />
   <project path="system/nfc" name="platform/system/nfc" remote="aosp" />
 
