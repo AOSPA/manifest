@@ -12,10 +12,6 @@
   <remove-project name="platform/external/conscrypt" />
   <project path="external/conscrypt" name="platform/external/conscrypt" remote="aosp" />
 
-  <!-- Frameworks (AOSP) -->
-  <remove-project name="platform/frameworks/opt/car/services" />
-  <project path="frameworks/opt/car/services" name="platform/frameworks/opt/car/services" remote="aosp" />
-
   <!-- Packages (AOSP) -->
   <remove-project name="platform/packages/apps/EmergencyInfo" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" remote="aosp" />
@@ -29,8 +25,6 @@
   <project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" remote="aosp" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" remote="aosp" />
-  <remove-project name="platform/packages/services/Car" />
-  <project path="packages/services/Car" name="platform/packages/services/Car" remote="aosp" />
 
   <!-- System (AOSP) -->
   <remove-project name="platform/system/nfc" />
