@@ -10,21 +10,13 @@
           revision="refs/tags/android-13.0.0_r23"/>
 
   <!-- CLO -->
-  <remote name="clo_system"
+  <remote name="clo"
           fetch="https://git.codelinaro.org/clo/la"
           sync-c="true"
           sync-tags="false"
           review="codelinaro.org"/>
 
-  <remote name="clo_vendor"
-          fetch="https://git.codelinaro.org/clo/la"
-          sync-c="true"
-          sync-tags="false"
-          review="codelinaro.org"
-          revision="refs/tags/LA.VENDOR.1.0.r1-19800-WAIPIO.QSSI13.0"/>
-
-  <default revision="refs/tags/LA.QSSI.13.0.r1-08900.01-qssi.0"
-           remote="clo_system"/>
+  <default remote="clo"/>
 
   <include name="system.xml"/>
   <include name="vendor.xml"/>
