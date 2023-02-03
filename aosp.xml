@@ -6,15 +6,9 @@
   <project path="cts" name="platform/cts" remote="aosp" clone-depth="1" />
 
   <!-- External (AOSP) -->
-  <remove-project name="platform/external/boringssl" />
-  <project path="external/boringssl" name="platform/external/boringssl" remote="aosp" />
   <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" remote="aosp"/>
-  <remove-project name="platform/external/conscrypt" />
-  <project path="external/conscrypt" name="platform/external/conscrypt" remote="aosp" />
 
   <!-- Packages (AOSP) -->
-  <remove-project name="platform/packages/apps/EmergencyInfo" />
-  <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" remote="aosp" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <project path="packages/apps/SettingsIntelligence" name="platform/packages/apps/SettingsIntelligence" remote="aosp" />
   <remove-project name="platform/packages/apps/ThemePicker" />
@@ -23,8 +17,6 @@
   <project path="packages/apps/Traceur" name="platform/packages/apps/Traceur" remote="aosp" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" remote="aosp" />
-  <remove-project name="platform/packages/providers/MediaProvider" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" remote="aosp" />
 
   <!-- System (AOSP) -->
   <remove-project name="platform/system/nfc" />
