@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <refs>
-    <image bins_path="LA.QSSI.12.0.r1" default="true" name="LA.QSSI.12.0.r1" project="la/system/manifest" server="git://git-android.quicinc.com" tag="AU_LINUX_ANDROID_LA.QSSI.12.0.R1.11.00.00.782.098.00" targets="qssi"/>
-    <image name="KERNEL.PLATFORM.1.0.r1" project="kernelplatform/manifest" server="git://git-android.quicinc.com" tag="AU_LINUX_KERNEL.PLATFORM.1.0.R1.00.00.00.000.135" targets="waipio,parrot"/>
-    <image name="DISPLAY.LA.2.0.r1" project="techpack/display/manifest" server="git://git-android.quicinc.com" tag="AU_TECHPACK_DISPLAY.LA.2.0.R1.00.00.00.000.095" targets="tpdu"/>
-    <image name="VIDEO.LA.2.0.r1" project="techpack/video/manifest" server="git://git-android.quicinc.com" tag="AU_TECHPACK_VIDEO.LA.2.0.R1.00.00.00.000.070" targets="video"/>
-    <image name="CAMERA.LA.2.0.r1" project="techpack/camera/manifest" server="git://git-android.quicinc.com" tag="AU_TECHPACK_CAMERA.LA.2.0.R1.00.00.00.000.087" targets="camera"/>
-  </refs>
-  <remote fetch="https://git.codelinaro.org/clo/la" name="clo" review="codelinaro.org"/>
-  <default remote="clo" revision="partner-android/r-fs-release"/>
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="6c1f50c45fa5a76bcdd969f0bfb38bf788450eda" upstream="refs/heads/uefi.lnx.3.0.r2-rel"/>
   <project name="device/qcom/common" revision="3c01ad8e456c8d2202607590b324a48c69cc17ce" upstream="refs/heads/qcom-devices.lnx.7.0.r1-rel">
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
