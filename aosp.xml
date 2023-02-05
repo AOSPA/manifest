@@ -7,6 +7,8 @@
 
   <!-- External (AOSP) -->
   <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" remote="aosp"/>
+  <remove-project name="platform/external/chromium-webview" />
+  <project path="packages/external/chromium-webview" name="platform/external/chromium-webview" remote="aosp" clone-depth="1" />
 
   <!-- Packages (AOSP) -->
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
@@ -17,6 +19,18 @@
   <project path="packages/apps/Traceur" name="platform/packages/apps/Traceur" remote="aosp" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" remote="aosp" />
+
+  <!-- Prebuilts (AOSP) -->
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/module_sdk" />
+  <project path="prebuilts/module_sdk" name="platform/prebuilts/module_sdk" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/rust" />
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/sdk" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" clone-depth="1" />
+  <remove-project name="kernel/prebuilts/5.10/x86-64" />
+  <project path="kernel/prebuilts/5.10/x86_64" name="kernel/prebuilts/5.10/x86-64" remote="aosp" clone-depth="1" />
 
   <!-- System (AOSP) -->
   <remove-project name="platform/system/nfc" />
