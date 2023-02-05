@@ -70,7 +70,10 @@
   <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64"/>
   <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64"/>
   <remove-project name="kernel/prebuilts/mainline/arm64"/>
+  <remove-project name="kernel/prebuilts/mainline/x86_
+                        -64"/>
   <remove-project name="platform/prebuilts/android-emulator" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"/>
   <remove-project name="platform/prebuilts/qemu-kernel" />
 
   <!-- Vendor -->
