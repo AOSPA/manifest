@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- CTS (AOSP) -->
+  <!-- CTS -->
   <remove-project name="platform/cts" />
   <project path="cts" name="platform/cts" remote="aosp" clone-depth="1" />
+  
+  <!-- CTS -->
+  <remove-project name="device/google/cuttlefish_prebuilts" />
+  <project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" remote="aosp" clone-depth="1" />
 
-  <!-- External (AOSP) -->
+  <!-- External -->
   <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" remote="aosp"/>
+  <remove-project name="platform/external/chromium-webview" />
+  <project path="packages/external/chromium-webview" name="platform/external/chromium-webview" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/linux-kselftest" />
+  <project path="external/linux-kselftest" name="platform/external/linux-kselftest" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/subsampling-scale-image-view" />
+  <project path="external/subsampling-scale-image-view" name="platform/external/subsampling-scale-image-view" remote="aosp" clone-depth="1" />
 
-  <!-- Packages (AOSP) -->
+  <!-- Packages -->
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <project path="packages/apps/SettingsIntelligence" name="platform/packages/apps/SettingsIntelligence" remote="aosp" />
   <remove-project name="platform/packages/apps/ThemePicker" />
@@ -18,7 +28,23 @@
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" remote="aosp" />
 
-  <!-- System (AOSP) -->
+  <!-- Prebuilts -->
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/module_sdk/art" />
+  <project path="prebuilts/module_sdk/art" name="platform/prebuilts/module_sdk/art" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/r8" />
+  <project path="prebuilts/r8" name="platform/prebuilts/r8" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/rust" />
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/sdk" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" clone-depth="1" />
+  <remove-project name="kernel/prebuilts/5.10/arm64" />
+  <project path="kernel/prebuilts/5.10/arm64" name="kernel/prebuilts/5.10/arm64" remote="aosp" clone-depth="1" />
+  <remove-project name="kernel/prebuilts/5.10/x86-64" />
+  <project path="kernel/prebuilts/5.10/x86_64" name="kernel/prebuilts/5.10/x86-64" remote="aosp" clone-depth="1" />
+
+  <!-- System -->
   <remove-project name="platform/system/nfc" />
   <project path="system/nfc" name="platform/system/nfc" remote="aosp" />
 
