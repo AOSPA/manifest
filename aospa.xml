@@ -186,5 +186,7 @@
   <project path="vendor/qcom/opensource/vibrator" name="AOSPA/android_vendor_qcom-opensource_vibrator" remote="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/usb" />
   <project path="vendor/qcom/opensource/usb" name="AOSPA/android_vendor_qcom-opensource_usb" remote="aospa" />
+  <remove-project name="platform/hardware/qcom/thermal" />
+  <project path="vendor/qcom/opensource/thermal-hal" path="AOSPA/android_hardware_qcom_thermal" remote="aospa" />
 
 </manifest>
