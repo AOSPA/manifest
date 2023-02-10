@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee216588_6bd91cdc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000737
+      },
+      "writtenOn": "2023-02-10T19:29:21Z",
+      "side": 1,
+      "message": "https://github.com/CHRISL7/hardware_qcom-caf_thermal/tree/topaz",
+      "revId": "63bbe2f701371c130681acf1bfda4eee2cc85589",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
