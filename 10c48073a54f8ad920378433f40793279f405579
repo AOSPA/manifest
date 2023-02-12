@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d553cd1e_1f3d9117",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2023-02-12T11:20:34Z",
+      "side": 1,
+      "message": "Also probably worth pointing out that SDClang 16 is Clang 15.x.",
+      "revId": "10c48073a54f8ad920378433f40793279f405579",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
