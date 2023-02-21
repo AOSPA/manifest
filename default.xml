@@ -18,6 +18,7 @@
 
   <default remote="clo-la"/>
 
+  <include name="kernel_platform.xml"/>
   <include name="system.xml"/>
   <include name="vendor.xml"/>
 
