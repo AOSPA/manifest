@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="kernel/build" path="kernel_platform/build" revision="refs/heads/kernel.lnx.5.10.r1-rel" />
+  <project name="kernel/common" path="kernel_platform/common" revision="refs/heads/ks-kernel.lnx.1.0.r1-rel" />
+  <project name="kernel/prebuilts/build-tools" path="kernel_platform/prebuilts/kernel-build-tools" clone-depth="1" revision="10ab783184f77d3ea15bf666426a7138b0f62bfc" />
+  <project name="kernel_platform/external/dtc" revision="deb932d81061c472e8bb2648a409a456e6e84997" />
+  <project name="kernel_platform/prebuilts/build-tools" clone-depth="1" revision="846214bd11004546cd3fc2590c73c628fcd6778c" />
+  <project name="kernelplatform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="kernel_platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" remote="clo" clone-depth="1" revision="refs/tags/KERNEL.PLATFORM.1.0.r1-11600-kernel.0" />
+  <project name="kernel_platform/system/tools/mkbootimg" path="kernel_platform/tools/mkbootimg" clone-depth="1" revision="08410f46318f3f301b96ed058466ab0dde0b050b" />
+  <project name="kernelplatform/prebuilts-master/clang/host/linux-x86" path="kernel_platform/prebuilts-master/clang/host/linux-x86" clone-depth="1" revision="0fc3d01a780023469b7acc18c56a9cf5099a6d6c" />
+</manifest>
