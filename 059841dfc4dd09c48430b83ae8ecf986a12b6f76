@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d082266f_b954d674",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2023-02-26T17:53:35Z",
+      "side": 1,
+      "message": "tagged because latest HEAD (https://github.com/LineageOS/android_packages_apps_Aperture/commit/636f22501872578f9388edeae1ae4fd1eec770e2) doesn\u0027t build (missing dep? havent looked into)",
+      "revId": "059841dfc4dd09c48430b83ae8ecf986a12b6f76",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
