@@ -98,6 +98,9 @@
   <project path="packages/apps/Paranoid/SystemUI" name="AOSPA/android_packages_apps_Paranoid_SystemUI" remote="aospa" />
   <project path="packages/resources/devicesettings" name="AOSPA/android_packages_resources_devicesettings" remote="aospa" />
 
+  <!-- Packages (LineageOS) -->
+  <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" remote="github revision="be96723fb9fa5a2d421ea4ec8ebc05b8870eb88b"" />
+
   <!-- Packages -->
   <remove-project name="platform/packages/apps/CarrierConfig" />
   <project path="packages/apps/CarrierConfig" name="AOSPA/android_packages_apps_CarrierConfig" remote="aospa" />
