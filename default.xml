@@ -10,13 +10,13 @@
           revision="refs/tags/android-13.0.0_r23"/>
 
   <!-- CLO -->
-  <remote name="clo"
+  <remote name="clo-la"
           fetch="https://git.codelinaro.org/clo/la"
           sync-c="true"
           sync-tags="false"
           review="codelinaro.org"/>
 
-  <default remote="clo"/>
+  <default remote="clo-la"/>
 
   <include name="system.xml"/>
   <include name="vendor.xml"/>
