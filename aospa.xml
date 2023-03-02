@@ -155,6 +155,7 @@
   <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="blobs" />
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="blobs" />
   <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" revision="disabled" />
+  <project path="vendor/support" name="AOSPA/android_vendor_support" remote="aospa" >
 
   <!-- Vendor (QCOM) -->
   <remove-project name="platform/vendor/nxp/opensource/packages/apps/Nfc" />
