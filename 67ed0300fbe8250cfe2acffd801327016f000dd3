@@ -33,6 +33,23 @@
       "message": "do like https://github.com/pa-gr/android_vendor_aospa/commit/e75518d44ac45cc4e5a63912d5bf1ec7481151e3\nif you really need it",
       "revId": "67ed0300fbe8250cfe2acffd801327016f000dd3",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e7b2d713_47fe3ad3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000715
+      },
+      "writtenOn": "2023-03-03T07:04:26Z",
+      "side": 1,
+      "message": "import in vendor",
+      "revId": "67ed0300fbe8250cfe2acffd801327016f000dd3",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
