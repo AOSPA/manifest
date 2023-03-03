@@ -16,6 +16,23 @@
       "message": "https://github.com/CHRISL7/android_vendor_support",
       "revId": "67ed0300fbe8250cfe2acffd801327016f000dd3",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c9f2874b_801e6368",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000730
+      },
+      "writtenOn": "2023-03-03T05:29:09Z",
+      "side": 1,
+      "message": "do like https://github.com/pa-gr/android_vendor_aospa/commit/e75518d44ac45cc4e5a63912d5bf1ec7481151e3\nif you really need it",
+      "revId": "67ed0300fbe8250cfe2acffd801327016f000dd3",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
