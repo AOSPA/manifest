@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Build and Core -->
+  <remove-project name="platform/build_repo" />
+  <project path="build/make" name="android_build" remote="aospa-chris" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <remove-project name="platform/bionic" />
+  <project path="bionic" name="android_bionic" remote="aospa-chris" />
+
+  <!-- Bootable -->
+  <remove-project name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="aospa-chris" />
+
+  <!-- Device -->
+  <remove-project name="device/qcom/common" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="aospa-chris" >
+    <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
+  </project>
+  <remove-project name="device/qcom/sepolicy_vndr" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="aospa-chris" />
+
+  <!-- External -->
+  <remove-project name="platform/external/mksh" />
+  <project path="external/mksh" name="android_external_mksh" remote="aospa-chris" />
+
+  <!-- Frameworks -->
+  <remove-project name="platform/frameworks/av" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="aospa-chris" />
+  <remove-project name="platform/frameworks/base" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="aospa-chris" />
+  <remove-project name="platform/frameworks/native" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="aospa-chris" />
+
+  <!-- Manifest -->
+  <project path="manifest" name="manifest" remote="aospa-chris" />
+
+  <!-- Packages -->
+  <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="aospa-chris" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="aospa-chris" />
+
+</manifest>
