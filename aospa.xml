@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Build and Core -->
   <remove-project name="platform/art" />
   <project path="art" name="AOSPA/android_art" remote="aospa" />
-  <remove-project name="platform/bionic" />
-  <project path="bionic" name="AOSPA/android_bionic" remote="aospa" />
-  <remove-project name="platform/build_repo" />
-  <project path="build/make" name="AOSPA/android_build" remote="aospa" >
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
   <remove-project name="platform/build/soong" />
   <project path="build/soong" name="AOSPA/android_build_soong" remote="aospa" >
     <linkfile src="root.bp" dest="Android.bp" />
@@ -23,21 +11,11 @@
   <remove-project name="platform/libcore" />
   <project path="libcore" name="AOSPA/android_libcore" remote="aospa" />
 
-  <!-- Bootable -->
-  <remove-project name="platform/bootable/recovery" />
-  <project path="bootable/recovery" name="AOSPA/android_bootable_recovery" remote="aospa" />
-
   <!-- Device -->
-  <remove-project name="device/qcom/common" />
-  <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="aospa" >
-    <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
-  </project>
   <remove-project name="device/qcom/qssi" />
   <project path="device/qcom/qssi" name="AOSPA/android_device_qcom_qssi" remote="aospa" />
   <remove-project name="device/qcom/sepolicy" />
   <project path="device/qcom/sepolicy" name="AOSPA/android_device_qcom_sepolicy" remote="aospa" />
-  <remove-project name="device/qcom/sepolicy_vndr" />
-  <project path="device/qcom/sepolicy_vndr" name="AOSPA/android_device_qcom_sepolicy_vndr" remote="aospa" />
   <remove-project name="device/qcom/vendor-common" />
   <project path="device/qcom/vendor-common" name="AOSPA/android_device_qcom_vendor-common" remote="aospa" />
   <project path="device/qcom/kernelscripts" name="AOSPA/android_kernel_build" remote="aospa" >
@@ -71,12 +49,6 @@
   <project path="external/zlib" name="AOSPA/android_external_zlib" remote="aospa" />
 
   <!-- Frameworks -->
-  <remove-project name="platform/frameworks/av" />
-  <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" />
-  <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" />
-  <remove-project name="platform/frameworks/native" />
-  <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" />
   <remove-project name="platform/frameworks/opt/net/ims" />
   <project path="frameworks/opt/net/ims" name="AOSPA/android_frameworks_opt_net_ims" remote="aospa" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
@@ -99,9 +71,6 @@
   <!-- Hardware (Lineage) -->
   <project path="hardware/lineage/compat" name="AOSPA/android_hardware_lineage_compat" remote="aospa" />
 
-  <!-- Manifest -->
-  <project path="manifest" name="AOSPA/manifest" remote="aospa" />
-
   <!-- Packages (AOSPA) -->
   <project path="packages/apps/ParanoidDoze" name="AOSPA/android_packages_apps_ParanoidDoze" remote="aospa" />
   <project path="packages/apps/ParanoidHub" name="AOSPA/android_packages_apps_ParanoidHub" remote="aospa" revision="main" />
@@ -113,8 +82,6 @@
   <!-- Packages -->
   <remove-project name="platform/packages/apps/CarrierConfig" />
   <project path="packages/apps/CarrierConfig" name="AOSPA/android_packages_apps_CarrierConfig" remote="aospa" />
-  <remove-project name="platform/packages/apps/Launcher3" />
-  <project path="packages/apps/Launcher3" name="AOSPA/android_packages_apps_Launcher3" remote="aospa" />
   <remove-project name="platform/packages/apps/Nfc" />
   <project path="packages/apps/Nfc" name="AOSPA/android_packages_apps_Nfc" remote="aospa" />
   <remove-project name="platform/packages/apps/Settings" />

@@ -48,8 +48,13 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
+  <remote  name="aospa-chris"
+           fetch="https://github.com/aospa-chrisl7"
+           revision="topaz" />
+
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
+  <include name="aospa-chris.xml"/>
   <include name="obsolete.xml"/>
 
 </manifest>
