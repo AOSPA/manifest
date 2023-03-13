@@ -161,6 +161,8 @@
   <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" revision="disabled" />
 
   <!-- Vendor (QCOM) -->
+  <remove-project name="platform/vendor/codeaurora/telephony" />
+  <project path="vendor/codeaurora/commonsys/telephony" name="AOSPA/android_vendor_codeaurora_commonsys_telephony" remote="aospa" />
   <remove-project name="platform/vendor/nxp/opensource/packages/apps/Nfc" />
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="AOSPA/android_vendor_nxp_opensource_packages_apps_Nfc" remote="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
