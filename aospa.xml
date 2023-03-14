@@ -158,7 +158,7 @@
   <project path="vendor/google/gms" name="android_vendor_google_gms" remote="blobs-gitlab" />
   <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="blobs" />
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="blobs" />
-  <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" revision="disabled" />
+  <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs-gitlab" revision="disabled" />
 
   <!-- Vendor (QCOM) -->
   <remove-project name="platform/vendor/codeaurora/telephony" />
