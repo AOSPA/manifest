@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3f79e8b_46886586",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000469
+      },
+      "writtenOn": "2023-03-20T09:02:40Z",
+      "side": 1,
+      "message": "Just use\n\n  \u003cremove-project name\u003d\"platform/external/grpc-grpc\" /\u003e\n\ninstead",
+      "revId": "cf9aee406872b8921e66b2e860c33b018288ab15",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
