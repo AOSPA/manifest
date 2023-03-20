@@ -13,6 +13,8 @@
   <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" remote="aosp"/>
   <remove-project name="platform/external/chromium-webview" />
   <project path="packages/external/chromium-webview" name="platform/external/chromium-webview" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/grpc-grpc" />
+  <project path="external/grpc-grpc" name="platform/external/grpc-grpc" remote="aosp" />
   <remove-project name="platform/external/linux-kselftest" />
   <project path="external/linux-kselftest" name="platform/external/linux-kselftest" remote="aosp" clone-depth="1" />
   <remove-project name="platform/external/subsampling-scale-image-view" />
