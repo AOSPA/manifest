@@ -152,6 +152,8 @@
   <project path="system/sepolicy" name="AOSPA/android_system_sepolicy" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/vold" />
   <project path="system/vold" name="AOSPA/android_system_vold" remote="aospa" groups="aospa" />
+  <remove-project name="platform/vendor/nxp/opensource/external/libnfc-nci" />
+  <project path="vendor/nxp/opensource/external/libnfc-nci" name="AOSPA/android_vendor_nxp_opensource_external_libnfc-nci" remote="aospa" groups="aospa" />
 
   <!-- Vendor -->
   <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="aospa" groups="aospa" >
