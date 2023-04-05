@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f2f54d0f_6b6aac50",
+        "filename": "system.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-04-05T21:39:06Z",
+      "side": 1,
+      "message": "remove this.",
+      "revId": "6f9cf7fa300a36d002aeb5f3a3aeaaa9a6e2b47a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
