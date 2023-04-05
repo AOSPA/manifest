@@ -54,8 +54,7 @@
   <project path="packages/external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" />
   <remove-project name="platform/external/okio" />
   <project path="packages/external/okio" name="platform/external/okio" remote="aosp" />
-  <remove-project name="platform/external/robolectric" />
-  <project path="packages/external/robolectric" name="platform/external/robolectric" remote="aosp" />
+  <project path="external/robolectric" name="platform/external/robolectric" remote="aosp" />
   <remove-project name="platform/external/robolectric-shadows" />
   <project path="packages/external/robolectric-shadows" name="platform/external/robolectric-shadows" remote="aosp" />
   <remove-project name="platform/external/setupcompat" />
@@ -72,7 +71,7 @@
   <project path="packages/external/unicode" name="platform/external/unicode" remote="aosp" />
 
   <!-- Frameworks -->
-  <remove-project name="frameworks/libs/systemui" />
+  <remove-project name="platform/frameworks/libs/systemui" />
   <project path="frameworks/libs/systemui" name="platform/frameworks/libs/systemui" remote="aosp" />
 
   <!-- Packages -->
@@ -107,7 +106,7 @@
   <remove-project name="platform/packages/services/Mms" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" remote="aosp" />
   <remove-project name="platform/packages/wallpapers/LivePicker" />
-  <project path="packages/services/wallpapers/LivePicker" name="platform/packages/services/wallpapers/LivePicker" remote="aosp" />
+  <project path="packages/packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" remote="aosp" />
 
   <!-- Prebuilts -->
   <remove-project name="kernel/prebuilts/5.10/arm64" />
