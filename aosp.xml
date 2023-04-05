@@ -4,21 +4,79 @@
   <!-- CTS -->
   <remove-project name="platform/cts" />
   <project path="cts" name="platform/cts" remote="aosp" clone-depth="1" />
-  
+
   <!-- CTS -->
+  <remove-project name="platform/development" />
+  <project path="development" name="platform/development" remote="aosp" />
+  
+  <!-- Device -->
   <remove-project name="device/google/cuttlefish_prebuilts" />
   <project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" remote="aosp" clone-depth="1" />
 
   <!-- External -->
-  <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" remote="aosp"/>
+  <remove-project name="platform/external/angle" />
+  <project path="packages/external/angle" name="platform/external/angle" remote="aosp" />
+  <remove-project name="platform/external/auto" />
+  <project path="packages/external/auto" name="platform/external/auto" remote="aosp" />
+  <remove-project name="platform/external/bouncycastle" />
+  <project path="packages/external/bouncycastle" name="platform/external/bouncycastle" remote="aosp" />
+  <remove-project name="platform/external/cldr" />
+  <project path="packages/external/cldr" name="platform/external/cldr" remote="aosp" />
   <remove-project name="platform/external/chromium-webview" />
   <project path="packages/external/chromium-webview" name="platform/external/chromium-webview" remote="aosp" clone-depth="1" />
+  <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" remote="aosp"/>
+  <remove-project name="platform/external/conscrypt" />
+  <project path="packages/external/conscrypt" name="platform/external/conscrypt" remote="aosp" />
+  <remove-project name="platform/external/freetype" />
+  <project path="packages/external/freetype" name="platform/external/freetype" remote="aosp" />
+  <remove-project name="platform/external/gfxstream-protocols" />
+  <project path="packages/external/gfxstream-protocols" name="platform/external/gfxstream-protocols" remote="aosp" />
+  <remove-project name="platform/external/icu" />
+  <project path="packages/external/icu" name="platform/external/icu" remote="aosp" />
+  <remove-project name="platform/external/kotlinc" />
+  <project path="packages/external/kotlinc" name="platform/external/kotlinc" remote="aosp" />
+  <remove-project name="platform/external/kotlinx.coroutines" />
+  <project path="packages/external/kotlinx.coroutines" name="platform/external/kotlinx.coroutines" remote="aosp" />
+  <remove-project name="platform/external/kotlinx.metadata" />
+  <project path="packages/external/kotlinx.metadata" name="platform/external/kotlinx.metadata" remote="aosp" />
+  <remove-project name="platform/external/ktfmt" />
+  <project path="packages/external/ktfmt" name="platform/external/ktfmt" remote="aosp" />
+  <remove-project name="platform/external/libavc" />
+  <project path="packages/external/libavc" name="platform/external/libavc" remote="aosp" />
+  <remove-project name="platform/external/libxml2" />
+  <project path="packages/external/libxml2" name="platform/external/libxml2" remote="aosp" />
   <remove-project name="platform/external/linux-kselftest" />
   <project path="external/linux-kselftest" name="platform/external/linux-kselftest" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/nos/host/generic" />
+  <project path="packages/external/nos/host/generic" name="platform/external/nos/host/generic" remote="aosp" />
+  <remove-project name="platform/external/noto-fonts" />
+  <project path="packages/external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" />
+  <remove-project name="platform/external/okio" />
+  <project path="packages/external/okio" name="platform/external/okio" remote="aosp" />
+  <remove-project name="platform/external/robolectric" />
+  <project path="packages/external/robolectric" name="platform/external/robolectric" remote="aosp" />
+  <remove-project name="platform/external/robolectric-shadows" />
+  <project path="packages/external/robolectric-shadows" name="platform/external/robolectric-shadows" remote="aosp" />
+  <remove-project name="platform/external/setupcompat" />
+  <project path="packages/external/setupcompat" name="platform/external/setupcompat" remote="aosp" />
+  <remove-project name="platform/external/setupdesign" />
+  <project path="packages/external/setupdesign" name="platform/external/setupdesign" remote="aosp" />
+  <remove-project name="platform/external/sl4a" />
+  <project path="packages/external/sl4a" name="platform/external/sl4a" remote="aosp" />
   <remove-project name="platform/external/subsampling-scale-image-view" />
   <project path="external/subsampling-scale-image-view" name="platform/external/subsampling-scale-image-view" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/tinyalsa_new" />
+  <project path="packages/external/tinyalsa_new" name="platform/external/tinyalsa_new" remote="aosp" />
+  <remove-project name="platform/external/unicode" />
+  <project path="packages/external/unicode" name="platform/external/unicode" remote="aosp" />
+
+  <!-- Frameworks -->
+  <remove-project name="frameworks/libs/systemui" />
+  <project path="frameworks/libs/systemui" name="platform/frameworks/libs/systemui" remote="aosp" />
 
   <!-- Packages -->
+  <remove-project name="platform/packages/apps/ManagedProvisioning" />
+  <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" remote="aosp" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <project path="packages/apps/SettingsIntelligence" name="platform/packages/apps/SettingsIntelligence" remote="aosp" />
   <remove-project name="platform/packages/apps/ThemePicker" />
@@ -33,6 +91,22 @@
   <project path="packages/modules/BootPrebuilt/5.4/arm64" name="platform/packages/modules/BootPrebuilt/5.4/arm64" remote="aosp" clone-depth="1" />
   <remove-project name="platform/packages/modules/BootPrebuilt/5.10/arm64" />
   <project path="packages/modules/BootPrebuilt/5.10/arm64" name="platform/packages/modules/BootPrebuilt/5.10/arm64" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/packages/modules/common" />
+  <project path="packages/modules/common" name="platform/packages/modules/common" remote="aosp" />
+  <remove-project name="platform/packages/modules/IntentResolver" />
+  <project path="packages/modules/IntentResolver" name="platform/packages/modules/IntentResolver" remote="aosp" />
+  <remove-project name="platform/packages/modules/Permission" />
+  <project path="packages/modules/Permission" name="platform/packages/modules/Permission" remote="aosp" />
+  <remove-project name="platform/packages/modules/StatsD" />
+  <project path="packages/modules/StatsD" name="platform/packages/modules/StatsD" remote="aosp" />
+  <remove-project name="platform/packages/services/BuiltInPrintService" />
+  <project path="packages/services/BuiltInPrintService" name="platform/packages/services/BuiltInPrintService" remote="aosp" />
+  <remove-project name="platform/packages/services/Iwlan" />
+  <project path="packages/services/Iwlan" name="platform/packages/services/Iwlan" remote="aosp" />
+  <remove-project name="platform/packages/services/Mms" />
+  <project path="packages/services/Mms" name="platform/packages/services/Mms" remote="aosp" />
+  <remove-project name="platform/packages/wallpapers/LivePicker" />
+  <project path="packages/services/wallpapers/LivePicker" name="platform/packages/services/wallpapers/LivePicker" remote="aosp" />
 
   <!-- Prebuilts -->
   <remove-project name="kernel/prebuilts/5.10/arm64" />
@@ -155,6 +229,12 @@
   <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" remote="aosp" clone-depth="1" />
 
   <!-- System -->
+  <remove-project name="platform/system/apex" />
+  <project path="system/apex" name="platform/system/apex" remote="aosp" />
+  <remove-project name="platform/system/libufdt" />
+  <project path="system/libufdt" name="platform/system/libufdt" remote="aosp" />
+  <remove-project name="platform/system/logging" />
+  <project path="system/logging" name="platform/system/logging" remote="aosp" />
   <remove-project name="platform/system/nfc" />
   <project path="system/nfc" name="platform/system/nfc" remote="aosp" />
 
