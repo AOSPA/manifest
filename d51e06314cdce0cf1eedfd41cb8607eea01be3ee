@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "01da059e_89b58235",
+        "filename": "system.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 438,
+      "author": {
+        "id": 1000785
+      },
+      "writtenOn": "2023-04-09T17:21:48Z",
+      "side": 1,
+      "message": "https://github.com/AOSPA/manifest/blob/f783cd40d2a4dbbbd036c2c1b8040c9d9d7b8cd5/aosp.xml#LL55C26-L55C30",
+      "revId": "d51e06314cdce0cf1eedfd41cb8607eea01be3ee",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
