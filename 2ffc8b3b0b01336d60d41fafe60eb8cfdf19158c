@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "54338d70_efd95982",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-04-09T17:35:38Z",
+      "side": 1,
+      "message": "seems like something Qualcomm won\u0027t ever change so I think stick with aosp",
+      "revId": "2ffc8b3b0b01336d60d41fafe60eb8cfdf19158c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
