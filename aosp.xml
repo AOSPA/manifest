@@ -52,7 +52,6 @@
   <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" />
   <remove-project name="platform/external/okio" />
   <project path="external/okio" name="platform/external/okio" remote="aosp" />
-  <project path="external/robolectric" name="platform/external/robolectric" remote="aosp" />
   <remove-project name="platform/external/robolectric-shadows" />
   <project path="external/robolectric-shadows" name="platform/external/robolectric-shadows" remote="aosp" />
   <remove-project name="platform/external/setupcompat" />
