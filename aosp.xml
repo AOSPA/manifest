@@ -97,6 +97,10 @@
   <project path="packages/modules/Permission" name="platform/packages/modules/Permission" remote="aosp" />
   <remove-project name="platform/packages/modules/StatsD" />
   <project path="packages/modules/StatsD" name="platform/packages/modules/StatsD" remote="aosp" />
+  <remove-project name="platform/packages/modules/Virtualization" />
+  <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" remote="aosp" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" remote="aosp" />
   <remove-project name="platform/packages/services/BuiltInPrintService" />
   <project path="packages/services/BuiltInPrintService" name="platform/packages/services/BuiltInPrintService" remote="aosp" />
   <remove-project name="platform/packages/services/Iwlan" />
