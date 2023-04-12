@@ -51,6 +51,24 @@
       "message": "how come other 4.19 (non-gki) works without it",
       "revId": "599af13f96ec2ebe96470bad5ca82a82d6159449",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "66a226f0_a30c6e1b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000498
+      },
+      "writtenOn": "2023-04-12T13:55:26Z",
+      "side": 1,
+      "message": "All of them spoof ikconfig as far I have seen",
+      "parentUuid": "f86ba938_6b56ed5c",
+      "revId": "599af13f96ec2ebe96470bad5ca82a82d6159449",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
