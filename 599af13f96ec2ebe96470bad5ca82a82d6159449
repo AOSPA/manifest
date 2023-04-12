@@ -69,6 +69,24 @@
       "parentUuid": "f86ba938_6b56ed5c",
       "revId": "599af13f96ec2ebe96470bad5ca82a82d6159449",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0853389d_8438d488",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000498
+      },
+      "writtenOn": "2023-04-12T13:57:22Z",
+      "side": 1,
+      "message": "And it doesn\u0027t change the fact that non-GKI kernel need that, they doesn\u0027t support full LLVM kernel builds unlike android12-5.4, 5.10 and 5.15",
+      "parentUuid": "66a226f0_a30c6e1b",
+      "revId": "599af13f96ec2ebe96470bad5ca82a82d6159449",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
