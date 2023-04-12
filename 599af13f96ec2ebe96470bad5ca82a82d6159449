@@ -16,6 +16,24 @@
       "message": "why?",
       "revId": "599af13f96ec2ebe96470bad5ca82a82d6159449",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1e7aad0f_c2eb6420",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000498
+      },
+      "writtenOn": "2023-04-12T13:38:07Z",
+      "side": 1,
+      "message": "vendor/aospa set cross compiler to GCC 4.9 and non-GKI kernel need that",
+      "parentUuid": "e27ba56d_05688bd6",
+      "revId": "599af13f96ec2ebe96470bad5ca82a82d6159449",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
