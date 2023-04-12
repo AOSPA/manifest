@@ -34,6 +34,23 @@
       "parentUuid": "e27ba56d_05688bd6",
       "revId": "599af13f96ec2ebe96470bad5ca82a82d6159449",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f86ba938_6b56ed5c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000730
+      },
+      "writtenOn": "2023-04-12T13:51:51Z",
+      "side": 1,
+      "message": "how come other 4.19 (non-gki) works without it",
+      "revId": "599af13f96ec2ebe96470bad5ca82a82d6159449",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
