@@ -33,6 +33,24 @@
       "message": "guess it would be better putting it at github.com/ThankYouMario\n\ncc: jake",
       "revId": "4d2d8b7027bb5c47e3b6c62bcc3a38873bdcf892",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e5c3b0e7_4fa79148",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-04-13T19:38:43Z",
+      "side": 1,
+      "message": "TYM exists for proprietary blobs only, for protection against takedowns. Everything else goes in AOSPA.",
+      "parentUuid": "b3d6ed22_dd79557c",
+      "revId": "4d2d8b7027bb5c47e3b6c62bcc3a38873bdcf892",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
