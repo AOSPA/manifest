@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "686f998d_8dde8cdc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000498
+      },
+      "writtenOn": "2023-04-13T19:21:21Z",
+      "side": 1,
+      "message": "https://github.com/Mashopy/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu\nhttps://github.com/Mashopy/android_prebuilts_gcc_linux-x86_arm_arm-linux-gnueabihf",
+      "revId": "4d2d8b7027bb5c47e3b6c62bcc3a38873bdcf892",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
