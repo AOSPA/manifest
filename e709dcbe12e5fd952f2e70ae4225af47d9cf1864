@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f81cf643_2c5b324f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000737
+      },
+      "writtenOn": "2023-04-18T19:49:29Z",
+      "side": 1,
+      "message": "https://github.com/CHRISL7/android_device_qcom_wlan\n\nLA.VENDOR.13.2.0.r1-14200-KAILUA.QSSI14.0 + legacy commits from A11 TAGs",
+      "revId": "e709dcbe12e5fd952f2e70ae4225af47d9cf1864",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
