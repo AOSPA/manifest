@@ -29,7 +29,6 @@
   <project path="external/freetype" name="platform/external/freetype" remote="aosp" />
   <remove-project name="platform/external/gfxstream-protocols" />
   <project path="external/gfxstream-protocols" name="platform/external/gfxstream-protocols" remote="aosp" />
-  <project path="external/grpc-grpc" name="platform/external/grpc-grpc" remote="aosp" />
   <remove-project name="platform/external/icu" />
   <project path="external/icu" name="platform/external/icu" remote="aosp" />
   <remove-project name="platform/external/kotlinc" />
