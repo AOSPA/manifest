@@ -57,8 +57,6 @@
   <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="aospa" />
   <remove-project name="platform/external/libpng" />
   <project path="external/libpng" name="AOSPA/android_external_libpng" remote="aospa" />
-  <remove-project name="platform/external/okhttp" />
-  <project path="external/okhttp" name="AOSPA/android_external_okhttp" remote="aospa" />
   <remove-project name="platform/external/skia" />
   <project path="external/skia" name="AOSPA/android_external_skia" remote="aospa" />
   <remove-project name="platform/external/sqlite" />
@@ -77,14 +75,8 @@
   <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" />
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" />
-  <remove-project name="platform/frameworks/opt/net/ims" />
-  <project path="frameworks/opt/net/ims" name="AOSPA/android_frameworks_opt_net_ims" remote="aospa" />
-  <remove-project name="platform/frameworks/opt/net/wifi" />
-  <project path="frameworks/opt/net/wifi" name="AOSPA/android_frameworks_opt_net_wifi" remote="aospa" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="aospa" />
-  <remove-project name="platform/frameworks/proto_logging" />
-  <project path="frameworks/proto_logging" name="AOSPA/android_frameworks_proto_logging" remote="aospa" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
@@ -127,8 +119,6 @@
   <project path="packages/modules/common" name="AOSPA/android_packages_modules_common" remote="aospa" />
   <remove-project name="platform/packages/modules/Wifi" />
   <project path="packages/modules/Wifi" name="AOSPA/android_packages_modules_Wifi" remote="aospa" />
-  <remove-project name="platform/packages/providers/TelephonyProvider" />
-  <project path="packages/providers/TelephonyProvider" name="AOSPA/android_packages_providers_TelephonyProvider" remote="aospa" />
   <remove-project name="platform/packages/services/Telecomm" />
   <project path="packages/services/Telecomm" name="AOSPA/android_packages_services_Telecomm" remote="aospa" />
   <remove-project name="platform/packages/services/Telephony" />
@@ -141,22 +131,12 @@
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
 
   <!-- System -->
-  <remove-project name="platform/system/connectivity/wificond" />
-  <project path="system/connectivity/wificond" name="AOSPA/android_system_connectivity_wificond" remote="aospa" />
-  <remove-project name="platform/system/chre" />
-  <project path="system/chre" name="AOSPA/android_system_chre" remote="aospa" />
   <remove-project name="platform/system/core" />
   <project path="system/core" name="AOSPA/android_system_core" remote="aospa" />
-  <remove-project name="platform/system/libhidl" />
-  <project path="system/libhidl" name="AOSPA/android_system_libhidl" remote="aospa" />
-  <remove-project name="platform/system/media" />
-  <project path="system/media" name="AOSPA/android_system_media" remote="aospa" />
   <remove-project name="platform/system/memory/lmkd" />
   <project path="system/memory/lmkd" name="AOSPA/android_system_memory_lmkd" remote="aospa" />
   <remove-project name="platform/system/qcom" />
   <project path="vendor/qcom/opensource/softap" name="AOSPA/android_system_qcom" remote="aospa" />
-  <remove-project name="platform/system/security" />
-  <project path="system/security" name="AOSPA/android_system_security" remote="aospa" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="AOSPA/android_system_sepolicy" remote="aospa" />
   <remove-project name="platform/system/update_engine" />
