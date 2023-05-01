@@ -35,6 +35,8 @@
   <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" remote="aosp" />
   <remove-project name="platform/packages/services/BuiltInPrintService" />
   <project path="packages/services/BuiltInPrintService" name="platform/packages/services/BuiltInPrintService" remote="aosp" />
+  <remove-project name="platform/packages/services/Iwlan" />
+  <project path="packages/services/Iwlan" name="platform/packages/services/Iwlan" remote="aosp" />
   <remove-project name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" remote="aosp" />
 
