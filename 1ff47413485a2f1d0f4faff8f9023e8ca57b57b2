@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "38a499a4_44e8e6be",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-05-18T05:44:54Z",
+      "side": 1,
+      "message": "No harm in merging this prior to switching platform to jemalloc.",
+      "revId": "1ff47413485a2f1d0f4faff8f9023e8ca57b57b2",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
