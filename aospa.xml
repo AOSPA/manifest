@@ -53,6 +53,8 @@
   <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="f3669fe94b327235b033c2b6a88a6a28d586cff8" />
   <remove-project name="platform/external/fastrpc" />
   <project path="external/fastrpc" name="AOSPA/android_external_fastrpc" remote="aospa" />
+  <remove-project name="platform/external/f2fs-tools" />
+  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" remote="aosp" revision="59381daac28229894d70bbf3d9ff4fd3d13541ab" />
   <remove-project name="platform/external/jemalloc_new" />
   <project path="external/jemalloc_new" name="AOSPA/android_external_jemalloc-new" remote="aospa" />
   <remove-project name="platform/external/libjpeg-turbo" />
