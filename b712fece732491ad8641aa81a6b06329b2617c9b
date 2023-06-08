@@ -16,6 +16,23 @@
       "message": "Tested.",
       "revId": "b712fece732491ad8641aa81a6b06329b2617c9b",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f6e9fd4f_ba2228c8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-06-08T14:19:50Z",
+      "side": 1,
+      "message": "for more robust fsck during boot",
+      "revId": "b712fece732491ad8641aa81a6b06329b2617c9b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
