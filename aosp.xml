@@ -153,8 +153,6 @@
   <project path="prebuilts/module_sdk/AdServices" name="platform/prebuilts/module_sdk/AdServices" remote="aosp" clone-depth="1" />
   <remove-project name="platform/prebuilts/module_sdk/AppSearch" />
   <project path="prebuilts/module_sdk/AppSearch" name="platform/prebuilts/module_sdk/AppSearch" remote="aosp" clone-depth="1" />
-  <remove-project name="platform/prebuilts/module_sdk/Bluetooth" />
-  <project path="prebuilts/module_sdk/Bluetooth" name="platform/prebuilts/module_sdk/Bluetooth" remote="aosp" clone-depth="1" />
   <remove-project name="platform/prebuilts/module_sdk/conscrypt" />
   <project path="prebuilts/module_sdk/conscrypt" name="platform/prebuilts/module_sdk/conscrypt" remote="aosp" clone-depth="1" />
   <remove-project name="platform/prebuilts/module_sdk/Connectivity" />
