@@ -10,11 +10,49 @@
   <project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" remote="aosp" clone-depth="1" />
 
   <!-- External -->
+  <remove-project name="platform/external/angle" />
+  <project path="packages/external/angle" name="platform/external/angle" remote="aosp" />
   <remove-project name="platform/external/chromium-webview" />
   <project path="external/chromium-webview" name="platform/external/chromium-webview" remote="aosp" clone-depth="1" />
   <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" remote="aosp"/>
+  <remove-project name="platform/external/freetype" />
+  <project path="packages/external/freetype" name="platform/external/freetype" remote="aosp" />
+  <remove-project name="platform/external/icu" />
+  <project path="packages/external/icu" name="platform/external/icu" remote="aosp" />
+  <remove-project name="platform/external/kotlinx.coroutines" />
+  <project path="packages/external/kotlinx.coroutines" name="platform/external/kotlinx.coroutines" remote="aosp" />
+  <remove-project name="platform/external/ktfmt" />
+  <project path="packages/external/ktfmt" name="platform/external/ktfmt" remote="aosp" />
+  <remove-project name="platform/external/libxml2" />
+  <project path="packages/external/libxml2" name="platform/external/libxml2" remote="aosp" />
+  <remove-project name="platform/external/mdnsresponder" />
+  <project path="packages/external/mdnsresponder" name="platform/external/mdnsresponder" remote="aosp" />
+  <remove-project name="platform/external/mdnsresponder" />
+  <project path="packages/external/mdnsresponder" name="platform/external/mdnsresponder" remote="aosp" />
+  <remove-project name="platform/external/robolectric" />
+  <project path="packages/external/robolectric" name="platform/external/robolectric" remote="aosp" />
+  <remove-project name="platform/external/robolectric-shadows" />
+  <project path="packages/external/robolectric-shadows" name="platform/external/robolectric-shadows" remote="aosp" />
+  <remove-project name="platform/external/setupdesign" />
+  <project path="packages/external/setupdesign" name="platform/external/setupdesign" remote="aosp" />
+  <remove-project name="platform/external/sl4a" />
+  <project path="packages/external/sl4a" name="platform/external/sl4a" remote="aosp" />
+  <remove-project name="platform/external/tensorflow" />
+  <project path="packages/external/tensorflow" name="platform/external/tensorflow" remote="aosp" />
+
+  <!-- Frameworks -->
+  <remove-project name="platform/frameworks/libs/systemui" />
+  <project path="packages/frameworks/libs/systemui" name="platform/frameworks/libs/systemui" remote="aosp" />
 
   <!-- Packages -->
+  <remove-project name="platform/packages/apps/EmergencyInfo" />
+  <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" remote="aosp" />
+  <remove-project name="platform/packages/apps/ManagedProvisioning" />
+  <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" remote="aosp" />
+  <remove-project name="platform/packages/apps/QuickAccessWallet" />
+  <project path="packages/apps/QuickAccessWallet" name="platform/packages/apps/QuickAccessWallet" remote="aosp" />
+  <remove-project name="platform/packages/apps/StorageManager" />
+  <project path="packages/apps/StorageManager" name="platform/packages/apps/StorageManager" remote="aosp" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <project path="packages/apps/ThemePicker" name="platform/packages/apps/ThemePicker" remote="aosp" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
@@ -25,10 +63,16 @@
   <project path="packages/modules/BootPrebuilt/5.4/arm64" name="platform/packages/modules/BootPrebuilt/5.4/arm64" remote="aosp" clone-depth="1" />
   <remove-project name="platform/packages/modules/BootPrebuilt/5.10/arm64" />
   <project path="packages/modules/BootPrebuilt/5.10/arm64" name="platform/packages/modules/BootPrebuilt/5.10/arm64" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/packages/modules/AppSearch" />
+  <project path="packages/modules/AppSearch" name="platform/packages/modules/AppSearch" remote="aosp" />
   <remove-project name="platform/packages/modules/IntentResolver" />
   <project path="packages/modules/IntentResolver" name="platform/packages/modules/IntentResolver" remote="aosp" />
+  <remove-project name="platform/packages/modules/NeuralNetworks" />
+  <project path="packages/modules/NeuralNetworks" name="platform/packages/modules/NeuralNetworks" remote="aosp" />
   <remove-project name="platform/packages/modules/Permission" />
   <project path="packages/modules/Permission" name="platform/packages/modules/Permission" remote="aosp" />
+  <remove-project name="platform/packages/modules/SdkExtensions" />
+  <project path="packages/modules/SdkExtensions" name="platform/packages/modules/SdkExtensions" remote="aosp" />
   <remove-project name="platform/packages/modules/StatsD" />
   <project path="packages/modules/StatsD" name="platform/packages/modules/StatsD" remote="aosp" />
   <remove-project name="platform/packages/modules/Virtualization" />
@@ -37,6 +81,8 @@
   <project path="packages/services/BuiltInPrintService" name="platform/packages/services/BuiltInPrintService" remote="aosp" />
   <remove-project name="platform/packages/services/Iwlan" />
   <project path="packages/services/Iwlan" name="platform/packages/services/Iwlan" remote="aosp" />
+  <remove-project name="platform/packages/services/Mms" />
+  <project path="packages/services/Mms" name="platform/packages/services/Mms" remote="aosp" />
   <remove-project name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" remote="aosp" />
 
@@ -91,6 +137,8 @@
   <project path="prebuilts/jdk/jdk8" name="platform/prebuilts/jdk/jdk8" remote="aosp" clone-depth="1" />
   <remove-project name="platform/prebuilts/jdk/jdk9" />
   <project path="prebuilts/jdk/jdk9" name="platform/prebuilts/jdk/jdk9" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/ktlint" />
+  <project path="prebuilts/ktlint" name="platform/prebuilts/ktlint" remote="aosp" clone-depth="1" />
   <remove-project name="platform/prebuilts/manifest-merger" />
   <project path="prebuilts/manifest-merger" name="platform/prebuilts/manifest-merger" remote="aosp" clone-depth="1" />
   <remove-project name="platform/prebuilts/maven_repo/android" />
@@ -133,8 +181,6 @@
   <project path="prebuilts/module_sdk/Wifi" name="platform/prebuilts/module_sdk/Wifi" remote="aosp" clone-depth="1" />
   <remove-project name="platform/prebuilts/ndk" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" remote="aosp" clone-depth="1" />
-  <remove-project name="platform/prebuilts/ktlint" />
-  <project path="prebuilts/ktlint" name="platform/prebuilts/ktlint" remote="aosp" clone-depth="1" />
   <remove-project name="platform/prebuilts/remoteexecution-client" />
   <project path="prebuilts/remoteexecution-client" name="platform/prebuilts/remoteexecution-client" remote="aosp" clone-depth="1" />
   <remove-project name="platform/prebuilts/runtime" />
@@ -161,7 +207,17 @@
   <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" remote="aosp" clone-depth="1" />
 
   <!-- System -->
+  <remove-project name="platform/system/hardware/interfaces" />
+  <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" remote="aosp" />
+  <remove-project name="platform/system/libvintf" />
+  <project path="system/libvintf" name="platform/system/libvintf" remote="aosp" />
   <remove-project name="platform/system/nfc" />
   <project path="system/nfc" name="platform/system/nfc" remote="aosp" />
+  <remove-project name="platform/system/unwinding" />
+  <project path="system/unwinding" name="platform/system/unwinding" remote="aosp" />
+
+  <!-- Tools -->
+  <remove-project name="platform/tools/apksig" />
+  <project path="tools/apksig" name="platform/tools/apksig" remote="aosp" />
 
 </manifest>
