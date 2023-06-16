@@ -18,7 +18,7 @@
   <remove-project name="platform/external/freetype" />
   <project path="packages/external/freetype" name="platform/external/freetype" remote="aosp" />
   <remove-project name="platform/external/icu" />
-  <project path="packages/external/icu" name="platform/external/icu" remote="aosp" />
+  <project path="platform/external/icu" name="platform/external/icu" remote="aosp" />
   <remove-project name="platform/external/kotlinx.coroutines" />
   <project path="packages/external/kotlinx.coroutines" name="platform/external/kotlinx.coroutines" remote="aosp" />
   <remove-project name="platform/external/ktfmt" />
