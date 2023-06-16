@@ -16,33 +16,33 @@
   <project path="external/chromium-webview" name="platform/external/chromium-webview" remote="aosp" clone-depth="1" />
   <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" remote="aosp"/>
   <remove-project name="platform/external/freetype" />
-  <project path="packages/external/freetype" name="platform/external/freetype" remote="aosp" />
+  <project path="external/freetype" name="platform/external/freetype" remote="aosp" />
   <remove-project name="platform/external/icu" />
-  <project path="platform/external/icu" name="platform/external/icu" remote="aosp" />
+  <project path="external/icu" name="platform/external/icu" remote="aosp" />
   <remove-project name="platform/external/kotlinx.coroutines" />
-  <project path="packages/external/kotlinx.coroutines" name="platform/external/kotlinx.coroutines" remote="aosp" />
+  <project path="external/kotlinx.coroutines" name="platform/external/kotlinx.coroutines" remote="aosp" />
   <remove-project name="platform/external/ktfmt" />
   <project path="packages/external/ktfmt" name="platform/external/ktfmt" remote="aosp" />
   <remove-project name="platform/external/libxml2" />
-  <project path="packages/external/libxml2" name="platform/external/libxml2" remote="aosp" />
+  <project path="external/libxml2" name="platform/external/libxml2" remote="aosp" />
   <remove-project name="platform/external/mdnsresponder" />
-  <project path="packages/external/mdnsresponder" name="platform/external/mdnsresponder" remote="aosp" />
+  <project path="external/mdnsresponder" name="platform/external/mdnsresponder" remote="aosp" />
   <remove-project name="platform/external/mdnsresponder" />
-  <project path="packages/external/mdnsresponder" name="platform/external/mdnsresponder" remote="aosp" />
+  <project path="external/mdnsresponder" name="platform/external/mdnsresponder" remote="aosp" />
   <remove-project name="platform/external/robolectric" />
-  <project path="packages/external/robolectric" name="platform/external/robolectric" remote="aosp" />
+  <project path="external/robolectric" name="platform/external/robolectric" remote="aosp" />
   <remove-project name="platform/external/robolectric-shadows" />
-  <project path="packages/external/robolectric-shadows" name="platform/external/robolectric-shadows" remote="aosp" />
+  <project path="external/robolectric-shadows" name="platform/external/robolectric-shadows" remote="aosp" />
   <remove-project name="platform/external/setupdesign" />
-  <project path="packages/external/setupdesign" name="platform/external/setupdesign" remote="aosp" />
+  <project path="external/setupdesign" name="platform/external/setupdesign" remote="aosp" />
   <remove-project name="platform/external/sl4a" />
-  <project path="packages/external/sl4a" name="platform/external/sl4a" remote="aosp" />
+  <project path="external/sl4a" name="platform/external/sl4a" remote="aosp" />
   <remove-project name="platform/external/tensorflow" />
-  <project path="packages/external/tensorflow" name="platform/external/tensorflow" remote="aosp" />
+  <project path="external/tensorflow" name="platform/external/tensorflow" remote="aosp" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/libs/systemui" />
-  <project path="packages/frameworks/libs/systemui" name="platform/frameworks/libs/systemui" remote="aosp" />
+  <project path="frameworks/libs/systemui" name="platform/frameworks/libs/systemui" remote="aosp" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/EmergencyInfo" />
