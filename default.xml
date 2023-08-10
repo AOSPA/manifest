@@ -7,7 +7,7 @@
           sync-c="true"
           sync-tags="false"
           review="https://android-review.googlesource.com/"
-          revision="refs/tags/android-13.0.0_r63"/>
+          revision="refs/tags/android-13.0.0_r74"/>
 
   <!-- CLO -->
   <remote name="clo-la"

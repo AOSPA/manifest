@@ -10,6 +10,8 @@
   <project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" remote="aosp" clone-depth="1" />
 
   <!-- External -->
+  <remove-project name="platform/external/aac" />
+  <project path="external/aac" name="platform/external/aac" remote="aosp" />
   <remove-project name="platform/external/angle" />
   <project path="packages/external/angle" name="platform/external/angle" remote="aosp" />
   <remove-project name="platform/external/chromium-webview" />
@@ -205,6 +207,8 @@
   <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" remote="aosp" clone-depth="1" />
 
   <!-- System -->
+  <remove-project name="platform/system/ca-certificates" />
+  <project path="system/ca-certificates" name="platform/system/ca-certificates" remote="aosp" />
   <remove-project name="platform/system/hardware/interfaces" />
   <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" remote="aosp" />
   <remove-project name="platform/system/libvintf" />
