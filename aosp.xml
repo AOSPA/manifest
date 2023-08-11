@@ -13,7 +13,7 @@
   <remove-project name="platform/external/aac" />
   <project path="external/aac" name="platform/external/aac" remote="aosp" />
   <remove-project name="platform/external/angle" />
-  <project path="packages/external/angle" name="platform/external/angle" remote="aosp" />
+  <project path="external/angle" name="platform/external/angle" remote="aosp" />
   <remove-project name="platform/external/chromium-webview" />
   <project path="external/chromium-webview" name="platform/external/chromium-webview" remote="aosp" clone-depth="1" />
   <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" remote="aosp"/>
@@ -24,7 +24,7 @@
   <remove-project name="platform/external/kotlinx.coroutines" />
   <project path="external/kotlinx.coroutines" name="platform/external/kotlinx.coroutines" remote="aosp" />
   <remove-project name="platform/external/ktfmt" />
-  <project path="packages/external/ktfmt" name="platform/external/ktfmt" remote="aosp" />
+  <project path="external/ktfmt" name="platform/external/ktfmt" remote="aosp" />
   <remove-project name="platform/external/libxml2" />
   <project path="external/libxml2" name="platform/external/libxml2" remote="aosp" />
   <remove-project name="platform/external/mdnsresponder" />
