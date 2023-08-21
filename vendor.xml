@@ -54,7 +54,7 @@
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/dataservices_vendor_product.mk" src="dataservices_vendor_product.mk"/>
   </project>
   <project remote="clo-la" name="platform/vendor/qcom-opensource/dpm" path="vendor/qcom/opensource/dpm" revision="8c98e1d8b44806ee6765de339107f2f3cb64e427" upstream="refs/heads/data.lnx.13.0.r1-rel"/>
-  <project remote="clo-la" name="platform/vendor/qcom-opensource/ecosw" path="vendor/qcom/opensource/ecosw" revision="b265ca4987f064ecc68363c3c88337051e80cf7c" upstream="refs/heads/android_ecosw.lnx.2.0.r13-rel">
+  <project remote="clo-la" name="platform/vendor/qcom-opensource/ecosw" path="vendor/qcom/opensource/ecosw" revision="2c2ff0bb619d11c7ba4e4364dd78b799bf002b5b" upstream="refs/heads/android_ecosw.lnx.2.0.r13-rel">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/aks_js_driver_board.mk" src="joystick/aks/kernel/aks_js_drivers/aks_js_driver_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/aks_js_driver_product.mk" src="joystick/aks/kernel/aks_js_drivers/aks_js_driver_product.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/gamepad_hal_vendor_product.mk" src="joystick/aks/HAL/dist/vendor/gamepad_hal_vendor_product.mk"/>
