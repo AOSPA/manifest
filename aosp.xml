@@ -69,8 +69,6 @@
   <project path="packages/modules/AppSearch" name="platform/packages/modules/AppSearch" remote="aosp" />
   <remove-project name="platform/packages/modules/IntentResolver" />
   <project path="packages/modules/IntentResolver" name="platform/packages/modules/IntentResolver" remote="aosp" />
-  <remove-project name="platform/packages/modules/NeuralNetworks" />
-  <project path="packages/modules/NeuralNetworks" name="platform/packages/modules/NeuralNetworks" remote="aosp" />
   <remove-project name="platform/packages/modules/Permission" />
   <project path="packages/modules/Permission" name="platform/packages/modules/Permission" remote="aosp" />
   <remove-project name="platform/packages/modules/SdkExtensions" />
