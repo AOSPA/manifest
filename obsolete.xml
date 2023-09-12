@@ -85,6 +85,7 @@
   <remove-project name="platform/vendor/nxp/opensource/hidlimpl" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
   <remove-project name="platform/vendor/qcom/kalama" />
+  <remove-project name="platform/vendor/qcom/crow" />
   <remove-project name="platform/vendor/qcom/lahaina" />
   <remove-project name="platform/vendor/qcom/taro" />
   <remove-project name="platform/vendor/st/opensource/driver" />
