@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<!--
+
   <!-- Build and Core -->
   <remove-project name="platform/art" />
   <project path="art" name="AOSPA/android_art" remote="aospa" />
@@ -223,5 +225,7 @@
   <project path="vendor/qcom/opensource/usb" name="AOSPA/android_vendor_qcom-opensource_usb" remote="aospa" />
   <remove-project name="platform/hardware/qcom/thermal" />
   <project path="vendor/qcom/opensource/thermal-hal" name="AOSPA/android_hardware_qcom_thermal" remote="aospa" />
+
+-->
 
 </manifest>
