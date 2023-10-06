@@ -7,14 +7,13 @@
           sync-c="true"
           sync-tags="false"
           review="https://android-review.googlesource.com/"
-          revision="refs/tags/android-13.0.0_r74"/>
+          revision="refs/tags/android-14.0.0_r2" />
 
   <!-- CLO -->
   <remote name="clo-la"
           fetch="https://git.codelinaro.org/clo/la"
           sync-c="true"
-          sync-tags="false"
-          review="codelinaro.org"/>
+          sync-tags="false" />
 
   <default remote="clo-la"/>
 
@@ -25,7 +24,7 @@
   <remote  name="aospa"
            fetch=".."
            review="gerrit.aospa.co"
-           revision="topaz"/>
+           revision="uvite"/>
 
   <remote  name="bitbucket"
            fetch="https://bitbucket.org"
