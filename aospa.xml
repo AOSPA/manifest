@@ -63,12 +63,16 @@
   <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="aospa" />
   <remove-project name="platform/external/libpng" />
   <project path="external/libpng" name="AOSPA/android_external_libpng" remote="aospa" />
+  <remove-project name="platform/external/libvpx" />
+  <project path="external/libvpx" name="AOSPA/android_external_libvpx" remote="aospa" />
   <remove-project name="platform/external/skia" />
   <project path="external/skia" name="AOSPA/android_external_skia" remote="aospa" />
   <remove-project name="platform/external/sqlite" />
   <project path="external/sqlite" name="AOSPA/android_external_sqlite" remote="aospa" />
   <remove-project name="platform/external/tinycompress" />
   <project path="external/tinycompress" name="AOSPA/android_external_tinycompress" remote="aospa" />
+  <remove-project name="platform/external/webp" />
+  <project path="external/webp" name="AOSPA/android_external_webp" remote="aospa" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <project path="external/wpa_supplicant_8" name="AOSPA/android_external_wpa_supplicant_8" remote="aospa" />
   <remove-project name="platform/external/zlib" />
