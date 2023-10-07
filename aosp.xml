@@ -25,8 +25,6 @@
   <project path="external/kotlinx.coroutines" name="platform/external/kotlinx.coroutines" remote="aosp" />
   <remove-project name="platform/external/ktfmt" />
   <project path="external/ktfmt" name="platform/external/ktfmt" remote="aosp" />
-  <remove-project name="platform/external/libxml2" />
-  <project path="external/libxml2" name="platform/external/libxml2" remote="aosp" />
   <remove-project name="platform/external/mdnsresponder" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" remote="aosp" />
   <remove-project name="platform/external/mdnsresponder" />
@@ -215,9 +213,5 @@
   <project path="system/nfc" name="platform/system/nfc" remote="aosp" />
   <remove-project name="platform/system/unwinding" />
   <project path="system/unwinding" name="platform/system/unwinding" remote="aosp" />
-
-  <!-- Tools -->
-  <remove-project name="platform/tools/apksig" />
-  <project path="tools/apksig" name="platform/tools/apksig" remote="aosp" />
 
 </manifest>
