@@ -103,12 +103,12 @@
   <!-- System -->
   <remove-project name="platform/system/core" />
   <project path="system/core" name="AOSPA/android_system_core" remote="aospa" />
-  <remove-project name="platform/system/libhidl" />
+  <!-- <remove-project name="platform/system/libhidl" />
   <project path="system/libhidl" name="AOSPA/android_system_libhidl" remote="aospa" />
   <remove-project name="platform/system/memory/lmkd" />
   <project path="system/memory/lmkd" name="AOSPA/android_system_memory_lmkd" remote="aospa" />
   <remove-project name="platform/system/qcom" />
-  <project path="vendor/qcom/opensource/softap" name="AOSPA/android_system_qcom" remote="aospa" />
+  <project path="vendor/qcom/opensource/softap" name="AOSPA/android_system_qcom" remote="aospa" /> -->
   <remove-project name="platform/system/update_engine" />
   <project path="system/update_engine" name="AOSPA/android_system_update_engine" remote="aospa" />
 
