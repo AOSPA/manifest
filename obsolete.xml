@@ -31,10 +31,6 @@
   <remove-project name="device/qcom/qssi_32go"/>
   <remove-project name="device/sample"/>
 
-  <!-- Hardware (NXP) -->
-  <remove-project name="platform/hardware/nxp/nfc" />
-  <remove-project name="platform/hardware/nxp/secure_element" />
-
   <!-- Hardware -->
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/media" />
