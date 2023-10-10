@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b7bc4e52_d77f7fea",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-10-10T16:52:19Z",
+      "side": 1,
+      "message": "should we keep this around in case we want to make 64-bit only qssi builds?",
+      "revId": "d5e1b26601d33b3a4e057c7b7b1a02df327c8b62",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
