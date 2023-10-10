@@ -29,6 +29,7 @@
   <remove-project name="device/linaro/poplar-kernel"/>
   <remove-project name="device/qcom/qssi_32"/>
   <remove-project name="device/qcom/qssi_32go"/>
+  <remove-project name="device/qcom/qssi_64"/>
   <remove-project name="device/sample"/>
 
   <!-- Hardware (NXP) -->
