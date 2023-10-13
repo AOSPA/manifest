@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1e5bdffb_54782fd0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000737
+      },
+      "writtenOn": "2023-10-13T00:08:31Z",
+      "side": 1,
+      "message": "We are having a problem pushing our fork repository to GitHub, so return to AOSP for now",
+      "revId": "adb8ed3cd96639b9934ae0d615e3fab4966cb859",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
