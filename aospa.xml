@@ -115,6 +115,8 @@
   <project path="packages/modules/Wifi" name="AOSPA/android_packages_modules_Wifi" remote="aospa" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/TelephonyProvider" name="AOSPA/android_packages_providers_TelephonyProvider" remote="aospa" />
+  <remove-project name="platform/packages/services/Car" />
+  <project path="packages/services/Car" name="AOSPA/android_packages_services_Car" remote="aospa" />
   <remove-project name="platform/packages/services/Telecomm" />
   <project path="packages/services/Telecomm" name="AOSPA/android_packages_services_Telecomm" remote="aospa" />
   <remove-project name="platform/packages/services/Telephony" />

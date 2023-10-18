@@ -38,8 +38,6 @@
   <project path="packages/modules/IPsec" name="platform/packages/modules/IPsec" remote="aosp" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" remote="aosp" />
-  <remove-project name="platform/packages/services/Car" />
-  <project path="packages/services/Car" name="platform/packages/services/Car" remote="aosp" />
 
   <!-- Prebuilts -->
   <remove-project name="kernel/prebuilts/5.10/arm64" />
