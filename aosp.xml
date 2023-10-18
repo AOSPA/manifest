@@ -29,17 +29,17 @@
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
-  <project path="packages/apps/WallpaperPicker2" name="platform/apps/WallpaperPicker2" remote="aosp" />
+  <project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" remote="aosp" />
   <remove-project name="platform/packages/modules/ArtPrebuilt" />
   <project path="packages/modules/ArtPrebuilt" name="platform/packages/modules/ArtPrebuilt" remote="aosp" clone-depth="1" />
   <remove-project name="platform/packages/modules/ImsMedia" />
-  <project path="packages/modules/ImsMedia" name="platform/modules/ImsMedia" remote="aosp" />
+  <project path="packages/modules/ImsMedia" name="platform/packages/modules/ImsMedia" remote="aosp" />
   <remove-project name="platform/packages/modules/IPsec" />
-  <project path="packages/modules/IPsec" name="platform/modules/IPsec" remote="aosp" />
+  <project path="packages/modules/IPsec" name="platform/packages/modules/IPsec" remote="aosp" />
   <remove-project name="platform/packages/providers/MediaProvider" />
-  <project path="packages/providers/MediaProvider" name="platform/providers/MediaProvider" remote="aosp" />
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" remote="aosp" />
   <remove-project name="platform/packages/services/Car" />
-  <project path="packages/services/Car" name="platform/services/Car" remote="aosp" />
+  <project path="packages/services/Car" name="platform/packages/services/Car" remote="aosp" />
 
   <!-- Prebuilts -->
   <remove-project name="kernel/prebuilts/5.10/arm64" />
