@@ -90,7 +90,7 @@
   <!-- Manifest -->
   <project path="manifest" name="AOSPA/manifest" remote="aospa" />
 
-  <!-- Packages (AOSPA) -->
+p  <!-- Packages (AOSPA) -->
   <project path="packages/apps/ParanoidDoze" name="AOSPA/android_packages_apps_ParanoidDoze" remote="aospa" />
   <project path="packages/apps/ParanoidHub" name="AOSPA/android_packages_apps_ParanoidHub" remote="aospa" />
   <project path="packages/apps/ParanoidPapers" name="AOSPA/android_packages_apps_ParanoidPapers" remote="aospa" />
@@ -110,7 +110,7 @@
   <remove-project name="platform/packages/modules/Bluetooth" />
   <project path="packages/modules/Bluetooth" name="AOSPA/android_packages_modules_Bluetooth" remote="aospa" />
   <remove-project name="platform/packages/modules/Connectivity" />
-  <project path="packages/modules/Connectivity" name="AOSPA/android_packages_modules_Connectivity" />
+  <project path="packages/modules/Connectivity" name="AOSPA/android_packages_modules_Connectivity" remote="aospa" />
   <remove-project name="platform/packages/modules/Wifi" />
   <project path="packages/modules/Wifi" name="AOSPA/android_packages_modules_Wifi" remote="aospa" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
