@@ -74,7 +74,7 @@
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="aospa" />
   <remove-project name="platform/hardware/libhardware_legacy" />
-  <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="aospa" />
+  <project path="hardware/libhardware_legacy" name="AOSPA/android_hardware_libhardware_legacy" remote="aospa" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <project path="hardware/qcom/wlan" name="AOSPA/android_hardware_qcom_wlan" remote="aospa" />
   <remove-project name="platform/hardware/st/nfc" />
