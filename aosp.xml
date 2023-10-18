@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Build -->
+  <remove-project name="platform/build/bazel_common_rules" />
+  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" remote="aosp" />
+
   <!-- CTS -->
   <remove-project name="platform/cts" />
   <project path="cts" name="platform/cts" remote="aosp" clone-depth="1" />
@@ -18,12 +22,24 @@
   <project path="external/icu" name="platform/external/icu" remote="aosp" clone-depth="1" />
   <remove-project name="platform/external/kotlinc" />
   <project path="external/kotlinc" name="platform/external/kotlinc" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/libphonenumber" />
+  <project path="external/libphonenumber" name="platform/external/libphonenumber" remote="aosp" />
   <remove-project name="platform/external/linux-kselftest" />
   <project path="external/linux-kselftest" name="platform/external/linux-kselftest" remote="aosp" clone-depth="1" />
 
   <!-- Packages -->
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
+  <project path="packages/apps/WallpaperPicker2" name="platform/apps/WallpaperPicker2" remote="aosp" />
   <remove-project name="platform/packages/modules/ArtPrebuilt" />
   <project path="packages/modules/ArtPrebuilt" name="platform/packages/modules/ArtPrebuilt" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/packages/modules/ImsMedia" />
+  <project path="packages/modules/ImsMedia" name="platform/modules/ImsMedia" remote="aosp" />
+  <remove-project name="platform/packages/modules/IPsec" />
+  <project path="packages/modules/IPsec" name="platform/modules/IPsec" remote="aosp" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <project path="packages/providers/MediaProvider" name="platform/providers/MediaProvider" remote="aosp" />
+  <remove-project name="platform/packages/services/Car" />
+  <project path="packages/services/Car" name="platform/services/Car" remote="aosp" />
 
   <!-- Prebuilts -->
   <remove-project name="kernel/prebuilts/5.10/arm64" />
@@ -156,5 +172,11 @@
   <project path="prebuilts/vndk/v33" name="platform/prebuilts/vndk/v33" remote="aosp" clone-depth="1" />
   <remove-project name="platform/tools/tradefederation/prebuilts" />
   <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" remote="aosp" clone-depth="1" />
+
+  <!-- System -->
+  <remove-project name="platform/system/nfc" />
+  <project path="system/nfc" name="platform/system/nfc" remote="aosp" />
+  <remove-project name="platform/system/unwinding" />
+  <project path="system/unwinding" name="platform/system/unwinding" remote="aosp" />
 
 </manifest>
