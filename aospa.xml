@@ -127,6 +127,8 @@
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
 
   <!-- System -->
+  <remove-project name="platform/system/bpf" />
+  <project path="system/bpf" name="AOSPA/android_system_bpf" remote="aospa" />
   <remove-project name="platform/system/core" />
   <project path="system/core" name="AOSPA/android_system_core" remote="aospa" />
   <remove-project name="platform/system/chre" />
