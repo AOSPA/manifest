@@ -16,6 +16,24 @@
       "message": "`prebuilts/clang/host/linux-x86/soong/clangprebuilts.go:432:20: undefined: android.NewPrebuiltBuildTool`\n\nFixed with upstream [patch](https://android.googlesource.com/platform/build/soong/+/54bfc7aad611ba569385a450f12965b7db60f237)",
       "revId": "adb76f6c935ea5e72e68c9b2711b9c683bae5b2a",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a18e638d_ddfce393",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000092
+      },
+      "writtenOn": "2023-11-03T06:34:09Z",
+      "side": 1,
+      "message": "confirmed",
+      "parentUuid": "a954f2ae_95b1972d",
+      "revId": "adb76f6c935ea5e72e68c9b2711b9c683bae5b2a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
