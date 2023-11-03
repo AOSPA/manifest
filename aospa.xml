@@ -6,6 +6,11 @@
   <project path="art" name="AOSPA/android_art" remote="aospa" />
   <remove-project name="platform/bionic" />
   <project path="bionic" name="AOSPA/android_bionic" remote="aospa" />
+  <remove-project name="platform/build/bazel" />
+  <project path="build/bazel" name="AOSPA/android_build_bazel" remote="aospa" >
+    <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
+    <linkfile src="bazel.BUILD" dest="BUILD" />
+  </project>
   <remove-project name="platform/build_repo" />
   <project path="build/make" name="AOSPA/android_build" remote="aospa" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -150,6 +155,10 @@
 
   <!-- Tools (AOSPA) -->
   <project path="tools/extract-utils" name="AOSPA/android_tools_extract-utils" remote="aospa" />
+
+  <!-- Toolchain -->
+  <remove-project name="toolchain/pgo-profiles" />
+  <project path="toolchain/pgo-profiles" name="AOSPA/android_toolchain_pgo-profiles" remote="aospa" />
 
   <!-- Vendor (AOSPA) -->
   <project path="vendor/aospa" name="AOSPA/android_vendor_aospa" remote="aospa" >
