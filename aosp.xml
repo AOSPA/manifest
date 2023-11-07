@@ -73,7 +73,7 @@
   <remove-project name="platform/prebuilts/clang-tools" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" remote="aosp" clone-depth="1" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" remote="aosp" clone-depth="1" revision="14e78952c40ea8a37e245941dd74352e2663ae26" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" remote="aosp" clone-depth="1" revision="15a3633cd36bb220e5b1b64ca3cebc8c45f45045" />
   <remove-project name="platform/prebuilts/cmdline-tools" />
   <project path="prebuilts/cmdline-tools" name="platform/prebuilts/cmdline-tools" remote="aosp" clone-depth="1" />
   <remove-project name="platform/prebuilts/devtools" />
