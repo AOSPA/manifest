@@ -168,6 +168,8 @@
   <project path="vendor/codeaurora/commonsys/telephony" name="AOSPA/android_vendor_codeaurora_commonsys_telephony" remote="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="AOSPA/android_vendor_qcom-opensource_bluetooth-commonsys-intf" remote="aospa" />
+  <remove-project name="platform/vendor/qcom-opensource/core-utils" />
+  <project path="vendor/qcom/opensource/core-utils" name="AOSPA/android_vendor_qcom-opensource_core-utils" remote="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_display" remote="aospa" >
     <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk" />
