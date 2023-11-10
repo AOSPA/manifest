@@ -18,6 +18,8 @@
   <project path="external/chromium-webview" name="platform/external/chromium-webview" remote="aosp" clone-depth="1" />
   <remove-project name="platform/external/deqp" />
   <project path="external/deqp" name="platform/external/deqp" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/f2fs-tools" />
+  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" remote="aosp" />
   <remove-project name="platform/external/icu" />
   <project path="external/icu" name="platform/external/icu" remote="aosp" clone-depth="1" />
   <remove-project name="platform/external/kotlinc" />
@@ -26,16 +28,24 @@
   <project path="external/libphonenumber" name="platform/external/libphonenumber" remote="aosp" />
   <remove-project name="platform/external/linux-kselftest" />
   <project path="external/linux-kselftest" name="platform/external/linux-kselftest" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/webp" />
+  <project path="external/webp" name="platform/external/webp" remote="aosp" />
 
   <!-- Packages -->
+  <remove-project name="platform/packages/apps/ThemePicker" />
+  <project path="packages/apps/ThemePicker" name="platform/packages/apps/ThemePicker" remote="aosp" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" remote="aosp" />
   <remove-project name="platform/packages/modules/ArtPrebuilt" />
   <project path="packages/modules/ArtPrebuilt" name="platform/packages/modules/ArtPrebuilt" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/packages/modules/DnsResolver" />
+  <project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" remote="aosp" />
   <remove-project name="platform/packages/modules/ImsMedia" />
   <project path="packages/modules/ImsMedia" name="platform/packages/modules/ImsMedia" remote="aosp" />
   <remove-project name="platform/packages/modules/IPsec" />
   <project path="packages/modules/IPsec" name="platform/packages/modules/IPsec" remote="aosp" />
+  <remove-project name="platform/packages/modules/StatsD" />
+  <project path="packages/modules/StatsD" name="platform/packages/modules/StatsD" remote="aosp" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" remote="aosp" />
 
