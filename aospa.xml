@@ -57,6 +57,8 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/okhttp" />
   <project path="external/okhttp" name="AOSPA/android_external_okhttp" remote="aospa" />
+  <remove-project name="platform/external/sqlite" />
+  <project path="external/sqlite" name="AOSPA/android_external_sqlite" remote="aospa" />
   <project path="external/tinycompress" name="AOSPA/android_external_tinycompress" remote="aospa" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <project path="external/wpa_supplicant_8" name="AOSPA/android_external_wpa_supplicant_8" remote="aospa" />
