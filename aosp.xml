@@ -66,7 +66,7 @@
   <remove-project name="platform/packages/modules/AppSearch" />
   <project path="packages/modules/AppSearch" name="platform/packages/modules/AppSearch" remote="aosp" />
   <remove-project name="platform/packages/modules/DnsResolver" />
-  <project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" remote="aosp" revision="android-platform-13.0.0_r13" />
+  <project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" remote="aosp" revision="refs/tags/android-platform-13.0.0_r13" />
   <remove-project name="platform/packages/modules/IntentResolver" />
   <project path="packages/modules/IntentResolver" name="platform/packages/modules/IntentResolver" remote="aosp" />
   <remove-project name="platform/packages/modules/Permission" />
@@ -74,7 +74,7 @@
   <remove-project name="platform/packages/modules/SdkExtensions" />
   <project path="packages/modules/SdkExtensions" name="platform/packages/modules/SdkExtensions" remote="aosp" />
   <remove-project name="platform/packages/modules/StatsD" />
-  <project path="packages/modules/StatsD" name="platform/packages/modules/StatsD" remote="aosp" revision="android-platform-13.0.0_r13" />
+  <project path="packages/modules/StatsD" name="platform/packages/modules/StatsD" remote="aosp" revision="refs/tags/android-platform-13.0.0_r13" />
   <remove-project name="platform/packages/modules/Virtualization" />
   <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" remote="aosp" />
   <remove-project name="platform/packages/services/BuiltInPrintService" />
@@ -206,7 +206,7 @@
 
   <!-- System -->
   <remove-project name="platform/system/ca-certificates" />
-  <project path="system/ca-certificates" name="platform/system/ca-certificates" remote="aosp" revision="android-platform-13.0.0_r13" />
+  <project path="system/ca-certificates" name="platform/system/ca-certificates" remote="aosp" revision="refs/tags/android-platform-13.0.0_r13" />
   <remove-project name="platform/system/hardware/interfaces" />
   <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" remote="aosp" />
   <remove-project name="platform/system/libvintf" />
