@@ -38,6 +38,9 @@
            fetch="https://gitlab.com/ThankYouMario"
            revision="uvite" />
 
+  <remote  name="gitea"
+           fetch="https://gitea.com" />
+
   <remote  name="github"
            fetch="https://github.com" />
 
