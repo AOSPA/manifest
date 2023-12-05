@@ -50,6 +50,8 @@
   <!-- External -->
   <remove-project name="platform/external/arm-optimized-routines" />
   <project path="external/arm-optimized-routines" name="AOSPA/android_external_arm-optimized-routines" remote="aospa" />
+  <remove-project name="platform/external/boringssl" />
+  <project path="external/boringssl" name="AOSPA/android_external_boringssl" remote="aospa" />
   <remove-project name="platform/external/cronet" />
   <project path="external/cronet" name="AOSPA/android_external_cronet" remote="aospa" />
   <remove-project name="platform/external/fastrpc" />
@@ -150,6 +152,8 @@
   <project path="vendor/qcom/opensource/softap" name="AOSPA/android_system_qcom" remote="aospa" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="AOSPA/android_system_sepolicy" remote="aospa" />
+  <remove-project name="platform/system/server_configurable_flags" />
+  <project path="system/server_configurable_flags" name="AOSPA/android_system_server_configurable_flags" remote="aospa" />
   <remove-project name="platform/system/update_engine" />
   <project path="system/update_engine" name="AOSPA/android_system_update_engine" remote="aospa" />
   <remove-project name="platform/system/vold" />
