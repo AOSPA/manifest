@@ -16,8 +16,12 @@
   <!-- External -->
   <remove-project name="platform/external/chromium-webview" />
   <project path="external/chromium-webview" name="platform/external/chromium-webview" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/connectedappssdk" />
+  <project path="external/connectedappssdk" name="platform/external/connectedappssdk" remote="aosp" clone-depth="1" />
   <remove-project name="platform/external/deqp" />
   <project path="external/deqp" name="platform/external/deqp" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/deqp-deps/glslang" />
+  <project path="external/deqp-deps/glslang" name="platform/external/deqp-deps/glslang" remote="aosp" clone-depth="1" />
   <remove-project name="platform/external/f2fs-tools" />
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" remote="aosp" />
   <remove-project name="platform/external/icu" />
