@@ -16,38 +16,98 @@
   <!-- External -->
   <remove-project name="platform/external/chromium-webview" />
   <project path="external/chromium-webview" name="platform/external/chromium-webview" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/connectedappssdk" />
+  <project path="external/connectedappssdk" name="platform/external/connectedappssdk" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/conscrypt" />
+  <project path="external/conscrypt" name="platform/external/conscrypt" remote="aosp" clone-depth="1" />
   <remove-project name="platform/external/deqp" />
   <project path="external/deqp" name="platform/external/deqp" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/deqp-deps/glslang" />
+  <project path="external/deqp-deps/glslang" name="platform/external/deqp-deps/glslang" remote="aosp" clone-depth="1" />
   <remove-project name="platform/external/f2fs-tools" />
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" remote="aosp" />
+  <remove-project name="platform/external/gfxstream-protocols" />
+  <project path="external/gfxstream-protocols" name="platform/external/gfxstream-protocols" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/gptfdisk" />
+  <project path="external/gptfdisk" name="platform/external/gptfdisk" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/hyphenation-patterns" />
+  <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" remote="aosp" clone-depth="1" />
   <remove-project name="platform/external/icu" />
   <project path="external/icu" name="platform/external/icu" remote="aosp" clone-depth="1" />
   <remove-project name="platform/external/kotlinc" />
   <project path="external/kotlinc" name="platform/external/kotlinc" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/kotlinx.coroutines" />
+  <project path="external/kotlinx.coroutines" name="platform/external/kotlinx.coroutines" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/libmonet" />
+  <project path="external/libmonet" name="platform/external/libmonet" remote="aosp" clone-depth="1" />
   <remove-project name="platform/external/libphonenumber" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" remote="aosp" />
   <remove-project name="platform/external/linux-kselftest" />
   <project path="external/linux-kselftest" name="platform/external/linux-kselftest" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/mobly-bundled-snippets" />
+  <project path="external/mobly-bundled-snippets" name="platform/external/mobly-bundled-snippets" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/mobly-snippet-lib" />
+  <project path="external/mobly-snippet-lib" name="platform/external/mobly-snippet-lib" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/mockito-kotlin" />
+  <project path="external/mockito-kotlin" name="platform/external/mockito-kotlin" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/pdfium" />
+  <project path="external/pdfium" name="platform/external/pdfium" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/perfetto" />
+  <project path="external/perfetto" name="platform/external/perfetto" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/robolectric" />
+  <project path="external/robolectric" name="platform/external/robolectric" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/setupcompat" />
+  <project path="external/setupcompat" name="platform/external/setupcompat" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/setupdesign" />
+  <project path="external/setupdesign" name="platform/external/setupdesign" remote="aosp" clone-depth="1" />
   <remove-project name="platform/external/webp" />
   <project path="external/webp" name="platform/external/webp" remote="aosp" />
 
   <!-- Packages -->
+  <remove-project name="platform/packages/apps/KeyChain" />
+  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" />
+  <remove-project name="platform/packages/apps/ManagedProvisioning" />
+  <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" remote="aosp" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <project path="packages/apps/ThemePicker" name="platform/packages/apps/ThemePicker" remote="aosp" />
+  <remove-project name="platform/packages/apps/Traceur" />
+  <project path="packages/apps/Traceur" name="platform/packages/apps/Traceur" remote="aosp" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" remote="aosp" />
+  <remove-project name="platform/packages/modules/AdServices" />
+  <project path="packages/modules/AdServices" name="platform/packages/AdServices" remote="aosp" />
   <remove-project name="platform/packages/modules/ArtPrebuilt" />
   <project path="packages/modules/ArtPrebuilt" name="platform/packages/modules/ArtPrebuilt" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/packages/modules/DeviceLock" />
+  <project path="packages/modules/DeviceLock" name="platform/packages/modules/DeviceLock" remote="aosp" />
   <remove-project name="platform/packages/modules/DnsResolver" />
   <project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" remote="aosp" />
+  <remove-project name="platform/packages/modules/HealthFitness" />
+  <project path="packages/modules/HealthFitness" name="platform/packages/modules/HealthFitness" remote="aosp" />
   <remove-project name="platform/packages/modules/ImsMedia" />
   <project path="packages/modules/ImsMedia" name="platform/packages/modules/ImsMedia" remote="aosp" />
+  <remove-project name="platform/packages/modules/IntentResolver" />
+  <project path="packages/modules/IntentResolver" name="platform/packages/modules/IntentResolver" remote="aosp" />
   <remove-project name="platform/packages/modules/IPsec" />
   <project path="packages/modules/IPsec" name="platform/packages/modules/IPsec" remote="aosp" />
+  <remove-project name="platform/packages/modules/Media" />
+  <project path="packages/modules/Media" name="platform/packages/modules/Media" remote="aosp" />
+  <remove-project name="platform/packages/modules/Permission" />
+  <project path="packages/modules/Permission" name="platform/packages/modules/Permission" remote="aosp" />
+  <remove-project name="platform/packages/modules/SdkExtensions" />
+  <project path="packages/modules/SdkExtensions" name="platform/packages/modules/SdkExtensions" remote="aosp" />
   <remove-project name="platform/packages/modules/StatsD" />
   <project path="packages/modules/StatsD" name="platform/packages/modules/StatsD" remote="aosp" />
+  <remove-project name="platform/packages/providers/BlockedNumberProvider" />
+  <project path="packages/providers/BlockedNumberProvider" name="platform/packages/providers/BlockedNumberProvider" remote="aosp" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" remote="aosp" />
+  <remove-project name="platform/packages/services/BuiltInPrintService" />
+  <project path="packages/services/BuiltInPrintService" name="platform/packages/services/BuiltInPrintService" remote="aosp" />
+  <remove-project name="platform/packages/services/DeviceAsWebcam" />
+  <project path="packages/services/DeviceAsWebcam" name="platform/packages/services/DeviceAsWebcam" remote="aosp" />
+  <remove-project name="platform/packages/services/Iwlan" />
+  <project path="packages/services/Iwlan" name="platform/packages/services/Iwlan" remote="aosp" />
 
   <!-- Prebuilts -->
   <remove-project name="kernel/prebuilts/5.10/arm64" />
@@ -182,6 +242,10 @@
   <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" remote="aosp" clone-depth="1" />
 
   <!-- System -->
+  <remove-project name="platform/system/extras" />
+  <project path="system/extras" name="platform/system/extras" remote="aosp" />
+  <remove-project name="platform/system/gsid" />
+  <project path="system/gsid" name="platform/system/gsid" remote="aosp" />
   <remove-project name="platform/system/nfc" />
   <project path="system/nfc" name="platform/system/nfc" remote="aosp" />
   <remove-project name="platform/system/unwinding" />
