@@ -81,7 +81,7 @@
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" remote="aosp" />
   <remove-project name="platform/packages/modules/AdServices" />
-  <project path="packages/modules/AdServices" name="platform/packages/AdServices" remote="aosp" />
+  <project path="packages/modules/AdServices" name="platform/packages/modules/AdServices" remote="aosp" />
   <remove-project name="platform/packages/modules/ArtPrebuilt" />
   <project path="packages/modules/ArtPrebuilt" name="platform/packages/modules/ArtPrebuilt" remote="aosp" clone-depth="1" />
   <remove-project name="platform/packages/modules/DeviceLock" />
