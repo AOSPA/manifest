@@ -2,7 +2,6 @@
 <manifest>
 
   <!-- Device -->
-  <remove-project name="device/amlogic/yukawa"/>
   <remove-project name="device/amlogic/yukawa-kernel"/>
   <remove-project name="device/common"/>
   <remove-project name="device/generic/arm64"/>
