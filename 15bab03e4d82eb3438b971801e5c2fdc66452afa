@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aeb23d7f_0c8276f8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000845
+      },
+      "writtenOn": "2024-01-06T12:49:14Z",
+      "side": 1,
+      "message": "https://github.com/aospa-merges/android_packages_apps_Settings/tree/uvite\nhttps://github.com/aospa-merges/android_packages_apps_Nfc/tree/uvite\nhttps://github.com/aospa-merges/android_packages_apps_Launcher3/tree/uvite\nhttps://github.com/aospa-merges/android_frameworks_proto_logging/tree/uvite\nhttps://github.com/aospa-merges/android_frameworks_native/tree/uvite\nhttps://github.com/aospa-merges/android_frameworks_base/tree/uvite\nhttps://github.com/aospa-merges/android_frameworks_av/tree/uvite",
+      "revId": "15bab03e4d82eb3438b971801e5c2fdc66452afa",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
