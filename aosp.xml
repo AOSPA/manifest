@@ -105,7 +105,7 @@
   <remove-project name="platform/packages/modules/StatsD" />
   <project path="packages/modules/StatsD" name="platform/packages/modules/StatsD" remote="aosp" />
   <remove-project name="platform/packages/modules/Virtualization" />
-  <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" remote="aosp" />
+  <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" remote="aosp" clone-depth="1" />
   <remove-project name="platform/packages/providers/BlockedNumberProvider" />
   <project path="packages/providers/BlockedNumberProvider" name="platform/packages/providers/BlockedNumberProvider" remote="aosp" />
   <remove-project name="platform/packages/providers/MediaProvider" />
