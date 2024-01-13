@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "805ce963_e01b0af6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2024-01-13T08:31:23Z",
+      "side": 1,
+      "message": "These are QSSI repos, so regardless of whether all devices actually need it, it doesn\u0027t break anything and Qualcomm uses it on their system image for devices with ST NFC.  Our dependencies are already long and more complicated than they would be ideally.  BUILD_BROKEN_DUP_RULES is already enabled on pretty much every device and it would probably be best/easiest to just enable it on your devices as well.  Otherwise, we can either look at making roomservice more modular or just fix the errors.",
+      "revId": "afb71daeb92ae550e5cdfac435c6bb9e6c00c886",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
