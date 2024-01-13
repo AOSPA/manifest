@@ -80,8 +80,13 @@
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer" />
   <remove-project name="platform/vendor/codeaurora/packages/apps/SoundRecorder" />
+  <remove-project name="platform/vendor/nxp/interfaces/opensource/nfc" />
+  <remove-project name="platform/vendor/nxp/opensource/external/libnfc-nci" />
+  <remove-project name="platform/vendor/nxp/opensource/frameworks" />
   <remove-project name="platform/vendor/nxp/opensource/halimpl" />
   <remove-project name="platform/vendor/nxp/opensource/hidlimpl" />
+  <remove-project name="platform/vendor/nxp/opensource/keymaster" />
+  <remove-project name="platform/vendor/nxp/opensource/packages/apps/Nfc" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
   <remove-project name="platform/vendor/qcom/kalama" />
   <remove-project name="platform/vendor/qcom/crow" />
