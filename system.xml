@@ -1157,7 +1157,7 @@
   <project remote="clo-la" name="platform/tools/test/mobly_snippets" path="tools/test/mobly_snippets" revision="841d2396b5f7ccf109fc559dd265d0e9fbc30c80" upstream="refs/heads/ks-aosp.lnx.14.0.r1-rel" groups="aosp-android14-release,pdk,qc-common-sys,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L0,vsdk_exc_L3,vsdk_exc_L4,vsdk_exc_L5"/>
   <project remote="clo-la" name="platform/tools/tradefederation/prebuilts" path="tools/tradefederation/prebuilts" revision="da0f50610b378e313b1c562a58955c4d24591a7e" upstream="refs/heads/ks-aosp.lnx.14.0.r1-rel" groups="aosp-android14-release,pdk,tradefed,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3"/>
   <project remote="clo-la" name="platform/tools/trebuchet" path="tools/trebuchet" revision="47016708fce30d05eeca5dcf0e6e4b2fbb4a6949" upstream="refs/heads/ks-aosp.lnx.14.0.r1-rel" groups="aosp-android14-release,cts,pdk,pdk-cw-fs,pdk-fs,tools,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3"/>
-  <project remote="clo-la" name="platform/vendor/codeaurora/packages/apps/Dialer" path="vendor/codeaurora/commonsys/packages/apps/Dialer" revision="6d89d7a0a81ec4b6b8c1fc190fa9682ad49e489a" upstream="refs/heads/atel-sys.lnx.13.0.r3-rel" groups="qc-common-sys-intf,vsdk_inc_L0,vsdk_inc_L1,vsdk_inc_L2,vsdk_exc_L3"/>
+  <project remote="clo-la" name="platform/vendor/codeaurora/packages/apps/Dialer" path="vendor/codeaurora/commonsys/packages/apps/Dialer" revision="f0b6754a8ecd0c5b6a8ba418f28469bac5a649e2" upstream="refs/heads/atel-sys.lnx.13.0.r3-rel" groups="qc-common-sys-intf,vsdk_inc_L0,vsdk_inc_L1,vsdk_inc_L2,vsdk_exc_L3"/>
   <project remote="clo-la" name="platform/vendor/codeaurora/packages/apps/SoundRecorder" path="vendor/codeaurora/commonsys/packages/apps/SoundRecorder" revision="bbff4546d2f7a03616eee655973356e6704d811f" upstream="refs/heads/android_ui-sys.lnx.13.0.r3-rel" groups="qc-common-sys-intf,vsdk_inc_L0,vsdk_inc_L1,vsdk_inc_L2,vsdk_exc_L3">
     <linkfile dest="vendor/qcom/defs/product-defs/system/app_qtiSoundRecorder_product.mk" src="app_qtiSoundRecorder_system_product.mk"/>
   </project>
@@ -1193,7 +1193,7 @@
   <project remote="clo-la" name="platform/vendor/qcom-opensource/display-commonsys" path="vendor/qcom/opensource/commonsys/display" revision="95163b5a7a16280b09192fca17b3ade12be0b3cf" upstream="refs/heads/display-sys.lnx.13.0.r5-rel" groups="qc-common-sys-intf,vsdk_exc_L0,vsdk_exc_L1,vsdk_exc_L2,vsdk_exc_L3">
     <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-commonsys.mk" src="config/display-product-commonsys.mk"/>
   </project>
-  <project remote="clo-la" name="platform/vendor/qcom-opensource/display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" revision="b1df0132533de004fb3a05c70c54329b1bd9949e" upstream="refs/heads/display-sysintf.lnx.13.0.r5-rel" groups="qc-common-sys-intf,vsdk_inc_L0,vsdk_inc_L1,vsdk_inc_L2,vsdk_inc_L3">
+  <project remote="clo-la" name="platform/vendor/qcom-opensource/display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" revision="fb0ca4560627cfed8b170ed65e0d45465daaa788" upstream="refs/heads/display-sysintf.lnx.13.0.r5-rel" groups="qc-common-sys-intf,vsdk_inc_L0,vsdk_inc_L1,vsdk_inc_L2,vsdk_inc_L3">
     <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk"/>
   </project>
