@@ -108,6 +108,8 @@
   <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" remote="aosp" clone-depth="1" />
   <remove-project name="platform/packages/providers/BlockedNumberProvider" />
   <project path="packages/providers/BlockedNumberProvider" name="platform/packages/providers/BlockedNumberProvider" remote="aosp" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" remote="aosp" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" remote="aosp" />
   <remove-project name="platform/packages/services/BuiltInPrintService" />
