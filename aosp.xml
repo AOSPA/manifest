@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Bootable -->
+  <remove-project name="platform/bootable/libbootloader" />
+  <project path="bootable/libbootloader" name="platform/bootable/libbootloader" remote="aosp" />
+
   <!-- Build -->
   <remove-project name="platform/build/bazel_common_rules" />
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" remote="aosp" />
+  <remove-project name="platform/build/bazel" />
+  <project path="build/bazel" name="platform/build/bazel" remote="aosp" >
+    <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
+    <linkfile src="bazel.BUILD" dest="BUILD" />
+  </project>
 
   <!-- CTS -->
   <remove-project name="platform/cts" />
@@ -60,6 +69,8 @@
   <project path="external/setupcompat" name="platform/external/setupcompat" remote="aosp" />
   <remove-project name="platform/external/setupdesign" />
   <project path="external/setupdesign" name="platform/external/setupdesign" remote="aosp" />
+  <remove-project name="platform/external/sqlite" />
+  <project path="external/sqlite" name="platform/external/sqlite" remote="aosp" />
   <remove-project name="platform/external/webp" />
   <project path="external/webp" name="platform/external/webp" remote="aosp" />
 
