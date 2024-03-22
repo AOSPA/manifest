@@ -56,6 +56,8 @@
   <project path="external/cronet" name="AOSPA/android_external_cronet" remote="aospa" />
   <remove-project name="platform/external/fastrpc" />
   <project path="external/fastrpc" name="AOSPA/android_external_fastrpc" remote="aospa" />
+  <remove-project name="platform/external/jemalloc_new" />
+  <project path="external/jemalloc_new" name="AOSPA/android_external_jemalloc-new" remote="aospa" />
   <remove-project name="platform/external/skia" />
   <project path="external/skia" name="AOSPA/android_external_skia" remote="aospa" />
   <remove-project name="platform/external/tinycompress" />
