@@ -45,6 +45,11 @@
   <remove-project name="platform/vendor/qcom/opensource/securemsm-kernel" />
   <remove-project name="platform/vendor/qcom-opensource/bt-kernel" />
   <remove-project name="platform/vendor/qcom-opensource/location" />
+  <remove-project name="platform/vendor/opensource/synx-kernel" />
+  <remove-project name="platform/vendor/qcom/opensource/dsp-kernel" />
+  <remove-project name="platform/vendor/qcom-opensource/fingerprint" />
+  <remove-project name="platform/vendor/qcom/opensource/spu-kernel" />
+  <remove-project name="platform/vendor/opensource/mm-sys-kernel" />
   <remove-project name="platform/vendor/qcom-opensource/wigig" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" />
@@ -83,10 +88,14 @@
   <remove-project name="platform/vendor/nxp/opensource/halimpl" />
   <remove-project name="platform/vendor/nxp/opensource/hidlimpl" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
+  <remove-project name="platform/vendor/qcom/blair" />
   <remove-project name="platform/vendor/qcom/kalama" />
-  <remove-project name="platform/vendor/qcom/crow" />
+  <remove-project name="platform/vendor/qcom/pineapple" />
   <remove-project name="platform/vendor/qcom/lahaina" />
+  <remove-project name="platform/vendor/qcom/pitti" />
+  <remove-project name="platform/vendor/qcom/pitti_32go" />
   <remove-project name="platform/vendor/qcom/taro" />
+  <remove-project name="platform/vendor/qcom/volcano" />
   <remove-project name="platform/vendor/st/opensource/driver" />
   <remove-project name="platform/vendor/st/opensource/eSE-driver" />
   <remove-project name="platform/vendor/st/opensource/halimpl" />
