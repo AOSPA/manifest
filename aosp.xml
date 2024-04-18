@@ -38,6 +38,9 @@
   <project path="external/kotlinc" name="platform/external/kotlinc" remote="aosp" clone-depth="1" />
   <remove-project name="platform/external/kotlinx.coroutines" />
   <project path="external/kotlinx.coroutines" name="platform/external/kotlinx.coroutines" remote="aosp" />
+  <project path="external/libdav1d" name="platform/external/libdav1d" remote="aosp" revision="225ac741d9b2d09d5f1790bee0338af1b69f0b34" />
+  <remove-project name="platform/external/libgav1" />
+  <project path="external/libgav1" name="platform/external/libgav1" remote="aosp" revision="3a206b0238e7d0072ebfb6e11cc74f06b2933b44" />
   <!--<remove-project name="platform/external/libmonet" />-->
   <project path="external/libmonet" name="platform/external/libmonet" remote="aosp" clone-depth="1" />
   <remove-project name="platform/external/libphonenumber" />
