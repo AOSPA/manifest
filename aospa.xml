@@ -68,6 +68,8 @@
   <project path="external/tinycompress" name="AOSPA/android_external_tinycompress" remote="aospa" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <project path="external/wpa_supplicant_8" name="AOSPA/android_external_wpa_supplicant_8" remote="aospa" />
+  <remove-project name="platform/external/sonivox" />
+  <project path="external/sonivox" name="AOSPA/android_external_sonivox" remote="aospa" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
@@ -138,6 +140,8 @@
   <project path="packages/services/Telecomm" name="AOSPA/android_packages_services_Telecomm" remote="aospa" />
   <remove-project name="platform/packages/services/Telephony" />
   <project path="packages/services/Telephony" name="AOSPA/android_packages_services_Telephony" remote="aospa" />
+  <remove-project name="platform/packages/modules/HealthFitness" />
+  <project path="packages/modules/HealthFitness" name="AOSPA/android_packages_modules_HealthFitness" remote="aospa" />
 
   <!-- Prebuilts (AOSPA) -->
   <project path="prebuilts/extract-tools" name="AOSPA/android_prebuilts_extract-tools" remote="aospa" />
