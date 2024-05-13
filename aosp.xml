@@ -88,8 +88,6 @@
   <project path="packages/modules/DeviceLock" name="platform/packages/modules/DeviceLock" remote="aosp" />
   <remove-project name="platform/packages/modules/DnsResolver" />
   <project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" remote="aosp" />
-  <remove-project name="platform/packages/modules/HealthFitness" />
-  <project path="packages/modules/HealthFitness" name="platform/packages/modules/HealthFitness" remote="aosp" />
   <remove-project name="platform/packages/modules/ImsMedia" />
   <project path="packages/modules/ImsMedia" name="platform/packages/modules/ImsMedia" remote="aosp" />
   <remove-project name="platform/packages/modules/IntentResolver" />
