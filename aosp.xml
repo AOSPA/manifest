@@ -88,6 +88,8 @@
   <project path="packages/modules/DeviceLock" name="platform/packages/modules/DeviceLock" remote="aosp" />
   <remove-project name="platform/packages/modules/DnsResolver" />
   <project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" remote="aosp" />
+  <remove-project name="platform/packages/modules/HealthFitness" />
+  <project path="packages/modules/HealthFitness" name="platform/packages/modules/HealthFitness" remote="aosp" revision="android-security-14.0.0_r9" />
   <remove-project name="platform/packages/modules/ImsMedia" />
   <project path="packages/modules/ImsMedia" name="platform/packages/modules/ImsMedia" remote="aosp" />
   <remove-project name="platform/packages/modules/IntentResolver" />
@@ -99,7 +101,7 @@
   <remove-project name="platform/packages/modules/SdkExtensions" />
   <project path="packages/modules/SdkExtensions" name="platform/packages/modules/SdkExtensions" remote="aosp" />
   <remove-project name="platform/packages/modules/StatsD" />
-  <project path="packages/modules/StatsD" name="platform/packages/modules/StatsD" remote="aosp" />
+  <project path="packages/modules/StatsD" name="platform/packages/modules/StatsD" remote="aosp" revision="refs/tags/android-security-14.0.0_r9" />
   <remove-project name="platform/packages/modules/Virtualization" />
   <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" remote="aosp" clone-depth="1" />
   <remove-project name="platform/packages/providers/BlockedNumberProvider" />
@@ -256,5 +258,7 @@
   <project path="system/nfc" name="platform/system/nfc" remote="aosp" />
   <remove-project name="platform/system/unwinding" />
   <project path="system/unwinding" name="platform/system/unwinding" remote="aosp" />
+  <remove-project name="platform/system/libfmq" />
+  <project path="system/libfmq" name="platform/system/libfmq" remote="aosp" revision="refs/tags/android-security-14.0.0_r9" />
 
 </manifest>
