@@ -54,6 +54,8 @@
   <project path="external/boringssl" name="AOSPA/android_external_boringssl" remote="aospa" />
   <remove-project name="platform/external/cronet" />
   <project path="external/cronet" name="AOSPA/android_external_cronet" remote="aospa" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <project path="external/e2fsprogs" name="AOSPA/android_external_e2fsprogs" remote="aospa" />
   <remove-project name="platform/external/fastrpc" />
   <project path="external/fastrpc" name="AOSPA/android_external_fastrpc" remote="aospa" />
   <remove-project name="platform/external/jemalloc_new" />
