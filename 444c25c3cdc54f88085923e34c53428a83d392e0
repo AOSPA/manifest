@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7272e111_8ef7587b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2024-07-01T09:52:39Z",
+      "side": 1,
+      "message": "instead of making a new commit for every tag, just amend it to avoid polluting the repo",
+      "revId": "444c25c3cdc54f88085923e34c53428a83d392e0",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
