@@ -14,6 +14,8 @@
   <project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" remote="aosp" clone-depth="1" />
 
   <!-- External -->
+  <remove-project name="platform/external/arm-optimized-routines" />
+  <project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" remote="aosp" revision="3a0b36b72f10ed33b149046d57fdb54efcf25869" />
   <remove-project name="platform/external/chromium-webview" />
   <project path="external/chromium-webview" name="platform/external/chromium-webview" remote="aosp" clone-depth="1" />
   <remove-project name="platform/external/connectedappssdk" />

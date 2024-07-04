@@ -48,8 +48,6 @@
   </project>
 
   <!-- External -->
-  <remove-project name="platform/external/arm-optimized-routines" />
-  <project path="external/arm-optimized-routines" name="AOSPA/android_external_arm-optimized-routines" remote="aospa" />
   <remove-project name="platform/external/boringssl" />
   <project path="external/boringssl" name="AOSPA/android_external_boringssl" remote="aospa" />
   <remove-project name="platform/external/cronet" />
