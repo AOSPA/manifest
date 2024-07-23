@@ -62,6 +62,8 @@
   <project path="external/jemalloc_new" name="AOSPA/android_external_jemalloc-new" remote="aospa" />
   <remove-project name="platform/external/mksh" />
   <project path="external/mksh" name="AOSPA/android_external_mksh" remote="aospa" />
+  <remove-project name="platform/external/noto-fonts" />
+  <project path="external/noto-fonts" name="AOSPA/android_external_noto-fonts" remote="aospa" />
   <remove-project name="platform/external/okhttp" />
   <project path="external/okhttp" name="AOSPA/android_external_okhttp" remote="aospa" />
   <remove-project name="platform/external/skia" />
