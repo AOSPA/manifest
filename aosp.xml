@@ -100,14 +100,10 @@
   <project path="packages/modules/Media" name="platform/packages/modules/Media" remote="aosp" />
   <remove-project name="platform/packages/modules/SdkExtensions" />
   <project path="packages/modules/SdkExtensions" name="platform/packages/modules/SdkExtensions" remote="aosp" />
-  <remove-project name="platform/packages/modules/StatsD" />
-  <project path="packages/modules/StatsD" name="platform/packages/modules/StatsD" remote="aosp" revision="refs/tags/android-security-14.0.0_r10" />
   <remove-project name="platform/packages/providers/BlockedNumberProvider" />
   <project path="packages/providers/BlockedNumberProvider" name="platform/packages/providers/BlockedNumberProvider" remote="aosp" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" remote="aosp" />
-  <remove-project name="platform/packages/providers/MediaProvider" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" remote="aosp" revision="refs/tags/android-security-14.0.0_r10" />
   <remove-project name="platform/packages/services/BuiltInPrintService" />
   <project path="packages/services/BuiltInPrintService" name="platform/packages/services/BuiltInPrintService" remote="aosp" />
   <remove-project name="platform/packages/services/DeviceAsWebcam" />
@@ -256,7 +252,5 @@
   <project path="system/nfc" name="platform/system/nfc" remote="aosp" />
   <remove-project name="platform/system/unwinding" />
   <project path="system/unwinding" name="platform/system/unwinding" remote="aosp" />
-  <remove-project name="platform/system/libfmq" />
-  <project path="system/libfmq" name="platform/system/libfmq" remote="aosp" revision="refs/tags/android-security-14.0.0_r9" />
 
 </manifest>
