@@ -102,8 +102,6 @@
   <project path="packages/modules/SdkExtensions" name="platform/packages/modules/SdkExtensions" remote="aosp" />
   <remove-project name="platform/packages/modules/StatsD" />
   <project path="packages/modules/StatsD" name="platform/packages/modules/StatsD" remote="aosp" revision="refs/tags/android-security-14.0.0_r10" />
-  <remove-project name="platform/packages/modules/Virtualization" />
-  <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" remote="aosp" clone-depth="1" />
   <remove-project name="platform/packages/providers/BlockedNumberProvider" />
   <project path="packages/providers/BlockedNumberProvider" name="platform/packages/providers/BlockedNumberProvider" remote="aosp" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
