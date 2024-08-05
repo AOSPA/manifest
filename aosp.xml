@@ -66,8 +66,6 @@
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/layoutlib" />
   <project path="frameworks/layoutlib" name="platform/frameworks/layoutlib" remote="aosp" />
-  <remove-project name="platform/frameworks/libs/modules-utils" />
-  <project path="frameworks/libs/modules-utils" name="platform/frameworks/libs/modules-utils" remote="aosp" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/KeyChain" />
@@ -248,8 +246,6 @@
   <project path="system/extras" name="platform/system/extras" remote="aosp" />
   <remove-project name="platform/system/gsid" />
   <project path="system/gsid" name="platform/system/gsid" remote="aosp" />
-  <remove-project name="platform/system/nfc" />
-  <project path="system/nfc" name="platform/system/nfc" remote="aosp" />
   <remove-project name="platform/system/unwinding" />
   <project path="system/unwinding" name="platform/system/unwinding" remote="aosp" />
 
