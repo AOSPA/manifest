@@ -66,8 +66,6 @@
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/layoutlib" />
   <project path="frameworks/layoutlib" name="platform/frameworks/layoutlib" remote="aosp" />
-  <remove-project name="platform/frameworks/libs/modules-utils" />
-  <project path="frameworks/libs/modules-utils" name="platform/frameworks/libs/modules-utils" remote="aosp" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/KeyChain" />

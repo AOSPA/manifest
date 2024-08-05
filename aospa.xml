@@ -90,6 +90,8 @@
   <project path="frameworks/opt/net/wifi" name="AOSPA/android_frameworks_opt_net_wifi" remote="aospa" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="aospa" />
+  <remove-project name="platform/frameworks/libs/modules-utils" />
+  <project path="frameworks/libs/modules-utils" name="AOSPA/android_frameworks_libs_modules-utils" remote="aospa" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
@@ -181,6 +183,10 @@
   <project path="system/update_engine" name="AOSPA/android_system_update_engine" remote="aospa" />
   <remove-project name="platform/system/vold" />
   <project path="system/vold" name="AOSPA/android_system_vold" remote="aospa" />
+  <remove-project name="platform/system/security" />
+  <project path="system/security" name="AOSPA/android_system_security" remote="aospa" />
+  <remove-project name="platform/system/nfc" />
+  <project path="system/nfc" name="AOSPA/android_system_nfc" remote="aospa" />
 
   <!-- Tests -->
   <remove-project name="platform/platform_testing" />
