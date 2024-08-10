@@ -245,5 +245,6 @@
   <project path="vendor/qcom/opensource/usb" name="AOSPA/android_vendor_qcom-opensource_usb" remote="aospa" />
   <remove-project name="platform/hardware/qcom/thermal" />
   <project path="vendor/qcom/opensource/thermal-hal" name="AOSPA/android_hardware_qcom_thermal" remote="aospa" />
+  <project path="vendor/qcom/opensource/thermal-hal-legacy" name="AOSPA/android_hardware_qcom_thermal" remote="aospa" revision="uvite-legacy" />
 
 </manifest>
