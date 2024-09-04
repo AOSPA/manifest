@@ -150,6 +150,8 @@
   <project path="packages/services/Telecomm" name="AOSPA/android_packages_services_Telecomm" remote="aospa" />
   <remove-project name="platform/packages/services/Telephony" />
   <project path="packages/services/Telephony" name="AOSPA/android_packages_services_Telephony" remote="aospa" />
+  <remove-project name="platform/packages/modules/RemoteKeyProvisioning" />
+  <project path="packages/modules/RemoteKeyProvisioning" name="AOSPA/android_packages_modules_RemoteKeyProvisioning" remote="aospa" />
 
   <!-- Prebuilts (AOSPA) -->
   <project path="prebuilts/extract-tools" name="AOSPA/android_prebuilts_extract-tools" remote="aospa" />
