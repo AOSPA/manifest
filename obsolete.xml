@@ -14,7 +14,6 @@
   <remove-project name="device/generic/mini-emulator-x86"/>
   <remove-project name="device/generic/mini-emulator-x86_64"/>
   <remove-project name="device/generic/opengl-transport"/>
-  <remove-project name="device/generic/qemu"/>
   <remove-project name="device/generic/trusty"/>
   <remove-project name="device/generic/uml"/>
   <remove-project name="device/generic/x86"/>
@@ -57,16 +56,12 @@
   <remove-project name="kernel/prebuilts/5.4/x86-64"/>
   <remove-project name="kernel/prebuilts/5.15/arm64"/>
   <remove-project name="kernel/prebuilts/5.15/x86-64"/>
-  <remove-project name="kernel/prebuilts/6.1/arm64"/>
-  <remove-project name="kernel/prebuilts/6.1/x86-64"/>
   <remove-project name="kernel/prebuilts/common-modules/virtual-device/4.19/arm64"/>
   <remove-project name="kernel/prebuilts/common-modules/virtual-device/4.19/x86-64"/>
   <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.4/arm64"/>
   <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.4/x86-64"/>
   <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.15/arm64"/>
   <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.15/x86-64"/>
-  <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.1/arm64"/>
-  <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64"/>
   <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64"/>
   <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64"/>
   <remove-project name="kernel/prebuilts/mainline/arm64"/>
