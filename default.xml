@@ -7,7 +7,7 @@
           sync-c="true"
           sync-tags="false"
           review="https://android-review.googlesource.com/"
-          revision="refs/tags/android-14.0.0_r27" />
+          revision="refs/tags/android-15.0.0_r1" />
 
   <!-- CLO -->
   <remote name="clo-la"
@@ -24,19 +24,19 @@
   <remote  name="aospa"
            fetch=".."
            review="gerrit.aospa.co"
-           revision="uvite"/>
+           revision="vauxite"/>
 
   <remote  name="bitbucket"
            fetch="https://bitbucket.org"
-           revision="uvite" />
+           revision="vauxite" />
 
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario"
-           revision="uvite" />
+           revision="vauxite" />
 
   <remote  name="blobs-gitlab"
            fetch="https://gitlab.com/ThankYouMario"
-           revision="uvite" />
+           revision="vauxite" />
 
   <remote  name="github"
            fetch="https://github.com" />
