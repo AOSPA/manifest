@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9a664b77_b23feab2",
+        "filename": "aosp.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000143
+      },
+      "writtenOn": "2024-09-18T07:34:34Z",
+      "side": 1,
+      "message": "We dont need superproject",
+      "revId": "5068e8cdfcc7183a719501af81a914c2362b3429",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
