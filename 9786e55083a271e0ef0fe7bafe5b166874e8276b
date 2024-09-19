@@ -16,6 +16,24 @@
       "message": "why?",
       "revId": "9786e55083a271e0ef0fe7bafe5b166874e8276b",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "043369eb_b1eadfdb",
+        "filename": "aosp.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000895
+      },
+      "writtenOn": "2024-09-19T11:58:02Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "ea82bd5f_7e4092ef",
+      "revId": "9786e55083a271e0ef0fe7bafe5b166874e8276b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
