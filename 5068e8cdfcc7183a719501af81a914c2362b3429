@@ -16,6 +16,24 @@
       "message": "We dont need superproject",
       "revId": "5068e8cdfcc7183a719501af81a914c2362b3429",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "89bd3102_ae62fec2",
+        "filename": "aosp.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000143
+      },
+      "writtenOn": "2024-09-19T11:28:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a664b77_b23feab2",
+      "revId": "5068e8cdfcc7183a719501af81a914c2362b3429",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
