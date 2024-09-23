@@ -41,8 +41,9 @@
   <project path="external/tinycompress" name="AOSPA/android_external_tinycompress" remote="aospa" />
 
   <!-- Frameworks -->
-  <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" />
+  <extend-project name="platform/frameworks/base" remote="clo-la" revision="2eb6a1da233d8ec0678ebc3201eb1e6fb0ab10e8" upstream="refs/heads/ks-aosp.lnx.14.0.r1-rel">
+      <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" />
+  </extend-project>
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" />
 
