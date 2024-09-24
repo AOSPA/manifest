@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "57734093_2616f728",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 27
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000895
+      },
+      "writtenOn": "2024-09-24T11:06:07Z",
+      "side": 1,
+      "message": "update to LA.QSSI.15.0.r1-09700-qssi.0",
+      "revId": "c914abcd48c7ab2fbbb17092ee5f9dfc585f34ac",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
