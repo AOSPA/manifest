@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e5a787e9_287314df",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000760
+      },
+      "writtenOn": "2024-09-29T15:37:46Z",
+      "side": 1,
+      "message": "it\u0027s better to just work on getting lanai vendor merged at the earliest.",
+      "revId": "8b5a822de17c00039176d430f1ab195c3b11a4ad",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
