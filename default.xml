@@ -9,13 +9,23 @@
           review="https://android-review.googlesource.com/"
           revision="refs/tags/android-15.0.0_r1" />
 
-  <!-- CLO -->
-  <remote name="clo-la"
+<!-- CLO -->
+  <remote name="clo_system"
           fetch="https://git.codelinaro.org/clo/la"
           sync-c="true"
-          sync-tags="false" />
+          sync-tags="false"
+          review="codelinaro.org"/>
 
-  <default remote="clo-la"/>
+  <remote name="clo_vendor"
+          fetch="https://git.codelinaro.org/clo/la"
+          sync-c="true"
+          sync-tags="false"
+          review="codelinaro.org"
+          revision="refs/tags/LA.VENDOR.13.2.0.r1-24300-KAILUA.QSSI15.0"/>
+
+  <default revision="refs/tags/LA.QSSI.15.0.r1-09500-qssi.0"
+           remote="clo_system"/>
+
 
   <include name="system.xml"/>
   <include name="vendor.xml"/>
