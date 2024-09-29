@@ -57,6 +57,8 @@
   <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="aospa" />
+  <remove-project name="platform/hardware/qcom/bootctrl" />
+  <project remote="clo-la" name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" revision="7733efc0cce1149ce909e41cdf43164ab7bed8bf" upstream="refs/heads/android-core.lnx.14.0.r1-rel"/>
   <remove-project name="platform/hardware/qcom/wlan" />
   <project path="hardware/qcom/wlan" name="AOSPA/android_hardware_qcom_wlan" remote="aospa" />
   <remove-project name="platform/hardware/st/nfc" />
