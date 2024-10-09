@@ -11,6 +11,8 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <remove-project name="platform/build/release" />
+  <project path="build/release" name="AOSPA/android_build_release" remote="aospa" />
   <remove-project name="platform/build/soong" />
   <project path="build/soong" name="AOSPA/android_build_soong" remote="aospa" >
     <linkfile src="root.bp" dest="Android.bp" />
