@@ -90,8 +90,6 @@
   <project path="packages/modules/HealthFitness" name="platform/packages/modules/HealthFitness" remote="aosp" revision="refs/tags/android-security-14.0.0_r9" />
   <remove-project name="platform/packages/modules/ImsMedia" />
   <project path="packages/modules/ImsMedia" name="platform/packages/modules/ImsMedia" remote="aosp" />
-  <remove-project name="platform/packages/modules/IntentResolver" />
-  <project path="packages/modules/IntentResolver" name="platform/packages/modules/IntentResolver" remote="aosp" />
   <remove-project name="platform/packages/modules/IPsec" />
   <project path="packages/modules/IPsec" name="platform/packages/modules/IPsec" remote="aosp" />
   <remove-project name="platform/packages/modules/Media" />
