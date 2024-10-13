@@ -74,6 +74,10 @@
   <!-- Manifest -->
   <project path="manifest" name="AOSPA/manifest" remote="aospa" />
 
+  <!-- Packages -->
+  <remove-project name="platform/packages/services/DeviceAsWebcam" />
+  <project path="packages/services/DeviceAsWebcam" name="AOSPA/android_packages_services_DeviceAsWebcam" remote="aospa" />
+
   <!-- Packages (AOSPA) -->
   <project path="packages/apps/ParanoidDoze" name="AOSPA/android_packages_apps_ParanoidDoze" remote="aospa" />
   <project path="packages/apps/ParanoidPapers" name="AOSPA/android_packages_apps_ParanoidPapers" remote="aospa" />
