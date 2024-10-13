@@ -47,6 +47,8 @@
   <!-- External -->
   <remove-project name="platform/external/fastrpc" />
   <project path="external/fastrpc" name="AOSPA/android_external_fastrpc" remote="aospa" />
+  <remove-project name="platform/external/json-c" />
+  <project path="external/json-c" name="AOSPA/android_external_json-c" remote="aospa" />
   <remove-project name="platform/external/tinycompress" />
   <project path="external/tinycompress" name="AOSPA/android_external_tinycompress" remote="aospa" />
 
