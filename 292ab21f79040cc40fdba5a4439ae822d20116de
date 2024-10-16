@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "244a653b_a36044d3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000760
+      },
+      "writtenOn": "2024-10-16T03:06:30Z",
+      "side": 1,
+      "message": "i feel like cloning all repos from system.xml with depth 1 won\u0027t hurt, cuz we got repos from aospa.xml, aosp.xml, vendor.xml without depth, having the actual history which we might care more about.",
+      "revId": "292ab21f79040cc40fdba5a4439ae822d20116de",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
