@@ -75,6 +75,10 @@
   <!-- Hardware (Lineage) -->
   <project path="hardware/lineage/compat" name="AOSPA/android_hardware_lineage_compat" remote="aospa" />
 
+  <!-- Kernel -->
+  <remove-project name="kernel/configs" />
+  <project path="kernel/configs" name="AOSPA/android_kernel_configs" remote="aospa" />
+
   <!-- Manifest -->
   <project path="manifest" name="AOSPA/manifest" remote="aospa" />
 
