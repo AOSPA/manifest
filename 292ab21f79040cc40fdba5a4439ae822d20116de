@@ -16,6 +16,24 @@
       "message": "i feel like cloning all repos from system.xml with depth 1 won\u0027t hurt, cuz we got repos from aospa.xml, aosp.xml, vendor.xml without depth, having the actual history which we might care more about.",
       "revId": "292ab21f79040cc40fdba5a4439ae822d20116de",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "149e26fd_17211aa4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2024-10-19T05:21:24Z",
+      "side": 1,
+      "message": "IMO history from repos that we don\u0027t track is still fairly important. It\u0027s just repos with absurdly large sizes that history is \"update prebuilts\" that clone-depth makes sense for.",
+      "parentUuid": "244a653b_a36044d3",
+      "revId": "292ab21f79040cc40fdba5a4439ae822d20116de",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
