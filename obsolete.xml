@@ -50,6 +50,9 @@
   <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/platform" />
 
+  <!-- Packages -->
+  <remove-project name="platform/packages/apps/Gallery2" />
+
   <!-- Prebuilts -->
   <remove-project name="kernel/prebuilts/4.19/arm64"/>
   <remove-project name="kernel/prebuilts/5.4/arm64"/>
