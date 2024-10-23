@@ -70,7 +70,10 @@
   <remove-project name="kernel/prebuilts/mainline/arm64"/>
   <remove-project name="kernel/prebuilts/mainline/x86-64"/>
   <remove-project name="platform/prebuilts/android-emulator" />
+  <remove-project name="platform/prebuilts/bazel/darwin-x86_64" />
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"/>
+  <remove-project name="platform/prebuilts/go/darwin-x86"  />
   <remove-project name="platform/prebuilts/qemu-kernel" />
 
   <!-- Vendor -->
