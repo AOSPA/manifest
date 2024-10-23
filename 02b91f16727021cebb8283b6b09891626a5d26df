@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "858b43ef_31cd9252",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2024-10-23T10:27:21Z",
+      "side": 1,
+      "message": "We are down to 67.9GB for .repo now",
+      "revId": "02b91f16727021cebb8283b6b09891626a5d26df",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
