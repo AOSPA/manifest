@@ -17,6 +17,10 @@
   <project path="packages/modules/Permission" name="platform/packages/modules/Permission" remote="aosp" />
 
   <!-- Prebuilts -->
+  <remove-project name="platform/prebuilts/clang-tools" />
+  <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" remote="aosp" clone-depth="1" />
   <remove-project name="platform/prebuilts/module_sdk/Permission" />
   <project path="prebuilts/module_sdk/Permission" name="platform/prebuilts/module_sdk/Permission" remote="aosp" clone-depth="1" />
 
