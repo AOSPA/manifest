@@ -86,6 +86,7 @@
   <project path="packages/apps/ParanoidDoze" name="AOSPA/android_packages_apps_ParanoidDoze" remote="aospa" />
   <project path="packages/apps/ParanoidPapers" name="AOSPA/android_packages_apps_ParanoidPapers" remote="aospa" />
   <project path="packages/apps/ParanoidSettings" name="AOSPA/android_packages_apps_ParanoidSettings" remote="aospa" />
+  <project path="packages/apps/ParanoidSystemUI" name="AOSPA/android_packages_apps_Paranoid_SystemUI" remote="aospa" />
   <project path="packages/resources/devicesettings" name="AOSPA/android_packages_resources_devicesettings" remote="aospa" />
 
   <!-- Prebuilts (AOSPA) -->
