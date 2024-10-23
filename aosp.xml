@@ -9,8 +9,22 @@
   <project path="cts" name="platform/cts" remote="aosp" clone-depth="1" />
 
   <!-- External -->
+  <remove-project name="platform/external/angle" />
+  <project path="external/angle" name="platform/external/angle" remote="aosp" />
   <remove-project name="platform/external/chromium-webview" />
   <project path="external/chromium-webview" name="platform/external/chromium-webview" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/conscrypt" />
+  <project path="external/conscrypt" name="platform/external/conscrypt" remote="aosp" />
+  <remove-project name="platform/external/deqp" />
+  <project path="external/deqp" name="platform/external/deqp" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/dokka" />
+  <project path="external/dokka" name="platform/external/dokka" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/icu" />
+  <project path="external/icu" name="platform/external/icu" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/kotlinc" />
+  <project path="external/kotlinc" name="platform/external/kotlinc" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/external/linux-kselftest" />
+  <project path="external/linux-kselftest" name="platform/external/linux-kselftest" remote="aosp" clone-depth="1" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/modules/Permission" />
@@ -23,5 +37,35 @@
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" remote="aosp" clone-depth="1" />
   <remove-project name="platform/prebuilts/module_sdk/Permission" />
   <project path="prebuilts/module_sdk/Permission" name="platform/prebuilts/module_sdk/Permission" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/ndk" />
+  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/qemu-kernel" />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/r8" />
+  <project path="prebuilts/r8" name="platform/prebuilts/r8" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/remoteexecution-client" />
+  <project path="prebuilts/remoteexecution-client" name="platform/prebuilts/remoteexecution-client" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/runtime" />
+  <project path="prebuilts/runtime" name="platform/prebuilts/runtime" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/rust" />
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/sdk" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/tools" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/vndk/v29" />
+  <project path="prebuilts/vndk/v29" name="platform/prebuilts/vndk/v29" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/vndk/v30" />
+  <project path="prebuilts/vndk/v30" name="platform/prebuilts/vndk/v30" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/vndk/v31" />
+  <project path="prebuilts/vndk/v31" name="platform/prebuilts/vndk/v31" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/vndk/v32" />
+  <project path="prebuilts/vndk/v32" name="platform/prebuilts/vndk/v32" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/vndk/v33" />
+  <project path="prebuilts/vndk/v33" name="platform/prebuilts/vndk/v33" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/prebuilts/vndk/v34" />
+  <project path="prebuilts/vndk/v34" name="platform/prebuilts/vndk/v34" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/tools/tradefederation/prebuilts" />
+  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" remote="aosp" clone-depth="1" />
 
 </manifest>
