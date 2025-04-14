@@ -71,8 +71,6 @@
   <project path="hardware/interfaces" name="AOSPA/android_hardware_interfaces" remote="aospa" />
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="aospa" />
-  <remove-project name="platform/hardware/qcom/wlan" />
-  <project path="hardware/qcom/wlan" name="AOSPA/android_hardware_qcom_wlan" remote="aospa" />
   <remove-project name="platform/hardware/st/nfc" />
   <project path="hardware/st/nfc" name="AOSPA/android_hardware_st_nfc" remote="aospa" />
 
@@ -112,8 +110,6 @@
   <project path="system/core" name="AOSPA/android_system_core" remote="aospa" />
   <remove-project name="platform/system/memory/lmkd" />
   <project path="system/memory/lmkd" name="AOSPA/android_system_memory_lmkd" remote="aospa" />
-  <remove-project name="platform/system/qcom" />
-  <project path="vendor/qcom/opensource/softap" name="AOSPA/android_system_qcom" remote="aospa" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="AOSPA/android_system_sepolicy" remote="aospa" />
 
@@ -133,6 +129,8 @@
   <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" revision="disabled" />
 
   <!-- Vendor (QCOM QSSI) -->
+  <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="AOSPA/android_vendor_qcom-opensource_bluetooth-commonsys-intf" remote="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_display" remote="aospa" >
     <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk" />
@@ -142,8 +140,6 @@
   <project path="vendor/qcom/opensource/commonsys/display" name="AOSPA/android_vendor_qcom-opensource_display-commonsys" remote="aospa" />
 
   <!-- Vendor (QCOM Vendor) -->
-  <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
-  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="AOSPA/android_vendor_qcom-opensource_bluetooth-commonsys-intf" remote="aospa" />
   <project path="vendor/qcom/opensource/commonsys-intf/wfd" name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_wfd" remote="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="AOSPA/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aospa" />
@@ -152,6 +148,8 @@
   <project path="vendor/qcom/opensource/dataservices" name="AOSPA/android_vendor_qcom-opensource_dataservices" remote="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
   <project path="vendor/qcom/opensource/power" name="AOSPA/android_vendor_qcom-opensource_power" remote="aospa" />
+  <remove-project name="platform/system/qcom" />
+  <project path="vendor/qcom/opensource/softap" name="AOSPA/android_system_qcom" remote="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/vibrator" />
   <project path="vendor/qcom/opensource/vibrator" name="AOSPA/android_vendor_qcom-opensource_vibrator" remote="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/usb" />
