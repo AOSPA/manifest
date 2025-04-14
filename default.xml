@@ -19,6 +19,7 @@
 
   <include name="system.xml"/>
   <include name="vendor.xml"/>
+  <include name="wlan.xml" />
 
   <!-- AOSPA -->
   <remote  name="aospa"
