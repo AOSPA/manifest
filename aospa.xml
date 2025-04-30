@@ -39,7 +39,7 @@
   <remove-project name="device/qcom/qssi" />
   <project path="device/qcom/qssi" name="AOSPA/android_device_qcom_qssi" remote="aospa" />
   <remove-project name="device/qcom/sepolicy_vndr" />
-  <project path="device/qcom/sepolicy_vndr" name="AOSPA/android_device_qcom_sepolicy_vndr" remote="aospa" />
+  <project path="device/qcom/sepolicy_vndr" name="AOSPA/android_device_qcom_sepolicy_vndr" remote="aospa" revision="vauxite-upgrade" />
   <project path="device/qcom/kernelscripts" name="AOSPA/android_kernel_build" remote="aospa" >
     <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk"/>
   </project>
@@ -149,14 +149,14 @@
   <remove-project name="platform/vendor/qcom-opensource/dataservices" />
   <project path="vendor/qcom/opensource/dataservices" name="AOSPA/android_vendor_qcom-opensource_dataservices" remote="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
-  <project path="vendor/qcom/opensource/power" name="AOSPA/android_vendor_qcom-opensource_power" remote="aospa" />
+  <project path="vendor/qcom/opensource/power" name="AOSPA/android_vendor_qcom-opensource_power" remote="aospa" revision="vauxite-upgrade" />
   <remove-project name="platform/system/qcom" />
   <project path="vendor/qcom/opensource/softap" name="AOSPA/android_system_qcom" remote="aospa" />
   <remove-project name="platform/vendor/qcom-opensource/vibrator" />
-  <project path="vendor/qcom/opensource/vibrator" name="AOSPA/android_vendor_qcom-opensource_vibrator" remote="aospa" />
+  <project path="vendor/qcom/opensource/vibrator" name="AOSPA/android_vendor_qcom-opensource_vibrator" remote="aospa" revision="vauxite-upgrade" />
   <remove-project name="platform/vendor/qcom-opensource/usb" />
-  <project path="vendor/qcom/opensource/usb" name="AOSPA/android_vendor_qcom-opensource_usb" remote="aospa" />
+  <project path="vendor/qcom/opensource/usb" name="AOSPA/android_vendor_qcom-opensource_usb" remote="aospa" revision="vauxite-upgrade" />
   <remove-project name="platform/hardware/qcom/thermal" />
-  <project path="vendor/qcom/opensource/thermal-hal" name="AOSPA/android_hardware_qcom_thermal" remote="aospa" />
+  <project path="vendor/qcom/opensource/thermal-hal" name="AOSPA/android_hardware_qcom_thermal" remote="aospa" revision="vauxite-upgrade" />
 
 </manifest>
