@@ -9,22 +9,13 @@
   <remove-project name="device/generic/art"/>
   <remove-project name="device/generic/car"/>
   <remove-project name="device/generic/common"/>
-  <remove-project name="device/generic/mini-emulator-arm64"/>
-  <remove-project name="device/generic/mini-emulator-armv7-a-neon"/>
-  <remove-project name="device/generic/mini-emulator-x86"/>
-  <remove-project name="device/generic/mini-emulator-x86_64"/>
-  <remove-project name="device/generic/opengl-transport"/>
   <remove-project name="device/generic/trusty"/>
-  <remove-project name="device/generic/uml"/>
   <remove-project name="device/generic/x86"/>
   <remove-project name="device/generic/x86_64"/>
   <remove-project name="device/google_car"/>
   <remove-project name="device/google/atv"/>
-  <remove-project name="device/google/vrservices"/>
   <remove-project name="device/linaro/dragonboard"/>
   <remove-project name="device/linaro/dragonboard-kernel"/>
-  <remove-project name="device/linaro/poplar"/>
-  <remove-project name="device/linaro/poplar-kernel"/>
   <remove-project name="device/qcom/qssi_32"/>
   <remove-project name="device/qcom/qssi_32go"/>
   <remove-project name="device/sample"/>
@@ -67,28 +58,21 @@
   <remove-project name="platform/packages/apps/Gallery2" />
 
   <!-- Prebuilts -->
-  <remove-project name="kernel/prebuilts/4.19/arm64"/>
-  <remove-project name="kernel/prebuilts/5.4/arm64"/>
-  <remove-project name="kernel/prebuilts/5.4/x86-64"/>
-  <remove-project name="kernel/prebuilts/5.15/arm64"/>
-  <remove-project name="kernel/prebuilts/5.15/x86-64"/>
-  <remove-project name="kernel/prebuilts/6.6/arm64"/>
-  <remove-project name="kernel/prebuilts/6.6/x86-64"/>
-  <remove-project name="kernel/prebuilts/common-modules/virtual-device/4.19/arm64"/>
-  <remove-project name="kernel/prebuilts/common-modules/virtual-device/4.19/x86-64"/>
-  <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.4/arm64"/>
-  <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.4/x86-64"/>
-  <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.15/arm64"/>
-  <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.15/x86-64"/>
+  <remove-project name="kernel/prebuilts/6.1/arm64"/>
+  <remove-project name="kernel/prebuilts/6.1/x86-64"/>
+  <remove-project name="kernel/prebuilts/common-modules/trusty/6.12/arm64"/>
+  <remove-project name="kernel/prebuilts/common-modules/trusty/6.6/arm64"/>
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.1/arm64"/>
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64"/>
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.12/arm64"/>
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.12/x86-64"/>
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.6/arm64"/>
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.6/x86-64"/>
   <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64"/>
   <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64"/>
   <remove-project name="kernel/prebuilts/mainline/arm64"/>
   <remove-project name="kernel/prebuilts/mainline/x86-64"/>
-  <remove-project name="platform/prebuilts/android-emulator" />
-  <remove-project name="platform/prebuilts/bazel/darwin-x86_64" />
-  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"/>
-  <remove-project name="platform/prebuilts/go/darwin-x86"  />
   <remove-project name="platform/prebuilts/qemu-kernel" />
 
   <!-- Vendor -->
