@@ -9,7 +9,6 @@
   <remove-project name="device/generic/art"/>
   <remove-project name="device/generic/car"/>
   <remove-project name="device/generic/common"/>
-  <remove-project name="device/generic/trusty"/>
   <remove-project name="device/generic/x86"/>
   <remove-project name="device/generic/x86_64"/>
   <remove-project name="device/google_car"/>
@@ -18,7 +17,6 @@
   <remove-project name="device/linaro/dragonboard-kernel"/>
   <remove-project name="device/qcom/qssi_32"/>
   <remove-project name="device/qcom/qssi_32go"/>
-  <remove-project name="device/sample"/>
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/qcom/gps" />
@@ -75,6 +73,28 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"/>
   <remove-project name="platform/prebuilts/qemu-kernel" />
 
+  <!-- SDV -->
+  <remove-project name="device/google/sdv_display_safety"/>
+  <remove-project name="platform/external/sdv/vsomeip" />
+  <remove-project name="platform/hardware/sdv/interfaces" />
+  <remove-project name="platform/packages/services/display_safety" />
+  <remove-project name="platform/system/software_defined_vehicle/automotive_services" />
+  <remove-project name="platform/system/software_defined_vehicle/common" />
+  <remove-project name="platform/system/software_defined_vehicle/health_monitor" />
+  <remove-project name="platform/system/software_defined_vehicle/lifecycle_management" />
+  <remove-project name="platform/system/software_defined_vehicle/middleware" />
+  <remove-project name="platform/system/software_defined_vehicle/orchestration" />
+  <remove-project name="platform/system/software_defined_vehicle/platform" />
+  <remove-project name="platform/system/software_defined_vehicle/samples" />
+  <remove-project name="platform/system/software_defined_vehicle/sdv_gateway" />
+  <remove-project name="platform/system/software_defined_vehicle/service_bundles_registry" />
+  <remove-project name="platform/system/software_defined_vehicle/some_ip" />
+  <remove-project name="platform/system/software_defined_vehicle/telemetry" />
+  <remove-project name="platform/system/software_defined_vehicle/tools" />
+  <remove-project name="platform/system/software_defined_vehicle/update_manager" />
+  <remove-project name="platform/system/software_defined_vehicle/vpm" />
+  <remove-project name="platform/system/software_defined_vehicle/vsidl" />
+
   <!-- Vendor -->
   <remove-project name="platform/packages/apps/Mms" />
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
@@ -83,6 +103,7 @@
   <remove-project name="platform/vendor/nxp/opensource/halimpl" />
   <remove-project name="platform/vendor/nxp/opensource/hidlimpl" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
+  <remove-project name="platform/vendor/qcom-opensource/crosvm-gunyah" />
   <remove-project name="platform/vendor/qcom/blair" />
   <remove-project name="platform/vendor/qcom/kalama" />
   <remove-project name="platform/vendor/qcom/lahaina" />
