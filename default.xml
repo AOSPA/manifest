@@ -7,7 +7,7 @@
           sync-c="true"
           sync-tags="false"
           review="https://android-review.googlesource.com/"
-          revision="refs/tags/android-16.0.0_r1" />
+          revision="refs/tags/android-17.0.0_r1" />
 
   <!-- CLO -->
   <remote name="clo-la"
@@ -25,7 +25,7 @@
   <remote  name="aospa"
            fetch=".."
            review="gerrit-ssh.aospa.co"
-           revision="beryl"/>
+           revision="calcite"/>
 
   <remote  name="bitbucket"
            fetch="https://bitbucket.org"
