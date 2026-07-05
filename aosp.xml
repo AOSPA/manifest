@@ -45,8 +45,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" clone-depth="1" />
   <remove-project name="platform/prebuilts/tools" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" clone-depth="1" />
-  <remove-project name="platform/prebuilts/vndk/v30" />
-  <project path="prebuilts/vndk/v30" name="platform/prebuilts/vndk/v30" remote="aosp" clone-depth="1" />
   <remove-project name="platform/prebuilts/vndk/v31" />
   <project path="prebuilts/vndk/v31" name="platform/prebuilts/vndk/v31" remote="aosp" clone-depth="1" />
   <remove-project name="platform/prebuilts/vndk/v32" />
