@@ -9,7 +9,6 @@
   <remove-project name="meta-qti-touch" />
   <remove-project name="platform/vendor/nxp/opensource/driver" />
   <remove-project name="platform/vendor/opensource/dataipa" />
-  <remove-project name="platform/vendor/opensource/mm-sys-kernel" />
   <remove-project name="platform/vendor/opensource/synx-kernel" />
   <remove-project name="platform/vendor/opensource/touch-drivers" />
   <remove-project name="platform/vendor/qcom/opensource/commonsys/wifi" />
@@ -17,11 +16,11 @@
   <remove-project name="platform/vendor/qcom/opensource/datarmnet-ext" />
   <remove-project name="platform/vendor/qcom/opensource/dsp-devicetree" />
   <remove-project name="platform/vendor/qcom/opensource/dsp-kernel" />
+  <remove-project name="platform/vendor/qcom/opensource/securemsm-devicetree" />
   <remove-project name="platform/vendor/qcom/opensource/securemsm-kernel" />
   <remove-project name="platform/vendor/qcom/opensource/spu-kernel" />
   <remove-project name="platform/vendor/qcom-opensource/data-devicetree" />
   <remove-project name="platform/vendor/qcom-opensource/data-kernel" />
-  <remove-project name="platform/vendor/qcom-opensource/data-openssl" />
   <remove-project name="platform/vendor/qcom-opensource/eSE-devicetree" />
   <remove-project name="platform/vendor/qcom-opensource/fingerprint-devicetree" />
   <remove-project name="platform/vendor/qcom-opensource/fingerprint" />
@@ -47,8 +46,10 @@
   <remove-project name="platform/vendor/nxp/opensource/hidlimpl" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
   <remove-project name="platform/vendor/qcom/blair" />
+  <remove-project name="platform/vendor/qcom/canoe" />
+  <remove-project name="platform/vendor/qcom/chora" />
+  <remove-project name="platform/vendor/qcom/hamoa" />
   <remove-project name="platform/vendor/qcom/kalama" />
-  <remove-project name="platform/vendor/qcom/lahaina" />
   <remove-project name="platform/vendor/qcom/pineapple" />
   <remove-project name="platform/vendor/qcom/sun" />
   <remove-project name="platform/vendor/qcom/taro" />
