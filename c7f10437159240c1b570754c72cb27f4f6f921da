@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5c019f73_41aa47aa",
+        "filename": "aospa.xml",
+        "patchSetId": 20
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1001176
+      },
+      "writtenOn": "2026-08-29T12:15:01Z",
+      "side": 1,
+      "message": "```suggestion\n  \u003cproject path\u003d\"system/memory/libion\" name\u003d\"AOSPA/android_system_memory_libion\" remote\u003d\"aospa\" /\u003e\n```",
+      "range": {
+        "startLine": 109,
+        "startChar": 31,
+        "endLine": 109,
+        "endChar": 35
+      },
+      "revId": "c7f10437159240c1b570754c72cb27f4f6f921da",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
