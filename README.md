@@ -31,7 +31,7 @@ chmod a+x ~/.local/bin/repo
 
 ### Initialize Repo
 
-Create a working directory on a case-sensitive filesystem and navigate into it:
+Create a working directory on a case-sensitive filesystem and navigate into it.
 Replace `WORKSPACE` with your chosen directory path.
 ```bash
 mkdir WORKSPACE
@@ -39,7 +39,10 @@ cd WORKSPACE
 ```
 
 Initialize the manifest repository:
-Use your real name and email address if you plan to submit patches.
+
+> [!IMPORTANT]
+> Configure your real name and email address in Git before you initialize Repo if you plan to submit patches.
+
 ```bash
 repo init -u https://github.com/AOSPA/manifest -b calcite
 ```
@@ -47,20 +50,26 @@ repo init -u https://github.com/AOSPA/manifest -b calcite
 ### Download the source tree
 
 Run `repo sync` to pull upstream source code.
-Initial synchronization downloads the entire source history and takes significant time.
+
+> [!NOTE]
+> Initial synchronization downloads the entire source history and takes significant time.
 
 The `-j` option specifies the number of concurrent network jobs.
-Four jobs (`-j4`) works well for most internet connections.
-Adjust this value based on your connection speed.
 ```bash
 repo sync --current-branch --no-tags -j4
 ```
+
+> [!TIP]
+> A value of four jobs (`-j4`) works well for most internet connections.
+> Adjust this value based on your connection speed.
 
 #### Sync specific projects
 
 You can synchronize individual projects instead of the entire source tree.
 Specify projects by repository path or remote name.
-Note that partial synchronization can cause build failures if changes span across projects.
+
+> [!WARNING]
+> Partial synchronization can cause build failures if changes span across projects.
 
 For example, specify `frameworks/base` or `AOSPA/android_frameworks_base`:
 ```bash
@@ -91,15 +100,17 @@ cd WORKSPACE
 ```
 
 Create a topic branch for the project you want to modify.
-You can identify the project by repository name or local directory path:
-```bash
-# Using repository name
-repo start BRANCH AOSPA/PROJECT
+Identify the project by repository name or local directory path:
 
-# Using project directory path
-repo start BRANCH PROJECT_DIR
+| Identify by | Command |
+| --- | --- |
+| Repository name | `repo start BRANCH AOSPA/PROJECT` |
+| Directory path | `repo start BRANCH PROJECT_DIR` |
+
+For example, start a branch for `frameworks/base` (`AOSPA/android_frameworks_base`):
+```bash
+repo start BRANCH frameworks/base
 ```
-For example, `android_frameworks_base` corresponds to directory `frameworks/base`.
 
 Navigate to the project directory:
 ```bash
@@ -131,40 +142,37 @@ git add -A
 git commit -a -s
 ```
 
-Push the commit directly to Gerrit:
+Push the commit directly to Gerrit.
 Replace `USERNAME` with your Gerrit username and `PROJECT` with the repository name.
 ```bash
 git push ssh://USERNAME@gerrit-ssh.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/calcite
 ```
 
-### Extra Gerrit commands
+### Gerrit push options
 
-Upload a change as private:
+Append a suffix to the refspec to configure review options.
+You can also toggle these options in the Gerrit web interface.
+
+| Suffix | Effect |
+| --- | --- |
+| `%private` | Upload a change as private |
+| `%wip` | Upload a change as work-in-progress |
+| `%remove-private` | Remove the private status from a change |
+| `%ready` | Mark a work-in-progress change as ready for review |
+
+For example, upload a change as private:
 ```bash
 git push ssh://USERNAME@gerrit-ssh.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/calcite%private
-```
-
-Upload a change as work-in-progress (WIP):
-```bash
-git push ssh://USERNAME@gerrit-ssh.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/calcite%wip
-```
-
-Remove the private status from an existing change:
-You can also use the Gerrit web interface.
-```bash
-git push ssh://USERNAME@gerrit-ssh.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/calcite%remove-private
-```
-
-Mark a work-in-progress change as ready for review:
-You can also use the Gerrit web interface.
-```bash
-git push ssh://USERNAME@gerrit-ssh.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/calcite%ready
 ```
 
 ### Make additional changes
 
 To update an existing patch set, make your changes and amend the previous commit.
-Do not run `repo start` again.
+
+> [!CAUTION]
+> Do not run `repo start` again.
+> Running `repo start` creates a new topic branch instead of updating the existing review.
+
 ```bash
 git commit -a --amend
 ```
@@ -181,12 +189,13 @@ git rebase -i HEAD~<commit-count>
 ### Write commit messages
 
 Write clear and descriptive commit messages.
-Use the imperative mood in the subject line (for example, "Fix audio routing", not "Fixed audio routing").
-Keep the subject line near 50 characters and under 72 characters.
-Capitalize the first word of the subject line and omit trailing periods.
-Prefix the subject with the relevant project or component name when appropriate (for example, `manifest: Update default branch`).
-Separate the subject line from the message body with a blank line.
-Wrap message body text at 72 characters.
+
+- Use the imperative mood in the subject line (for example, "Fix audio routing", not "Fixed audio routing").
+- Keep the subject line near 50 characters and under 72 characters.
+- Capitalize the first word of the subject line and omit trailing periods.
+- Prefix the subject with the relevant project or component name when appropriate (for example, `manifest: Update default branch`).
+- Separate the subject line from the message body with a blank line.
+- Wrap message body text at 72 characters.
 
 ## Translations
 
