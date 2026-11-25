@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fffcd28e_a33aea17",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001176
+      },
+      "writtenOn": "2026-11-25T14:25:30Z",
+      "side": 1,
+      "message": "external/json-c is removed!",
+      "revId": "b747838b07cedb7feca34f584294dae2cba28cce",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
